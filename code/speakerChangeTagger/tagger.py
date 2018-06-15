@@ -112,15 +112,15 @@ class Tagger:
 
         dir_0 = os.path.join(base, base_0)
         if not os.path.exists(dir_0):
-            os.mkdir(dir_0)
+            os.makedirs(dir_0)
 
         dir_1 = os.path.join(dir_0, 'lr_' + str(self.args.learningRate))
         if not os.path.exists(dir_1):
-            os.mkdir(dir_1)
+            os.makedirs(dir_1)
 
         dir_2 = os.path.join(dir_1, 'dropout_' + str(self.args.dropOut))
         if not os.path.exists(dir_2):
-            os.mkdir(dir_2)
+            os.makedirs(dir_2)
         return dir_2
 
     def writeInfo(self, file):
