@@ -190,6 +190,8 @@ class Tagger:
         '''
 
         print('Start training')
+        
+        self.saver = tf.train.Saver()
 
         out = open(os.path.join(self.args.resultDir, self.outFile), 'w', 1)
         out.write(self.outFile + '\n')
@@ -256,6 +258,7 @@ class Tagger:
             out.write('               trainP = {}, trainR = {}, valP = {}, valR = {}, testP = {}, testR = {}\n'
                       .format(precision, recall, valP, valR, testP, testR))
             out.flush()
+        self.saver.save(sess, "savedModel.ckpt")
         out.close()
 
 
