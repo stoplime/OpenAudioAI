@@ -8,6 +8,9 @@ from speakerChangeTagger.RecurrentModel import RecurrentModel
 from sklearn.metrics import confusion_matrix
 import pickle as p
 
+Join = os.path.join
+Path = os.path.dirname(os.path.abspath(__file__))
+
 class Tagger:
     def __init__(self):
         self.args = None
@@ -63,6 +66,11 @@ class Tagger:
         trainingArgs.add_argument('--device', type=str, default='/gpu:1', help='use the second GPU as default')
         trainingArgs.add_argument('--preEmbedding', type=bool, default=False, help='whether or not to use the pretrained embedding')
         trainingArgs.add_argument('--embeddingFile', type=str, default='embeddings/200d.pkl', help='pretrained embeddings')
+
+        # evaluation options
+        evalArgs = parser.add_argument_group('Evaluation options')
+        evalArgs.add_argument('--evalModel', default=False, action='store_true', help='indicates for an evaluation')
+        evalArgs.add_argument('--modelPath', type=str, default=Join(Path, 'saves', 'savedModel.ckpt'), help='trained model path')
         return parser.parse_args(args)
 
 
@@ -180,7 +188,33 @@ class Tagger:
             init = tf.global_variables_initializer()
             # initialize all global variables
             self.sess.run(init)
-            self.train(self.sess)
+            if self.args.evalModel:
+                self.evalModel(self.sess)
+            else:
+                self.train(self.sess)
+
+    def evalModel(self, sess):
+        print("Start Evaluation of Model")
+
+        self.saver = tf.train.Saver()
+
+        self.saver.restore(sess, self.args.modelPath)
+
+        out = open(os.path.join(self.args.resultDir, self.outFile), 'w', 1)
+        out.write(self.outFile + '\n')
+        self.writeInfo(out)
+
+        trainBatches = self.textData.getBatches('train')
+        for nextBatch in tqdm(trainBatches):
+            ops, feed_dict = self.model.step(nextBatch)
+            _, loss, correct, predictions, vec = sess.run(ops, feed_dict)
+
+            print('ops: {}\nfeed_dict: {}'.format(ops, feed_dict))
+            print('loss: {}\ncorrect: {}\npredictions: {}\nvec: {}'.format(loss, correct, predictions, vec))
+
+            out.write('ops: {}\nfeed_dict: {}'.format(ops, feed_dict))
+            out.write('loss: {}\ncorrect: {}\npredictions: {}\nvec: {}'.format(loss, correct, predictions, vec))
+        out.close()
 
     def train(self, sess):
         '''
@@ -258,7 +292,9 @@ class Tagger:
             out.write('               trainP = {}, trainR = {}, valP = {}, valR = {}, testP = {}, testR = {}\n'
                       .format(precision, recall, valP, valR, testP, testR))
             out.flush()
-        self.saver.save(sess, "savedModel.ckpt")
+        if not os.path.exists(Join(Path, "saves")):
+            os.mkdir(Join(Path, "saves"))
+        self.saver.save(sess, Join(Path, "saves", "savedModel.ckpt"))
         out.close()
 
 
