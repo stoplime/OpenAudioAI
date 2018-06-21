@@ -205,7 +205,7 @@ class Tagger:
         out.write(self.outFile + "_eval" + '\n')
         self.writeInfo(out)
 
-        trainBatches = self.textData.getBatches('train')
+        trainBatches = self.textData.getBatches('test')
         for nextBatch in tqdm(trainBatches):
             ops, feed_dict = self.model.step(nextBatch)
             _, loss, correct, predictions, vec = sess.run(ops, feed_dict)
@@ -231,11 +231,11 @@ class Tagger:
                         sentences[i] = [" ", " "] + sentences[i]
             hrs = self.betterPrint(sentences)
 
-            print('ops: {}\nsentence: \n{}'.format(ops, hrs))
-            print('loss: {}\ncorrect: {}\npredictions: {}\nvec: {}'.format(loss, correct, predictions, vec))
+            print('ops: {}\nsentence: \n{}\n'.format(ops, hrs))
+            print('loss: {}\ncorrect: {}\npredictions: {}\nvec: {}\n'.format(loss, correct, predictions, vec))
 
-            out.write('ops: {}\nsentence: \n{}'.format(ops, hrs))
-            out.write('loss: {}\ncorrect: {}\npredictions: {}\nvec: {}'.format(loss, correct, predictions, vec))
+            out.write('ops: {}\nsentence: \n{}\n'.format(ops, hrs))
+            out.write('loss: {}\ncorrect: {}\npredictions: {}\nvec: {}\n'.format(loss, correct, predictions, vec))
         out.close()
 
     def betterPrint(self, matrix):
