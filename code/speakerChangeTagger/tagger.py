@@ -7,6 +7,7 @@ from speakerChangeTagger.textData import TextData
 from speakerChangeTagger.RecurrentModel import RecurrentModel
 from sklearn.metrics import confusion_matrix
 import pickle as p
+import pprint as pp
 
 Join = os.path.join
 Path = os.path.dirname(os.path.abspath(__file__))
@@ -200,8 +201,8 @@ class Tagger:
 
         self.saver.restore(sess, self.args.modelPath)
 
-        out = open(os.path.join(self.args.resultDir, self.outFile), 'w', 1)
-        out.write(self.outFile + '\n')
+        out = open(os.path.join(self.args.resultDir, self.outFile+"_eval"), 'w', 1)
+        out.write(self.outFile + "_eval" + '\n')
         self.writeInfo(out)
 
         trainBatches = self.textData.getBatches('train')
@@ -209,13 +210,41 @@ class Tagger:
             ops, feed_dict = self.model.step(nextBatch)
             _, loss, correct, predictions, vec = sess.run(ops, feed_dict)
 
-            print('ops: {}\nfeed_dict: {}'.format(ops, feed_dict))
+            sentences = self.textData.covertIdFeed2Words(feed_dict)
+
+            labelTensor = None
+            for i, tensor in enumerate(feed_dict):
+                if (tensor.name).find("labels") != -1:
+                    labelTensor = tensor
+            feed_labels = feed_dict.get(labelTensor, None)
+
+            if feed_labels != None:
+                print("feed_labels", len(feed_labels))
+                print("predictions", len(predictions))
+                print("sentences", len(sentences))
+                for i, line in enumerate(sentences):
+                    # print(line)
+                    if i > 2 and i < len(feed_labels):
+                        label = feed_labels[i-1]
+                        sentences[i] = [label, predictions[i-1]] + sentences[i]
+                    else:
+                        sentences[i] = [" ", " "] + sentences[i]
+            hrs = self.betterPrint(sentences)
+
+            print('ops: {}\nsentence: \n{}'.format(ops, hrs))
             print('loss: {}\ncorrect: {}\npredictions: {}\nvec: {}'.format(loss, correct, predictions, vec))
 
-            out.write('ops: {}\nfeed_dict: {}'.format(ops, feed_dict))
+            out.write('ops: {}\nsentence: \n{}'.format(ops, hrs))
             out.write('loss: {}\ncorrect: {}\npredictions: {}\nvec: {}'.format(loss, correct, predictions, vec))
         out.close()
 
+    def betterPrint(self, matrix):
+        s = [[str(e) for e in row] for row in matrix]
+        lens = [1 for col in zip(*s)]
+        fmt = ' '.join('{{:{}}}'.format(x) for x in lens)
+        table = [fmt.format(*row) for row in s]
+        return '\n'.join(table)
+    
     def train(self, sess):
         '''
         training loop

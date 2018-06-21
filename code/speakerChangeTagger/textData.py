@@ -260,6 +260,38 @@ class TextData:
             self.id2word[wordId] = word
         return wordId
 
+    def getWordFromID(self, wordId):
+
+        word = self.id2word.get(wordId, "-1")
+
+        if word == "-1":
+            word = "PAD"
+        return word
+    
+    def covertIdFeed2Words(self, feed):
+        passage = []
+        print(type(feed))
+        for i, tensor in enumerate(feed):
+            # print(tensor.name)
+            if (tensor.name).find("input_utterances") != -1:
+                sample = feed[tensor]
+                # print("sample", sample)
+                for line in sample:
+                    sentence = []
+                    hasSomething = False
+                    for wordId in line:
+                        # print(wordId)
+                        word = self.getWordFromID(wordId)
+                        if word != "<pad>":
+                            sentence.append(word)
+                            hasSomething = True
+                        else:
+                            sentence.append("")
+                    if hasSomething:
+                        passage.append(sentence)
+                    
+        return passage
+
     def getVocabularySize(self):
         '''
         get vocab size
