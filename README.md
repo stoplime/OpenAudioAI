@@ -10,3 +10,7 @@ Plan:
 - [ ] Find or design a model for speaker comparison
 - [ ] Parse the given data for speaker comparison training
 - [ ] Implement a model that builds off of the speaker segmentation and use it to train the speaker comparison
+
+
+Work logging info:
+https://docs.google.com/document/d/1fe0iCKSy-xPkjXN8e_PjmjxUOdGY7QqCyvKVCkFh2d8/edit?usp=sharing
