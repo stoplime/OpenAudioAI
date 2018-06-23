@@ -40,7 +40,7 @@ class Tagger:
         dataArgs.add_argument('--trainData', type=str, default='data/train', help='training data location')
         dataArgs.add_argument('--valData', type=str, default='data/val', help='validation data location')
         dataArgs.add_argument('--testData', type=str, default='data/test', help='test data location')
-        dataArgs.add_argument('--dataDir', type=str, default='data', help='dataset directory, save pkl here')
+        dataArgs.add_argument('--dataDir', type=str, default='../data', help='dataset directory, save pkl here')
         dataArgs.add_argument('--datasetName', type=str, default='dataset', help='a TextData object')
         dataArgs.add_argument('--numClasses', type=int, default=2, help='number of classes for current dataset')
         dataArgs.add_argument('--summaryDir', type=str, default='summaries', help='directory of summaries')

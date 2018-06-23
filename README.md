@@ -5,6 +5,7 @@ Recreating the LSTM-RNN from https://arxiv.org/abs/1703.07713
 
 Plan:
 - [X] Get explicite segmentation result from unmodified code
+- [X] Train on the full dataset given from the paper
 - [ ] Augment the data for our own purposes
 - [ ] Setup a CNN version with hierarchical attention
 - [ ] Find or design a model for speaker comparison
