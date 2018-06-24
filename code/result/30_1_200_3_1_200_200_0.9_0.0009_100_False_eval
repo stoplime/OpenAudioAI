@@ -18,19 +18,19 @@ sentence:
 0 0 this is the face of a mass killer .                                          
 0 0 law enforcement sources say syed rizwan farook appears to have been radicalized but they still do n't know why he and his wife slaughtered 14 of his coworkers .  
 0 0 this is what we do know right now , the killers had turned their home into what amounts to be a home lab with thousands of rounds of ammunition and
-0 0 chillingly , they apparently lived there along with their six-month old daughter .                                  
+0 1 chillingly , they apparently lived there along with their six-month old daughter .                                  
 0 0 i want to turn now to the investigation and some new information that pamela brown is getting for us .                    
 0 0 pamela brown , what are your sources telling you tonight about a possible motive in this case ?                        
 1 0 well , that is still unclear and what they are hoping for is to get the contents from their electronics and we have learned , don , that were two
 0 1 those cellphones are being sent back to the fbi lab in quantico , virginia , if they 're not already there , being analyzed .          
-0 0 so they are hoping to get the contents from that .                                      
-0 0 and also , we have learned that while investigators found a computer in the home , the hard drive belonging to that computer is missing .        
+0 1 so they are hoping to get the contents from that .                                      
+0 1 and also , we have learned that while investigators found a computer in the home , the hard drive belonging to that computer is missing .        
 0 1 so they have to -- investigators have to issue a subpoena for electronics information content from the big providers .                    
 0 0 they are waiting on that right now last we heard                                        
 0 0 all of this will be crucial because from what evidence investigators are looking at now , there is nothing to indicate a clear-cut motive , as one source i spoke
-0 0 there are suspicions , possible indications .                                              
+0 1 there are suspicions , possible indications .                                              
 0 0 they could have been radicalized but nothing to substantiate that .                                      
-0 0 we know that syed farook had been in touched with terrorism subjects over the last several years but these are people who have not been arrested and there were not
+0 1 we know that syed farook had been in touched with terrorism subjects over the last several years but these are people who have not been arrested and there were not
 0 0 so there is still a lot to uncover in this investigation .                                    
 0 0 i have to tell you , don , officials i 've been speaking with say this is a very unusual case .                
 1 0 so this is just the -- what you mentioned about the phone and the hard drive and what have you , that 's the new evidence , right ?  
@@ -40,7 +40,7 @@ sentence:
 0 0 but specifically , there were these two damaged cellphones , the hard drive that is missing .                          
 1 0 ok .                                                        
 1 0 and so this leads investigators to believe clearly they 're trying to hide something here .                            
-1 0 ok. let 's talk about him because you are saying , you know , a motive .                          
+1 1 ok. let 's talk about him because you are saying , you know , a motive .                          
 0 0 i ca n't really figure it out .                                            
 0 0 they 're still working on it .                                              
 0 0 they have n't ruled out terrorism .                                              
@@ -49,15 +49,15 @@ sentence:
 1 0 that 's absolutely right , don .                                              
 0 0 so he was n't on a watch list .                                          
 0 0 he was n't on their radar which is part of the reason why it 's still so perplexing to investigators right now because they just did n't have anything on
-0 1 we have learned that telephonically he was -- syed farook had been in touch with multiple people that the fbi had been investigating for possible ties to international terrorism .
+0 0 we have learned that telephonically he was -- syed farook had been in touch with multiple people that the fbi had been investigating for possible ties to international terrorism .
 0 0 but i 'm told that these were loose soft connections , that they were n't frequent communication , that they were n't very recent in terms of the last few
 0 0 and so , at this point , investigators do n't feel like that is significant .                            
-0 0 now , once they learned a little bit more about the communication , that could change .                          
+0 1 now , once they learned a little bit more about the communication , that could change .                          
 0 0 and of course they are going to want to talk to these people if they have n't already to figure out what the interaction was .        
 0 0 but at this point , it has n't been telling or at least telling enough for them to determine whether or not this was terrorism .        
 1 0 let 's discuss now some overseas trip that farook took , pamela .                                  
-loss: 2.521794080734253
-correct: 32
-predictions: [0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 1
- 0 0 0 0 0 0 0]
-vec: 2.521794080734253
+loss: 2.873955726623535
+correct: 28
+predictions: [0 0 0 0 0 1 0 0 0 1 1 1 1 0 0 1 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0
+ 0 0 1 0 0 0 0]
+vec: 2.873955726623535

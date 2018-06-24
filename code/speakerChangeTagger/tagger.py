@@ -37,9 +37,9 @@ class Tagger:
         # data location
         dataArgs = parser.add_argument_group('Dataset options')
 
-        dataArgs.add_argument('--trainData', type=str, default='data/train', help='training data location')
-        dataArgs.add_argument('--valData', type=str, default='data/val', help='validation data location')
-        dataArgs.add_argument('--testData', type=str, default='data/test', help='test data location')
+        dataArgs.add_argument('--trainData', type=str, default='../data/train', help='training data location')
+        dataArgs.add_argument('--valData', type=str, default='../data/val', help='validation data location')
+        dataArgs.add_argument('--testData', type=str, default='../data/test', help='test data location')
         dataArgs.add_argument('--dataDir', type=str, default='../data', help='dataset directory, save pkl here')
         dataArgs.add_argument('--datasetName', type=str, default='dataset', help='a TextData object')
         dataArgs.add_argument('--numClasses', type=int, default=2, help='number of classes for current dataset')
@@ -71,7 +71,7 @@ class Tagger:
         # evaluation options
         evalArgs = parser.add_argument_group('Evaluation options')
         evalArgs.add_argument('--evalModel', default=False, action='store_true', help='indicates for an evaluation')
-        evalArgs.add_argument('--modelPath', type=str, default=Join(Path, 'saves'), help='trained model path')
+        evalArgs.add_argument('--modelPath', type=str, default=Join(Path, 'saves2'), help='trained model path')
         return parser.parse_args(args)
 
 
