@@ -71,7 +71,7 @@ class Tagger:
         # evaluation options
         evalArgs = parser.add_argument_group('Evaluation options')
         evalArgs.add_argument('--evalModel', default=False, action='store_true', help='indicates for an evaluation')
-        evalArgs.add_argument('--modelPath', type=str, default=Join(Path, 'saves', 'savedModel.ckpt'), help='trained model path')
+        evalArgs.add_argument('--modelPath', type=str, default=Join(Path, 'saves'), help='trained model path')
         return parser.parse_args(args)
 
 
@@ -199,7 +199,7 @@ class Tagger:
 
         self.saver = tf.train.Saver()
 
-        self.saver.restore(sess, self.args.modelPath)
+        self.saver.restore(sess, Join(self.args.modelPath, self.outFile))
 
         out = open(os.path.join(self.args.resultDir, self.outFile+"_eval"), 'w', 1)
         out.write(self.outFile + "_eval" + '\n')
@@ -321,9 +321,9 @@ class Tagger:
             out.write('               trainP = {}, trainR = {}, valP = {}, valR = {}, testP = {}, testR = {}\n'
                       .format(precision, recall, valP, valR, testP, testR))
             out.flush()
-        if not os.path.exists(Join(Path, "saves")):
-            os.mkdir(Join(Path, "saves"))
-        self.saver.save(sess, Join(Path, "saves", "savedModel.ckpt"))
+        if not os.path.exists(os.path.dirname(self.args.modelPath)):
+            os.makedirs(os.path.dirname(self.args.modelPath))
+        self.saver.save(sess, Join(self.args.modelPath, self.outFile))
         out.close()
 
 
