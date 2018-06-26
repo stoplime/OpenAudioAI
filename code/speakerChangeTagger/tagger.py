@@ -64,14 +64,14 @@ class Tagger:
         ## do not add dropOut in the test mode!
         trainingArgs.add_argument('--test', type=bool, default=False, help='if in test mode')
         trainingArgs.add_argument('--epochs', type=int, default=120, help='training epochs')
-        trainingArgs.add_argument('--device', type=str, default='/gpu:1', help='use the second GPU as default')
+        trainingArgs.add_argument('--device', type=str, default='/gpu:0', help='use the second GPU as default')
         trainingArgs.add_argument('--preEmbedding', type=bool, default=False, help='whether or not to use the pretrained embedding')
         trainingArgs.add_argument('--embeddingFile', type=str, default='embeddings/200d.pkl', help='pretrained embeddings')
 
         # evaluation options
         evalArgs = parser.add_argument_group('Evaluation options')
         evalArgs.add_argument('--evalModel', default=False, action='store_true', help='indicates for an evaluation')
-        evalArgs.add_argument('--modelPath', type=str, default=Join(Path, 'saves2'), help='trained model path')
+        evalArgs.add_argument('--modelPath', type=str, default=Join(Path, 'saves'), help='trained model path')
         return parser.parse_args(args)
 
 

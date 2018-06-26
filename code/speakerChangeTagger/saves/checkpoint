@@ -1,2 +1,0 @@
-model_checkpoint_path: "/home/stoplime/workspace/python/OpenAudioAI/code/speakerChangeTagger/saves/savedModel.ckpt"
-all_model_checkpoint_paths: "/home/stoplime/workspace/python/OpenAudioAI/code/speakerChangeTagger/saves/savedModel.ckpt"
