@@ -60,7 +60,7 @@ class Tagger:
         trainingArgs = parser.add_argument_group('Training options')
         trainingArgs.add_argument('--dropOut', type=float, default=0.9, help='dropout rate for CNN')
         trainingArgs.add_argument('--learningRate', type=float, default=0.0009, help='learning rate')
-        trainingArgs.add_argument('--batchSize', type=int, default=100, help='batch size')
+        trainingArgs.add_argument('--batchSize', type=int, default=500, help='batch size')
         ## do not add dropOut in the test mode!
         trainingArgs.add_argument('--test', type=bool, default=False, help='if in test mode')
         trainingArgs.add_argument('--epochs', type=int, default=120, help='training epochs')
@@ -255,6 +255,8 @@ class Tagger:
         print('Start training')
         
         self.saver = tf.train.Saver()
+        if not os.path.exists(os.path.dirname(self.args.modelPath)):
+            os.makedirs(os.path.dirname(self.args.modelPath))
 
         out = open(os.path.join(self.args.resultDir, self.outFile), 'w', 1)
         out.write(self.outFile + '\n')
@@ -321,9 +323,7 @@ class Tagger:
             out.write('               trainP = {}, trainR = {}, valP = {}, valR = {}, testP = {}, testR = {}\n'
                       .format(precision, recall, valP, valR, testP, testR))
             out.flush()
-        if not os.path.exists(os.path.dirname(self.args.modelPath)):
-            os.makedirs(os.path.dirname(self.args.modelPath))
-        self.saver.save(sess, Join(self.args.modelPath, self.outFile))
+            self.saver.save(sess, Join(self.args.modelPath, self.outFile))
         out.close()
 
 
