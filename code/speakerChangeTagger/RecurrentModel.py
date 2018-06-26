@@ -17,6 +17,7 @@ class RecurrentModel:
         self.predictions = None
         self.padded_length = self.args.batchSize + 2*(self.args.uttContextSize-1) + 1
         self.loss = None
+        # self.learning_rate = None
 
         self.correct = None
         self.accuracy = None
@@ -81,6 +82,7 @@ class RecurrentModel:
             self.labels = tf.placeholder(tf.int32, [None], name='labels')
             self.dropOutRate = tf.placeholder(tf.float32, (), name='dropOut')
             self.batchSize = tf.placeholder(tf.int32, (), name='true_batch_size')
+            # self.learning_rate = tf.placeholder(tf.float32, shape=[])
 
         with tf.name_scope('embeddingLayer'):
             # whether or not to use the pretrained embeddings
@@ -289,7 +291,7 @@ class RecurrentModel:
         return output_concats
 
 
-    def step(self, batch, test = False):
+    def step(self, batch, test = False, lr=None):
         feed_dict = {}
         ops = None
         def pad(sequence, length):
@@ -319,6 +321,9 @@ class RecurrentModel:
         else:
             feed_dict[self.dropOutRate] = 1.0
             ops = (self.correct, self.predictions)
+        
+        if lr != None:
+            pass
 
         return ops, feed_dict
 
