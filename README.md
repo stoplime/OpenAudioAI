@@ -17,4 +17,3 @@ Dataset Preparation:
   
   Current model Idea: 
   
-  file:///home/delilah2/Downloads/Model1.jpg
