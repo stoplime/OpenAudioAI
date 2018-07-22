@@ -13,6 +13,7 @@ Dataset Preparation:
   6) Convert the raw sentences into keys. 
   7) Create another hash table for word embeddings we create or downloaded from NLTK.
   8) Convert keys back to word embeddings.
+  9) Training, Validation and test split.
   
   
   Current model Idea: 
