@@ -25,6 +25,7 @@ wheels/
 *.egg
 MANIFEST
 events.out.tfevents*
+code/speakerChangeTagger/saves/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
