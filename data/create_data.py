@@ -2,7 +2,9 @@ import os
 import json
 import numpy as np
 
-transcript_directory = 'CNN_transcript'
+transcript_directory = os.path.join(os.path.dirname(__file__), 'CNN_transcript')
+
+SpeakerHashTable = {}
 
 class Show:
     def __init__(self):
@@ -40,16 +42,22 @@ def process(file_name):
 
     for idx, sent in enumerate(sents):
         # the last sentence in a show is definitely a boundary
-        if idx == len(sents) - 1:
-            sent.label = 1
-            break
-        cur_speaker = sent.speaker
-        next_speaker = sents[idx+1].speaker
+        # if idx == len(sents) - 1:
+        #     sent.label = 1
+        #     break
 
-        if cur_speaker != next_speaker:
-            sent.label = 1
-        else:
-            sent.label = 0
+        if sent.speaker not in SpeakerHashTable:
+            SpeakerHashTable[sent.speaker] = len(SpeakerHashTable)
+
+        sent.label = SpeakerHashTable[sent.speaker]
+        
+        # cur_speaker = sent.speaker
+        # next_speaker = sents[idx+1].speaker
+
+        # if cur_speaker != next_speaker:
+        #     sent.label = 1
+        # else:
+        #     sent.label = 0
 
     show = Show()
 
@@ -75,6 +83,8 @@ def count(shows):
 
 
 def create(shows, directory):
+    if not os.path.exists(directory):
+        os.makedirs(directory)
     for idx, show in enumerate(shows):
         file = open(os.path.join(directory, directory+'_'+str(idx)), 'w')
         for sent in show.sents:

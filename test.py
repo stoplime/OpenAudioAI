@@ -24,8 +24,9 @@ def main():
         jsonData = json.load(jsonFile)
 
         for i, (key, value) in enumerate(jsonData.items()):
-            # print(key)
+            print(key)
             if key == "sections":
+                # pass
                 pp.pprint(value)
         # pp.pprint(jsonData)
 
