@@ -156,7 +156,7 @@ class TextData:
                 for word in words:
                     # note: do not generate wordId here, cnt the occurances first
                     self.word2cnt[word] += 1
-                    sample.words.append(word)
+                    sample.words.append(word) # embedding
                 sample.label = int(splits[1].strip())
                 samples.append(sample)
 
