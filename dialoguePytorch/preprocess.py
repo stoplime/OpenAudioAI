@@ -14,6 +14,7 @@ class PreProcess(object):
             ------
             Returns: List(sentence)
                 sentence: List[embeddings, label]
+                    embeddings: List(word embeddings)
         '''
         data = []
         with open(dataFile, 'r') as file:
