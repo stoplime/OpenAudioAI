@@ -5,8 +5,8 @@ https://docs.google.com/document/d/1fe0iCKSy-xPkjXN8e_PjmjxUOdGY7QqCyvKVCkFh2d8/
 
 To do:
 Dataset Preparation:
-- [x] 1) Split LSTM networks to context and main networks
-- [x] 2) Implement concept from the main paper dynamic attention from sentence embedding to speaker embedding 
+- [] 1) Split LSTM networks to context and main networks
+- [] 2) Implement concept from the main paper dynamic attention from sentence embedding to speaker embedding 
   
   Current model Idea: 
   
