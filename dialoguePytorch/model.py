@@ -16,6 +16,8 @@ class ABHUE(nn.Module):
         self.prev_lstm = nn.LSTM(input_size=self.utterance_size, hidden_size=self.hidden_size, batch_first=True)
         self.post_lstm = nn.LSTM(input_size=self.utterance_size, hidden_size=self.hidden_size, batch_first=True)
 
+        self.fc = nn.Linear(self.hidden_size*2, self.utternace_size)
+
 
     def forward(self, utterances):
         ''' 
@@ -44,3 +46,8 @@ class ABHUE(nn.Module):
             post_out, hidden = self.post_lstm(s_embed, hidden)
             if i == ((len(sentence_embedding) - 1) / 2):
                 break
+        
+        feature_vec = torch.cat((prev_out, post_out), 0)
+        prediction = self.fc(feature_vec)
+
+        return prediction
