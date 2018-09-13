@@ -4,43 +4,43 @@ static attention
 '''
 import tensorflow as tf
 
-import torch
+# import torch
 
-class SpeakerModel(nn.Module):
-    def __init__(self, num_classes=10, points_per_class=2, preprocess=True):
-        super(SpeakerModel, self).__init__()
-        self.conv1 = nn.Conv2d(3, 32, 3)
-        self.pool = nn.MaxPool2d(2, 2)
-        self.conv2 = nn.Conv2d(32, 64, 5)
-        self.conv3 = nn.Conv2d(64, 128, 3)
-        self.conv4 = nn.Conv2d(128, 256, 3)
-        self.fc1 = nn.Linear(256, 256)
-        self.fc2 = nn.Linear(256, 256)
-        self.fc3 = nn.Linear(256, num_classes*3*points_per_class)
+# class SpeakerModel(nn.Module):
+#     def __init__(self, num_classes=10, points_per_class=2, preprocess=True):
+#         super(SpeakerModel, self).__init__()
+#         self.conv1 = nn.Conv2d(3, 32, 3)
+#         self.pool = nn.MaxPool2d(2, 2)
+#         self.conv2 = nn.Conv2d(32, 64, 5)
+#         self.conv3 = nn.Conv2d(64, 128, 3)
+#         self.conv4 = nn.Conv2d(128, 256, 3)
+#         self.fc1 = nn.Linear(256, 256)
+#         self.fc2 = nn.Linear(256, 256)
+#         self.fc3 = nn.Linear(256, num_classes*3*points_per_class)
 
-        self.num_classes = num_classes
-        self.points_per_class = points_per_class
-        self.preprocess = preprocess
+#         self.num_classes = num_classes
+#         self.points_per_class = points_per_class
+#         self.preprocess = preprocess
 
-    def forward(self, x):
-        if self.preprocess:
-            if len(x.shape) < 4:
-                x = x.reshape([1]+list(x.shape))
-            x = x/127.5 - 1
-            # x = nn.Upsample(size=(32, 32))(x)
-        x = self.pool(F.leaky_relu(self.conv1(x)))
-        x = F.leaky_relu(self.conv2(x))
-        x = self.pool(F.leaky_relu(self.conv3(x)))
-        x = F.leaky_relu(self.conv4(x))
-        x = F.avg_pool2d(x, kernel_size=x.size()[2:], stride=(1, 1))
+#     def forward(self, x):
+#         if self.preprocess:
+#             if len(x.shape) < 4:
+#                 x = x.reshape([1]+list(x.shape))
+#             x = x/127.5 - 1
+#             # x = nn.Upsample(size=(32, 32))(x)
+#         x = self.pool(F.leaky_relu(self.conv1(x)))
+#         x = F.leaky_relu(self.conv2(x))
+#         x = self.pool(F.leaky_relu(self.conv3(x)))
+#         x = F.leaky_relu(self.conv4(x))
+#         x = F.avg_pool2d(x, kernel_size=x.size()[2:], stride=(1, 1))
 
-        # global average
-        x = x.view(-1, 256)
-        x = F.leaky_relu(self.fc1(x))
-        x = F.leaky_relu(self.fc2(x))
-        x = F.sigmoid(self.fc3(x))
-        x = x.view(-1, self.num_classes, self.points_per_class, 3)
-        return x
+#         # global average
+#         x = x.view(-1, 256)
+#         x = F.leaky_relu(self.fc1(x))
+#         x = F.leaky_relu(self.fc2(x))
+#         x = F.sigmoid(self.fc3(x))
+#         x = x.view(-1, self.num_classes, self.points_per_class, 3)
+#         return x
 
 class RecurrentModel:
     def __init__(self, args, textData):

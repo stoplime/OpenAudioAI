@@ -12,15 +12,14 @@ class ABHUE(nn.Module):
         self.hidden_size = 200
         self.context_lstm = nn.LSTM(input_size=self.utterance_size, hidden_size=self.hidden_size, batch_first=True)
         self.main_lstm = nn.LSTM(input_size=self.utterance_size, hidden_size=self.hidden_size, batch_first=True)
-        
+
         self.prev_lstm = nn.LSTM(input_size=self.utterance_size, hidden_size=self.hidden_size, batch_first=True)
         self.post_lstm = nn.LSTM(input_size=self.utterance_size, hidden_size=self.hidden_size, batch_first=True)
 
         self.fc = nn.Linear(self.hidden_size*2, self.utternace_size)
 
-
     def forward(self, utterances):
-        ''' 
+        '''
             utterances: [sentence, word, direction*layers, batch, embedding]
         '''
         hidden_shape = utterances[0].shape[1:]
@@ -34,19 +33,19 @@ class ABHUE(nn.Module):
                 for word in sentence:
                     out, hidden = self.context_lstm(word, hidden)
             sentence_embedding.append(out)
-            
+
         hidden = torch.randn(hidden_shape)
         for i, s_embed in enumerate(sentence_embedding):
             prev_out, hidden = self.prev_lstm(s_embed, hidden)
             if i == ((len(sentence_embedding) - 1) / 2):
                 break
-        
+
         hidden = torch.randn(hidden_shape)
         for i, s_embed in reversed(list(enumerate(sentence_embedding))):
             post_out, hidden = self.post_lstm(s_embed, hidden)
             if i == ((len(sentence_embedding) - 1) / 2):
                 break
-        
+
         feature_vec = torch.cat((prev_out, post_out), 0)
         prediction = self.fc(feature_vec)
 
