@@ -19,7 +19,6 @@ class PreProcess(object):
                 sentence: List[embeddings, label]
                     embeddings: List(word embeddings)
         '''
-        data = []
         with open(dataFile, 'r') as file:
             lines = file.readlines()
             for line in lines:
@@ -30,13 +29,7 @@ class PreProcess(object):
                 for word in words:
                     embedding = self.glove.tokenize(word)
                     sentenceEmbedding.append(embedding)
-
-                if self.once:
-                    self.once = False
-                    print([sentenceEmbedding, splits[1].strip()])
-                    break
-                data.append([sentenceEmbedding, splits[1].strip()])
-        return data
+                yield [sentenceEmbedding, splits[1].strip()]
 
     def createEmbeddingDict(self):
         pass

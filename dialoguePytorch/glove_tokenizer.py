@@ -34,7 +34,6 @@ class glove_tokenizer():
     def tokenize(self, word):
         return self.tokenizer[word]
 
-
 def main():
     glove = glove_tokenizer()
     print("the", glove.tokenize('the'))
