@@ -3,8 +3,11 @@ import mmap
 
 
 class glove_tokenizer():
-    def __init__(self):
-        self.glove_path = "/home/stoplime/workspace/audiobook/gloveData/glove.6B.200d.txt"
+    def __init__(self, glove_path=None):
+        if glove_path == None:
+            self.glove_path = "/home/stoplime/workspace/audiobook/gloveData/glove.6B.200d.txt"
+        else:
+            self.glove_path = glove_path
         self.tokenizer = {}
         self.import_glove()
     

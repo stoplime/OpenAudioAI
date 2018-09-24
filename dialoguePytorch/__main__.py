@@ -12,6 +12,7 @@ def main():
     model = ABHUE()
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     model = model.to(device)
+    window_size = 3
 
     optimizer = optim.Adam(model.parameters())
     exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=7, gamma=0.1)
@@ -22,11 +23,29 @@ def main():
     # TODO: Actually decide on a good loss function
     loss = nn.MSELoss()
 
+    sliding_window = []
     for data in preprocessor.parseData(dataPath):
-        data_input = torch.tensor(data[0]).to(device)
-        data_label = torch.tensor(data[1], dtype=torch.int32).to(device)
+        sliding_window.append(data)
+        if len(sliding_window) < window_size:
+            continue
+        elif len(sliding_window) > window_size:
+            sliding_window.pop(0)
         
-        outputs = model(inputs)
+        print("sliding_window", len(sliding_window))
+
+        data_input = []
+        for sentence in sliding_window:
+            words = []
+            for word in sentence[0]:
+                # Converts the word imbedding into a pytorch tensor per word
+                words.append(torch.tensor(word).to(device).unsqueeze(0).unsqueeze(0))
+            # data_input will have a size of [3] for the sentence and in each sentence there will be a list of embedings of size words
+            data_input.append(words)
+            # The labels will come from per sentence indexed 1
+            data_label = torch.tensor(sentence[1], dtype=torch.int32).to(device).unsqueeze(0).unsqueeze(0)
+        
+        print("data_input middle sentence", len(data_input[int((window_size-1)/2)]))
+        outputs = model(data_input)
         loss_value = loss(outputs, data_label)
         loss_value.backward()
         optimizer.step()
