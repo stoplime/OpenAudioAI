@@ -4,10 +4,15 @@ import preprocess
 import torch
 import torch.optim as optim
 import torch.nn as nn
+import os
 
+PATH = os.path.abspath(os.path.dirname(__file__))
 
 def main():
-    dataPath = "/home/stoplime/workspace/audiobook/OpenAudioAI/data/train/train_0"
+    # test data path
+    # dataPath = "/home/stoplime/workspace/audiobook/OpenAudioAI/data/train/train_0"
+    dataPath = os.path.join(PATH, "..", "data", "train", "train_0")
+
     preprocessor = preprocess.PreProcess()
     model = ABHUE()
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
