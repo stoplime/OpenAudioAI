@@ -1,11 +1,14 @@
 from tqdm import tqdm
 import mmap
+import os
 
+PATH = os.path.abspath(os.path.dirname(__file__))
 
 class glove_tokenizer():
     def __init__(self, glove_path=None):
         if glove_path == None:
-            self.glove_path = "/home/stoplime/workspace/audiobook/gloveData/glove.6B.200d.txt"
+            # self.glove_path = "/home/stoplime/workspace/audiobook/gloveData/glove.6B.200d.txt"
+            self.glove_path = os.path.join(PATH, "..", "..", "gloveData", "glove.6B.200d.txt")
         else:
             self.glove_path = glove_path
         self.tokenizer = {}
