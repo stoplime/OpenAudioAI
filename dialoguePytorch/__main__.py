@@ -11,6 +11,7 @@ def main():
     preprocessor = preprocess.PreProcess()
     model = ABHUE()
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    print("device", device)
     model = model.to(device)
     window_size = 3
 
@@ -21,7 +22,7 @@ def main():
     model.train()
 
     # TODO: Actually decide on a good loss function
-    loss = nn.MSELoss()
+    loss_function = nn.MSELoss()
 
     sliding_window = []
     for data in preprocessor.parseData(dataPath):
@@ -42,11 +43,13 @@ def main():
             # data_input will have a size of [3] for the sentence and in each sentence there will be a list of embedings of size words
             data_input.append(words)
             # The labels will come from per sentence indexed 1
-            data_label = torch.tensor(sentence[1], dtype=torch.int32).to(device).unsqueeze(0).unsqueeze(0)
+            data_label = torch.tensor(sentence[1], dtype=torch.float32).to(device).unsqueeze(0).unsqueeze(0)
         
         print("data_input middle sentence", len(data_input[int((window_size-1)/2)]))
+        model.zero_grad()
         outputs = model(data_input)
-        loss_value = loss(outputs, data_label)
+        print("outputs", outputs.shape)
+        loss_value = loss_function(outputs, data_label)
         loss_value.backward()
         optimizer.step()
 
