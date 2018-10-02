@@ -8,6 +8,7 @@ class ABHUE(nn.Module):
     '''
     def __init__(self):
         super(ABHUE, self).__init__()
+        self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
         self.utterance_size = 200
         self.hidden_size = 200
         self.context_lstm = nn.LSTM(input_size=self.utterance_size, hidden_size=self.hidden_size, batch_first=True)
@@ -19,8 +20,7 @@ class ABHUE(nn.Module):
         self.fc = nn.Linear(self.hidden_size*2, self.utterance_size)
 
     def create_hidden(self, length):
-        device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-        return (torch.randn(1, 1, length).to(device), torch.randn(1, 1, length).to(device))
+        return (torch.randn(1, 1, length).to(self.device), torch.randn(1, 1, length).to(self.device))
 
     def forward(self, utterances):
         '''
@@ -62,8 +62,8 @@ class ABHUE(nn.Module):
             if i == ((len(sentence_embedding) - 1) / 2):
                 break
 
-        print("prev_out", prev_out.shape)
-        print("post_out", post_out.shape)
+        # print("prev_out", prev_out.shape)
+        # print("post_out", post_out.shape)
         feature_vec = torch.squeeze(torch.cat((prev_out, post_out), 2))
         print("feature_vec", feature_vec.shape)
         prediction = self.fc(feature_vec)

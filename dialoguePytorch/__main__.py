@@ -1,5 +1,6 @@
 
 from model import ABHUE
+from losses import DistanceClusterLoss
 import preprocess
 import torch
 import torch.optim as optim
@@ -19,6 +20,7 @@ def main():
     print("device", device)
     model = model.to(device)
     window_size = 3
+    batch_size = 8
 
     optimizer = optim.Adam(model.parameters())
     exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=7, gamma=0.1)
@@ -26,10 +28,11 @@ def main():
     exp_lr_scheduler.step() # update lr scheduler epoch
     model.train()
 
-    # TODO: Actually decide on a good loss function
-    loss_function = nn.MSELoss()
+    loss_function = DistanceClusterLoss()
 
     sliding_window = []
+    batch_outputs = []
+    batch_labels = []
     for data in preprocessor.parseData(dataPath):
         sliding_window.append(data)
         if len(sliding_window) < window_size:
@@ -37,26 +40,38 @@ def main():
         elif len(sliding_window) > window_size:
             sliding_window.pop(0)
         
-        print("sliding_window", len(sliding_window))
+        # print("sliding_window", len(sliding_window))
 
         data_input = []
-        for sentence in sliding_window:
+        for i, sentence in enumerate(sliding_window):
             words = []
             for word in sentence[0]:
                 # Converts the word imbedding into a pytorch tensor per word
                 words.append(torch.tensor(word).to(device).unsqueeze(0).unsqueeze(0))
             # data_input will have a size of [3] for the sentence and in each sentence there will be a list of embedings of size words
             data_input.append(words)
-            # The labels will come from per sentence indexed 1
-            data_label = torch.tensor(sentence[1], dtype=torch.float32).to(device).unsqueeze(0).unsqueeze(0)
+
+            # if middle sentence
+            if i == (len(sliding_window) - 1) / 2:
+                # The label will come from per sentence[1]
+                data_label = sentence[1]
         
-        print("data_input middle sentence", len(data_input[int((window_size-1)/2)]))
+        # print("data_input middle sentence", len(data_input[int((window_size - 1) / 2)]))
         model.zero_grad()
-        outputs = model(data_input)
-        print("outputs", outputs.shape)
-        loss_value = loss_function(outputs, data_label)
-        loss_value.backward()
-        optimizer.step()
+        output = model(data_input)
+        # print("output", output.shape)
+        
+        batch_outputs.append(output)
+        batch_labels.append(data_label)
+
+        if len(batch_labels) >= batch_size:
+            # backpropagate through batch
+            loss_value = loss_function(batch_outputs, batch_labels)
+            loss_value.backward()
+            optimizer.step()
+            # Clear batch
+            batch_outputs = []
+            batch_labels = []
 
 
 if __name__ == '__main__':

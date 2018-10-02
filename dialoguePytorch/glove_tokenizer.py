@@ -1,6 +1,7 @@
 from tqdm import tqdm
 import mmap
 import os
+import numpy as np
 
 PATH = os.path.abspath(os.path.dirname(__file__))
 
@@ -13,6 +14,8 @@ class glove_tokenizer():
             self.glove_path = glove_path
         self.tokenizer = {}
         self.import_glove()
+
+        self.unknown_word = np.zeros((200,))
     
     def get_num_lines(self):
         print("loading glove data...")
@@ -38,6 +41,9 @@ class glove_tokenizer():
             self.tokenizer[word] = vector
 
     def tokenize(self, word):
+        if word not in self.tokenizer:
+            print("unknown word:", word)
+            return self.unknown_word
         return self.tokenizer[word]
 
 def main():
