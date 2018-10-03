@@ -65,7 +65,7 @@ class ABHUE(nn.Module):
         # print("prev_out", prev_out.shape)
         # print("post_out", post_out.shape)
         feature_vec = torch.squeeze(torch.cat((prev_out, post_out), 2))
-        print("feature_vec", feature_vec.shape)
+        # print("feature_vec", feature_vec.shape)
         prediction = self.fc(feature_vec)
 
         return prediction

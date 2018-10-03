@@ -33,10 +33,10 @@ class DistanceClusterLoss(nn.Module):
                     continue
                 # Same speaker
                 if labels[i] == labels[j]:
-                    pred_loss[i] += torch.dist(pred_i.double(), pred_j.double())
+                    pred_loss[i] = pred_loss[i] + torch.dist(pred_i.double(), pred_j.double())
                 # Different speaker
                 else:
-                    pred_loss[i] -= torch.dist(pred_i.double(), pred_j.double())
+                    pred_loss[i] = pred_loss[i] - torch.dist(pred_i.double(), pred_j.double())
         
         pred_loss = torch.stack(pred_loss)
 

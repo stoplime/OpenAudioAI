@@ -15,7 +15,7 @@ class glove_tokenizer():
         self.tokenizer = {}
         self.import_glove()
 
-        self.unknown_word = np.zeros((200,))
+        self.unknown_word = np.zeros((200,)).tolist()
     
     def get_num_lines(self):
         print("loading glove data...")
@@ -41,9 +41,11 @@ class glove_tokenizer():
             self.tokenizer[word] = vector
 
     def tokenize(self, word):
+        # print(self.tokenizer[word])
+        # print(len(self.tokenizer[word]))
         if word not in self.tokenizer:
             print("unknown word:", word)
-            return self.unknown_word
+            return np.random.normal(scale=0.5, size=200).tolist()
         return self.tokenizer[word]
 
 def main():

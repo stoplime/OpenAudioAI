@@ -57,7 +57,7 @@ def main():
                 data_label = sentence[1]
         
         # print("data_input middle sentence", len(data_input[int((window_size - 1) / 2)]))
-        model.zero_grad()
+        model.train()
         output = model(data_input)
         # print("output", output.shape)
         
@@ -65,6 +65,7 @@ def main():
         batch_labels.append(data_label)
 
         if len(batch_labels) >= batch_size:
+            print("backprop")
             # backpropagate through batch
             loss_value = loss_function(batch_outputs, batch_labels)
             loss_value.backward()
