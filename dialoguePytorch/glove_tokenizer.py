@@ -44,7 +44,7 @@ class glove_tokenizer():
         # print(self.tokenizer[word])
         # print(len(self.tokenizer[word]))
         if word not in self.tokenizer:
-            print("unknown word:", word)
+            # print("unknown word:", word)
             return np.random.normal(scale=0.5, size=200).tolist()
         return self.tokenizer[word]
 
