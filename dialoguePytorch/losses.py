@@ -36,7 +36,7 @@ class DistanceClusterLoss(nn.Module):
                     pred_loss[i] = pred_loss[i] + torch.dist(pred_i.double(), pred_j.double())
                 # Different speaker
                 else:
-                    pred_loss[i] = pred_loss[i] - torch.dist(pred_i.double(), pred_j.double())
+                    pred_loss[i] = pred_loss[i] + ( 10 / torch.dist(pred_i.double(), pred_j.double()) )
         
         pred_loss = torch.stack(pred_loss)
 
