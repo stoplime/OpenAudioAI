@@ -1,77 +1,87 @@
-from PIL import Image, ImageChops
-import os, json, cv2
+import os, json
 import random
 import numpy
-from tkinter import Tk, filedialog
-
 
 class Cluster(object):
 
-    def __init__(self):
-        self.pixels = []
+    def __init__(self, dim_count):
+        ''' 
+            dim_count: int
+                The number of dimensions per point (i.e. vector3 would have 3 dims)
+        '''
+        self.dim_count = dim_count;
+        self.points = []
         self.centroid = None
 
-    def addPoint(self, pixel):
-        self.pixels.append(pixel)
+    def addPoint(self, point):
+        self.points.append(point)
 
     def setNewCentroid(self):
 
-        R = [colour[0] for colour in self.pixels]
-        G = [colour[1] for colour in self.pixels]
-        B = [colour[2] for colour in self.pixels]
+        # Sum the points
+        self.centroid = [0 for i in range(self.dim_count)]
+        for point in self.points:
+            for dim_index, value in enumerate(point):
+                self.centroid[dim_index] += value;
 
-        if len(R)!=0:
-            R = sum(R) / len(R)
-        else:
-            R = 0
-        if len(G)!=0:
-            G = sum(G) / len(G)
-        else:
-            G = 0
-        if len(B)!=0:
-            B = sum(B) / len(B)
-        else:
-            B = 0
-
-        self.centroid = (R, G, B)
-        self.pixels = []
+        # divide it by the number of points
+        for i, _ in enumerate(self.centroid):
+            self.centroid[i] /= len(self.points)
+        
+        self.points = []
 
         return self.centroid
 
-
 class Kmeans(object):
+    
+    def __init__(self, k=4, max_iterations=12, min_distance=0.1, size=200, verbose=0):
+        ''' 
+            Params:
+            ------
+            k: int
+                The number of clusters
+            ------
+            max_iterations: int
+                The maximum number of iterations the K means clustering should go through
+            ------
+            min_distance: float
+                Theshold distance between the cluster iterations where it could stop running early
+            ------
+            size: int
+                The number of dimensions per point (i.e. vector3 would have 3 dims)
+            ------
+            verbose:
 
-    def __init__(self, k=4, max_iterations=12, min_distance=0.1, size=1000, verbose=0):
+        '''
         self.k = k
         self.max_iterations = max_iterations
         self.min_distance = min_distance
-        self.size = (size, size)
+        self.size = size
         self.verbose = verbose
 
-    def run(self, image):
-        self.image = image
-        self.image.thumbnail(self.size)
-        self.pixels = numpy.array(image.getdata(), dtype=numpy.uint8)
+    def run(self, points):
+        self.points = points
+        # self.pixels = numpy.array(image.getdata(), dtype=numpy.uint8)
 
-        self.clusters = [None for i in range(self.k)]
-        self.oldClusters = None
+        self.clusters = []
+        self.prev_centroids = None
 
-        randomPixels = random.sample(list(self.pixels), self.k)
-
-        for idx in range(self.k):
-            self.clusters[idx] = Cluster()
-            self.clusters[idx].centroid = randomPixels[idx]
+        # initialize random points
+        random_ponts = random.sample(self.points, self.k)
+        for k_i in range(self.k):
+            self.clusters.append(Cluster(self.size));
+            self.clusters[k_i].centroid = random_ponts[k_i]
 
         iterations = 0
 
-        while self.shouldExit(iterations) is False:
+        while not self.shouldExit(iterations):
 
-            self.oldClusters = [cluster.centroid for cluster in self.clusters]
+            self.prev_centroids = [cluster.centroid for cluster in self.clusters]
 
-            print(iterations)
+            print("iter:", iterations)
 
-            for pixel in self.pixels:
-                self.assignClusters(pixel)
+            for point in self.points:
+                self.assignClusters(point)
 
             for cluster in self.clusters:
                 cluster.setNewCentroid()
@@ -80,30 +90,31 @@ class Kmeans(object):
 
         return [cluster.centroid for cluster in self.clusters]
 
-    def assignClusters(self, pixel):
+    def assignClusters(self, point):
         shortest = float('Inf')
         for cluster in self.clusters:
-            distance = self.calcDistance(cluster.centroid, pixel)
+            distance = self.calcDistance(numpy.array(cluster.centroid), numpy.array(point))
             if distance < shortest:
                 shortest = distance
                 nearest = cluster
 
-        nearest.addPoint(pixel)
+        nearest.addPoint(point)
 
     def calcDistance(self, a, b):
-
+        ''' Find the distances between two numpy points
+        '''
         result = numpy.sqrt(sum((a - b) ** 2))
         return result
 
     def shouldExit(self, iterations):
 
-        if self.oldClusters is None:
+        if self.prev_centroids is None:
             return False
 
         for idx in range(self.k):
             dist = self.calcDistance(
                 numpy.array(self.clusters[idx].centroid),
-                numpy.array(self.oldClusters[idx])
+                numpy.array(self.prev_centroids[idx])
             )
             if dist < self.min_distance:
                 return True
@@ -113,72 +124,42 @@ class Kmeans(object):
 
         return True
 
-    def showImage(self):
-        if self.verbose > 2:
-            self.image.show()
+    # def showClustering(self):
 
-        return self.image
+    #     localPixels = [None] * len(self.image.getdata())
 
-    def showCentroidColours(self):
+    #     for idx, pixel in enumerate(self.pixels):
+    #         shortest = float('Inf')
+    #         for cluster in self.clusters:
+    #             distance = self.calcDistance(
+    #                 cluster.centroid,
+    #                 pixel
+    #             )
+    #             if distance < shortest:
+    #                 shortest = distance
+    #                 nearest = cluster
 
-        for cluster in self.clusters:
-            print('tuple cluster.centroid:', cluster.centroid)
-            print('list cluster.centroid:', list(cluster.centroid))
-            cluster.centroid = [ int(x) for x in list(cluster.centroid) ]
-            print('int list cluster.centroid:', cluster.centroid)
-            print('int list cluster.centroid oneliner:', tuple([int(x) for x in list(cluster.centroid)]))
-            print('int tuple cluster.centroid:', tuple(cluster.centroid))
-            image = Image.new("RGB", (200, 200), tuple([int(x) for x in list(cluster.centroid)]))
-            image.show()
+    #         localPixels[idx] = nearest.centroid
 
-    def showClustering(self):
+    #     w, h = self.image.size
+    #     localPixels = numpy.asarray(localPixels)\
+    #         .astype('uint8')\
+    #         .reshape((h, w, 3))
 
-        localPixels = [None] * len(self.image.getdata())
+    #     colourMap = Image.fromarray(localPixels)
+    #     # colourMap.show()
 
-        for idx, pixel in enumerate(self.pixels):
-            shortest = float('Inf')
-            for cluster in self.clusters:
-                distance = self.calcDistance(
-                    cluster.centroid,
-                    pixel
-                )
-                if distance < shortest:
-                    shortest = distance
-                    nearest = cluster
-
-            localPixels[idx] = nearest.centroid
-
-        w, h = self.image.size
-        localPixels = numpy.asarray(localPixels)\
-            .astype('uint8')\
-            .reshape((h, w, 3))
-
-        colourMap = Image.fromarray(localPixels)
-        # colourMap.show()
-
-        return colourMap
+    #     return colourMap
 
 if __name__ == '__main__':
-    suffix = '.JPG'
-    Tk().withdraw()
-    path_to_json = filedialog.askdirectory() # show file explorer and return the path to the selected file
-    if path_to_json is not None:
-        json_files = [pos_json for pos_json in os.listdir(path_to_json) if pos_json.endswith('.json')]
-        for index, js in enumerate(json_files):
-            img = Image.open(os.path.join(path_to_json, os.path.splitext(js)[0] + suffix))
-            image = Kmeans()
-            # img = cv2.imread(os.path.join(path_to_json, os.path.splitext(js)[0] + suffix))
-            image.run(img)
-            original = image.showImage()
-            colourMap = image.showClustering()
-            # image.showCentroidColours()
-            diff = ImageChops.subtract(original, colourMap)
-            diff.show()
-            input("Press Enter to continue...")
-    # img = Image.open(r'C:\Users\malessan\Downloads\giraffe.JPG')
-    # image = Kmeans()
-    # image.run(img)
-    # original = image.showImage()
-    # colourMap = image.showClustering()
-    # # image.showCentroidColours()
-    # input("Press Enter to continue...")
+    km = Kmeans(k=2, size=2)
+
+    points = [
+        [1,1],
+        [2,1],
+        [10,10],
+        [11,10]
+    ]
+
+    clusters = km.run(points)
+    print("clusters", clusters)
