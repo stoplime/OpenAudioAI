@@ -11,6 +11,7 @@ class ABHUE(nn.Module):
         self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
         self.utterance_size = 200
         self.hidden_size = 200
+        self.batch = 8
         self.context_lstm = nn.LSTM(input_size=self.utterance_size, hidden_size=self.hidden_size, batch_first=True)
         self.main_lstm = nn.LSTM(input_size=self.utterance_size, hidden_size=self.hidden_size, batch_first=True)
 

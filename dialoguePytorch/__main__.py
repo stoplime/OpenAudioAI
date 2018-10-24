@@ -12,7 +12,7 @@ PATH = os.path.abspath(os.path.dirname(__file__))
 data_dir = os.path.join(PATH, "..", "data", "train")
 
 window_size = 3
-batch_size = 8
+batch_size = 512
 
 
 def main():
