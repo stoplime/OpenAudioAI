@@ -111,54 +111,29 @@ class Kmeans(object):
         if self.prev_centroids is None:
             return False
 
+        total_dist = 0
         for idx in range(self.k):
             dist = self.calcDistance(
                 numpy.array(self.clusters[idx].centroid),
                 numpy.array(self.prev_centroids[idx])
             )
-            if dist < self.min_distance:
-                return True
+            total_dist += dist
+        if total_dist < self.min_distance:
+            return True
 
         if iterations <= self.max_iterations:
             return False
 
         return True
 
-    # def showClustering(self):
-
-    #     localPixels = [None] * len(self.image.getdata())
-
-    #     for idx, pixel in enumerate(self.pixels):
-    #         shortest = float('Inf')
-    #         for cluster in self.clusters:
-    #             distance = self.calcDistance(
-    #                 cluster.centroid,
-    #                 pixel
-    #             )
-    #             if distance < shortest:
-    #                 shortest = distance
-    #                 nearest = cluster
-
-    #         localPixels[idx] = nearest.centroid
-
-    #     w, h = self.image.size
-    #     localPixels = numpy.asarray(localPixels)\
-    #         .astype('uint8')\
-    #         .reshape((h, w, 3))
-
-    #     colourMap = Image.fromarray(localPixels)
-    #     # colourMap.show()
-
-    #     return colourMap
-
 if __name__ == '__main__':
-    km = Kmeans(k=2, size=2)
+    km = Kmeans(k=2, size=3)
 
     points = [
-        [1,1],
-        [2,1],
-        [10,10],
-        [11,10]
+        [1,1,1],
+        [2,1,1],
+        [10,10,1],
+        [11,10,1]
     ]
 
     clusters = km.run(points)
