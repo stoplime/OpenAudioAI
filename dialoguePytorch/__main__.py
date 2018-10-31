@@ -13,7 +13,7 @@ data_dir = os.path.join(PATH, "..", "data", "train")
 
 window_size = 3
 batch_size = 32
-
+savePath = os.path.join(PATH, "saves", "model.pt")
 
 # def train(data, model, loss_function, optimizer, verbose=1):
 
@@ -21,6 +21,10 @@ batch_size = 32
 def main():
     # test data path
     # dataPath = "/home/stoplime/workspace/audiobook/OpenAudioAI/data/train/train_0"
+
+    # Create Save Dir
+    if not os.path.exists(os.path.dirname(savePath)):
+        os.makedirs(os.path.dirname(savePath))
 
     preprocessor = preprocess.PreProcess(window_size)
     model = ABHUE()
@@ -52,8 +56,8 @@ def main():
             output = model(data_input)
             # print("output", output.shape)
             
-            batch_outputs.append(output)
-            batch_labels.append(data_label)
+            # batch_outputs.append(output)
+            # batch_labels.append(data_label)
 
             # if len(batch_labels) >= batch_size:
                 # backpropagate through batch
@@ -67,7 +71,7 @@ def main():
                 # Clear batch
                 # batch_outputs = []
                 # batch_labels = []
-            
+            torch.save(model.state_dict(), savePath)
             data_idx += 1
         # clear line
         print("")
