@@ -12,7 +12,7 @@ PATH = os.path.abspath(os.path.dirname(__file__))
 data_dir = os.path.join(PATH, "..", "data", "train")
 
 window_size = 3
-batch_size = 64
+batch_size = 32
 
 
 # def train(data, model, loss_function, optimizer, verbose=1):

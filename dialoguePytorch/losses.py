@@ -41,9 +41,12 @@ class DistanceClusterLoss(nn.Module):
         
         for i, pred_i in enumerate(self.points):
             # Start with a tensor of all zeros
-            pred_loss.append(torch.tensor(np.zeros((1, 1, 200)), requires_grad=True).to(self.device))
+            if len(self.points) == 1:
+                pred_loss.append(torch.tensor(np.zeros((1, 1, 200)), requires_grad=True).to(self.device))
+            
             for j in range(i+1, len(self.points)):
                 pred_j = self.points[j]
+                # print(i, j)
                 if len(pred_loss) <= i:
                     if pred_i[1] == pred_j[1]:
                         pred_loss.append( torch.dist(pred_i[0].double(), pred_j[0].double()) )
@@ -56,7 +59,8 @@ class DistanceClusterLoss(nn.Module):
                 # Different speaker
                 else:
                     pred_loss[len(pred_loss)-1] = pred_loss[len(pred_loss)-1] + ( 10 / torch.dist(pred_i[0].double(), pred_j[0].double()) )
+                # print([loss.data.cpu().numpy() for loss in pred_loss])
         
         pred_loss = torch.stack(pred_loss)
-
+        # print([loss.data.cpu().numpy() for loss in pred_loss])
         return pred_loss.mean()
