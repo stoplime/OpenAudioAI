@@ -49,7 +49,6 @@ def main():
             data_input, data_label = preprocessor.tensorfy()
             
             # print("data_input middle sentence", len(data_input[int((window_size - 1) / 2)]))
-            model.train()
             output = model(data_input)
             # print("output", output.shape)
             
@@ -59,7 +58,7 @@ def main():
             # if len(batch_labels) >= batch_size:
                 # backpropagate through batch
             loss_value = loss_function(output, data_label)
-            loss_value.backward()
+            loss_value.backward(retain_graph=True)
             optimizer.step()
 
             running_loss += loss_value.item()

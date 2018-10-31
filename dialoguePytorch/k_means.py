@@ -17,7 +17,6 @@ class Cluster(object):
         self.points.append(point)
 
     def setNewCentroid(self):
-
         # Sum the points
         self.centroid = [0 for i in range(self.dim_count)]
         for point in self.points:
