@@ -89,7 +89,7 @@ class Kmeans(object):
             
             self.prev_centroids = [cluster.centroid for cluster in self.clusters]
 
-            print("iter:", iterations)
+            # print("iter:", iterations)
 
             for point in self.points:
                 self.assignClusters(point)

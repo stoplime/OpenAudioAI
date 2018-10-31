@@ -1,6 +1,7 @@
 
 from model import ABHUE
 from k_means import Kmeans
+import preprocess
 import torch
 import os
 
@@ -27,10 +28,17 @@ def bestLabels(data, labels):
         pred_clusters.append([])
         for point in cluster.points:
             pred_clusters[i].append(point)
-        
+    return 25
 
 def main():
+    preprocessor = preprocess.PreProcess(window_size)
     km = Kmeans(k=2, size=200)
+
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    model = ABHUE()
+    model = model.to(device)
+    model.load_state_dict(torch.load(savePath))
+    model.eval()
 
     batch_data = []
     label_data = []
@@ -44,13 +52,14 @@ def main():
 
             output = model(data_input)
 
-            batch_data.append((data_idx, output))
+            batch_data.append((data_idx, output.detach()))
             label_data.append((data_idx, data_label))
 
             if data_idx >= batch_size:
                 data_idx = 0
                 km.run( batch_data )
-                
+                score = bestLabels(km.clusters, label_data)
+                print('[{}] Inference Score: {}'.format((data_idx + 1), round(score / (data_idx + 1), 10)), end='\r', flush=True)
                 
             else:
                 data_idx += 1
