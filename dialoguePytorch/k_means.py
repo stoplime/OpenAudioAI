@@ -11,10 +11,12 @@ class Cluster(object):
         '''
         self.dim_count = dim_count;
         self.points = []
+        self.point_ids = []
         self.centroid = None
 
     def addPoint(self, point):
-        self.points.append(point)
+        self.point_ids.append(point[0])
+        self.points.append(point[1])
 
     def setNewCentroid(self):
         # Sum the points
@@ -26,10 +28,12 @@ class Cluster(object):
         # divide it by the number of points
         for i, _ in enumerate(self.centroid):
             self.centroid[i] /= len(self.points)
-        
-        self.points = []
 
         return self.centroid
+
+    def clearPoints(self):
+        self.points = []
+        self.point_ids = []
 
 class Kmeans(object):
     
@@ -59,6 +63,12 @@ class Kmeans(object):
         self.verbose = verbose
 
     def run(self, points):
+        ''' 
+            Params
+            ------
+            points: List(tuple(id, point))
+        '''
+        # Grab just the points
         self.points = points
         # self.pixels = numpy.array(image.getdata(), dtype=numpy.uint8)
 
@@ -66,7 +76,7 @@ class Kmeans(object):
         self.prev_centroids = None
 
         # initialize random points
-        random_ponts = random.sample(self.points, self.k)
+        random_ponts = random.sample(list(list(zip(*self.points))[1]), self.k)
         for k_i in range(self.k):
             self.clusters.append(Cluster(self.size));
             self.clusters[k_i].centroid = random_ponts[k_i]
@@ -74,7 +84,9 @@ class Kmeans(object):
         iterations = 0
 
         while not self.shouldExit(iterations):
-
+            for cluster in self.clusters:
+                cluster.clearPoints()
+            
             self.prev_centroids = [cluster.centroid for cluster in self.clusters]
 
             print("iter:", iterations)
@@ -92,7 +104,7 @@ class Kmeans(object):
     def assignClusters(self, point):
         shortest = float('Inf')
         for cluster in self.clusters:
-            distance = self.calcDistance(numpy.array(cluster.centroid), numpy.array(point))
+            distance = self.calcDistance(numpy.array(cluster.centroid), numpy.array(point[1]))
             if distance < shortest:
                 shortest = distance
                 nearest = cluster
@@ -125,15 +137,21 @@ class Kmeans(object):
 
         return True
 
+
+
 if __name__ == '__main__':
     km = Kmeans(k=2, size=3)
 
     points = [
-        [1,1,1],
-        [2,1,1],
-        [10,10,1],
-        [11,10,1]
+        (0, [1,1,1]),
+        (1, [2,1,1]),
+        (2, [10,10,1]),
+        (3, [11,10,1])
     ]
 
     clusters = km.run(points)
-    print("clusters", clusters)
+    # print("clusters", clusters)
+    for cluster in km.clusters:
+        # print(cluster.point_ids)
+        for point in cluster.points:
+            print(cluster.centroid, point[0])
