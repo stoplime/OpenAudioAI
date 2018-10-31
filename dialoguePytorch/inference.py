@@ -43,6 +43,7 @@ def main():
     batch_data = []
     label_data = []
     data_idx = 0
+    batch_count = 0
     for data_file in os.listdir(data_dir):
         for data in preprocessor.parseData(os.path.join(data_dir, data_file)):
             if not preprocessor.create_sliding_window(data):
@@ -56,13 +57,14 @@ def main():
             label_data.append((data_idx, data_label))
 
             if data_idx >= batch_size:
-                data_idx = 0
                 km.run( batch_data )
                 score = bestLabels(km.clusters, label_data)
-                print('[{}] Inference Score: {}'.format((data_idx + 1), round(score / (data_idx + 1), 10)), end='\r', flush=True)
-                
+                print('[{}] Inference Score: {}'.format((batch_count + 1), round(score / (data_idx + 1), 10)))
+                batch_count += 1
+                data_idx = 0
             else:
                 data_idx += 1
+        print("")
         break
 
 if __name__ == '__main__':
