@@ -35,6 +35,9 @@ class Cluster(object):
         self.points = []
         self.point_ids = []
 
+    def SortByLabel(self):
+        pass
+
 class Kmeans(object):
     
     def __init__(self, k=4, max_iterations=12, min_distance=0.1, size=200, verbose=0):
