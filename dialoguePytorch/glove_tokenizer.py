@@ -19,7 +19,7 @@ class glove_tokenizer():
     
     def get_num_lines(self):
         print("loading glove data...")
-        fp = open(self.glove_path, "r+")
+        fp = open(self.glove_path, "r+", encoding="utf8")
         buf = mmap.mmap(fp.fileno(), 0)
         lines = 0
         while buf.readline():
@@ -27,7 +27,7 @@ class glove_tokenizer():
         return lines
 
     def import_glove(self):
-        for line in tqdm(open(self.glove_path), total=self.get_num_lines()):
+        for line in tqdm(open(self.glove_path, encoding="utf8"), total=self.get_num_lines()):
             splits = line.split(' ')
             word = splits[0].strip()
             string_vector = splits[1:]
