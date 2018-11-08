@@ -64,6 +64,24 @@ def bestLabels(data, labels):
 
     return 25
 
+def GetGlobalMaxes(data):
+    maxes = []
+    max_value = 0
+    for i, data_cluster in data:
+        for j, data_cell in data_cluster:
+            if data_cell > max_value:
+                max_value = data_cell
+    
+    for i, data_cluster in data:
+        for j, data_cell in data_cluster:
+            if data_cell == max_value:
+                maxes.append((i, j, data_cell))
+    return maxes
+
+def MaxCells(data):
+    maxes = GetGlobalMaxes(data)
+    # isolate the max rows and collumns
+
 def main():
     load_sets_from_json()
 
