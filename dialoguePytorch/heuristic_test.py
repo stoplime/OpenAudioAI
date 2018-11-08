@@ -65,6 +65,14 @@ def bestLabels(data, labels):
     return 25
 
 def GetGlobalMaxes(data):
+    ''' 
+        Params
+        ------
+        data: list(list(uint))
+            The rows and columns of the cluster label matrix
+            i: cluster
+            j: label
+    '''
     maxes = []
     max_value = 0
     for i, data_cluster in data:
