@@ -17,5 +17,5 @@ Dataset Preparation:
   
   Current model Idea: 
   
-![model1](https://user-images.githubusercontent.com/10410430/44476214-16a8ab00-a605-11e8-8346-446406b0a93e.jpg)
+![model1 1](https://user-images.githubusercontent.com/10410430/48318043-bb190880-e5c8-11e8-8c25-bd74a2d7b917.jpg)
   
