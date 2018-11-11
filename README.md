@@ -1,6 +1,13 @@
 # OpenAudioAI
 Open Audiobooks
 Work Logging:
+
+Author 1: Steffen Lim
+Email: slim13@students.kennesaw.edu
+Author 2: Sams Khan
+Email: skhan34@students.kennesaw.edu
+
+
 https://docs.google.com/document/d/1fe0iCKSy-xPkjXN8e_PjmjxUOdGY7QqCyvKVCkFh2d8/edit?usp=sharing
 
 To do:
