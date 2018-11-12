@@ -2,15 +2,28 @@
 import random
 import json
 import pprint
+import numpy as np
+import time
 
 pp = pprint.PrettyPrinter(indent=4)
 
-def create_random_sets(width, height):
+def create_random_sets(width, height, max_range=10):
     _set = []
     for i in range(width):
         _set.append([])
         for j in range(height):
-            _set[i].append( random.randint(0, 10) )
+            _set[i].append( random.randint(0, max_range) )
+    return _set
+
+def create_random_sets_total(width, height, total_number):
+    _set = [[0 for j in range(height)] for i in range(width)]
+    for n in range(total_number):
+        i = random.randint(0, width-1)
+        j = random.randint(0, height-1)
+        # print("[{}, {}]".format(i, j))
+        # print(len(_set))
+        # print(len(_set[0]))
+        _set[i][j] += 1
     return _set
 
 def generate_sets_to_json():
@@ -27,6 +40,7 @@ def load_sets_from_json():
     # sets.append(([], create_random_sets(4, 4)))
     # with open("sets.json", 'w') as file:
     #     json.dump(sets, file, indent=4)
+    return sets
 
 def DataLabel2ListMatrix(data, labels):
     # convert the clusters into matricies
@@ -86,12 +100,115 @@ def GetGlobalMaxes(data):
                 maxes.append((i, j, data_cell))
     return maxes
 
-def MaxCells(data):
-    maxes = GetGlobalMaxes(data)
+# def arreq_in_list(myarr, list_arrays):
+#     return next((True for elem in list_arrays if np.array_equal(elem, myarr)), False)
+
+def Backtracking(data_matrix, id_matrix, black_list=None):
+    ''' 
+        Params
+        ------
+        data_matrix: int numpy array (n, n)
+    '''
+    if black_list == None:
+        black_list = []
+    
+    # if arreq_in_list(id_matrix, black_list):
+    #     return 0
+
+    row = data_matrix.shape[0]
+    col = data_matrix.shape[1]
+
+    total_max = -1
+    cell_max = -1
+    for i in range(row):
+        for j in range(col):
+            if cell_max < data_matrix[i, j]:
+                cell_max = data_matrix[i, j]
+    
+    for i in range(row):
+        for j in range(col):
+            # print(id_matrix[i, j], black_list)
+            if id_matrix[i, j] in black_list:
+                continue
+            
+            selectedCell = data_matrix[i, j]
+            if selectedCell < cell_max:
+                continue
+            
+            row_slice = np.delete(data_matrix, i, axis=0)
+            sub_data_matrix = np.delete(row_slice, j, axis=1)
+
+            row_id_slice = np.delete(id_matrix, i, axis=0)
+            sub_id_matrix = np.delete(row_id_slice, j, axis=1)
+
+            calcMax = selectedCell + Backtracking(sub_data_matrix, sub_id_matrix, black_list)
+            if total_max < calcMax:
+                total_max = calcMax
+            else:
+                # black_list.append(id_matrix[i, j])
+                # black_list.append(sub_id_matrix)
+                pass
+    
+    if total_max == -1:
+        total_max = 0
+    
+    return total_max
+
+# def MaxCells(data):
+    # numpy_data = np.array(data)
+    # print(numpy_data)
+    # max_value = Backtracking()
     # isolate the max rows and collumns
 
+def test_size():
+    size = 10
+    custom_set = create_random_sets(size, size)
+    numpy_data = np.array(custom_set)
+    print(numpy_data)
+    start = time.time()
+    print(Backtracking(numpy_data, np.arange((size**2)).reshape(size, size)))
+    end = time.time()
+    print("Time:", end - start)
+
+def test_accuracy():
+    datasets = load_sets_from_json()
+    for data in datasets:
+        print(data)
+        numpy_data = np.array(data[1])
+        size = numpy_data.shape[0]
+        # print(numpy_data)
+        max_value = Backtracking(numpy_data, np.arange((size**2)).reshape(size, size))
+        print(max_value)
+
+def test_guague():
+    ''' Average set for batch and size
+        
+    '''
+    size = 3
+    batch = 32
+    epochs = 200
+
+    average = 0
+    count = 0
+
+    start = time.time()
+    for epoch in range(epochs):
+            
+        custom_set = create_random_sets_total(size, size, batch)
+        numpy_data = np.array(custom_set)
+        # print(numpy_data)
+        max_value = Backtracking(numpy_data, np.arange((size**2)).reshape(size, size))
+        average += float(max_value)
+    end = time.time()
+    average /= epochs
+    print("Average:", average)
+    print("Time:", end - start)
+
 def main():
-    load_sets_from_json()
+    test_guague()
+    # test_size()
+    # test_accuracy()
+    
 
 if __name__ == '__main__':
     main()

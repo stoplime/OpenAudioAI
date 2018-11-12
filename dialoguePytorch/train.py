@@ -9,8 +9,10 @@ import os
 
 PATH = os.path.abspath(os.path.dirname(__file__))
 
-data_dir = os.path.join(PATH, "..", "data", "train")
+train_data_dir = os.path.join(PATH, "..", "data", "train")
+val_data_dir = os.path.join(PATH, "..", "data", "val")
 
+epochs = 2
 window_size = 3
 batch_size = 32
 savePath = os.path.join(PATH, "saves", "model.pt")
@@ -40,41 +42,62 @@ def main():
 
     loss_function = DistanceClusterLoss(batch_size)
 
-    batch_outputs = []
-    batch_labels = []
-    for data_file in os.listdir(data_dir):
-        print("Training file:", data_file)
-        running_loss = 0;
-        data_idx = 0
-        for data in preprocessor.parseData(os.path.join(data_dir, data_file)):
-            if not preprocessor.create_sliding_window(data):
-                continue
-            
-            data_input, data_label = preprocessor.tensorfy()
-            
-            # print("data_input middle sentence", len(data_input[int((window_size - 1) / 2)]))
-            output = model(data_input)
-            # print("output", output.shape)
-            
-            # batch_outputs.append(output)
-            # batch_labels.append(data_label)
+    for epoch in range(epochs):
+        
+        # training
+        batch_outputs = []
+        batch_labels = []
+        for data_file in os.listdir(train_data_dir):
+            print("Training file:", data_file)
+            running_loss = 0;
+            data_idx = 0
+            for data in preprocessor.parseData(os.path.join(train_data_dir, data_file)):
+                if not preprocessor.create_sliding_window(data):
+                    continue
+                
+                data_input, data_label = preprocessor.tensorfy()
+                
+                # print("data_input middle sentence", len(data_input[int((window_size - 1) / 2)]))
+                output = model(data_input)
+                # print("output", output.shape)
+                
+                # batch_outputs.append(output)
+                # batch_labels.append(data_label)
 
-            # if len(batch_labels) >= batch_size:
-                # backpropagate through batch
-            loss_value = loss_function(output, data_label)
-            loss_value.backward(retain_graph=True)
-            optimizer.step()
+                # if len(batch_labels) >= batch_size:
+                    # backpropagate through batch
+                loss_value = loss_function(output, data_label)
+                loss_value.backward(retain_graph=True)
+                optimizer.step()
 
-            running_loss += loss_value.item()
-            print('[{}] Training loss: {}'.format((data_idx + 1), round(running_loss / (data_idx + 1), 10)), end='\r', flush=True)
+                running_loss += loss_value.item()
+                print('[{}] Training loss: {}'.format((data_idx + 1), round(running_loss / (data_idx + 1), 10)), end='\r', flush=True)
 
-                # Clear batch
-                # batch_outputs = []
-                # batch_labels = []
-            torch.save(model.state_dict(), savePath)
-            data_idx += 1
-        # clear line
-        print("")
+                    # Clear batch
+                    # batch_outputs = []
+                    # batch_labels = []
+                torch.save(model.state_dict(), savePath)
+                data_idx += 1
+            # clear line
+            print("")
+        
+        # Validtion
+        batch_outputs = []
+        batch_labels = []
+        for data_file in sorted(os.listdir(val_data_dir)):
+            print("Validation file:", data_file)
+            running_loss = 0;
+            data_idx = 0
+
+            for data in preprocessor.parseData(os.path.join(val_data_dir, data_file)):
+                if not preprocessor.create_sliding_window(data):
+                    continue
+                
+                data_input, data_label = preprocessor.tensorfy()
+
+                output = model(data_input)
+
+
 
 
 if __name__ == '__main__':
