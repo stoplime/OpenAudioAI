@@ -9,8 +9,8 @@ import numpy as np
 PATH = os.path.abspath(os.path.dirname(__file__))
 
 data_dir = os.path.join(PATH, "..", "data", "test")
-# savePath = os.path.join(PATH, "saves", "model.pt")
-savePath = os.path.join(PATH, "backup_saves", "server-trained.pt")
+savePath = os.path.join(PATH, "saves", "model.pt")
+# savePath = os.path.join(PATH, "backup_saves", "server-trained.pt")
 
 window_size = 3
 batch_size = 32
@@ -135,12 +135,12 @@ def main():
             label_datas.append((data_idx, data_label))
 
             num_speakers = CheckNumOfSpeakers(label_datas)
-            if data_idx >= batch_size or num_speakers >= max_speakers:
+            if data_idx+1 >= batch_size or num_speakers >= max_speakers:
                 km = Kmeans(k=num_speakers, size=200)
                 km.run( batch_datas )
                 score = bestLabels(km.clusters, label_datas, num_speakers)
                 # round(score / (data_idx + 1), 10)
-                print('[{}] Inference Score: {} \t Batch Size: {} \t Speakers: {}'.format((batch_count + 1), score, data_idx, num_speakers)) # 
+                print('[{}] Inference Score: {} \t Batch Size: {} \t Speakers: {}'.format((batch_count + 1), score, data_idx+1, num_speakers)) # 
                 batch_count += 1
                 data_idx = 0
                 batch_datas = []

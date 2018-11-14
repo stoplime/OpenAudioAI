@@ -42,6 +42,9 @@ class PreProcess(object):
             self.sliding_window.pop(0)
         return True
 
+    def clear_sliding_window(self):
+        self.sliding_window = []
+
     def tensorfy(self):
         ''' Converts the sliding window to a list of tensors the model can use.
             Returns the list of tensors as well as the label of the middle sentence.
