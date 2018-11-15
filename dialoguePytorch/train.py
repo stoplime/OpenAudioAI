@@ -16,8 +16,8 @@ train_data_dir = os.path.join(PATH, "..", "data", "train")
 val_data_dir = os.path.join(PATH, "..", "data", "val")
 
 load_form_save = False
-epochs = 2
-window_size = 3
+epochs = 100
+window_size = 5
 batch_size = 32
 max_speakers = 10
 savePath = os.path.join(PATH, "saves", "model.pt")
