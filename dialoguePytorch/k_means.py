@@ -9,7 +9,7 @@ class Cluster(object):
             dim_count: int
                 The number of dimensions per point (i.e. vector3 would have 3 dims)
         '''
-        self.dim_count = dim_count;
+        self.dim_count = dim_count
         self.points = []
         self.point_ids = []
         self.centroid = None
@@ -23,7 +23,7 @@ class Cluster(object):
         self.centroid = [0 for i in range(self.dim_count)]
         for point in self.points:
             for dim_index, value in enumerate(point):
-                self.centroid[dim_index] += value;
+                self.centroid[dim_index] += value
 
         # divide it by the number of points
         for i, _ in enumerate(self.centroid):
@@ -81,7 +81,7 @@ class Kmeans(object):
         # initialize random points
         random_ponts = random.sample(list(list(zip(*self.points))[1]), self.k)
         for k_i in range(self.k):
-            self.clusters.append(Cluster(self.size));
+            self.clusters.append(Cluster(self.size))
             self.clusters[k_i].centroid = random_ponts[k_i]
 
         iterations = 0

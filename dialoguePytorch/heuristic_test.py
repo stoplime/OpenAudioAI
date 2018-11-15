@@ -3,6 +3,7 @@ import random
 import json
 import pprint
 import numpy as np
+from tqdm import tqdm
 import time
 
 pp = pprint.PrettyPrinter(indent=4)
@@ -162,7 +163,7 @@ def Backtracking(data_matrix, id_matrix, black_list=None):
 
 def test_size():
     size = 10
-    custom_set = create_random_sets(size, size)
+    custom_set = create_random_sets_total(size, size, 32)
     numpy_data = np.array(custom_set)
     print(numpy_data)
     start = time.time()
@@ -182,32 +183,50 @@ def test_accuracy():
 
 def test_guague():
     ''' Average set for batch and size
-        
+        Speakers    Average
+        --------    -------
+        1           32
+        2           18.10   18.09624
+        3           14.2
+        4           12.66
+        5           11.96
+        6           11.692
+        7           11.62
+        8           11.68   11.76
+        9           12.18
+        10          12.36
     '''
-    size = 3
+    size = 14
     batch = 32
-    epochs = 200
+    epochs = 1
+
+    print("Settings:", "size:", size, "batch:", batch, "epochs:", epochs)
 
     average = 0
-    count = 0
 
     start = time.time()
-    for epoch in range(epochs):
-            
+    # t = tqdm.trange(range(epochs), desc='Bar desc', leave=True)
+    for epoch in tqdm(range(epochs)):
         custom_set = create_random_sets_total(size, size, batch)
         numpy_data = np.array(custom_set)
-        # print(numpy_data)
+        
         max_value = Backtracking(numpy_data, np.arange((size**2)).reshape(size, size))
-        average += float(max_value)
+        average = (average*epoch + float(max_value)) / (epoch + 1)
     end = time.time()
-    average /= epochs
-    print("Average:", average)
-    print("Time:", end - start)
+    # average /= epochs
+    print("Average Score:", average)
+    print("Total Time:", end - start)
+    print("Average Time:", (end - start)/epochs)
+
+def average():
+    l = [12.6, 12.4, 12.3, 12.3, 12.2]
+    return sum(l)/len(l)
 
 def main():
     test_guague()
     # test_size()
     # test_accuracy()
+    # print(average())
     
 
 if __name__ == '__main__':

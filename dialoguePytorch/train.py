@@ -16,14 +16,18 @@ train_data_dir = os.path.join(PATH, "..", "data", "train")
 val_data_dir = os.path.join(PATH, "..", "data", "val")
 
 load_form_save = False
-epochs = 100
+epochs = 30
 window_size = 5
 batch_size = 32
 max_speakers = 10
-savePath = os.path.join(PATH, "saves", "model.pt")
 
-log_file_path = os.path.join(PATH, "logs", "training_log_")
-log_file_path += str(time.strftime("%Y%m%d-%H%M%S")) + ".log"
+time_stamp = str(time.strftime("%Y_%m_%d-%H_%M_%S"))
+
+save_model_name = "model_" + time_stamp + ".pt"
+save_model_path = os.path.join(PATH, "saves", save_model_name)
+
+log_file_name = "training_log_" + time_stamp + ".log"
+log_file_path = os.path.join(PATH, "logs", log_file_name)
 
 # def train(data, model, loss_function, optimizer, verbose=1):
 
@@ -42,10 +46,10 @@ def main():
     model = model.to(device)
     
     # Create Save Dir or load saved model
-    if not os.path.exists(os.path.dirname(savePath)):
-        os.makedirs(os.path.dirname(savePath))
+    if not os.path.exists(os.path.dirname(save_model_path)):
+        os.makedirs(os.path.dirname(save_model_path))
     elif load_form_save:
-        model.load_state_dict(torch.load(savePath))
+        model.load_state_dict(torch.load(save_model_path))
 
     # create log file directory
     if not os.path.exists(os.path.dirname(log_file_path)):
@@ -64,7 +68,19 @@ def main():
 
     # Training log
     log = open(log_file_path, "a")
-    log.write("Device: " + str(device) + "\n")
+    print("Settings:", file=log)
+    print("Device:", device, file=log)
+    print("Total Epochs:", epochs, file=log)
+    print("Window Size:", window_size, file=log)
+    print("Batch Size:", batch_size, file=log)
+    print("Max Speakers:", max_speakers, file=log)
+
+    print("Settings:")
+    print("Device:", device)
+    print("Total Epochs:", epochs)
+    print("Window Size:", window_size)
+    print("Batch Size:", batch_size)
+    print("Max Speakers:", max_speakers)
 
     for epoch in range(epochs):
         print("epoch:", epoch, file=log)
@@ -104,7 +120,7 @@ def main():
                     # Clear batch
                     # batch_outputs = []
                     # batch_labels = []
-                torch.save(model.state_dict(), savePath)
+                torch.save(model.state_dict(), save_model_path)
                 data_idx += 1
             # clear line
             print("", file=log)
