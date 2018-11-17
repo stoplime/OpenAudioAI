@@ -41,11 +41,11 @@ dropout = 0.2               # 0.2, 0.5, 0.8
 stack_size = 1              # 1 or 2
 
 if args != None:
-    model_id = args.id
-    recurrent_model = args.model
-    window_size = args.window
-    dropout = args.dropout
-    stack_size = args.stack
+    model_id = int(args.id)
+    recurrent_model = str(args.model)
+    window_size = int(args.window)
+    dropout = float(args.dropout)
+    stack_size = int(args.stack)
 
     print("Model ID:", model_id)
     print("Recurrent Model:", recurrent_model)
