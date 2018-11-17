@@ -3,7 +3,7 @@ import os
 
 PATH = os.path.abspath(os.path.dirname(__file__))
 
-log_file_name = "training_log_20181114-135632.log"
+log_file_name = "epoch1.txt"
 log_file_path = os.path.join(PATH, "logs", log_file_name)
 
 # infrence_ex = "[1] Inference Score: 21 	 Batch Size: 32 	 Speakers: 2"
@@ -29,10 +29,12 @@ def parse_log(log_line):
 def graph_plot(data):
     train_data = []
     print(data)
-    for epoch, data_per_epoch in sorted(data.items()):
-        print(epoch, data_per_epoch)
-        train_data.append(sum(data_per_epoch["t"]))
-    print(train_data)
+    # for epoch, data_per_epoch in sorted(data.items()):
+        # print(epoch, data_per_epoch)
+        # train_data.append(sum(data_per_epoch["t"]))
+    for train_data_per_line in data[0]["t"]:
+        train_data.append(train_data_per_line)
+    # print(train_data)
     plt.plot(train_data)
     plt.show()
 

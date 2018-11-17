@@ -1,5 +1,5 @@
 
-from model import ABHUE
+from model import ABHUE, GlobalModule
 from losses import DistanceClusterLoss
 import preprocess
 import torch
@@ -9,28 +9,62 @@ import os
 import time
 from k_means import Kmeans
 import inference
+import argparse
 
 PATH = os.path.abspath(os.path.dirname(__file__))
+
+parser = argparse.ArgumentParser(description='Process some integers.')
+parser.add_argument('id', default=-1,
+                    help='Id of the model')
+parser.add_argument('model', default="LSTM",
+                    help='Model Type')
+parser.add_argument('window', default=3,
+                    help='Window Size')
+parser.add_argument('dropout', default=0.2,
+                    help='Dropout Rate')
+parser.add_argument('stack', default=1,
+                    help='Stack size of RNN')
+args = parser.parse_args()
 
 train_data_dir = os.path.join(PATH, "..", "data", "train")
 val_data_dir = os.path.join(PATH, "..", "data", "val")
 
 load_form_save = False
 epochs = 30
-window_size = 5
 batch_size = 32
 max_speakers = 10
 
+model_id = 1
+recurrent_model = "gru"    # lstm or gru
+window_size = 7             # 3, 5, 7
+dropout = 0.2               # 0.2, 0.5, 0.8
+stack_size = 1              # 1 or 2
+
+if args != None:
+    model_id = args.id
+    recurrent_model = args.model
+    window_size = args.window
+    dropout = args.dropout
+    stack_size = args.stack
+
+    print("Model ID:", model_id)
+    print("Recurrent Model:", recurrent_model)
+    print("Window Size:", window_size)
+    print("Dropout:", dropout)
+    print("Prev/Post Stack Size:", stack_size)
+    print("")
+
 time_stamp = str(time.strftime("%Y_%m_%d-%H_%M_%S"))
 
-save_model_name = "model_" + time_stamp + ".pt"
+save_model_name = "A" + str(model_id) + "_model_" + time_stamp + ".pt"
+save_model_global_name = "A" + str(model_id) + "_model_global_" + time_stamp + ".pt"
 save_model_path = os.path.join(PATH, "saves", save_model_name)
+save_model_global_path = os.path.join(PATH, "saves", save_model_global_name)
 
-log_file_name = "training_log_" + time_stamp + ".log"
+log_file_name = "A" + str(model_id) + "_training_log_" + time_stamp + ".log"
 log_file_path = os.path.join(PATH, "logs", log_file_name)
 
 # def train(data, model, loss_function, optimizer, verbose=1):
-
 
 def main():
     # test data path
@@ -38,50 +72,73 @@ def main():
     
     # initialize preprocess and model
     preprocessor = preprocess.PreProcess(window_size)
-    model = ABHUE()
+    local_model = ABHUE(recurrent_model=recurrent_model, dropout=dropout, stack_size=stack_size)
+    global_model = GlobalModule(recurrent_model=recurrent_model, dropout=dropout, stack_size=stack_size)
 
     # Set Device
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     print("device", device)
-    model = model.to(device)
+    local_model = local_model.to(device)
+    global_model = global_model.to(device)
     
     # Create Save Dir or load saved model
     if not os.path.exists(os.path.dirname(save_model_path)):
         os.makedirs(os.path.dirname(save_model_path))
     elif load_form_save:
-        model.load_state_dict(torch.load(save_model_path))
+        local_model.load_state_dict(torch.load(save_model_path))
+        global_model.load_state_dict(torch.load(save_model_global_path))
 
     # create log file directory
     if not os.path.exists(os.path.dirname(log_file_path)):
         os.makedirs(os.path.dirname(log_file_path))
     
     # Set optimizer
-    optimizer = optim.Adam(model.parameters())
+    optimizer = optim.Adam( list(local_model.parameters()) + list(global_model.parameters()) )
     exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=7, gamma=0.1)
     exp_lr_scheduler.step() # update lr scheduler epoch
 
     # Set model to train mode
-    model.train()
+    local_model.train()
+    global_model.train()
 
     # Define loss function
     loss_function = DistanceClusterLoss(batch_size)
 
     # Training log
     log = open(log_file_path, "a")
+    # ********************* Log To File *********************
     print("Settings:", file=log)
+    print("Dynamic HyperParams:", file=log)
+    print("Recurrent Model:", recurrent_model, file=log)
+    print("Window Size:", window_size, file=log)
+    print("Dropout:", dropout, file=log)
+    print("Prev/Post Stack Size:", stack_size, file=log)
+    print("", file=log)
+
+    print("Const HyperParams:", file=log)
     print("Device:", device, file=log)
     print("Total Epochs:", epochs, file=log)
-    print("Window Size:", window_size, file=log)
     print("Batch Size:", batch_size, file=log)
     print("Max Speakers:", max_speakers, file=log)
+    print("", file=log)
 
+    # ********************* Print to Terminal *********************
     print("Settings:")
+    print("Dynamic HyperParams:")
+    print("Recurrent Model:", recurrent_model)
+    print("Window Size:", window_size)
+    print("Dropout:", dropout)
+    print("Prev/Post Stack Size:", stack_size)
+    print("")
+
+    print("Const HyperParams:")
     print("Device:", device)
     print("Total Epochs:", epochs)
-    print("Window Size:", window_size)
     print("Batch Size:", batch_size)
     print("Max Speakers:", max_speakers)
-
+    print("")
+    
+    # ********************* *********************
     for epoch in range(epochs):
         print("epoch:", epoch, file=log)
         print("epoch:", epoch)
@@ -92,23 +149,18 @@ def main():
         for data_file in os.listdir(train_data_dir):
             print("Training file:", data_file, file=log)
             print("Training file:", data_file)
-            running_loss = 0;
+            running_loss = 0
             data_idx = 0
             for data in preprocessor.parseData(os.path.join(train_data_dir, data_file)):
+                # Create window, if window not correct size, skip loop
                 if not preprocessor.create_sliding_window(data):
                     continue
                 
                 data_input, data_label = preprocessor.tensorfy()
                 
-                # print("data_input middle sentence", len(data_input[int((window_size - 1) / 2)]))
-                output = model(data_input)
-                # print("output", output.shape)
+                local_output = local_model(data_input)
+                output = global_model(local_output)
                 
-                # batch_outputs.append(output)
-                # batch_labels.append(data_label)
-
-                # if len(batch_labels) >= batch_size:
-                    # backpropagate through batch
                 loss_value = loss_function(output, data_label)
                 loss_value.backward(retain_graph=True)
                 optimizer.step()
@@ -117,15 +169,15 @@ def main():
                 print('[{}] Training loss: {}'.format((data_idx + 1), round(running_loss / (data_idx + 1), 10)), end='\r', flush=True, file=log)
                 print('[{}] Training loss: {}'.format((data_idx + 1), round(running_loss / (data_idx + 1), 10)), end='\r', flush=True)
 
-                    # Clear batch
-                    # batch_outputs = []
-                    # batch_labels = []
-                torch.save(model.state_dict(), save_model_path)
+                local_model.reset_gradients()
+                torch.save(local_model.state_dict(), save_model_path)
+                torch.save(global_model.state_dict(), save_model_global_path)
                 data_idx += 1
             # clear line
             print("", file=log)
             print("")
             preprocessor.clear_sliding_window()
+            global_model.reset_gradients()
         
         # Validtion
         batch_datas = []
@@ -139,13 +191,15 @@ def main():
             print("Validation file:", data_file)
 
             for data in preprocessor.parseData(os.path.join(val_data_dir, data_file)):
+                # Create window, if window not correct size, skip loop
                 if not preprocessor.create_sliding_window(data):
                     continue
-                # print("Run")
                 
                 data_input, data_label = preprocessor.tensorfy()
 
-                output = model(data_input)
+                local_output = local_model(data_input)
+                output = global_model(local_output)
+                
                 batch_datas.append((data_idx, output.detach()))
                 label_datas.append((data_idx, data_label))
 

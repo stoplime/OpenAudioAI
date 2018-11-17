@@ -181,27 +181,39 @@ def test_accuracy():
         max_value = Backtracking(numpy_data, np.arange((size**2)).reshape(size, size))
         print(max_value)
 
+def get_standard_deviation(dataset):
+    mean = sum(dataset)/len(dataset)
+    dataSqrMeans = []
+    for data in dataset:
+        meanDiff = data - mean
+        meanDiffSqr = meanDiff**2
+        dataSqrMeans.append(meanDiffSqr)
+    dataSqrMean = sum(dataSqrMeans)/len(dataSqrMeans)
+    stdDeviation = dataSqrMean**(1/2.0)
+    return stdDeviation
+
 def test_guague():
     ''' Average set for batch and size
-        Speakers    Average
-        --------    -------
-        1           32
-        2           18.10   18.09624
-        3           14.2
+        Speakers    Average         Std Deviation
+        --------    -------         ------------
+        1           32              
+        2           18.10           
+        3           14.21           1.672452325
         4           12.66
         5           11.96
-        6           11.692
+        6           11.69
         7           11.62
-        8           11.68   11.76
+        8           11.68
         9           12.18
         10          12.36
     '''
-    size = 14
+    size = 3
     batch = 32
-    epochs = 1
+    epochs = 100000
 
     print("Settings:", "size:", size, "batch:", batch, "epochs:", epochs)
 
+    dataset = []
     average = 0
 
     start = time.time()
@@ -211,16 +223,22 @@ def test_guague():
         numpy_data = np.array(custom_set)
         
         max_value = Backtracking(numpy_data, np.arange((size**2)).reshape(size, size))
+        dataset.append(float(max_value))
         average = (average*epoch + float(max_value)) / (epoch + 1)
     end = time.time()
     # average /= epochs
+    std_dev = get_standard_deviation(dataset)
     print("Average Score:", average)
     print("Total Time:", end - start)
     print("Average Time:", (end - start)/epochs)
+    print("Standard Deviation", std_dev)
+    save_to_file(str(std_dev) + ", \n")
 
-def average():
-    l = [12.6, 12.4, 12.3, 12.3, 12.2]
-    return sum(l)/len(l)
+def save_to_file(info):
+    with open("ht.txt", "a") as _file:
+        _file.write(info)
+
+
 
 def main():
     test_guague()
