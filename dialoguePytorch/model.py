@@ -9,24 +9,24 @@ class ABHUE(nn.Module):
     def __init__(self, recurrent_model="lstm", dropout=0, stack_size=1):
         super(ABHUE, self).__init__()
         self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-        self.utterance_size = 200
+        self.input_size = 200
         self.hidden_size = 200
         self.stack_size = stack_size
         self.isLSTM = recurrent_model == "lstm"
         if self.isLSTM:
-            self.context_rnn = nn.LSTM(input_size=self.utterance_size, hidden_size=self.hidden_size, batch_first=True, dropout=dropout)
-            self.main_rnn = nn.LSTM(input_size=self.utterance_size, hidden_size=self.hidden_size, batch_first=True, dropout=dropout)
+            self.context_rnn = nn.LSTM(input_size=self.input_size, hidden_size=self.hidden_size, batch_first=True)
+            self.target_rnn = nn.LSTM(input_size=self.input_size, hidden_size=self.hidden_size, batch_first=True)
 
-            self.prev_rnn = nn.LSTM(input_size=self.utterance_size, hidden_size=self.hidden_size, batch_first=True, dropout=dropout, num_layers=stack_size)
-            self.post_rnn = nn.LSTM(input_size=self.utterance_size, hidden_size=self.hidden_size, batch_first=True, dropout=dropout, num_layers=stack_size)
+            self.prev_rnn = nn.LSTM(input_size=self.input_size, hidden_size=self.hidden_size, batch_first=True, dropout=dropout, num_layers=stack_size)
+            self.post_rnn = nn.LSTM(input_size=self.input_size, hidden_size=self.hidden_size, batch_first=True, dropout=dropout, num_layers=stack_size)
         else:
-            self.context_rnn = nn.GRU(input_size=self.utterance_size, hidden_size=self.hidden_size, batch_first=True, dropout=dropout)
-            self.main_rnn = nn.GRU(input_size=self.utterance_size, hidden_size=self.hidden_size, batch_first=True, dropout=dropout)
+            self.context_rnn = nn.GRU(input_size=self.input_size, hidden_size=self.hidden_size, batch_first=True)
+            self.target_rnn = nn.GRU(input_size=self.input_size, hidden_size=self.hidden_size, batch_first=True)
 
-            self.prev_rnn = nn.GRU(input_size=self.utterance_size, hidden_size=self.hidden_size, batch_first=True, dropout=dropout, num_layers=stack_size)
-            self.post_rnn = nn.GRU(input_size=self.utterance_size, hidden_size=self.hidden_size, batch_first=True, dropout=dropout, num_layers=stack_size)
+            self.prev_rnn = nn.GRU(input_size=self.input_size, hidden_size=self.hidden_size, batch_first=True, dropout=dropout, num_layers=stack_size)
+            self.post_rnn = nn.GRU(input_size=self.input_size, hidden_size=self.hidden_size, batch_first=True, dropout=dropout, num_layers=stack_size)
             
-        self.fc = nn.Linear(self.hidden_size*2, self.utterance_size)
+        self.fc = nn.Linear(self.hidden_size*2, self.input_size)
 
     def create_hidden(self, length, stack=False):
         if self.isLSTM:
@@ -43,27 +43,27 @@ class ABHUE(nn.Module):
 
     def reset_gradients(self):
         self.context_rnn.zero_grad()
-        self.main_rnn.zero_grad()
+        self.target_rnn.zero_grad()
         self.prev_rnn.zero_grad()
         self.post_rnn.zero_grad()
         self.fc.zero_grad()
 
-    def forward(self, utterances):
+    def forward(self, sentences):
         '''
-            # utterances: [sentence, word, direction*layers, batch, embedding]
-            utterances: [[embedding] of len words] of len sentences
+            # sentences: [sentence, word, direction*layers, batch, embedding]
+            sentences: [[embedding] of len words] of len sentences
         '''
-        hidden_shape = utterances[0][0].shape[2]
+        hidden_shape = sentences[0][0].shape[2]
         # print("hidden_shape", hidden_shape)
         sentence_embedding = []
-        # self.main_rnn.zero_grad()
+        # self.target_rnn.zero_grad()
         # self.context_rnn.zero_grad()
-        for i, sentence in enumerate(utterances):
+        for i, sentence in enumerate(sentences):
             hidden = self.create_hidden(hidden_shape)
             # hidden = torch.tensor.randn(1, 1, hidden_shape)
-            if i == ((len(utterances) - 1) / 2):
+            if i == ((len(sentences) - 1) / 2):
                 for word in sentence:
-                    out, hidden = self.main_rnn(word, hidden)
+                    out, hidden = self.target_rnn(word, hidden)
             else:
                 for word in sentence:
                     # print("word", word.shape)
