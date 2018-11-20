@@ -75,7 +75,7 @@ def main():
     # dataPath = "/home/stoplime/workspace/audiobook/OpenAudioAI/data/train/train_0"
     
     # initialize preprocess and model
-    preprocessor = preprocess.PreProcess(window_size)
+    preprocessor = preprocess.PreProcess(window_size, dev=dev)
     local_model = ABHUE(recurrent_model=recurrent_model, dropout=dropout, stack_size=stack_size, dev=dev)
     global_model = GlobalModule(recurrent_model=recurrent_model, dropout=dropout, stack_size=stack_size, dev=dev)
 
