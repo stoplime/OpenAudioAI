@@ -106,7 +106,7 @@ def main():
     global_model.train()
 
     # Define loss function
-    loss_function = DistanceClusterLoss(batch_size, dev)
+    loss_function = DistanceClusterLoss(batch_size, dev=dev)
 
     # Training log
     log = open(log_file_path, "a")

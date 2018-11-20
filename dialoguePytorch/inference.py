@@ -15,6 +15,7 @@ savePath = os.path.join(PATH, "saves", "model.pt")
 window_size = 3
 batch_size = 32
 max_speakers = 10
+dev = 0
 
 def Backtracking(data_matrix, id_matrix, black_list=None):
     ''' 
@@ -112,7 +113,7 @@ def CheckNumOfSpeakers(labels):
 def main():
     preprocessor = preprocess.PreProcess(window_size)
 
-    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda:"+str(dev) if torch.cuda.is_available() else "cpu")
     model = ABHUE()
     model = model.to(device)
     model.load_state_dict(torch.load(savePath))
