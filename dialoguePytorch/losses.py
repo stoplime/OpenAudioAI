@@ -6,9 +6,9 @@ import numpy as np
 class DistanceClusterLoss(nn.Module):
     """ Cluster loss using basic distance formula
     """
-    def __init__(self, num_points):
+    def __init__(self, num_points, dev=0):
         super(DistanceClusterLoss, self).__init__()
-        self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+        self.device = torch.device("cuda:"+str(dev) if torch.cuda.is_available() else "cpu")
 
         # Rememberst the number of points
         self.num_points = num_points
