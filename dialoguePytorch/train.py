@@ -11,6 +11,8 @@ from k_means import Kmeans
 import inference
 import argparse
 
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
+
 PATH = os.path.abspath(os.path.dirname(__file__))
 
 parser = argparse.ArgumentParser(description='Process some integers.')
