@@ -6,9 +6,10 @@ import numpy as np
 class DistanceClusterLoss(nn.Module):
     """ Cluster loss using basic distance formula
     """
-    def __init__(self, num_points, dev=0):
+    def __init__(self, num_points, dev=torch.device("cpu")):
         super(DistanceClusterLoss, self).__init__()
-        self.device = torch.device("cuda:"+str(dev) if torch.cuda.is_available() else "cpu")
+        self.device = dev
+        self.differenceWeight = 10
 
         # Rememberst the number of points
         self.num_points = num_points
@@ -48,17 +49,18 @@ class DistanceClusterLoss(nn.Module):
                 pred_j = self.points[j]
                 # print(i, j)
                 if len(pred_loss) <= i:
+                    # Same speaker
                     if pred_i[1] == pred_j[1]:
-                        pred_loss.append( torch.dist(pred_i[0].double(), pred_j[0].double()) )
+                        pred_loss.append( torch.dist(pred_i[0].double(), pred_j[0].double()).to(self.device) )
                     # Different speaker
                     else:
-                        pred_loss.append( 10 / torch.dist(pred_i[0].double(), pred_j[0].double()) )
+                        pred_loss.append( self.differenceWeight / torch.dist(pred_i[0].double(), pred_j[0].double()).to(self.device) )
                 # Same speaker
                 if pred_i[1] == pred_j[1]:
-                    pred_loss[len(pred_loss)-1] = pred_loss[len(pred_loss)-1] + torch.dist(pred_i[0].double(), pred_j[0].double())
+                    pred_loss[len(pred_loss)-1] = pred_loss[len(pred_loss)-1] + torch.dist(pred_i[0].double(), pred_j[0].double().to(self.device))
                 # Different speaker
                 else:
-                    pred_loss[len(pred_loss)-1] = pred_loss[len(pred_loss)-1] + ( 10 / torch.dist(pred_i[0].double(), pred_j[0].double()) )
+                    pred_loss[len(pred_loss)-1] = pred_loss[len(pred_loss)-1] + ( self.differenceWeight / torch.dist(pred_i[0].double(), pred_j[0].double()).to(self.device) )
                 # print([loss.data.cpu().numpy() for loss in pred_loss])
         
         pred_loss = torch.stack(pred_loss)

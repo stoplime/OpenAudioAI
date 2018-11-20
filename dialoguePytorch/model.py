@@ -6,9 +6,9 @@ from torchvision import models
 class ABHUE(nn.Module):
     ''' Attention-Based Heirarchical Utterance Embedding
     '''
-    def __init__(self, recurrent_model="lstm", dropout=0, stack_size=1, dev=0):
+    def __init__(self, recurrent_model="lstm", dropout=0, stack_size=1, dev=torch.device("cpu")):
         super(ABHUE, self).__init__()
-        self.device = torch.device("cuda:"+str(dev) if torch.cuda.is_available() else "cpu")
+        self.device = dev
         self.input_size = 200
         self.hidden_size = 200
         self.stack_size = stack_size
@@ -27,6 +27,14 @@ class ABHUE(nn.Module):
             self.post_rnn = nn.GRU(input_size=self.input_size, hidden_size=self.hidden_size, batch_first=True, dropout=dropout, num_layers=stack_size)
             
         self.fc = nn.Linear(self.hidden_size*2, self.input_size)
+
+        self.context_rnn = self.context_rnn.to(self.device)
+        self.target_rnn = self.target_rnn.to(self.device)
+
+        self.prev_rnn = self.prev_rnn.to(self.device)
+        self.post_rnn = self.post_rnn.to(self.device)
+
+        self.fc = self.fc.to(self.device)
 
     def create_hidden(self, length, stack=False):
         if self.isLSTM:
@@ -99,9 +107,9 @@ class ABHUE(nn.Module):
 class GlobalModule(nn.Module):
     ''' The Global Module of the Attention-Based Heirarchical Utterance Embedding
     '''
-    def __init__(self, recurrent_model="lstm", dropout=0, stack_size=1, dev=0):
+    def __init__(self, recurrent_model="lstm", dropout=0, stack_size=1, dev=torch.device("cpu")):
         super(GlobalModule, self).__init__()
-        self.device = torch.device("cuda:"+str(dev) if torch.cuda.is_available() else "cpu")
+        self.device = dev
         self.local_prediction_size = 200
         self.hidden_size = 200
         self.stack_size = stack_size
@@ -110,6 +118,8 @@ class GlobalModule(nn.Module):
             self.global_rnn = nn.LSTM(input_size=self.local_prediction_size, hidden_size=self.hidden_size, batch_first=True, dropout=dropout, num_layers=stack_size)
         else:
             self.global_rnn = nn.GRU(input_size=self.local_prediction_size, hidden_size=self.hidden_size, batch_first=True, dropout=dropout, num_layers=stack_size)
+
+        self.global_rnn = self.global_rnn.to(self.device)
 
     def create_hidden(self, length, stack=False):
         if self.isLSTM:

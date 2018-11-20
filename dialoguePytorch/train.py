@@ -71,20 +71,15 @@ log_file_path = os.path.join(PATH, "logs", log_file_name)
 # def train(data, model, loss_function, optimizer, verbose=1):
 
 def main():
-    # test data path
-    # dataPath = "/home/stoplime/workspace/audiobook/OpenAudioAI/data/train/train_0"
+    # Set Device
+    device = torch.device("cuda:"+str(dev) if torch.cuda.is_available() else "cpu")
+    print("device", device)
     
     # initialize preprocess and model
-    preprocessor = preprocess.PreProcess(window_size, dev=dev)
-    local_model = ABHUE(recurrent_model=recurrent_model, dropout=dropout, stack_size=stack_size, dev=dev)
-    global_model = GlobalModule(recurrent_model=recurrent_model, dropout=dropout, stack_size=stack_size, dev=dev)
+    preprocessor = preprocess.PreProcess(window_size, dev=device)
+    local_model = ABHUE(recurrent_model=recurrent_model, dropout=dropout, stack_size=stack_size, dev=device)
+    global_model = GlobalModule(recurrent_model=recurrent_model, dropout=dropout, stack_size=stack_size, dev=device)
 
-    # Set Device
-    device = torch.device("cuda:"+dev if torch.cuda.is_available() else "cpu")
-    print("device", device)
-    local_model = local_model.to(device)
-    global_model = global_model.to(device)
-    
     # Create Save Dir or load saved model
     if not os.path.exists(os.path.dirname(save_model_path)):
         os.makedirs(os.path.dirname(save_model_path))
@@ -99,15 +94,13 @@ def main():
     # Set optimizer
     optimizer = optim.Adam( list(local_model.parameters()) + list(global_model.parameters()) )
     exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=7, gamma=0.1)
-    exp_lr_scheduler.step() # update lr scheduler epoch
 
     # Set model to train mode
     local_model.train()
     global_model.train()
 
     # Define loss function
-    loss_function = DistanceClusterLoss(batch_size, dev=dev)
-    loss_function = loss_function.to(device)
+    loss_function = DistanceClusterLoss(batch_size, dev=device)
 
     # Training log
     log = open(log_file_path, "a")
@@ -184,6 +177,9 @@ def main():
             preprocessor.clear_sliding_window()
             global_model.reset_gradients()
         
+        # update lr scheduler epoch
+        exp_lr_scheduler.step()
+
         # Validtion
         batch_datas = []
         label_datas = []
