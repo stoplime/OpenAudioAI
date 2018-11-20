@@ -107,6 +107,7 @@ def main():
 
     # Define loss function
     loss_function = DistanceClusterLoss(batch_size, dev=dev)
+    loss_function = loss_function.to(device)
 
     # Training log
     log = open(log_file_path, "a")
