@@ -6,9 +6,9 @@ from torchvision import models
 class ABHUE(nn.Module):
     ''' Attention-Based Heirarchical Utterance Embedding
     '''
-    def __init__(self, recurrent_model="lstm", dropout=0, stack_size=1):
+    def __init__(self, recurrent_model="lstm", dropout=0, stack_size=1, dev=0):
         super(ABHUE, self).__init__()
-        self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+        self.device = torch.device("cuda:"+str(dev) if torch.cuda.is_available() else "cpu")
         self.input_size = 200
         self.hidden_size = 200
         self.stack_size = stack_size
@@ -99,9 +99,9 @@ class ABHUE(nn.Module):
 class GlobalModule(nn.Module):
     ''' The Global Module of the Attention-Based Heirarchical Utterance Embedding
     '''
-    def __init__(self, recurrent_model="lstm", dropout=0, stack_size=1):
+    def __init__(self, recurrent_model="lstm", dropout=0, stack_size=1, dev=0):
         super(GlobalModule, self).__init__()
-        self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+        self.device = torch.device("cuda:"+str(dev) if torch.cuda.is_available() else "cpu")
         self.local_prediction_size = 200
         self.hidden_size = 200
         self.stack_size = stack_size

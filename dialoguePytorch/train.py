@@ -24,6 +24,8 @@ parser.add_argument('dropout', default=0.2,
                     help='Dropout Rate')
 parser.add_argument('stack', default=1,
                     help='Stack size of RNN')
+parser.add_argument('device', default=0,
+                    help='GPU device')
 args = parser.parse_args()
 
 train_data_dir = os.path.join(PATH, "..", "data", "train")
@@ -34,6 +36,7 @@ epochs = 30
 batch_size = 32
 max_speakers = 10
 
+dev = 0
 model_id = 1
 recurrent_model = "gru"    # lstm or gru
 window_size = 7             # 3, 5, 7
@@ -46,6 +49,7 @@ if args != None:
     window_size = int(args.window)
     dropout = float(args.dropout)
     stack_size = int(args.stack)
+    dev = str(args.device)
 
     print("Model ID:", model_id)
     print("Recurrent Model:", recurrent_model)
@@ -72,11 +76,11 @@ def main():
     
     # initialize preprocess and model
     preprocessor = preprocess.PreProcess(window_size)
-    local_model = ABHUE(recurrent_model=recurrent_model, dropout=dropout, stack_size=stack_size)
-    global_model = GlobalModule(recurrent_model=recurrent_model, dropout=dropout, stack_size=stack_size)
+    local_model = ABHUE(recurrent_model=recurrent_model, dropout=dropout, stack_size=stack_size, dev=dev)
+    global_model = GlobalModule(recurrent_model=recurrent_model, dropout=dropout, stack_size=stack_size, dev=dev)
 
     # Set Device
-    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda:"+dev if torch.cuda.is_available() else "cpu")
     print("device", device)
     local_model = local_model.to(device)
     global_model = global_model.to(device)
