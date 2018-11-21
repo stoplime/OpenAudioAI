@@ -4,8 +4,8 @@ from glove_tokenizer import glove_tokenizer
 import torch
 
 class PreProcess(object):
-    def __init__(self, window_size, glove_path=None):
-        self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    def __init__(self, window_size, glove_path=None, dev=torch.device("cpu")):
+        self.device = dev
         self.once = True
         self.glove = glove_tokenizer(glove_path)
         self.window_size = window_size
