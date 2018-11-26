@@ -31,7 +31,6 @@ args = parser.parse_args()
 train_data_dir = os.path.join(PATH, "..", "data", "train")
 val_data_dir = os.path.join(PATH, "..", "data", "val")
 
-load_form_save = False
 epochs = 30
 batch_size = 32
 max_speakers = 10
@@ -65,6 +64,18 @@ save_model_global_name = "A" + str(model_id) + "_model_global_" + time_stamp + "
 save_model_path = os.path.join(PATH, "saves", save_model_name)
 save_model_global_path = os.path.join(PATH, "saves", save_model_global_name)
 
+model_name = "A" + str(model_id) + "_model_2"
+global_model_name = "A" + str(model_id) + "_model_global_"
+saves_files = os.listdir(os.path.join(PATH, "saves"))
+load_model_path = None
+load_model_global_path = None
+if any(model_name in x for x in saves_files) and any(global_model_name in x for x in saves_files):
+    for _file in saves_files:
+        if model_name in _file:
+            load_model_path = os.path.join(PATH, "saves", _file)
+        elif global_model_name in _file:
+            load_model_global_path = os.path.join(PATH, "saves", _file)
+
 log_file_name = "A" + str(model_id) + "_training_log_" + time_stamp + ".log"
 log_file_path = os.path.join(PATH, "logs", log_file_name)
 
@@ -83,9 +94,9 @@ def main():
     # Create Save Dir or load saved model
     if not os.path.exists(os.path.dirname(save_model_path)):
         os.makedirs(os.path.dirname(save_model_path))
-    elif load_form_save:
-        local_model.load_state_dict(torch.load(save_model_path))
-        global_model.load_state_dict(torch.load(save_model_global_path))
+    elif load_model_path != None and load_model_global_path != None:
+        local_model.load_state_dict(torch.load(load_model_path))
+        global_model.load_state_dict(torch.load(load_model_global_path))
 
     # create log file directory
     if not os.path.exists(os.path.dirname(log_file_path)):
@@ -144,7 +155,7 @@ def main():
         # training
         batch_outputs = []
         batch_labels = []
-        for data_file in os.listdir(train_data_dir):
+        for data_file in sorted(os.listdir(train_data_dir)):
             print("Training file:", data_file, file=log)
             print("Training file:", data_file)
             running_loss = 0
