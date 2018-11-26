@@ -61,45 +61,33 @@ class ABHUE(nn.Module):
             # sentences: [sentence, word, direction*layers, batch, embedding]
             sentences: [[embedding] of len words] of len sentences
         '''
-        hidden_shape = sentences[0][0].shape[2]
-        # print("hidden_shape", hidden_shape)
         sentence_embedding = []
-        # self.target_rnn.zero_grad()
-        # self.context_rnn.zero_grad()
         for i, sentence in enumerate(sentences):
-            hidden = self.create_hidden(hidden_shape)
-            # hidden = torch.tensor.randn(1, 1, hidden_shape)
+            hidden = self.create_hidden(self.hidden_size)
             if i == ((len(sentences) - 1) / 2):
                 for word in sentence:
                     out, hidden = self.target_rnn(word, hidden)
             else:
                 for word in sentence:
-                    # print("word", word.shape)
-                    # print("hidden", hidden[0].shape)
                     out, hidden = self.context_rnn(word, hidden)
-                    # print("out", out.shape)
-                    # print("hidden 2", hidden.shape)
+            hidden = hidden.detach()
             sentence_embedding.append(out)
 
-        hidden = self.create_hidden(hidden_shape, stack=True)
-        # self.prev_rnn.zero_grad()
+        hidden = self.create_hidden(self.hidden_size, stack=True)
         for i, s_embed in enumerate(sentence_embedding):
-            # print("s_embed", s_embed.shape)
             prev_out, hidden = self.prev_rnn(s_embed, hidden)
             if i == ((len(sentence_embedding) - 1) / 2):
                 break
+        hidden = hidden.detach()
 
-        hidden = self.create_hidden(hidden_shape, stack=True)
-        # self.post_rnn.zero_grad()
+        hidden = self.create_hidden(self.hidden_size, stack=True)
         for i, s_embed in reversed(list(enumerate(sentence_embedding))):
             post_out, hidden = self.post_rnn(s_embed, hidden)
             if i == ((len(sentence_embedding) - 1) / 2):
                 break
+        hidden = hidden.detach()
 
-        # print("prev_out", prev_out.shape)
-        # print("post_out", post_out.shape)
         feature_vec = torch.squeeze(torch.cat((prev_out, post_out), 2))
-        # print("feature_vec", feature_vec.shape)
         prediction = self.fc(feature_vec)
 
         return prediction
@@ -121,6 +109,8 @@ class GlobalModule(nn.Module):
 
         self.global_rnn = self.global_rnn.to(self.device)
 
+        self.hidden = None
+
     def create_hidden(self, length, stack=False):
         if self.isLSTM:
             if not stack:
@@ -136,13 +126,14 @@ class GlobalModule(nn.Module):
 
     def reset_gradients(self):
         self.global_rnn.zero_grad()
+        self.hidden = self.hidden.detach()
 
     def forward(self, local_prediction):
         '''
             local_prediction: tensor(200)
         '''
         local_prediction = local_prediction.unsqueeze(0).unsqueeze(0)
-        hidden = self.create_hidden(self.hidden_size, stack=True)
-        global_pred, hidden = self.global_rnn(local_prediction, hidden)
+        self.hidden = self.create_hidden(self.hidden_size, stack=True)
+        global_pred, self.hidden = self.global_rnn(local_prediction, self.hidden)
 
         return global_pred.squeeze()
