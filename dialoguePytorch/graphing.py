@@ -1,10 +1,17 @@
 import matplotlib.pyplot as plt
 import os
+import glob
 
 PATH = os.path.abspath(os.path.dirname(__file__))
 
-log_file_name = "epoch1.txt"
-log_file_path = os.path.join(PATH, "logs", log_file_name)
+# log_file_path = os.path.join(PATH, "logs", log_file_name)
+log_file_path = os.path.join(PATH, "..", "..", "serverData", "logs")
+
+glob_name = "A15_*"
+
+log_file_name = glob.glob(os.path.join(log_file_path, glob_name))[0]
+print(log_file_name)
+log_file_path = os.path.join(log_file_path, log_file_name)
 
 # infrence_ex = "[1] Inference Score: 21 	 Batch Size: 32 	 Speakers: 2"
 
@@ -28,7 +35,7 @@ def parse_log(log_line):
 
 def graph_plot(data):
     train_data = []
-    print(data)
+    # print(data)
     # for epoch, data_per_epoch in sorted(data.items()):
         # print(epoch, data_per_epoch)
         # train_data.append(sum(data_per_epoch["t"]))
@@ -55,6 +62,7 @@ def main():
         elif val[0] == "v":
             aggregate_per_epoch[epoch]["v"].append((val[1], val[2], val[3]))
     graph_plot(aggregate_per_epoch)
+    print("number of epochs", len(aggregate_per_epoch))
         
 
 if __name__ == "__main__":
