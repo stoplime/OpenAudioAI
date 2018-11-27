@@ -10,8 +10,10 @@ import time
 from k_means import Kmeans
 import inference
 import argparse
+from memCheck import using
 
-PATH = os.path.abspath(os.path.dirname(__file__))
+# PATH = os.path.abspath(os.path.dirname(__file__))
+PATH = "/home/stoplime/workspace/audiobook/OpenAudioAI/dialoguePytorch"
 
 parser = argparse.ArgumentParser(description='Process some integers.')
 parser.add_argument('id', default=-1,
@@ -81,6 +83,7 @@ log_file_path = os.path.join(PATH, "logs", log_file_name)
 
 # def train(data, model, loss_function, optimizer, verbose=1):
 
+@profile
 def main():
     # Set Device
     device = torch.device("cuda:"+str(dev) if torch.cuda.is_available() else "cpu")
@@ -148,6 +151,7 @@ def main():
     print("")
     
     # ********************* *********************
+    _count = 0
     for epoch in range(epochs):
         print("epoch:", epoch, file=log)
         print("epoch:", epoch)
@@ -175,18 +179,30 @@ def main():
                 optimizer.step()
 
                 running_loss += loss_value.item()
-                print('[{}] Training loss: {}'.format((data_idx + 1), round(running_loss / (data_idx + 1), 10)), end='\r', flush=True, file=log)
-                print('[{}] Training loss: {}'.format((data_idx + 1), round(running_loss / (data_idx + 1), 10)), end='\r', flush=True)
+                print('[{}] Training loss: {}, {}'.format(
+                                                    (data_idx + 1), 
+                                                    format(round(running_loss / (data_idx + 1), 10), '.10f'), 
+                                                    using("Memory")), 
+                    end='\r', flush=True, file=log)
+                print('[{}] Training loss: {}, {}'.format(
+                                                    (data_idx + 1), 
+                                                    format(round(running_loss / (data_idx + 1), 10), '.10f'), 
+                                                    using("Memory")), 
+                    end='\r', flush=True)
 
                 local_model.reset_gradients()
-                torch.save(local_model.state_dict(), save_model_path)
-                torch.save(global_model.state_dict(), save_model_global_path)
                 data_idx += 1
+                _count += 1
+                if _count > 100:
+                    return
             # clear line
             print("", file=log)
             print("")
             preprocessor.clear_sliding_window()
             global_model.reset_gradients()
+            # Save the model after every training file
+            torch.save(local_model.state_dict(), save_model_path)
+            torch.save(global_model.state_dict(), save_model_global_path)
         
         # update lr scheduler epoch
         exp_lr_scheduler.step()

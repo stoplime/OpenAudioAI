@@ -56,6 +56,7 @@ class ABHUE(nn.Module):
         self.post_rnn.zero_grad()
         self.fc.zero_grad()
 
+    # @profile
     def forward(self, sentences):
         '''
             # sentences: [sentence, word, direction*layers, batch, embedding]
@@ -70,7 +71,7 @@ class ABHUE(nn.Module):
             else:
                 for word in sentence:
                     out, hidden = self.context_rnn(word, hidden)
-            hidden = hidden.detach()
+            del hidden
             sentence_embedding.append(out)
 
         hidden = self.create_hidden(self.hidden_size, stack=True)
@@ -78,17 +79,20 @@ class ABHUE(nn.Module):
             prev_out, hidden = self.prev_rnn(s_embed, hidden)
             if i == ((len(sentence_embedding) - 1) / 2):
                 break
-        hidden = hidden.detach()
+        # hidden = hidden.detach()
+        del hidden
 
         hidden = self.create_hidden(self.hidden_size, stack=True)
         for i, s_embed in reversed(list(enumerate(sentence_embedding))):
             post_out, hidden = self.post_rnn(s_embed, hidden)
             if i == ((len(sentence_embedding) - 1) / 2):
                 break
-        hidden = hidden.detach()
+        # hidden = hidden.detach()
+        del hidden
 
         feature_vec = torch.squeeze(torch.cat((prev_out, post_out), 2))
         prediction = self.fc(feature_vec)
+        del feature_vec
 
         return prediction
 
