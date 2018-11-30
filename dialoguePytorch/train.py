@@ -10,6 +10,7 @@ import time
 from k_means import Kmeans
 import inference
 import argparse
+from natsort import natsorted
 from memCheck import using
 
 # PATH = os.path.abspath(os.path.dirname(__file__))
@@ -159,7 +160,7 @@ def main():
         # training
         batch_outputs = []
         batch_labels = []
-        for data_file in sorted(os.listdir(train_data_dir)):
+        for data_file in natsorted(os.listdir(train_data_dir)):
             print("Training file:", data_file, file=log)
             print("Training file:", data_file)
             running_loss = 0
@@ -214,7 +215,7 @@ def main():
         batch_count = 0
         preprocessor.clear_sliding_window()
 
-        for data_file in sorted(os.listdir(val_data_dir)):
+        for data_file in natsorted(os.listdir(val_data_dir)):
             print("Validation file:", data_file, file=log)
             print("Validation file:", data_file)
 
