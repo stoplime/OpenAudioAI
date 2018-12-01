@@ -7,7 +7,7 @@ PATH = os.path.abspath(os.path.dirname(__file__))
 # log_file_path = os.path.join(PATH, "logs", log_file_name)
 log_file_path = os.path.join(PATH, "..", "..", "serverData", "logs")
 
-glob_name = "A15_*"
+glob_name = "A0_*"
 
 log_file_name = glob.glob(os.path.join(log_file_path, glob_name))[0]
 print(log_file_name)

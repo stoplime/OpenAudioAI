@@ -10,7 +10,10 @@ import time
 from k_means import Kmeans
 import inference
 import argparse
-from natsort import natsorted
+import importlib
+natsort_found = importlib.util.find_spec("natsort")
+if( natsort_found is not None):
+    from natsort import natsorted
 from memCheck import using
 
 # PATH = os.path.abspath(os.path.dirname(__file__))
@@ -82,13 +85,17 @@ if any(model_name in x for x in saves_files) and any(global_model_name in x for 
 log_file_name = "A" + str(model_id) + "_training_log_" + time_stamp + ".log"
 log_file_path = os.path.join(PATH, "logs", log_file_name)
 
-# def train(data, model, loss_function, optimizer, verbose=1):
+device = torch.device("cuda:"+str(dev) if torch.cuda.is_available() else "cpu")
 
-@profile
-def main():
-    # Set Device
-    device = torch.device("cuda:"+str(dev) if torch.cuda.is_available() else "cpu")
-    print("device", device)
+# Variables
+preprocessor = None
+local_model = None
+global_model = None
+optimizer = None
+exp_lr_scheduler = None
+loss_function = None
+
+def Initialize():
     
     # initialize preprocess and model
     preprocessor = preprocess.PreProcess(window_size, dev=device)
@@ -101,6 +108,10 @@ def main():
     elif load_model_path != None and load_model_global_path != None:
         local_model.load_state_dict(torch.load(load_model_path))
         global_model.load_state_dict(torch.load(load_model_global_path))
+
+    # Set load model equal to the save
+    load_model_path = save_model_path
+    load_model_global_path = save_model_global_path
 
     # create log file directory
     if not os.path.exists(os.path.dirname(log_file_path)):
@@ -116,6 +127,11 @@ def main():
 
     # Define loss function
     loss_function = DistanceClusterLoss(batch_size, dev=device)
+
+# @profile
+def main():
+    # Set Device
+    
 
     # Training log
     log = open(log_file_path, "a")
@@ -158,8 +174,6 @@ def main():
         print("epoch:", epoch)
 
         # training
-        batch_outputs = []
-        batch_labels = []
         for data_file in natsorted(os.listdir(train_data_dir)):
             print("Training file:", data_file, file=log)
             print("Training file:", data_file)
