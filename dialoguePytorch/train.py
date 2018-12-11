@@ -11,13 +11,11 @@ from k_means import Kmeans
 import inference
 import argparse
 import importlib
-natsort_found = importlib.util.find_spec("natsort")
-if( natsort_found is not None):
-    from natsort import natsorted
+from natsort.natsort import natsorted
 from memCheck import using
 
-# PATH = os.path.abspath(os.path.dirname(__file__))
-PATH = "/home/stoplime/workspace/audiobook/OpenAudioAI/dialoguePytorch"
+PATH = os.path.abspath(os.path.dirname(__file__))
+# PATH = "/home/stoplime/workspace/audiobook/OpenAudioAI/dialoguePytorch"
 
 parser = argparse.ArgumentParser(description='Process some integers.')
 parser.add_argument('id', default=-1,
@@ -43,7 +41,7 @@ max_speakers = 10
 
 dev = 0
 model_id = 1
-recurrent_model = "gru"    # lstm or gru
+recurrent_model = "gru"     # lstm or gru
 window_size = 7             # 3, 5, 7
 dropout = 0.2               # 0.2, 0.5, 0.8
 stack_size = 1              # 1 or 2
@@ -96,6 +94,14 @@ exp_lr_scheduler = None
 loss_function = None
 
 def Initialize():
+    global preprocessor
+    global local_model
+    global global_model
+    global optimizer
+    global exp_lr_scheduler
+    global loss_function
+    global load_model_path
+    global load_model_global_path
     
     # initialize preprocess and model
     preprocessor = preprocess.PreProcess(window_size, dev=device)
@@ -130,9 +136,8 @@ def Initialize():
 
 # @profile
 def main():
-    # Set Device
+    Initialize()
     
-
     # Training log
     log = open(log_file_path, "a")
     # ********************* Log To File *********************
@@ -183,12 +188,12 @@ def main():
                 # Create window, if window not correct size, skip loop
                 if not preprocessor.create_sliding_window(data):
                     continue
-                
+
                 data_input, data_label = preprocessor.tensorfy()
-                
+
                 local_output = local_model(data_input)
                 output = global_model(local_output)
-                
+
                 loss_value = loss_function(output, data_label)
                 loss_value.backward(retain_graph=True)
                 optimizer.step()
@@ -197,12 +202,12 @@ def main():
                 print('[{}] Training loss: {}, {}'.format(
                                                     (data_idx + 1), 
                                                     format(round(running_loss / (data_idx + 1), 10), '.10f'), 
-                                                    using("Memory")), 
+                                                    using("Memory")),
                     end='\r', flush=True, file=log)
                 print('[{}] Training loss: {}, {}'.format(
                                                     (data_idx + 1), 
                                                     format(round(running_loss / (data_idx + 1), 10), '.10f'), 
-                                                    using("Memory")), 
+                                                    using("Memory")),
                     end='\r', flush=True)
 
                 local_model.reset_gradients()
@@ -218,7 +223,9 @@ def main():
             # Save the model after every training file
             torch.save(local_model.state_dict(), save_model_path)
             torch.save(global_model.state_dict(), save_model_global_path)
-        
+            # initialize for next iteration
+            Initialize()
+
         # update lr scheduler epoch
         exp_lr_scheduler.step()
 
@@ -237,12 +244,12 @@ def main():
                 # Create window, if window not correct size, skip loop
                 if not preprocessor.create_sliding_window(data):
                     continue
-                
+
                 data_input, data_label = preprocessor.tensorfy()
 
                 local_output = local_model(data_input)
                 output = global_model(local_output)
-                
+
                 batch_datas.append((data_idx, output.detach()))
                 label_datas.append((data_idx, data_label))
 
@@ -263,9 +270,6 @@ def main():
             print("", file=log)
             print("")
             preprocessor.clear_sliding_window()
-
-
-
 
 if __name__ == '__main__':
     main()
