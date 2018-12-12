@@ -130,7 +130,10 @@ class GlobalModule(nn.Module):
 
     def reset_gradients(self):
         self.global_rnn.zero_grad()
-        self.hidden = self.hidden.detach()
+        if type(self.hidden) == tuple:
+            self.hidden = (self.hidden[0].detach(), self.hidden[1].detach())
+        else:
+            self.hidden = self.hidden.detach()
 
     def forward(self, local_prediction):
         '''

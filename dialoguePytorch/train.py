@@ -13,6 +13,7 @@ import argparse
 import importlib
 from natsort.natsort import natsorted
 from memCheck import using
+import concurrent.futures
 
 PATH = os.path.abspath(os.path.dirname(__file__))
 # PATH = "/home/stoplime/workspace/audiobook/OpenAudioAI/dialoguePytorch"
@@ -32,8 +33,13 @@ parser.add_argument('device', default=0,
                     help='GPU device')
 args = parser.parse_args()
 
-train_data_dir = os.path.join(PATH, "..", "data", "train")
-val_data_dir = os.path.join(PATH, "..", "data", "val")
+# Test Data
+train_data_dir = os.path.join(PATH, "..", "code", "data", "train")
+val_data_dir = os.path.join(PATH, "..", "code", "data", "val")
+
+# Actual Data
+# train_data_dir = os.path.join(PATH, "..", "data", "train")
+# val_data_dir = os.path.join(PATH, "..", "data", "val")
 
 epochs = 30
 batch_size = 32
@@ -85,26 +91,35 @@ log_file_path = os.path.join(PATH, "logs", log_file_name)
 
 device = torch.device("cuda:"+str(dev) if torch.cuda.is_available() else "cpu")
 
+preprocessor = preprocess.PreProcess(window_size, dev=device)
+exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=7, gamma=0.1)
+
 # Variables
-preprocessor = None
 local_model = None
 global_model = None
 optimizer = None
-exp_lr_scheduler = None
 loss_function = None
 
-def Initialize():
-    global preprocessor
+def Reset():
     global local_model
     global global_model
     global optimizer
-    global exp_lr_scheduler
+    global loss_function
+
+    del local_model
+    del global_model
+    del optimizer
+    del loss_function
+
+def Initialize():
+    global local_model
+    global global_model
+    global optimizer
     global loss_function
     global load_model_path
     global load_model_global_path
     
     # initialize preprocess and model
-    preprocessor = preprocess.PreProcess(window_size, dev=device)
     local_model = ABHUE(recurrent_model=recurrent_model, dropout=dropout, stack_size=stack_size, dev=device)
     global_model = GlobalModule(recurrent_model=recurrent_model, dropout=dropout, stack_size=stack_size, dev=device)
 
@@ -125,7 +140,6 @@ def Initialize():
     
     # Set optimizer
     optimizer = optim.Adam( list(local_model.parameters()) + list(global_model.parameters()) )
-    exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=7, gamma=0.1)
 
     # Set model to train mode
     local_model.train()
@@ -173,7 +187,7 @@ def main():
     print("")
     
     # ********************* *********************
-    _count = 0
+    # _count = 0
     for epoch in range(epochs):
         print("epoch:", epoch, file=log)
         print("epoch:", epoch)
@@ -212,9 +226,9 @@ def main():
 
                 local_model.reset_gradients()
                 data_idx += 1
-                _count += 1
-                if _count > 100:
-                    return
+                # _count += 1
+                # if _count > 100:
+                #     return
             # clear line
             print("", file=log)
             print("")
@@ -224,6 +238,7 @@ def main():
             torch.save(local_model.state_dict(), save_model_path)
             torch.save(global_model.state_dict(), save_model_global_path)
             # initialize for next iteration
+            Reset()
             Initialize()
 
         # update lr scheduler epoch
