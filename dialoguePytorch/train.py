@@ -147,7 +147,7 @@ def Run_Params(params):
             log.close()
 
             params.data_file = data_file
-            with concurrent.futures.ThreadPoolExecutor() as executor:
+            with concurrent.futures.ProcessPoolExecutor() as executor:
                 future = executor.submit(train, params)
                 executor.shutdown(wait=True)
             log = open(params.log_file_path, "a")
@@ -160,7 +160,7 @@ def Run_Params(params):
             log.close()
 
             params.data_file = data_file
-            with concurrent.futures.ThreadPoolExecutor() as executor:
+            with concurrent.futures.ProcessPoolExecutor() as executor:
                 future = executor.submit(val, params)
                 executor.shutdown(wait=True)
             log = open(params.log_file_path, "a")

@@ -22,14 +22,16 @@ def parse_log(log_line):
         return ("e", value)
     elif "Training loss:" in log_line:
         split_line = str(log_line).split(" ")
-        value = float(split_line[-1].rstrip())
+        value = float(split_line[3].rstrip())
+        memory = float(split_line[7][4:].rstrip())
         return ("t", value)
     elif "Inference Score:" in log_line:
         split_line = str(log_line).split(" ")
         value = int(split_line[3].rstrip())
         batch = int(split_line[7].rstrip())
-        speakers = int(split_line[-1].rstrip())
-        return ("v", value, batch, speakers)
+        speakers = int(split_line[10].rstrip())
+        loss = int(split_line[14].rstrip())
+        return ("v", value, batch, speakers, loss)
     else:
         return ("u",)
 
