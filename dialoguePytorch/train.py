@@ -37,12 +37,12 @@ def train(params):
 
         running_loss += loss_value.item()
         print('[{}] Training loss: {}, {}'.format(
-                                            (data_index + 1), 
+                                            (data_index + 1),
                                             format(round(running_loss / (data_index + 1), 10), '.10f'), 
                                             using("Memory")),
             end='\r', flush=True, file=log)
         print('[{}] Training loss: {}, {}'.format(
-                                            (data_index + 1), 
+                                            (data_index + 1),
                                             format(round(running_loss / (data_index + 1), 10), '.10f'), 
                                             using("Memory")),
             end='\r', flush=True)
@@ -115,16 +115,17 @@ def main():
             print("Training file:", data_file)
             test_params.data_file = data_file
             with concurrent.futures.ProcessPoolExecutor() as executor:
-                future = executor.submit(train, (test_params,))
+                future = executor.submit(train, test_params)
                 print(future)
-                while not future.done():
-                    time.sleep(1)
-                
+                executor.shutdown(wait=True)
+                print("Is future Done:",future.done())
                 try:
                     data = future.result()
                     print(data)
                 except Exception as e:
                     print(e)
+
+        return
 
         # Validtion
         test_params.Model_Initialization()

@@ -147,6 +147,7 @@ class training_parameters(object):
             del self.global_model
             del self.optimizer
             del self.loss_function
+            torch.cuda.empty_cache()
         except Exception as e:
             print("Reset_Model", e)
         
