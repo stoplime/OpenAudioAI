@@ -232,14 +232,28 @@ def Multi_Params_Initialization(start=0, end=24, Test_log=False):
 # @profile
 def main():
     torch.multiprocessing.set_start_method('spawn', force=True)
+    test_params = training_parameters.training_parameters()
+    test_params.Hyperparameter_Initialization(
+        device_id       = 0,
+        model_id        = 0,
+        recurrent_model = "lstm",
+        window_size     = 3,
+        dropout         = 0,
+        stack_size      = 1
+    )
+    test_params.Path_Initialization(testing=True)
+    test_params.Device_Initialization()
+    test_params.Preprocessing_Initialization()
 
-    multi_params = Multi_Params_Initialization(end=3)
+    Run_Params(test_params)
 
-    print("done multi_params")
-    with concurrent.futures.ProcessPoolExecutor() as executor:
-        future = executor.submit(Run_Params, multi_params)
-        executor.shutdown(wait=True)
-        print("future", future.done())
+    # multi_params = Multi_Params_Initialization(end=3)
+
+    # print("done multi_params")
+    # with concurrent.futures.ProcessPoolExecutor() as executor:
+    #     future = executor.submit(Run_Params, multi_params)
+    #     executor.shutdown(wait=True)
+    #     print("future", future.done())
 
 if __name__ == '__main__':
     main()
