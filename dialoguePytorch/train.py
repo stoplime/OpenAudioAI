@@ -18,6 +18,7 @@ import training_parameters
 
 def train(params):
     params.Model_Initialization()
+    log = open(params.log_file_path, "a")
 
     running_loss = 0
     data_index = 0
@@ -65,6 +66,7 @@ def train(params):
 
 # @profile
 def main():
+    torch.multiprocessing.set_start_method('spawn', force=True)
     test_params = training_parameters.training_parameters()
     test_params.Hyperparameter_Initialization()
     test_params.Path_Initialization()
