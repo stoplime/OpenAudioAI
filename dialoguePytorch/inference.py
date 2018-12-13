@@ -98,8 +98,8 @@ def bestLabels(data, labels, size):
                 pred_clusters[i][list_of_labels.index(label)] += 1
     
     numpy_clusters = np.array(pred_clusters)
-    print(numpy_clusters)
-    print(np.array(labels_without_clusters))
+    # print(numpy_clusters)
+    # print(np.array(labels_without_clusters))
     max_value = Backtracking(numpy_clusters, np.arange((size**2)).reshape(size, size))
     return max_value
 

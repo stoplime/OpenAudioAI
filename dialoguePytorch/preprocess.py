@@ -4,10 +4,13 @@ from glove_tokenizer import glove_tokenizer
 import torch
 
 class PreProcess(object):
-    def __init__(self, window_size, glove_path=None, dev=torch.device("cpu")):
+    def __init__(self, window_size, glove_path=None, dev=torch.device("cpu"), glove_data=None):
         self.device = dev
         self.once = True
-        self.glove = glove_tokenizer(glove_path)
+        if glove_data == None:
+            self.glove = glove_tokenizer(glove_path)
+        else:
+            self.glove = glove_data
         self.window_size = window_size
         self.sliding_window = []
 

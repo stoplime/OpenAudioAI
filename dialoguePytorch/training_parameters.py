@@ -61,6 +61,22 @@ class training_parameters(object):
 
     def Hyperparameter_Initialization(self, device_id=0, model_id=0, recurrent_model="lstm",
                                       window_size=3, dropout=0, stack_size=1):
+        """ Sets the hyperparameters for this model
+            Parameters
+            ------
+            device_id: GPU device number
+            ------
+            model_id: Model id number
+            ------
+            recurrent_model: "lstm" or "gru"
+            ------
+            window_size: 3, 5, 7 The number of sentences size of the context window
+            ------
+            dropout: From 0 to 1 the rate of dropout. Note the stack_size has to be greater than 1 to have an effect
+            ------
+            stack_size: Number of layers in the recurrent_model
+            ------
+        """
         self.epochs = 30
         self.batch_size = 32
         self.max_speakers = 10
@@ -72,16 +88,17 @@ class training_parameters(object):
         self.dropout = dropout
         self.stack_size = stack_size
 
-    def Path_Initialization(self):
+    def Path_Initialization(self, testing=False):
         self.PATH = os.path.abspath(os.path.dirname(__file__))
 
-        # Test Data
-        self.train_data_dir = os.path.join(self.PATH, "..", "code", "data", "train")
-        self.val_data_dir = os.path.join(self.PATH, "..", "code", "data", "val")
-
-        # Actual Data
-        # self.train_data_dir = os.path.join(PATH, "..", "data", "train")
-        # self.val_data_dir = os.path.join(PATH, "..", "data", "val")
+        if testing:
+            # Test Data
+            self.train_data_dir = os.path.join(self.PATH, "..", "code", "data", "train")
+            self.val_data_dir = os.path.join(self.PATH, "..", "code", "data", "val")
+        else:
+            # Actual Data
+            self.train_data_dir = os.path.join(self.PATH, "..", "data", "train")
+            self.val_data_dir = os.path.join(self.PATH, "..", "data", "val")
 
         if self.model_id == None:
             raise NotImplementedError(self.model_id)
@@ -113,10 +130,12 @@ class training_parameters(object):
         if not os.path.exists(os.path.dirname(self.log_file_path)):
             os.makedirs(os.path.dirname(self.log_file_path))
 
-    def Preprocessing_Initialization(self):
+    def Device_Initialization(self):
         self.device = torch.device("cuda:" + str(self.device_id) if torch.cuda.is_available() else "cpu")
-        self.preprocessor = preprocess.PreProcess(self.window_size, dev=self.device)
         self.learning_rate = 0.001
+
+    def Preprocessing_Initialization(self, glove_data=None):
+        self.preprocessor = preprocess.PreProcess(self.window_size, dev=self.device, glove_data=glove_data)
 
     def Model_Initialization(self):
         # Create Models

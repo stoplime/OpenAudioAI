@@ -12,7 +12,7 @@ class ABHUE(nn.Module):
         self.input_size = 200
         self.hidden_size = 200
         self.stack_size = stack_size
-        self.isLSTM = recurrent_model == "lstm"
+        self.isLSTM = (recurrent_model == "lstm")
         if self.isLSTM:
             self.context_rnn = nn.LSTM(input_size=self.input_size, hidden_size=self.hidden_size, batch_first=True)
             self.target_rnn = nn.LSTM(input_size=self.input_size, hidden_size=self.hidden_size, batch_first=True)
@@ -105,7 +105,7 @@ class GlobalModule(nn.Module):
         self.local_prediction_size = 200
         self.hidden_size = 200
         self.stack_size = stack_size
-        self.isLSTM = recurrent_model == "lstm"
+        self.isLSTM = (recurrent_model == "lstm")
         if self.isLSTM:
             self.global_rnn = nn.LSTM(input_size=self.local_prediction_size, hidden_size=self.hidden_size, batch_first=True, dropout=dropout, num_layers=stack_size)
         else:
