@@ -14,277 +14,160 @@ import importlib
 from natsort.natsort import natsorted
 from memCheck import using
 import concurrent.futures
+import training_parameters
 
-PATH = os.path.abspath(os.path.dirname(__file__))
-# PATH = "/home/stoplime/workspace/audiobook/OpenAudioAI/dialoguePytorch"
+def train(params):
+    params.Model_Initialization()
 
-parser = argparse.ArgumentParser(description='Process some integers.')
-parser.add_argument('id', default=-1,
-                    help='Id of the model')
-parser.add_argument('model', default="LSTM",
-                    help='Model Type')
-parser.add_argument('window', default=3,
-                    help='Window Size')
-parser.add_argument('dropout', default=0.2,
-                    help='Dropout Rate')
-parser.add_argument('stack', default=1,
-                    help='Stack size of RNN')
-parser.add_argument('device', default=0,
-                    help='GPU device')
-args = parser.parse_args()
+    running_loss = 0
+    data_index = 0
+    for data in params.preprocessor.parseData(os.path.join(params.train_data_dir, params.data_file)):
+        # Create window, if window not correct size, skip loop
+        if not params.preprocessor.create_sliding_window(data):
+            continue
 
-# Test Data
-train_data_dir = os.path.join(PATH, "..", "code", "data", "train")
-val_data_dir = os.path.join(PATH, "..", "code", "data", "val")
+        data_input, data_label = params.preprocessor.tensorfy()
 
-# Actual Data
-# train_data_dir = os.path.join(PATH, "..", "data", "train")
-# val_data_dir = os.path.join(PATH, "..", "data", "val")
+        local_output = params.local_model(data_input)
+        output = params.global_model(local_output)
 
-epochs = 30
-batch_size = 32
-max_speakers = 10
+        loss_value = params.loss_function(output, data_label)
+        loss_value.backward(retain_graph=True)
+        params.optimizer.step()
 
-dev = 0
-model_id = 1
-recurrent_model = "gru"     # lstm or gru
-window_size = 7             # 3, 5, 7
-dropout = 0.2               # 0.2, 0.5, 0.8
-stack_size = 1              # 1 or 2
+        running_loss += loss_value.item()
+        print('[{}] Training loss: {}, {}'.format(
+                                            (data_index + 1), 
+                                            format(round(running_loss / (data_index + 1), 10), '.10f'), 
+                                            using("Memory")),
+            end='\r', flush=True, file=log)
+        print('[{}] Training loss: {}, {}'.format(
+                                            (data_index + 1), 
+                                            format(round(running_loss / (data_index + 1), 10), '.10f'), 
+                                            using("Memory")),
+            end='\r', flush=True)
 
-if args != None:
-    model_id = int(args.id)
-    recurrent_model = str(args.model)
-    window_size = int(args.window)
-    dropout = float(args.dropout)
-    stack_size = int(args.stack)
-    dev = str(args.device)
-
-    print("Model ID:", model_id)
-    print("Recurrent Model:", recurrent_model)
-    print("Window Size:", window_size)
-    print("Dropout:", dropout)
-    print("Prev/Post Stack Size:", stack_size)
+        params.local_model.reset_gradients()
+        data_index += 1
+    # clear line
+    print("", file=log)
     print("")
+    params.preprocessor.clear_sliding_window()
+    params.global_model.reset_gradients()
+    # Save the model after every training file
+    torch.save(params.local_model.state_dict(), params.save_model_path)
+    torch.save(params.global_model.state_dict(), params.save_model_global_path)
 
-time_stamp = str(time.strftime("%Y_%m_%d-%H_%M_%S"))
+    # initialize for next iteration
+    params.Reset_Model()
 
-save_model_name = "A" + str(model_id) + "_model_" + time_stamp + ".pt"
-save_model_global_name = "A" + str(model_id) + "_model_global_" + time_stamp + ".pt"
-save_model_path = os.path.join(PATH, "saves", save_model_name)
-save_model_global_path = os.path.join(PATH, "saves", save_model_global_name)
-
-model_name = "A" + str(model_id) + "_model_2"
-global_model_name = "A" + str(model_id) + "_model_global_"
-saves_files = os.listdir(os.path.join(PATH, "saves"))
-load_model_path = None
-load_model_global_path = None
-if any(model_name in x for x in saves_files) and any(global_model_name in x for x in saves_files):
-    for _file in saves_files:
-        if model_name in _file:
-            load_model_path = os.path.join(PATH, "saves", _file)
-        elif global_model_name in _file:
-            load_model_global_path = os.path.join(PATH, "saves", _file)
-
-log_file_name = "A" + str(model_id) + "_training_log_" + time_stamp + ".log"
-log_file_path = os.path.join(PATH, "logs", log_file_name)
-
-device = torch.device("cuda:"+str(dev) if torch.cuda.is_available() else "cpu")
-
-preprocessor = preprocess.PreProcess(window_size, dev=device)
-exp_lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=7, gamma=0.1)
-
-# Variables
-local_model = None
-global_model = None
-optimizer = None
-loss_function = None
-
-def Reset():
-    global local_model
-    global global_model
-    global optimizer
-    global loss_function
-
-    del local_model
-    del global_model
-    del optimizer
-    del loss_function
-
-def Initialize():
-    global local_model
-    global global_model
-    global optimizer
-    global loss_function
-    global load_model_path
-    global load_model_global_path
-    
-    # initialize preprocess and model
-    local_model = ABHUE(recurrent_model=recurrent_model, dropout=dropout, stack_size=stack_size, dev=device)
-    global_model = GlobalModule(recurrent_model=recurrent_model, dropout=dropout, stack_size=stack_size, dev=device)
-
-    # Create Save Dir or load saved model
-    if not os.path.exists(os.path.dirname(save_model_path)):
-        os.makedirs(os.path.dirname(save_model_path))
-    elif load_model_path != None and load_model_global_path != None:
-        local_model.load_state_dict(torch.load(load_model_path))
-        global_model.load_state_dict(torch.load(load_model_global_path))
-
-    # Set load model equal to the save
-    load_model_path = save_model_path
-    load_model_global_path = save_model_global_path
-
-    # create log file directory
-    if not os.path.exists(os.path.dirname(log_file_path)):
-        os.makedirs(os.path.dirname(log_file_path))
-    
-    # Set optimizer
-    optimizer = optim.Adam( list(local_model.parameters()) + list(global_model.parameters()) )
-
-    # Set model to train mode
-    local_model.train()
-    global_model.train()
-
-    # Define loss function
-    loss_function = DistanceClusterLoss(batch_size, dev=device)
+    return "Done"
 
 # @profile
 def main():
-    Initialize()
+    test_params = training_parameters.training_parameters()
+    test_params.Hyperparameter_Initialization()
+    test_params.Path_Initialization()
+    test_params.Preprocessing_Initialization()
     
     # Training log
-    log = open(log_file_path, "a")
+    log = open(test_params.log_file_path, "a")
     # ********************* Log To File *********************
     print("Settings:", file=log)
     print("Dynamic HyperParams:", file=log)
-    print("Recurrent Model:", recurrent_model, file=log)
-    print("Window Size:", window_size, file=log)
-    print("Dropout:", dropout, file=log)
-    print("Prev/Post Stack Size:", stack_size, file=log)
+    print("Recurrent Model:", test_params.recurrent_model, file=log)
+    print("Window Size:", test_params.window_size, file=log)
+    print("Dropout:", test_params.dropout, file=log)
+    print("Prev/Post Stack Size:", test_params.stack_size, file=log)
     print("", file=log)
 
     print("Const HyperParams:", file=log)
-    print("Device:", device, file=log)
-    print("Total Epochs:", epochs, file=log)
-    print("Batch Size:", batch_size, file=log)
-    print("Max Speakers:", max_speakers, file=log)
+    print("Device:", test_params.device, file=log)
+    print("Total Epochs:", test_params.epochs, file=log)
+    print("Batch Size:", test_params.batch_size, file=log)
+    print("Max Speakers:", test_params.max_speakers, file=log)
     print("", file=log)
 
     # ********************* Print to Terminal *********************
     print("Settings:")
     print("Dynamic HyperParams:")
-    print("Recurrent Model:", recurrent_model)
-    print("Window Size:", window_size)
-    print("Dropout:", dropout)
-    print("Prev/Post Stack Size:", stack_size)
+    print("Recurrent Model:", test_params.recurrent_model)
+    print("Window Size:", test_params.window_size)
+    print("Dropout:", test_params.dropout)
+    print("Prev/Post Stack Size:", test_params.stack_size)
     print("")
 
     print("Const HyperParams:")
-    print("Device:", device)
-    print("Total Epochs:", epochs)
-    print("Batch Size:", batch_size)
-    print("Max Speakers:", max_speakers)
+    print("Device:", test_params.device)
+    print("Total Epochs:", test_params.epochs)
+    print("Batch Size:", test_params.batch_size)
+    print("Max Speakers:", test_params.max_speakers)
     print("")
-    
+
     # ********************* *********************
-    # _count = 0
-    for epoch in range(epochs):
+    for epoch in range(test_params.epochs):
         print("epoch:", epoch, file=log)
         print("epoch:", epoch)
 
         # training
-        for data_file in natsorted(os.listdir(train_data_dir)):
+        for data_file in natsorted(os.listdir(test_params.train_data_dir)):
             print("Training file:", data_file, file=log)
             print("Training file:", data_file)
-            running_loss = 0
-            data_idx = 0
-            for data in preprocessor.parseData(os.path.join(train_data_dir, data_file)):
-                # Create window, if window not correct size, skip loop
-                if not preprocessor.create_sliding_window(data):
-                    continue
-
-                data_input, data_label = preprocessor.tensorfy()
-
-                local_output = local_model(data_input)
-                output = global_model(local_output)
-
-                loss_value = loss_function(output, data_label)
-                loss_value.backward(retain_graph=True)
-                optimizer.step()
-
-                running_loss += loss_value.item()
-                print('[{}] Training loss: {}, {}'.format(
-                                                    (data_idx + 1), 
-                                                    format(round(running_loss / (data_idx + 1), 10), '.10f'), 
-                                                    using("Memory")),
-                    end='\r', flush=True, file=log)
-                print('[{}] Training loss: {}, {}'.format(
-                                                    (data_idx + 1), 
-                                                    format(round(running_loss / (data_idx + 1), 10), '.10f'), 
-                                                    using("Memory")),
-                    end='\r', flush=True)
-
-                local_model.reset_gradients()
-                data_idx += 1
-                # _count += 1
-                # if _count > 100:
-                #     return
-            # clear line
-            print("", file=log)
-            print("")
-            preprocessor.clear_sliding_window()
-            global_model.reset_gradients()
-            # Save the model after every training file
-            torch.save(local_model.state_dict(), save_model_path)
-            torch.save(global_model.state_dict(), save_model_global_path)
-            # initialize for next iteration
-            Reset()
-            Initialize()
-
-        # update lr scheduler epoch
-        exp_lr_scheduler.step()
+            test_params.data_file = data_file
+            with concurrent.futures.ProcessPoolExecutor() as executor:
+                future = executor.submit(train, (test_params,))
+                print(future)
+                while not future.done():
+                    time.sleep(1)
+                
+                try:
+                    data = future.result()
+                    print(data)
+                except Exception as e:
+                    print(e)
 
         # Validtion
+        test_params.Model_Initialization()
         batch_datas = []
         label_datas = []
-        data_idx = 0
+        data_index = 0
         batch_count = 0
-        preprocessor.clear_sliding_window()
+        test_params.preprocessor.clear_sliding_window()
 
-        for data_file in natsorted(os.listdir(val_data_dir)):
+        for data_file in natsorted(os.listdir(test_params.val_data_dir)):
             print("Validation file:", data_file, file=log)
             print("Validation file:", data_file)
 
-            for data in preprocessor.parseData(os.path.join(val_data_dir, data_file)):
+            for data in test_params.preprocessor.parseData(os.path.join(test_params.val_data_dir, data_file)):
                 # Create window, if window not correct size, skip loop
-                if not preprocessor.create_sliding_window(data):
+                if not test_params.preprocessor.create_sliding_window(data):
                     continue
 
-                data_input, data_label = preprocessor.tensorfy()
+                data_input, data_label = test_params.preprocessor.tensorfy()
 
-                local_output = local_model(data_input)
-                output = global_model(local_output)
+                local_output = test_params.local_model(data_input)
+                output = test_params.global_model(local_output)
 
-                batch_datas.append((data_idx, output.detach()))
-                label_datas.append((data_idx, data_label))
+                batch_datas.append((data_index, output.detach()))
+                label_datas.append((data_index, data_label))
 
                 num_speakers = inference.CheckNumOfSpeakers(label_datas)
-                if data_idx+1 >= batch_size or num_speakers >= max_speakers:
+                if data_index+1 >= test_params.batch_size or num_speakers >= test_params.max_speakers:
                     km = Kmeans(k=num_speakers, size=200)
                     km.run( batch_datas )
                     score = inference.bestLabels(km.clusters, label_datas, num_speakers)
-                    # round(score / (data_idx + 1), 10)
-                    print('[{}] Inference Score: {} \t Batch Size: {} \t Speakers: {}'.format((batch_count + 1), score, data_idx+1, num_speakers), file=log)
-                    print('[{}] Inference Score: {} \t Batch Size: {} \t Speakers: {}'.format((batch_count + 1), score, data_idx+1, num_speakers))
+                    # round(score / (data_index + 1), 10)
+                    print('[{}] Inference Score: {} \t Batch Size: {} \t Speakers: {}'.format((batch_count + 1), score, data_index+1, num_speakers), file=log)
+                    print('[{}] Inference Score: {} \t Batch Size: {} \t Speakers: {}'.format((batch_count + 1), score, data_index+1, num_speakers))
                     batch_count += 1
-                    data_idx = 0
+                    data_index = 0
                     batch_datas = []
                     label_datas = []
                 else:
-                    data_idx += 1
+                    data_index += 1
             print("", file=log)
             print("")
-            preprocessor.clear_sliding_window()
+            test_params.preprocessor.clear_sliding_window()
 
 if __name__ == '__main__':
     main()
