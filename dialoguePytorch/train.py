@@ -135,21 +135,19 @@ def Run_Params(params):
     print("Running params")
     # Setup log
     log = open(params.log_file_path, "a")
-    Log_Initialize(params, log)
     print("first log")
+    Log_Initialize(params, log)
 
     for epoch in range(params.epochs):
         log_print("epoch:", epoch, log=log)
-        print("first epoch")
 
         # training
         for data_file in natsorted(os.listdir(params.train_data_dir)):
             log_print("Training file:", data_file, log=log)
-            print("first Training")
             log.close()
 
             params.data_file = data_file
-            with concurrent.futures.ProcessPoolExecutor() as executor:
+            with concurrent.futures.ThreadPoolExecutor() as executor:
                 future = executor.submit(train, params)
                 executor.shutdown(wait=True)
             log = open(params.log_file_path, "a")
@@ -162,7 +160,7 @@ def Run_Params(params):
             log.close()
 
             params.data_file = data_file
-            with concurrent.futures.ProcessPoolExecutor() as executor:
+            with concurrent.futures.ThreadPoolExecutor() as executor:
                 future = executor.submit(val, params)
                 executor.shutdown(wait=True)
             log = open(params.log_file_path, "a")
@@ -241,7 +239,7 @@ def main():
         dropout         = 0,
         stack_size      = 1
     )
-    test_params.Path_Initialization(testing=True)
+    test_params.Path_Initialization(testing=False)
     test_params.Device_Initialization()
     test_params.Preprocessing_Initialization()
 
