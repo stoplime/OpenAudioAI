@@ -5,7 +5,7 @@ import glob
 PATH = os.path.abspath(os.path.dirname(__file__))
 
 # log_file_path = os.path.join(PATH, "logs", log_file_name)
-log_file_path = os.path.join(PATH, "..", "..", "serverData", "logs")
+log_file_path = os.path.join(PATH, "..", "..", "serverData")
 
 glob_name = "A0_*"
 
@@ -37,10 +37,11 @@ def graph_plot(data):
     train_data = []
     # print(data)
     # for epoch, data_per_epoch in sorted(data.items()):
-        # print(epoch, data_per_epoch)
-        # train_data.append(sum(data_per_epoch["t"]))
-    for train_data_per_line in data[0]["t"]:
-        train_data.append(train_data_per_line)
+    #     print(epoch, data_per_epoch)
+    #     train_data.append(sum(data_per_epoch["t"]))
+    for epoch, data_per_epoch in sorted(data.items()):
+        for train_data_per_line in data_per_epoch["v"]:
+            train_data.append(train_data_per_line[0])
     # print(train_data)
     plt.plot(train_data)
     plt.show()
@@ -51,6 +52,8 @@ def main():
     # print(parse_log(infrence_ex))
     log = open(log_file_path)
     for line in log:
+        # if epoch == 3:
+        #     break
         val = parse_log(line)
         if val[0] == "e":
             epoch = val[1]
