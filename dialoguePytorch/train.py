@@ -152,7 +152,6 @@ def Run_Params(params):
                 executor.shutdown(wait=True)
             log = open(params.log_file_path, "a")
             log_print("File", data_file, "is Done", log=log)
-        params.preprocessor.clear_sliding_window()
 
         # Validtion
         for data_file in natsorted(os.listdir(params.val_data_dir)):
@@ -165,7 +164,6 @@ def Run_Params(params):
                 executor.shutdown(wait=True)
             log = open(params.log_file_path, "a")
             log_print("File", data_file, "is Done", log=log)
-        params.preprocessor.clear_sliding_window()
     
     return "Done"
 
@@ -230,20 +228,32 @@ def Multi_Params_Initialization(start=0, end=24, Test_log=False):
 # @profile
 def main():
     torch.multiprocessing.set_start_method('spawn', force=True)
-    test_params = training_parameters.training_parameters()
-    test_params.Hyperparameter_Initialization(
-        device_id       = 0,
-        model_id        = 0,
-        recurrent_model = "lstm",
-        window_size     = 3,
-        dropout         = 0,
-        stack_size      = 1
-    )
-    test_params.Path_Initialization(testing=False)
-    test_params.Device_Initialization()
-    test_params.Preprocessing_Initialization()
 
-    Run_Params(test_params)
+    # Argparse
+    parser = argparse.ArgumentParser(description='Select Which Model')
+    parser.add_argument('int', metavar='N', type=int,
+                        help='Model id from 0 to 23')
+    
+    arg = parser.parse_args()
+    
+    # test_params = training_parameters.training_parameters()
+    # test_params.Hyperparameter_Initialization(
+    #     device_id       = 0,
+    #     model_id        = 0,
+    #     recurrent_model = "lstm",
+    #     window_size     = 3,
+    #     dropout         = 0,
+    #     stack_size      = 1
+    # )
+    # test_params.Path_Initialization(testing=False)
+    # test_params.Device_Initialization()
+    # test_params.Preprocessing_Initialization()
+
+    model_id = int(arg.int)
+
+    multi_params = Multi_Params_Initialization(start=model_id, end=model_id+1)
+
+    Run_Params(multi_params[0])
 
     # multi_params = Multi_Params_Initialization(end=3)
 

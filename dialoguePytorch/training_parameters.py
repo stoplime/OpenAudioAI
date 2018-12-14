@@ -77,7 +77,7 @@ class training_parameters(object):
             stack_size: Number of layers in the recurrent_model
             ------
         """
-        self.epochs = 30
+        self.epochs = 10
         self.batch_size = 32
         self.max_speakers = 10
 
