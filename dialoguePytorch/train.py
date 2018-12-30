@@ -16,6 +16,8 @@ from memCheck import using
 import concurrent.futures
 import training_parameters
 
+test_epoch = False
+
 def train(params):
     params.Model_Initialization()
     log = open(params.log_file_path, "a")
@@ -147,9 +149,12 @@ def Run_Params(params):
             log.close()
 
             params.data_file = data_file
-            with concurrent.futures.ProcessPoolExecutor() as executor:
-                future = executor.submit(train, params)
-                executor.shutdown(wait=True)
+            if test_epoch:
+                train(params)
+            else:
+                with concurrent.futures.ProcessPoolExecutor() as executor:
+                    future = executor.submit(train, params)
+                    executor.shutdown(wait=True)
             log = open(params.log_file_path, "a")
             log_print("File", data_file, "is Done", log=log)
 
@@ -208,7 +213,7 @@ def Multi_Params_Initialization(start=0, end=24, Test_log=False):
             dropout         = dropout,
             stack_size      = stack_size
         )
-        param.Path_Initialization()
+        param.Path_Initialization(testing=test_epoch)
         param.Device_Initialization()
         if once:
             once = False
