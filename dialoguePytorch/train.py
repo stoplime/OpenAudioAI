@@ -203,6 +203,16 @@ def Multi_Params_Initialization(start=0, end=24, Test_log=False):
                 dropout = 0.5
             else:
                 dropout = 0.7
+        
+        if i > 23:
+            if i < 28:
+                model_type = "lstm"
+                stack_size = 3 + i - 24
+            else:
+                model_type = "gru"
+                stack_size = 3 + i - 28
+            window_size = 5
+            dropout = 0.5
 
         param = training_parameters.training_parameters()
         param.Hyperparameter_Initialization(
