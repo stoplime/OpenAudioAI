@@ -1,5 +1,11 @@
-import resource
+import os
+
+if os.name != 'nt':
+    import resource
+
 def using(point=""):
+    if os.name == 'nt':
+        return "{}: usertime={} systime={} mem={} mb".format("N/a", "N/a", "N/a", "N/a")
     usage=resource.getrusage(resource.RUSAGE_SELF)
     return "{}: usertime={} systime={} mem={} mb".format(
             point, 
