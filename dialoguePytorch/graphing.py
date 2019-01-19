@@ -7,11 +7,14 @@ PATH = os.path.abspath(os.path.dirname(__file__))
 log_file_path = os.path.join(PATH, "logs")
 # log_file_path = os.path.join(PATH, "..", "..", "serverData")
 
-glob_name = "A0_*"
+glob_name = "A27_training_log_2019_01_04*"
 
 log_file_name = glob.glob(os.path.join(log_file_path, glob_name))[0]
 print(log_file_name)
 log_file_path = os.path.join(log_file_path, log_file_name)
+
+avg_length = 100
+avg = []
 
 # infrence_ex = "[1] Inference Score: 21 	 Batch Size: 32 	 Speakers: 2"
 
@@ -35,6 +38,14 @@ def parse_log(log_line):
     else:
         return ("u",)
 
+def averager(data_point):
+    if len(avg) >= avg_length:
+        avg.pop(0)
+    avg.append(data_point)
+
+def average_of_avg():
+    return sum(avg)/len(avg)
+
 def graph_plot(data):
     graph_data = []
     calibration = validation_calibration()
@@ -42,12 +53,14 @@ def graph_plot(data):
     # Training loss
     for epoch, data_per_epoch in sorted(data.items()):
         for data_per_line in data_per_epoch["t"]:
-            graph_data.append(data_per_line[0])
+            averager(data_per_line[0])
+            graph_data.append(average_of_avg())
 
     # Val score
     # for epoch, data_per_epoch in sorted(data.items()):
     #     for data_per_line in data_per_epoch["v"]:
-    #         graph_data.append(data_per_line[0])
+    #         averager(data_per_line[0])
+    #         graph_data.append(average_of_avg())
 
     # Calibrated val score
     # for epoch, data_per_epoch in sorted(data.items()):
@@ -59,7 +72,8 @@ def graph_plot(data):
     # Val loss
     # for epoch, data_per_epoch in sorted(data.items()):
     #     for data_per_line in data_per_epoch["v"]:
-    #         graph_data.append(data_per_line[3])
+    #         averager(data_per_line[3])
+    #         graph_data.append(average_of_avg())
 
     # print(graph_data)
     plt.plot(graph_data)
