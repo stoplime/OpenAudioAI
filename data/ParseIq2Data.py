@@ -58,6 +58,16 @@ def test():
     # print(rawData)
 
 def even_spliter(total, inRange=[250, 500]):
+    """ Splits the total into chunks where they are the size inRange
+    ------
+    total: The value that needs to be split
+    ------
+    inRange: List(min, max)
+        min: The minimum value the split size needs to be
+        max: The maximum split size before it needs to split more
+            The algorithm is biased to the max split and will start to
+            evenly split at the max first.
+    """
     splitRange = copy.deepcopy(inRange)
     while splitRange[1] >= splitRange[0]:
         if (total + splitRange[1]-1) % splitRange[1] >= splitRange[0]-1:
