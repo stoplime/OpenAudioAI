@@ -3,14 +3,31 @@
 # Punctuations ".", "?", "!", "--"
 # Remove some puctuations such as "..."
 # Also remove empty sentences or sentences with just punctuation
+
+# Run through all the dialogue
+# Each file will contain at most one dialogue
+# A single dialogue can split into multiple files if it gets too big
+
 import json
 import os
+import copy
 
 PATH = os.path.abspath(os.path.dirname(__file__))
 
 filePath = os.path.join(PATH, "iq2_data_release.json")
+dataName = "iq2"
+outputFolders = {
+    "train": os.path.join(PATH, dataName + "_train"),
+    "val": os.path.join(PATH, dataName + "_val"),
+    "test": os.path.join(PATH, dataName + "_test")
+}
 
-def main():
+def make_train_val_test_split_folders():
+    os.makedirs(outputFolders["train"], exist_ok=True)
+    os.makedirs(outputFolders["val"], exist_ok=True)
+    os.makedirs(outputFolders["test"], exist_ok=True)
+
+def test():
     with open(filePath) as f:
         rawData = json.load(f)
     
@@ -39,6 +56,29 @@ def main():
     print(count)
     print(keys)
     # print(rawData)
+
+def even_spliter(total, inRange=[250, 500]):
+    splitRange = copy.deepcopy(inRange)
+    while splitRange[1] >= splitRange[0]:
+        if (total + splitRange[1]-1) % splitRange[1] >= splitRange[0]-1:
+            splitList = [splitRange[1] for i in range(total//splitRange[1])]
+            if total % splitRange[1] != 0:
+                splitList.append(total % splitRange[1])
+            return splitList
+        else:
+            splitRange[1] -= 1
+    return [total]
+
+def main():
+    # test()
+    print(even_spliter(50))
+    print(even_spliter(500))
+    print(even_spliter(501))
+    print(even_spliter(502))
+    print(even_spliter(1000))
+    print(even_spliter(1001))
+    print(even_spliter(999))
+    print(even_spliter(1250))
 
 if __name__ == "__main__":
     main()
