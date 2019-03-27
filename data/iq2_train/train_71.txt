@@ -1,0 +1,433 @@
+not the subsequent. %$* 275
+but the original-- %$* 275
+but that's not censorship. %$* 276
+that’s a court action-- %$* 276
+the original-- %$* 275
+let's let paul-- %$* 13
+eric continue. %$* 13
+sorry. %$* 276
+eric, were you done %$* 13
+yeah, just that the-- %$* 275
+there is censorship in the sense that the government prohibits you from reporting true facts. %$* 275
+and the reason for that censorship is that there's also a strong interest in privacy. %$* 275
+we'll take jonathan zittrain. %$* 13
+i wouldn't get too hung up on the word "censorship." i think that it's-- %$* 277
+it should be starting a conversation rather than ending it. %$* 277
+the key distinction in the examples eric was giving was that these are adjudicated instances where the state is like, what that person has said is so terrible they owe money. %$* 277
+it might be a further move by the state with some trepidation to say, and you must say that again, and what you said must be, you know, stricken from the public record. %$* 277
+that should be done very rarely and after a lot of process. %$* 277
+what's happening here, in a "right to be forgotten" implemented online is exactly the opposite. %$* 277
+and in that sense, it's very different from the examples you're coming up with. %$* 277
+the fact, too, that it's only coming out of google's index rather than the root thing being taken down, i would just see that as part of the paradox. %$* 277
+if the thing is okay enough to stay up, it's not so bad that it needs to come down, it's like saying the book can stay in the library. %$* 277
+we just have to set fire to the card catalog, like go to down, enjoy the stacks, to use an example from the '90s that you might relate to. %$* 277
+would-- %$* 13
+would one of you-- %$* 13
+that's just seems borgesian. %$* 277
+i want to allow one of you to address that metaphor. %$* 13
+the audience connected with that. %$* 13
+so, i want to see what your response to it is. %$* 13
+i can-- %$* 274
+do you want to take it, paul? %$* 13
+all right. %$* 13
+eric posner. %$* 13
+here is another metaphor, so-- %$* 275
+well, for example-- %$* 275
+it has to be a direct response metaphor or you have to directly respond to their-- %$* 13
+okay. %$* 275
+so the-- %$* 275
+so-- %$* 275
+and there's a point there. %$* 13
+the point they're making is it's not censorship of the source material. %$* 13
+it's still there. %$* 13
+you can go find it if you dig enough, that it's actually-- %$* 13
+you know, the you just have to rearrange the letters. %$* 18
+i agree-- %$* 275
+i agree with jonathan. %$* 275
+eric posner. %$* 13
+i agree with jonathan that the word "censorship" is not helpful here. %$* 275
+what the "right to be forgotten" does is it raises the cost for strangers to find out information about you. %$* 275
+it doesn't make it impossible. %$* 275
+so, if you turn out to be a famous important person, become a politician, journalists, biographers can dig it out. %$* 275
+it just makes it difficult. %$* 275
+but that's the way things work. %$* 275
+that's the way we secure our homes, for example. %$* 275
+we don't make it impossible to break into our house. %$* 275
+that would be far too expensive. %$* 275
+we put in a lock that will deter most people. %$* 275
+it won't deter people who are extremely interested in getting into our house. %$* 275
+that's-- %$* 275
+so you raise the cost without making something impossible. %$* 275
+that's a way of putting a thumb on the scale for privacy. %$* 275
+andrew mclaughlin. %$* 13
+i think what's-- %$* 276
+you know, what's interesting about this to me is i regularly hear eu officials, you know, say, "look, there's just nothing much to see here," like this is-- %$* 276
+only if you search for the person's name directly will that search result not appear. %$* 276
+it's just a very small thing. %$* 276
+and to me that actually highlights the kind of moral bankruptcy of this whole thing because they are essentially validating the notion that an individual, a dictator, a politician, a rich person can secure the deletion of irrelevant information, whatever that means, in this one very narrow way. %$* 276
+and, believe me, i am confident that, that principle will expand. %$* 276
+there's no way that it's just going to be left-- %$* 276
+paul nemitz. %$* 13
+limited to search engines-- %$* 276
+yes, i think what andrew and jonathan are doing here is they're pretending that everybody who makes use of this right is someone with some public interest to know actually what this person has been doing and what it is about. %$* 274
+but that's not the case. %$* 274
+most of these requests have-- %$* 274
+more than 70 percent-- %$* 274
+have nothing to do with public interest. %$* 274
+so, i would like to say very clearly here, whenever there is a public interest of the nature which is important in a democracy to know, an interest in someone who stepped out, him or herself, into the public, the "right to be forgotten" doesn't apply. %$* 274
+the example, for example, which andrew gave, from the washington post, namely that a concert pianist was asking for a takedown of the critique-- %$* 274
+the bad critique of his piano performance here in america, yes, the person asked for it, but under our law it would never be right to take this down because this person hasstepped into the public arena. %$* 274
+so, i think honestly we have a fake debate here. %$* 274
+what we need to debate is the chilling effect on democracy and on public discussion. %$* 274
+what chilling effect is bigger, if we are able to know everything about you and even in a way which you wouldn't even think of or whether we allow individuals to have control over the data. %$* 274
+i give you one example what you're not thinking of today. %$* 274
+you're not a very political person maybe but from time to time you push a like button on facebook. %$* 274
+okay? %$* 274
+because you have political thinking and a little bit-- %$* 274
+but you don't want to go out in public and say, "i'm a democrat," "i'm a republican." tomorrow facebook will aggregate and map and link to your person the political profile from your facebook buttons, whether you want it or not. %$* 274
+that's the chilling effect. %$* 274
+let me-- %$* 13
+because when that's happening tomorrow, you will not even push the facebook buttons anymore. %$* 274
+so, the issue here is what is more of a chilling effect on a democracy, if big corporations and the state can know everything about you and profile you in a way that you wouldn't even dream of thinking-- %$* 274
+okay, paul-- %$* 13
+or giving you the right to deletion. %$* 274
+you've phrased the question-- %$* 13
+twice, and it's great. %$* 13
+and i want to take it to jonathan zittrain. %$* 13
+which is the more chilling effect? %$* 13
+i was just hearing paul talk about people clicking like buttons and then thinking there's a pipeline of that onto the open web that google then indexes, so that's factually not true. %$* 277
+facebook-- %$* 277
+not today, jonathan. %$* 274
+well, yeah-- %$* 277
+but tomorrow, my friend. %$* 274
+i-- %$* 277
+i'm saying-- %$* 277
+right? %$* 274
+yes, yes-- %$* 277
+here we are in america. %$* 274
+the innovation of technology doesn't stop. %$* 274
+yes, yes, and-- %$* 277
+jonathan, i think, though, that the-- %$* 13
+yeah. %$* 277
+the spirit of his question should not be lost in the technicalities. %$* 13
+yes. %$* 277
+i think he's asking a serious question here. %$* 13
+just the fact that he's wrong should not, i agree-- %$* 277
+block the-- %$* 277
+yeah, that's true. %$* 277
+he might be wrong about what happens with the like button. %$* 13
+yeah. %$* 277
+he's talking about which is the more chilling effect, knowing that you're out there in a world where you have to be extremely careful about what you say because it might come back to bite you or the alternative where you actually-- %$* 13
+it's more chilling for some entity to have that power or individual to have that power. %$* 13
+i think both are bad situations, and i reject having to choose between the two of them, because if that's the choice i have to make, if it's really the choice, any time somebody says, "you can have this or you can have every single thing you do on the world be google-able forever," i'll probably take this without even looking inside the box. %$* 277
+but that's a false dichotomy. %$* 277
+i think there is plenty, that paul is doing good work that paul is doing in the eu to look at a facebook and say gees, you guys are gathering so much stuff before you have a valdez-like spill or just open up the ports and spill the oil out, because why not if that's what you're wanting to do facebook. %$* 277
+you'd better talk with us because that's personally sensitive data. %$* 277
+great. %$* 277
+regulate it at the collection and at the source, but by the time you have a general web and stuff out on it and are expecting anybody who dares to index it and i'm, again, hoping it will be more than google who does this, please bing, do it too, please people we haven't heard of, do it too. %$* 277
+the idea that they have to be handling one request at a time under incredibly vague criteria that are by their nature unreviewable-- %$* 277
+that’s what i object to. %$* 277
+let's take the criteria to your opponents. %$* 13
+these criteria are no longer relevant, inadequate information, and i'm not sure that i understand what it means for information to be inadequate. %$* 13
+inadequate to whom? %$* 13
+for what purpose? %$* 13
+eric posner. %$* 13
+these complaints are generic in legal debates. %$* 275
+every legal standard is ambiguous, so these old privacy rights, for example, require the government or the courts or juries to balance the public's interest in something, a vague term. %$* 275
+relevance is a term that comes up over and again. %$* 275
+so, this happens and what happens is through repeated decision making it becomes clearer and clearer what the actual rules are. %$* 275
+now, the rules as they're stated are vague, but when you actually read the cases it becomes pretty clear what's going on. %$* 275
+ordinary people, non-famous people are the ones who win. %$* 275
+famous people don't win. %$* 275
+ordinary people, and not ordinary people who commit crimes or serious crimes, and there's frequently a time component, you know, five, 10 years ago, and you can, by reading these things, get a pretty good sense of what the standard is and be able to make predictions about how google will apply these standards in the future. %$* 275
+it's just something that happens over and over again in the law and people are able to work with it. %$* 275
+it happens over and over again in the law. %$* 277
+that's what happens when cases are heard by courts. %$* 277
+in public session decisions are reported and things evolve. %$* 277
+eric, i want to ask you directly, in this right to be forgotten when you have a private company making the decision at the insistence of the government it must keep its secret, the cases we hear about are happenstance, how does that evolution take place? %$* 277
+let's-- %$* 13
+can you defer to paul? %$* 13
+paul nemitz. %$* 13
+i mean, these decisions have taken place since decades in normal press law in europe. %$* 274
+because before the google case, as i explained to you, we had the right to deletion and, for example, you know, newspapers they have to make on a daily basis a decision do we publish something or not, and if they get a request, for example, to correct or to take down from a website some information, they have to make this decision. %$* 274
+so, it's true that if you only read this one judgment, and that's normal in the law, you don't understand what these criteria mean. %$* 274
+but if you go to european court of human rights, for example, the von hannover case, very clear criteria. %$* 274
+what are they? %$* 274
+a) whenever the information is of relevant, of public interest in a democracy as a contribution to public debate, it cannot be taken down. %$* 274
+second, when the person in question has made himself or herself the decision to go public, into a public sphere like, for example, the concert artist, the information cannot be taken down. %$* 274
+so, i would say eric has said it right. %$* 274
+all the many examples which you invoke of people who tried, i've heard here some examples, the guy who did the professional the concert pianist who asked for critique to be taken down, all this under the law should not be taken down. %$* 274
+andrew-- %$* 13
+on the other hand-- %$* 274
+well, let me-- %$* 13
+it is not different from any other newspaper previously. %$* 274
+newspapers have to make these decisions-- %$* 274
+paul, i need to just in the interest of time i need to interrupt you for that, so forgive me. %$* 13
+i want to go to andrew mclaughlin to respond to the point that paul was just making. %$* 13
+in your opening statement you said that you could foresee a world in which the powerful elite had more ability to make themselves forgotten than the ordinary guy and paul is actually saying it's the ordinary guy who's getting the take downs and not the powerful and the public. %$* 13
+what about that? %$* 13
+well, the heart of my argument is not that somehow it's only going to be used by the elite. %$* 276
+i have no idea whether the majority of cases are being used by famous people or not famous people. %$* 276
+i have no idea. %$* 276
+my point is that this right is, in my judgment, a typical kind of like eu elite construction dressed up as a privacy right, but in fact designed to allow the well-connected, the politicians, the business people to suppress embarrassing facts about their past. %$* 276
+why do you-- %$* 13
+why do you think that? %$* 13
+the record is-- %$* 276
+well, it's part of my sort of cynical experience with the institutions of eu, to be quite honest with you. %$* 276
+so, we're getting all scientific about it. %$* 13
+let me say-- %$* 276
+but let me say. %$* 276
+and it's not like the us is any better, by the way. %$* 276
+it's just the way that it takes form over there. %$* 276
+what i would urge everybody to do, while you still can, is google "right to be forgotten horror stories." that was my search, and i produced a bunch of articles, the guardian, the daily mail, that are absolutely contrary to paul's assurances that this is somehow only being used in cases which are not in the public interest. %$* 276
+footnote, what is in the public interest, of course, depends on who you ask. %$* 276
+so, for example, there is a story-- %$* 276
+i'm just taking one at random here, where a scottish premier league referee named “dougie” mcdonald-- %$* 276
+there was an article from 2010 about how he was found to have lied about a penalty call that he made in a celtics versus dundee united match, the backlash to which prompted his resignation. %$* 276
+that story is now subject to the european "right to be forgotten." %$* 276
+well, there goes this debate. %$* 277
+it's now going to be deleted again. %$* 277
+thanks a lot. %$* 277
+only if you use that guy's name. %$* 13
+but fortunately, jonathan, your name will still bring it up. %$* 13
+but i-- %$* 276
+let me just-- %$* 276
+it's not over yet. %$* 13
+let me make just one other point, though. %$* 276
+so-- %$* 276
+which is that i very much agree with paul that what is in front of us here is a sort of a false choice. %$* 276
+i disagree on what those false choices are. %$* 276
+paul has set it up so that we've got censorship and surveillance, or if you want to say it the other way around, free speech and privacy, and that these two things are intentioned and that we have to betray freedom of expression in order to vindicate privacy. %$* 276
+i don't agree with that. %$* 276
+and the question that i would toss back over is, why not treat this in the classical liberal tradition by responding with a right to more speech, a right to add your speech to the speech that is being put forward. %$* 276
+how about that, eric posner? %$* 13
+well, the poor people, the non-elites that you're talking about, they don't have the resources to take out newspaper ads, pay journalists or pr people to plant stories. %$* 275
+but you could just have a form on google to type it in-- %$* 276
+they're the most vulnerable people. %$* 275
+the-- %$* 275
+but, actually, to address andrew's point, he's saying put a form on google where it pops up with your search results are now on-- %$* 13
+here's-- %$* 13
+here's my response to what's being %$* 13
+yeah, but google hasn't done that, you know? %$* 275
+if google were held legally liable, maybe they would, right? %$* 275
+so, google has not done that because they don't think that's the profit-making thing to do. %$* 275
+okay, i also want to point out, your-- %$* 13
+your mission here is not to solve the problem. %$* 13
+as you stated, your mission is to say that their solution is not %$* 13
+we want to give you buy one, get one free. %$* 277
+all right. %$* 13
+there you go. %$* 13
+no, i mean, it's-- %$* 13
+i think people want to hear your idea, but i just want to say for the point of the vote and the debate, you do not have to solve the problem for them. %$* 13
+i want to see if there are any audience questions. %$* 13
+i'd like to start going to those. %$* 13
+ma'am, right here. %$* 13
+and a mic will come to you, if you can just wait till it reaches you. %$* 13
+and again, i want to ask you, please be terse with the questions and really get to the question like directly. %$* 13
+is there a microphone coming down the aisle? %$* 13
+you know what? %$* 13
+okay. %$* 13
+i was going to say, we'll go to this side and then come back to you. %$* 13
+thirty- seven seconds is lost. %$* 13
+is it possible that the "right to be forgotten" infringes upon someone's right to be remembered? %$* 19
+so, in other words, a situation where one person is maybe drunk driving, and another person in the vehicle, you know, gets out and saves a bunch of people or, you know, the drunk driver from doing more harm or what have you. %$* 19
+but you recognize that that forgetting will only happen when you put in the driver's name. %$* 13
+right. %$* 19
+but still, i mean, that's what i'm asking. %$* 19
+okay. %$* 13
+is there a case, or have there been cases, where there is a, you know, controversy about whether it's okay for, you know, i want it to be remembered because-- %$* 19
+but you want it remembered that the-- %$* 13
+you would want-- %$* 13
+in a sense, you're saying that you would want the driver's name to-- %$* 13
+he would want him to have to pay that price for - - %$* 13
+yeah, or a neighbor. %$* 19
+i want it remembered that the neighbor, you know, did thus and so, and the neighbor wants it forgotten that they did such and so. %$* 19
+how-- %$* 19
+but think-- %$* 13
+is it-- %$* 13
+did they infringe upon each other's %$* 19
+let's take that to paul because you've actually worked in implementation. %$* 13
+are there cases where individuals who are otherwise mentioned in this story, that won't be linked under the other guy's name, push back and want that link to show up under the other guy's name? %$* 13
+haven't heard about it. %$* 274
+okay. %$* 13
+that's an interesting question, though. %$* 13
+down in the front here, sir. %$* 13
+that mic is coming down behind you. %$* 13
+thank you. %$* 18
+richard faulkenrath. %$* 18
+i'm a past debater. %$* 18
+great debate. %$* 18
+thank you very much. %$* 18
+i'm surprised that the concentration of economic and informational power in google has not come up here. %$* 18
+and jonathan, i'm going to pose as a question directly to you, should the audience conclude anything from the fact that google is a financial supporter of the institution that you cofounded and are the faculty director of at harvard? %$* 18
+is that relevant in any way in your view to this debate? %$* 18
+you got me. %$* 277
+how pleased i am that the berkman center discloses all its funders on its page. %$* 277
+on my page i disclose everything i do, et cetera, et cetera, right down to the, you know-- %$* 277
+let me just say we were very comfortable with jonathan taking part in this panel, and we don't think he has a conflict of-- %$* 13
+but i think-- %$* 277
+interest in this regard. %$* 13
+do you think this is a relevant question? %$* 13
+well, i think it's relevant in the sense that if somehow that were awkward, and i wouldn't-- %$* 277
+even if i were feeling, geez, i wish that is now not the third hit on google, i've got to contend with the fact that it is if it is. %$* 277
+if somehow our exchange blew up and went viral, and then i felt bad about it. %$* 277
+it's already happened, apparently. %$* 13
+twitter is going crazy. %$* 13
+what are you going to do? %$* 277
+but the idea that the recourse should take the form of going in front of google and, in fact, i don't know, calling a few friends at google and saying, hey, just so you know, i shot a request over. %$* 277
+i'd really like you guys to give it its fullest consideration, there's no accountability. %$* 277
+and google wants to have more accountability and is being told it cannot because it cannot disclose its internal processes. %$* 277
+well-- %$* 13
+so, i worry about google's market concentration. %$* 277
+i feel i've been making that argument today. %$* 277
+and, oddly, this solution cements that. %$* 277
+jonathan, that is what's called "hitting a curve ball out of the park." %$* 13
+thank you. %$* 277
+well done. %$* 13
+i want to remind you we're in the question and answer section of this intelligence squared us debate. %$* 13
+i'm john donvan, your moderator. %$* 13
+we have two teams of debaters, two against two, arguing for and against this motion: the us should adopt the "right to be forgotten" online. %$* 13
+let's go back to questions. %$* 13
+right down in front, sir. %$* 13
+and if you can wait for the mic and stand. %$* 13
+and i wanted to ask everybody to please mention their name when they-- %$* 13
+second row here. %$* 13
+thanks. %$* 13
+hi. %$* 18
+if you can stand up and grab the mic. %$* 13
+hi. %$* 18
+i'm adam. %$* 18
+this-- %$* 18
+this law seems to be very google specifically tailored. %$* 18
+and i'm wondering what sort of criteria is applied in europe about what constitutes a data manager or a search engine. %$* 18
+for example, if somebody posted a story about me on digg that i didn't like, that rocketed up to the front page, well, digg.com has an extensive search feature. %$* 18
+would that qualify as somebody who i could then demand that my data be removed or not. %$* 18
+paul nemitz, in europe. %$* 13
+this judgment is specific to google as a search engine. %$* 274
+now, when-- %$* 274
+and it distinguishes the law which applies to the search engine from the law which applies to the press-- %$* 274
+to the newspaper, which was also part of the case. %$* 274
+so, for the time being, i would say it only applies to the search engine. %$* 274
+but when we get into the area of, you know, journalism, free speech, no. %$* 274
+andrew, ceo of digg, how do you feel about that? %$* 13
+i mean, i assume that i would be subject to it if i went over there. %$* 276
+and i believe that bing and yahoo! %$* 276
+are now responding to these requests. %$* 276
+and i believe it's the view of the european commission that all search functions, all search features, all search engines are subject to the "right to be forgotten." %$* 276
+all search engines. %$* 274
+paul frames this as just like a very, "nothing to see here," kind of like incremental extension of past principles. %$* 276
+but it is a radical departure from prior precedents in the sense that as you keep saying, the underlying story is not deleted. %$* 276
+the past rights to delete were all about the underlying story. %$* 276
+if my social security number were published in a newspaper, i would have the right to go and get that deleted from the newspaper. %$* 276
+what we're talking about here is this very weird google-specific cabin to particular searches instantiation of a right to force other people to delete information, which is why i think it's such a bad idea. %$* 276
+it's not google specific that the case was about google. %$* 274
+but, of course, there's something new with search engines in comparison to a normal press website. %$* 274
+and that is that the search engine, by profiling the individual, when you put in a name, bringing up all the information existing about this individual, goes far deeper in your privacy and profiles you much more than only the one website on which you have your stuff. %$* 274
+sir. %$* 13
+can you tell us your name, please? %$* 13
+sure. %$* 18
+it's alameen sumar so my question for the "no" side is this: are there ways-- %$* 18
+mechanisms to temper maybe things that we see as problematic about the "right to be forgotten" in ways that makes the case more compelling? %$* 18
+so, for example, you know, we imagine if this happened in the us, the congress passed a statute and say something like, something's irrelevant or inadequate, it has to be removed. %$* 18
+but then the agency to which that power will be delegated would promulgate some regulations. %$* 18
+and the regulations would be a bit more specific. %$* 18
+good question. %$* 13
+and then if, you know, google wanted to, you know, deny a request or, you know, didn't want to deal with the process, you could have some special advocate appointed to-- %$* 18
+okay. %$* 13
+so basically, is there an apparatus that would make a "right to be forgotten" workable in the us to the point where you would find it acceptable? %$* 13
+it is curious you're asking our side rather than theirs. %$* 277
+it points out that the pro side should come up with something that actually can work and address some of the problems that really are latent in the european model. %$* 277
+could we come up with something? %$* 277
+quite possibly. %$* 277
+i'd welcome it. %$* 277
+again, i understand that we have a real problem here in privacy. %$* 277
+and i think-- %$* 277
+and i'll use some of my closing remarks to try to offer some of my own suggestions-- %$* 277
+i do worry about a litigation style model as a solution for the kinds of reputational problems we're talking about. %$* 277
+i think it's a little bit of the wrong kind of peg in the wrong kind of hole. %$* 277
+i'm not with jonathan on this one. %$* 276
+i can't think of any administrative construction-- %$* 276
+any administrative structure that would make this acceptable because the fundamental right that we are talking about here is a duty of other people to delete and forget true past information about you. %$* 276
+i don't think there's any way that's constitutional for one thing, but i also think it's just fundamentally a terrible, terrible idea. %$* 276
+eric, did you want to respond to that? %$* 13
+it's not unconstitutional. %$* 275
+so, the right of privacy already does this. %$* 275
+it already has the effect of deterring newspapers and other people from publishing true facts about you. %$* 275
+expungement laws are statutes in most states that allow people's criminal records to be erased that, you know, the facts are gone. %$* 275
+all of these statutes and legal norms have standards and criteria. %$* 275
+this is something that we can debate about, how strict the criteria would be, and i suspect jonathan and i, you know, are very close together, meaning that he's on our side. %$* 275
+for the-- %$* 275
+you make a-- %$* 275
+you know, for example, i would completely rule out public figures from using the "right to be forgotten," only private individuals, and only private individuals who didn't commit a crime, that sort of thing. %$* 275
+so, i do think we can-- %$* 275
+that there are administrative criteria. %$* 275
+now, often it's very difficult to set up in advance precisely because we're in a new world with new technology. %$* 275
+and so you have to build it up through decisions. %$* 275
+that's how our legal system works. %$* 275
+and i expect that's how it would work if the "right to be forgotten" were implemented. %$* 275
+take right down the front in the third row, please. %$* 13
+and the mic’s coming down your right hand side. %$* 13
+and if you could stand up-- %$* 13
+as a follow-up question to yours. %$* 19
+in order for your side to win-- %$* 19
+just so that the radio audience knows who you're talking about, the side arguing for the motion-- %$* 13
+they're arguing for the "right to be forgotten." %$* 13
+right, so to me it's based on an inherent right to privacy, but how do you square that with at least the u.s., going to your constitutional point, that says, you know, with the fourth amendment search and seizure context, that a reasonable expectation of privacy, you don't have one the second you share information with anyone, whether it be a conversation with someone or putting it on facebook, how do you square those? %$* 19
+eric posner. %$* 13
+well, those are different context. %$* 275
+that's in-- %$* 275
+the fourth amendment is in the context of criminal investigations. %$* 275
+and, yeah, there's a supreme court opinion which says what you said but i suspect will be revised over time. %$* 275
+these constitutional norms are not fixed, they are basically made up by the supreme court over time. %$* 275
+and the supreme court has already signaled that it's going to reconsider many of these constitutional norms in light of new technology. %$* 275
+there's a case involving gps, for example, where the courts understand that their old norms don't work in a world in which the police can tail people with gps rather than physically tailing them with cars. %$* 275
+so, what the supreme court will need to do, going forward, is balance interests and free speech with interests in privacy. %$* 275
+and in doing that, they'll come up with new norms that probably will respect both interests, the best that can be done. %$* 275
+i'm going to-- %$* 13
+unless you really need to respond to that question, i'm going to move on. %$* 13
+for andrew and jonathan, i'm thinking of a possibility that might appeal to you. %$* 19
+in the past there was more effort and less anonymity. %$* 19
+someone would have to go to the local courthouse, go to the library to find information. %$* 19
+they risked passing people, asking someone for help to find a record. %$* 19
+now there's less effort and more anonymity to just click on something. %$* 19
+what if in the case of the telegraph they had a list of suppressed articles but to access those suppressed articles you had to log in, in some fashion or they put up a little sign that said, "you are being traced," just to access the suppressed articles, because suppressed is not the same as delete-- %$* 19
+okay, i think we see where you're going with that. %$* 13
+let's take a-- %$* 13
+let jonathan answer that. %$* 13
+i-- %$* 277
+thank you for the question. %$* 13
+i haven't bothered to bing it yet, but there's either-- %$* 277
+it's either rowan v. %$* 277
+postmaster general or lamont v. %$* 277
+postmaster general, a wonderful case in which the u.s. congress passed a law that said, "for anybody interested in receiving communist literature-- %$* 277
+" i'm not making this up-- %$* 277
+"you have to register at your local post office. %$* 277
+otherwise, for your own convenience the post office will trash any communist mail otherwise destined for you. %$* 277
+the supreme court then, and i think the supreme court now, found and would find that unconstitutional because it's exactly the kind of surveillance on who's wanting to peek under the envelope that is what all sides appear to be concerned about. %$* 277
+another question? %$* 13
+right in the center there. %$* 13
+adamant waving actually does work with me. %$* 13
+when i see everybody going nuts. %$* 13
+can you tell us your name, please? %$* 13
+again-- %$* 13
+yeah, thanks. %$* 13
+this question is for the for side. %$* 18
+i'm a developer. %$* 18
+it would be relatively trivial for me to create a search engine of my own to crawl major news sources, which would, you know, in the eu it sounds like it’d give me an advantage over other people in terms of the information that i have access to. %$* 18
+i'm curious how the law would apply to that, and if it would apply to that, how it would apply in the united states to other private search engines such as the nsas database of information that they have about us. %$* 18
+okay. %$* 13
+so you're asking if you were smart enough, which sounds like you probably are-- %$* 13
+to create your own google at home that would search the web for stuff, does that become relevant in this conversation. %$* 13
+i know the law in europe doesn't address it, but let's say does it become relevant in this conversation. %$* 13
+would somebody like you need to become subject to laws like that? %$* 13
+paul or eric. %$* 13
+well, first of all, a data controller, as we call it, is not someone who collects information for private use. %$* 274
+so, as long as you do this for private use you would not, in europe, fall under our data protection law, but of course, to google, it applies. %$* 274
+and indeed, for your question on the nsa, the data protection law applies without difference to the state and to private search engines. %$* 274
+so, the right to deletion and the right to ask what do you have about me in europe applies to the state and also to corporations. %$* 274
+but of course, within reason national security limitations and so on, you know, there we are not so far apart. %$* 274
+so, how far are you getting in asking the nsa to delete information? %$* 13
+well, the answer is he described a case where he would, you know, as a developer for his private purposes design his own web engine, so this constellation would mean that you are not a controller, you would not be treated like google and therefore the right to be forgotten would not apply in relation to you, because you're doing this as an individual. %$* 274
+so, you would have to delete nothing. %$* 274
+sir in the back near the wall. %$* 13
+thanks. %$* 13

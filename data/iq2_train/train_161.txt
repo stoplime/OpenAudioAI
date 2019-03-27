@@ -1,0 +1,395 @@
+throw out that the president has approved it, the congress has approved it, and the special fisa court made by federal judges has approved it under the smith vs. %$* 50
+maryland idea. %$* 50
+instead, from the phrases in the fourth amendment, i am going to discern this overriding principle that will be imposed on our society.” now, how do they know that the text the fourth amendment knows this? %$* 50
+we have so many debates in constitutional law. %$* 50
+nick rosenkranz and jeff rosen, who you just heard from in the beginning, they can spend six hours arguing about the meaning of the word "the" in the constitution. %$* 50
+you probably just saw a little bit of it at the beginning. %$* 50
+how do they know that the framers would have disapproved of a collection program that collected phone numbers; didn't listen in on the conversations themselves, but only collected the phone numbers? %$* 50
+when people, judges, lawyers who've devoted their lives to trying to figure out what the constitution means have almost unanimously agreed in their written decisions to approve the constitutionality of this program. %$* 50
+so, if anyone's the radicals here, it's the people on the other side, ms. %$* 50
+wydra, ms. %$* 50
+abdo-- %$* 50
+mr. %$* 50
+abdo, who want to throw out all those decades of cases governing in favor of their understanding of the constitution. %$* 50
+but suppose you disagree with the supreme court, what should you do? %$* 50
+maybe i, as a policy matter, would draw the line between security and privacy somewhere else. %$* 50
+we should decide it the way we decide most of the questions in our society. %$* 50
+we have elections. %$* 50
+if you don't like the line that the government has drawn, elect a president and congress who would draw it differently. %$* 50
+this is not a question, i think, as a democracy, that we should leave up to five-- %$* 50
+no offense to the retired people in the audience-- %$* 50
+superannuated elderly people on the supreme court, probably don't know how cell phone or smartphone really works; i'm sure have no facebook or twitter accounts to let you know about their latest opinions. %$* 50
+and so if you really want to change the law here and change what the government does, elect different people to congress. %$* 50
+elect rand paul to president. %$* 50
+put-- %$* 50
+have them put into effect the policies that we want. %$* 50
+but that's how our constitution is designed to work. %$* 50
+john yoo, i'm sorry, your time is up. %$* 13
+and thank you very much. %$* 13
+john yoo, ladies and gentlemen. %$* 13
+and that concludes round one of this intelligence squared u.s.debate where our motion is mass collection of u.s.phone records violates the fourth amendment. %$* 13
+now we go on to round two. %$* 13
+and round two are where the debaters address one another directly and they take questions from me and from you in the audience. %$* 13
+again, this is our motion: mass collection of u.s. phone records violates the fourth amendment. %$* 13
+we have a team arguing for the motion, alex abdo and elizabeth wydra. %$* 13
+they have painted a picture of a world in which the government knows an enormous amount-- %$* 13
+about us because of its ability to skim details about our lives from phone records, places who we called. %$* 13
+and as they point out, an awful lot of content, real stories about who we are can come out of that information. %$* 13
+they make the argument that the opinions governing this process that have been relied upon by courts that have approved these practices are out of date, and they also make the argument, almost paradoxically, that if you go back in time, that the founders of the constitution and the writers of the fourth amendment certainly would not have approved such a massive, as they would say, "dragnet" kind of search because it was this very sort of thing that the colonists were fighting and went to war for in the american revolution. %$* 13
+the team arguing against the motion, john yoo and stewart baker, they are making the technical point initially, "look, we've won this debate because the supreme court has already settled this question," but in the spirit of the exchange of ideas here they do go on to say that in wartime the stakes themselves, american lives, the threat of terror attack, make the reasonableness issue-- %$* 13
+put the reasonableness issue in a different light, that the fourth amendment bans unreasonable search and seizures and that the government program of collecting only data about when and where and who we called is not unreasonable when put up against the stakes of needing to save american lives and to defeat our enemies. %$* 13
+so, those are some of the arguments that we've heard. %$* 13
+and i want to say two things at the outset. %$* 13
+we really do want to make this an argument about the constitutionality of this practice, and so, stewart, i will say, although technically you are right, let's look at this from the point of view that, you know, we-- %$* 13
+this is the supreme court and we've gone back in time, and this side is arguing that the thing is unconstitutional, and you're arguing that it's constitutional. %$* 13
+and i want to say to alex in particular, because you rested so much of your case on the kind of world we have and that we wouldn't like that, that really isn't the point that we're debating here tonight. %$* 13
+we're really debating about whether the government has the right to do this under the constitution, not to say that the kind of world is irrelevant, but to try to stick to this question of whether it stands under the fourth amendment or not, which i know that, elizabeth, you very clearly were saying it was not. %$* 13
+so, let's get to some of the specifics that we heard about this. %$* 13
+first of all, there's this whole notion of "what is a search? %$* 13
+"and, stewart baker, your opponents have said that basically the nsa sweeping up an enormous amount of information, regardless of the fact that they're not actually listening to what's in the phone calls, is-- %$* 13
+by itself constitutes a search, and, therefore, gets us right into the area that is protected by the fourth amendment. %$* 13
+so, i'd like to talk-- %$* 13
+have you respond to that and then go back to alex to talk about this issue of "when is a search a search and when is it not? %$* 13
+so, if john keeps a diary and the police want it, if they come into his house and take it, that's a search. %$* 118
+if he gives it to his mom and she takes it home and the police come and knock on her door and say, "would you give us a copy of john's diary? %$* 118
+" that's not a search. %$* 118
+what the government has done here is they have gone to people to whom these records have been given by the people who made the phone calls. %$* 118
+we all know the phone company needs to know what numbers we're dialing in order to deliver the call to the right place. %$* 118
+so, we have shared this information already. %$* 118
+we can't expect to be able to claim a property right against search, wherever that information was. %$* 118
+so the underlying principle of what constitutes privacy, vis-à-vis sharing information with other people, works how? %$* 13
+in other words-- %$* 13
+the supreme court's decision essentially stood for the proposition that you have a much diminished expectation of privacy once you knowingly shared information with someone else, especially if the government gets it from that person. %$* 118
+okay, alex abdo, to respond to that. %$* 13
+i think that reflects a pre-digital understanding of our privacy, and i think that's one of the fundamental problems with our opponents' position is that they ask a very simplistic question that may have made sense in the 1960s and 1970s but doesn't make any sense today where the vast majority of our communications have to be shared with an intermediary, not because we're voluntarily giving the information over to at&t or not because we're voluntarily giving it over to yahoo or microsoft or gmail, but because we have to in order to use those communication systems. %$* 457
+and i think it would be-- %$* 457
+it would undermine the security of all those systems and undermine our right to privacy to say very simplistically that this doctrine, this notion of sharing, is an on/off switch. %$* 457
+that is never how our judges have applied it. %$* 457
+it's not how the supreme court has applied it. %$* 457
+and if you look at recent cases, you're seeing the supreme court struggling with how to update privacy law to account for this dramatic change in technology. %$* 457
+and-- %$* 457
+and the essence of the change is what? %$* 13
+i mean, we all know that the essence of the change is that they can get a lot more of this kind of data. %$* 13
+and 25 years ago, when this law was passed, they could look at one person and the phone numbers he dialed over a couple of days. %$* 13
+now we know that they can get millions for a lifetime essentially. %$* 13
+what-- %$* 13
+why does that make a difference in the impact on the kind of information. %$* 13
+i think that's part of the change. %$* 457
+the other part of the change before-- %$* 457
+and if i can say before answering your question-- %$* 457
+is that it is now not really possible to meaningfully participate in society without using the communications platforms that all of the tech companies have brought to us. %$* 457
+and so, it's necessary to, as stewart would say, share this information. %$* 457
+but it's not of that same voluntary nature that i think our opponents rely on. %$* 457
+okay. %$* 13
+john yoo, your response to that. %$* 13
+yeah. %$* 50
+i think we ought to be caution of these efforts to claim, just because some new technology came along, we have to throw out all the rules that we've had before and replace it with some uniform, general, radical, simple rule. %$* 50
+life is not that easy, and life is not that simple, especially when the technology is so new. %$* 50
+we need to learn more about how all these technologies work, how they interface with law enforcement. %$* 50
+then, slowly, incrementally, we should be making decisions of what the best rules are rather than just saying, “oh, because automobiles have come along, we can throw out all the rules about horse accidents because those were horses and these are cars.” instead, we should try to analogize from the things that came before using common sense. %$* 50
+that what the constitution seems to say when it says “reasonable searches and seizures.” %$* 50
+elizabeth wydra. %$* 13
+well, you know, john mentioned in his remarks, he said that he didn't want to leave these decisions to, you know, five old guys on the supreme court. %$* 458
+but i'm sorry to say that you're behind the times of nine justices on the supreme court, however old they are, because just a few months ago at the end of last term, a unanimous supreme court told us that digital is different in a case that applied the fourth amendment to smartphones. %$* 458
+different how? %$* 13
+well, you know, i think there's a great analogy that chief justice roberts used. %$* 458
+he said that, “saying that a ride on a horse and buggy is the same as taking a rocket ship to the moon makes about as much sense as using some of these old precedents and rules when applied to the digital age, because the type, the quantity, and quality of information that can be gained in the digital age is just so different that it actually makes a real difference to the fourth amendment. %$* 458
+i want to let stewart baker respond. %$* 13
+but can you take one sentence to say, different how? %$* 13
+how does it add up to a different kind of experience? %$* 13
+so before, when you would have this information that was available to the public, it was sort of a random tile that could give you a very small glimpse into a person's life. %$* 458
+but because of the quantity of data that can be accessed very easily-- %$* 458
+this came up in a case about gps locators-- %$* 458
+it adds up to a mosaic that provides a rather clear picture of a person's life in a way that you couldn't in a pre-digital age. %$* 458
+okay. %$* 13
+that was two sentences with a parenthetical phrase-- %$* 13
+but it was pretty tight. %$* 13
+with a semicolon, maybe. %$* 458
+stewart baker. %$* 13
+so, the one thing that we're acting as though is though if we don't have the supreme court ride to our rescue, all of this data is suddenly going to be available to the government under no restrictions whatsoever. %$* 118
+since smith against maryland was decided, congress has enacted and amended the rules on electronic searches four or five times. %$* 118
+we can rely on democracy to make these decisions. %$* 118
+the average age, by the way, of a supreme court-- %$* 118
+70 years. %$* 118
+you know, i don't know about you; i am a boomer and i'm sick of having boomers make these decisions. %$* 118
+there's no reason why we should ask the supreme court-- %$* 118
+stewart, though, does your defense of the position that there are safeguards in place actually defend the constitutionality? %$* 13
+yes. %$* 118
+my argument is we should not turn-- %$* 118
+right now, these records are not subject to fourth amendment analysis under smith against maryland. %$* 118
+the argument is, “well, that's going to open us all in a digital age to-- %$* 118
+i know you've all alluded to smith against maryland. %$* 13
+just take three sentences-- %$* 13
+or i can do it. %$* 13
+yeah, i can do it. %$* 118
+okay. %$* 13
+so, in smith against maryland, the cops were investigating calls to a woman-- %$* 118
+harassing calls to a woman. %$* 118
+they got a pen register on a suspect's phone. %$* 118
+what is a pen register? %$* 13
+a pen register records all the numbers that he dials. %$* 118
+and it does it down at the phone company. %$* 13
+down at the phone company. %$* 118
+and essentially, they had call data records on this guy for several days until they realized yes, he's making the bad calls. %$* 118
+and the court said yeah-- %$* 118
+so, i'll break it down a little bit. %$* 13
+so, he got arrested. %$* 13
+she picked him out in a lineup, said, “that's the guy.” he got busted. %$* 13
+and his lawyer said, “that was an unfair search because you tapped me without a warrant.” %$* 13
+and the court said, “well, when you dial a phone number, that's not a secret because you just dialed it. %$* 13
+you put it out into the world.” okay. %$* 13
+so, that's what the court is using now to say that the metadata is not a secret. %$* 13
+do i have that pretty much nailed, alex? %$* 13
+i think that's right. %$* 457
+yeah. %$* 457
+can i respond to one thing that stewart just said? %$* 457
+yes. %$* 13
+and something that, professor yoo said as well, which is that we shouldn't trust courts to safeguard our individual rights. %$* 457
+and i think that reflects a fundamental misunderstanding about what the bill of rights is about. %$* 457
+the bill of rights was designed to withdraw from political the majorities the decisions that affect the individual rights of people who can't protect themselves through political constituencies. %$* 457
+it was precisely for that purpose that the constitution and our framers placed those decisions in unelected, tenure-protected judges so that they could safeguard individual rights. %$* 457
+and so i think the wrong answer is to say we should leave our individual rights to congress, particularly this congress or the next. %$* 457
+john yoo, do you want to respond to that? %$* 13
+by the way, vocal approbation is fine with us. %$* 13
+we like our audience at home who's listening to know that you're here. %$* 13
+we only discourage booing and hissing. %$* 13
+this is how you know that john is not from philadelphia, because we know in philadelphia we boo and his our hometown players more than the opposing side. %$* 50
+and santa claus, i hear. %$* 118
+snowballs for santa claus if you're old enough to be here, as i was. %$* 50
+oh, no. %$* 13
+i’m from the bronx, but i'm showing enormous restraint. %$* 13
+as i often say, you know, nothing the opponents could say would be as mean as what my korean mother would say to me, so-- %$* 50
+nobody laughed at that? %$* 50
+i guess that's just korean humor. %$* 50
+we know she's here. %$* 458
+we don't want to get in trouble. %$* 458
+yeah, you don't want to be in trouble with my mother here. %$* 50
+so, there's a number-- %$* 50
+a number of things to say, most of which i've forgotten because i was telling jokes. %$* 50
+but the problem with this view of the bill of rights is, i quite agree the bill of rights is there to protect minority rights. %$* 50
+i missed it in their presentation. %$* 50
+i didn't hear any discussion of any minorities who are being singled out here for mistreatment by the government. %$* 50
+this is a surveillance program that works on everybody. %$* 50
+in fact, there is no way to know what the race or gender of the people whose data's being collected for. %$* 50
+if there were cases-- %$* 50
+if it was targeted-- %$* 50
+say, for example, if the irs was only considering the applications of conservative groups or liberal groups for tax status, that would be targeting a minority group, right? %$* 50
+target some for their ideology. %$* 50
+then i think you would have a much better claim. %$* 50
+this is not about-- %$* 50
+let me take that argument while you're on it and take it to elizabeth wydra. %$* 13
+what about that-- %$* 13
+john's argument that says the process is not discriminatory as far as we know? %$* 13
+well, that would be relevant if we were making a claim under the equal protection clause of the 14th amendment, but instead we have a specific text in the constitution, the fourth amendment, which prohibits these types of searches. %$* 458
+so that's what's violated, not equal treatment under-- %$* 458
+all right. %$* 13
+let me stop you and go back to john. %$* 13
+did she just slam you down? %$* 13
+no, i disagree. %$* 50
+mom. %$* 458
+i disagree because, you know, again, the text of the fourth amendment says that people have a right to be free from unreasonable searches and seizures, and so that's why you have to look at democracy. %$* 50
+my claim is not that this means this is not to be done. %$* 50
+it's that all of us in society have a view on what's reasonable and unreasonable. %$* 50
+it's not a monopoly of five justices of the supreme court to tell us as a society what is reasonable and unreasonable. %$* 50
+and we have, as stewart mentioned, in previous cases, looked to congress and the president and the courts all together picked by us in elections to decide what's a reasonable search when telephones came along and the internet comes along. %$* 50
+and on the point of reasonable versus unreasonable, alex abdo, i want to take it to you, something that, john, you said that's opening remarks. %$* 13
+he made the argument that the program is not unreasonable-- %$* 13
+see, i think basically his context was being in a-- %$* 13
+you know, in a war situation that it's a security situation, that reasonable is weighed in the context of larger consequences. %$* 13
+and his argument was, if it's saving lives, if it's defeating the enemy, then it stops being so unreasonable because of the stakes involved. %$* 13
+i think that's a narrow way of viewing the constitution, but it's not particularly surprising that professor yoo makes that argument. %$* 457
+you know, professor yoo made the same argument with respect to the fact that war time authority trumped individual protection against torture. %$* 457
+and i think that's a wrong way of viewing the constitution. %$* 457
+i-- %$* 50
+that's not correct, by the way. %$* 50
+but go ahead. %$* 50
+we can discuss that another time. %$* 457
+but in any event, the question of whether-- %$* 457
+let's discuss it now. %$* 50
+actually, let's-- %$* 13
+i mean-- %$* 50
+let's have you withdraw that. %$* 13
+i'll withdraw that. %$* 457
+i apologize. %$* 457
+because i don't want to take time on that. %$* 13
+and we are going to withdraw it to let you make a different point if you would like to, because we really don't want to go back to people's records on other issues because it becomes an irresistible rabbit hole that we go down. %$* 13
+so i would just ask you to-- %$* 13
+sure. %$* 457
+to not base the argument on what john said in the past. %$* 13
+so, i think the constitution protects us from unreasonable searches and seizures. %$* 457
+and the initial question that you need to ask is whether it is ever reasonable for the government to engage in bulk collection. %$* 457
+and the problem with going down that route is we would end up in a society that the framers could not possibly have envisioned which is that the government would always, for good purpose, it would say, collect vast quantities of information about people who've done absolutely nothing wrong. %$* 457
+but even if you think that's an acceptable way of thinking about the constitution, the problem with our opponents' arguments is that two separate review groups, both with access to classified evidence, who've now reviewed the case that they're relying on to suggest that this program is necessary, have concluded that it simply isn't necessary. %$* 457
+that the government could have accomplished its interest through the targeted use of surveillance orders to these companies or to other companies. %$* 457
+stewart baker. %$* 13
+and after that, i want to go to questions. %$* 13
+so, you can prepare your questions, i will come to you, and i'll explain how we do that after stewart speaks. %$* 13
+so, the notion that you can somehow figure out-- %$* 118
+well, there's something like mass data collection, and we'll just say, that can't be collected without implicating the fourth amendment is just as alex said, superseded by the march of technology. %$* 118
+there are a million subpoenas today for call data records for law enforcement purposes. %$* 118
+that means tens of millions of records in the hands of government agencies on what amounts to a mass basis. %$* 118
+there are ten million suspicious activities reports filed by financial institutions about their bank account holders because they want the government to know about what's happening. %$* 118
+is that mass collection? %$* 118
+there are 4.5 million medical records reviewed by medicare, your medical records and ours, reviewed by medicare, looking for fraud every day. %$* 118
+all of those things are things that serve important antifraud purposes that the united states government is pursuing. %$* 118
+if we suddenly start to say, it's mass collection, it must be a constitutional problem, we're going to have a line-drawing problem to beat every line-drawing problem we've ever seen. %$* 118
+okay. %$* 13
+let's go to the audience for questions. %$* 13
+and the way that i would like it to work is, if you raise your hand, there'll be microphones circulating up and down the aisle. %$* 13
+i'll call on you. %$* 13
+wait till a mic is handed to you. %$* 13
+stand up, tell us your name and hold the mic about this distance from your mouth so that we can hear you over the air. %$* 13
+and the one thing i would urge is to keep in mind that we're trying to do a debate of a constitutional nature here. %$* 13
+and i would also urge you not to debate with the debaters, but to ask them a question that you think that they should be debating among themselves. %$* 13
+so, any hands go up on that? %$* 13
+sir, right-- %$* 13
+right-- %$* 13
+the farther back one, yes. %$* 13
+two rows from the back. %$* 13
+thank you. %$* 13
+if you can tell us your name, please, too. %$* 13
+my name is john sword %$* 18
+i have a question for the group for the motion. %$* 18
+if we find ourselves in a situation-- %$* 18
+and i hope this never happens-- %$* 18
+that terrorist attacks significantly increase, would that change your argument, or that's irrelevant to this question? %$* 18
+that's a great question. %$* 13
+alex abdo. %$* 13
+no, i don't think i would. %$* 457
+everyone to have reviewed the way that the nsa should go about its business says it should go about it in a targeted way. %$* 457
+and that the key to protecting the country is not through suspicionless surveillance of everyone, but through very targeted efforts directed at those who are doing us harm. %$* 457
+i think that's the lesson of the two review groups who reviewed this program. %$* 457
+that's the conclusion that the president himself has come to. %$* 457
+i think that's what's also consistent with our constitutional values. %$* 457
+so you're saying it's never going to be a matter of degree. %$* 13
+it's an absolute. %$* 13
+i think when you're talking about bulk collection, yes. %$* 457
+let me go to the other side, just see if they have a response to that. %$* 13
+you've already, to some degree, answered that. %$* 13
+but john yoo, if you want to take it on. %$* 13
+yeah. %$* 50
+i mean, i think that that shows how unreasonable the other side's position is that that no matter how much the security threat goes, they are unwilling to bend and allow certain kinds of searches. %$* 50
+i think that choice is actually allowed to us under the fourth amendment by saying "reasonable searches and seizures." i was there on 9/11.and we were confronted by an enemy that snuck into the country, communicated by email and phone calls. %$* 50
+how did we even find them? %$* 50
+how did we even know they were all hijackers together? %$* 50
+we looked at exactly this kind of data to piece it together. %$* 50
+of course, this is going to be the way we would need to catch such people in the future. %$* 50
+look at what our great terrorist enemies now-- %$* 50
+i'm really worried, actually. %$* 50
+i think the threat is much greater now than it was earlier because we have an enemy, isis, that controls a lot of territory, population, sophisticated weapons and is beheading americans abroad, and we are doing very little about it. %$* 50
+i think we need to have such kinds of programs in effect to stop them from getting over here. %$* 50
+okay. %$* 13
+the more you're using your 9/11 credential, the more i'm thinking i have to unleash alex's critique from before. %$* 13
+elizabeth wydra. %$* 13
+yeah, i just wanted to say, you know, especially when you bring up a lot of these very frightening scenarios, i think it's important to remember that, as alex pointed out earlier, these bipartisan commissions that have access to the classified data have not found that this bulk data collection has led to the prevention of an imminent attack. %$* 458
+you know, i think i might take a slightly softer position than alex on this in the sense that the fourth amendment doctrine does allow for exigent circumstances, exceptions to a warrant requirement, and that's-- %$* 458
+but that's very, very narrowly circumscribed. %$* 458
+so, you don't think we're in that-- %$* 13
+you don't think we're in that now. %$* 13
+i don't think we're in that now, and i don't think that bipartisan commissions that have access to classified information think that we're in that position now. %$* 458
+i think that's another-- %$* 13
+unless you want to respond-- %$* 13
+stewart, go ahead. %$* 13
+let me just take this briefly. %$* 118
+the last 10 years, this program has not produced an enormous number of successes. %$* 118
+it is designed for an attack from a safe haven that is carefully planned. %$* 118
+we've had 10 years in which we've wiped out the safe havens. %$* 118
+we've put boots on the ground in afghanistan to make sure that al-qaeda could not plan attacks there. %$* 118
+only now is there a new safe haven where we can't put boots on the ground. %$* 118
+we are in a different world. %$* 118
+and the idea that this program might not have been particularly effective in a time when there was no safe haven does not tell us what it will be like in the future. %$* 118
+okay. %$* 13
+i want to remind you we are in the question and answer section of this intelligence squared u.s.debate. %$* 13
+i'm john donvan. %$* 13
+we have four debaters, two teams of two, arguing it out over this motion, “mass collection of u.s.phone records violates the fourth amendment.” and we're taking audience questions. %$* 13
+sir. %$* 13
+hello, my name's rusty bearcloth one of the premises of-- %$* 18
+i'm sorry, this is for the against side-- %$* 18
+one of the premises of your argument is due to the fact that there's a third party involved, due to the fact that you released this information to the telephone carriers, themselves, therefore, it's not a violation of privacy. %$* 18
+is there a subject matter which you would disagree with that idea-- %$* 18
+for example, bank records or medical records, you have to submit those to your insurance-- %$* 18
+do you believe the federal government should be able to amass every transaction i do digitally with a credit card on any account because i go through a merchant? %$* 18
+so, let me try that. %$* 118
+stewart baker. %$* 13
+briefly, no, i don't believe that the government should be able to access willy-nilly all those records. %$* 118
+and i support legislation that congress has passed that by and large already addresses financial privacy, already addresses the privacy of your email, already addresses the privacy of your medical records. %$* 118
+congress has stepped into this area, and we want them there, that it is too hard to let the supreme court every 35 years-- %$* 118
+steward, i think what the relevance of the question is would those things be a violation of the fourth amendment? %$* 13
+no, i think it's a bad idea to bring the court in and let this stuff be decided-- %$* 118
+but they would not violate the fourth amendment? %$* 13
+they would not. %$* 118
+okay. %$* 13
+do you guys want to take a crack at that or we can move on? %$* 13
+move on. %$* 18
+let's move on. %$* 13
+any women want to ask questions? %$* 13
+thank you. %$* 13
+then i'll come back to my gender. %$* 13
+my name's sally, and my question is for the against group, what would you say to the statement that what you propose is actually destroying our country in the way that our enemies would approve of, and that-- %$* 19
+i'm going to pass on that question because it's more of a policy and sentiment question - - %$* 13
+okay. %$* 19
+and not about the constitutionality, unless you want to try to rephrase. %$* 13
+how would you-- %$* 19
+would this actually-- %$* 19
+it's actually attacking our constitution to reverse our rights as in the fourth amendment, that-- %$* 19
+i'm going to pass again with respect-- %$* 13
+okay. %$* 19
+i can’t rephrase it. %$* 19
+because i think they kind of-- %$* 13
+i think they've addressed that they solidly think it's constitutional. %$* 13
+sir, right down front. %$* 13
+oh, you need the mike to come to you and to stand up. %$* 13
+it's going to come from your right side. %$* 13
+thanks. %$* 13
+this is addressed to the against panel. %$* 18
+held as the use of burner phones, affect your reasonableness argument? %$* 18
+what kind of phones? %$* 13
+burner-- %$* 18
+phones you buy at walmart and aren't traceable. %$* 18
+the phones are called "burner phones"? %$* 13
+yeah. %$* 18
+i feel very street savvy now. %$* 13
+yeah, i'm going to get some burner phones right after the debate here. %$* 13
+all right, thank you. %$* 13
+on the wire in the streets of philadelphia, you know it's called "burner phones," of course. %$* 50
+yeah, get some in philly. %$* 13
+john yoo. %$* 13
+you elitist new yorker, you. %$* 50
+let me try this. %$* 118
+stewart baker. %$* 13
+burner phones make it much easier for you to make one phone call and throw the phone away, buy another phone, make one phone call. %$* 118
+it makes it much harder to find people, and it's certainly impossible to say, "i have a wiretap order on this person," and to be able to get all of their calls. %$* 118
+but what you can do, again, you can use the pattern of their calls to identify people as suspect. %$* 118
+if you use a burner phone to call a safe house in yemen, the government ought to be able to find out about that call and then to look at the pattern of calls-- %$* 118
+okay, i'm going to stop you because the question really was a huge softball to your side because-- %$* 13
+okay. %$* 118
+yeah, but i wanted to let the other side take a crack at that question because you are being presented again and again with situations where the defense of the nation-- %$* 13
+the cases increasingly amaze that the defense of the nation would be enhanced it is argued by the ability to do these searches or seizures, and that, therefore, that affects the reasonableness issue. %$* 13
+do you-- %$* 13
+let's hear from alex on this one. %$* 13
+yeah, i think, again, one of the easiest responses is simply that this issue has been analyzed by two bipartisan groups of individuals who concluded that we can engage in targeted collection of information to solve these problems. %$* 457
+you know, one of the repeated hypotheticals has come from stewart about the safe house in yemen. %$* 457
+and in that particular example, which was the pre-9/11 one that nsa supporters have used as the best example for why they need this program. %$* 457
+both-- %$* 457
+or maybe it was just one of the commissions. %$* 457
+but one of the commissions very carefully studied that particular example. %$* 457
+and they decided that it would have been very easy for the government to have used targeted surveillance requests to uncover the link between the safe house in yemen and the parties on the u.s.end because they had the phone number of the safe house. %$* 457
+indeed, they had to have the phone number because that's the only way they knew about the safe house. %$* 457
+and they could have taken that phone number and gone to the three major telecoms in the united states and served them with this order. %$* 457
+and they would have very quickly uncovered the existence of the safe house. %$* 457
+that's what the commission concluded. %$* 457
+and i think the same is likely true for burner phones. %$* 457
+i want to bring the question-- %$* 13
+oh, sorry. %$* 13
+go ahead, john yoo. %$* 13
+do you think we so distrust ourselves that we need justices and supreme court justices five to know what a burner phone is and then to figure out the right rule? %$* 50
+you know, i mean, the justices of the supreme court, they probably think a burner phone is something that's too hot to touch for a little while. %$* 50
+you got to let it cool down. %$* 50
+they have no idea what burner phone-- %$* 50
+well, like the moderator, they could just ask the question and find out the answer very quickly. %$* 13
+do we so distrust that we can't make that decision through legislation to figure out the best way to-- %$* 50
+the worst thing would be if the judges set a rule down in concrete, and then set our response in a way that we can't take account of evolving technologies. %$* 50
+i think it's much better for a legislature, executive branch to study the problem, figure out the best responses as we go along, as new technology develops. %$* 50
+elizabeth wydra. %$* 13
+yeah. %$* 458
+you know, we have already made this decision. %$* 458

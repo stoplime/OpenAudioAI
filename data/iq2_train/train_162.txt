@@ -1,0 +1,250 @@
+we the people ratify the fourth amendment. %$* 458
+and so, i think that to make it seem like that's still in play just disregards the constitution. %$* 458
+but i, you know, i want to make a point about law enforcement. %$* 458
+and, you know, the fourth amendment does not yield to concerns of efficiency. %$* 458
+the supreme court very clearly stated this just at the end of its last term when it said that, “if the police want to search a smartphone when it's arresting someone, that would be a great way to find really good evidence.” and, in fact, they did in those cases. %$* 458
+they have, you know, pictures of this guy with guns in front of a car that used in a shooting. %$* 458
+but the court said that privacy comes at a cost. %$* 458
+and when that cost is efficiency, that must yield to the concerns of the fourth amendment. %$* 458
+so, you know, these justices understand technology. %$* 458
+they have clerks. %$* 458
+and they have said that digital is different when it comes to the fourth amendment, and that the fourth amendment doesn't just yield to make things easier for law enforcement in all circumstances. %$* 458
+i wanted to take note of something about how both teams have responded to actions of our predecessors. %$* 13
+and alex abdo, you were saying we shouldn't be bound by smith v.maryland. %$* 13
+it's 1979.technology has changed. %$* 13
+john yoo, you were saying we shouldn't be bound by what we think we're trying to imagine what the framer's thought that-- %$* 13
+and to some degree, both of you are saying, “let's not worry too much about the past,” i think. %$* 13
+but in the sort of fundamental, romantic sense, i think a lot of people will find appeal to what elizabeth wydra was saying initially, that the colonists went to war to stop this kind of invasive search that the british government was doing at the time. %$* 13
+well, what is-- %$* 13
+you didn't actually make a direct response to that, somewhat sentimentally, a powerful notion-- %$* 13
+no, i mean, we wouldn't be here at something called the national constitution center if we didn't have a romantic vision of the constitution and the revolution and our framing. %$* 50
+and i'm someone who loves to look at the evidence from the framing in my own written work, which is on sale at a very low price on amazon.com. %$* 50
+all you have to do is, apparently, look at your phone now and you'll buy-- %$* 50
+you can buy my book. %$* 50
+but the point is, is that this is exactly the same argument that are confronted by our courts all the time, too, and our government leaders. %$* 50
+this claim, “you're going to overthrow the constitution. %$* 50
+you're making our-- %$* 50
+enemies would agree what we're doing to our own country.” but when they're faced with these claims, they have never said, “oh, there's a blanket rule that we know from the framers in the search and seizure context we have to impose.” you would think that they would from their description-- %$* 50
+the opponents' description of the constitution. %$* 50
+think about all the places where the court has not done that. %$* 50
+the metal detectors at airports. %$* 50
+then why not also update your view of smith v. maryland as your opponent-- %$* 13
+they could, but that's-- %$* 50
+but they haven't done it yet. %$* 50
+and now lower court has yet. %$* 50
+instead, in all-- %$* 50
+there's lots of other contexts where the court has adopted this balancing approach. %$* 50
+i was going to say, metal detectors at airports. %$* 50
+aren't those searches? %$* 50
+drunk driver checkpoints, aren't those searches? %$* 50
+urinalysis drug testing for employers. %$* 50
+i mean, there's lots of contexts, actually, where our government has been allowed to conduct broad, non-particularized searches that are considered fairly minimal in order to stop a great threat to public safety. %$* 50
+if our justices don't-- %$* 50
+let me just i want to take one more question. %$* 13
+i just want to let alex abdo respond to that and take one more question. %$* 13
+i think it's wrong to say that our courts are not grappling the question of whether smith v.maryland remains relevant today. %$* 457
+not too long ago, a court of appeals said that our email is protected by the constitution, even though we have to share it with gmail. %$* 457
+that's a very common-sense conclusion, but it's one that our opponents would apparently resolve by saying email is not protected because it's stored on the servers of a third party. %$* 457
+and more recently, the supreme court has said, five justices have said, in various opinions, that smith vs. %$* 457
+maryland may not make sense in the digital era. %$* 457
+and it's quite obvious why, because if that were the law of the land, then virtually everything we do today, which is reduced to a digital trail, would be susceptible to bulk collection by the government. %$* 457
+one last question? %$* 13
+sir, right in the middle there. %$* 13
+and wait for the mic, please. %$* 13
+thanks. %$* 13
+yeah, hi. %$* 18
+my name is aaron. %$* 18
+i think both sides gave very different definition to what the world "reasonable" means. %$* 18
+i think the for side is talking about reasonableness as opposed to the public and the against side is talking about reasonableness for the government. %$* 18
+so, i was hoping both sides can explain why they take their interpretation of what "reasonable" applies to. %$* 18
+do you all agree that you disagree-- %$* 13
+that one of you is talking about-- %$* 13
+you're talking about reasonableness in two different contexts, or would you say your "reasonableness" is to both parties, both sides, both to the government and to the public? %$* 13
+let me-- %$* 13
+let me go to-- %$* 13
+i think we're stressing different sides of the ledger when the government-- %$* 50
+john yoo. %$* 13
+when the court has taken these questions, what's reasonableness mean, they actually say, we weigh the interest of the government versus privacy interests of the individual. %$* 50
+and then all i'm saying is i think we as a society should look at all of that and balance it ourselves. %$* 50
+my personal, i think stewart's personal, and i think the views of the congress and the president and many judges has been, in this context in war, the national security interests, which is the most important government interest there is it-- %$* 50
+the courts have said that, and the framers said that many times-- %$* 50
+just outweigh the intrusion of-- %$* 50
+i'm not denying there's an intrusion of privacy. %$* 50
+but the-- %$* 50
+you know, outweigh the intrusion of privacy in collecting phone numbers-- %$* 50
+phone numbers, not the calls. %$* 50
+email addressing, not the content of emails. %$* 50
+a balancing act is what you're saying. %$* 13
+yes. %$* 50
+and let's go to alex abdo on that. %$* 13
+i would just amend professor yoo's response on the legal question in just one way. %$* 457
+the supreme court has said that "reasonableness" means-- %$* 457
+is in general a balance, except when the government can accomplish its interests in a targeted way. %$* 457
+and in that context, the supreme court has always said that the government must proceed with a warrant based upon probable cause. %$* 457
+if the government can accomplish its interests in that targeted way, it must. %$* 457
+and that's not perhaps surprising. %$* 457
+that's been our constitutional tradition since-- %$* 457
+since the late 1700s, and it should continue to do so today. %$* 457
+and that concludes round two of this intelligence squared u.s. debate where our motion is mass collection of u.s. phone records violates the fourth amendment. %$* 13
+and here's where we are. %$* 13
+remember how you voted just before you started hearing the arguments because immediately after these brief closing statements, we're going to have you vote a second time. %$* 13
+and i'll remind you that it's the team whose numbers have changed the most in percentage point terms will be declared our winner. %$* 13
+first, onto round three, closing statements from each debater in turn. %$* 13
+they will be brief, two minutes each. %$* 13
+first, to argue-- %$* 13
+first to summarize her position in favor of the motion, mass collection of u.s. phone records violates the fourth amendment, elizabeth wydra, chief counsel at the constitutional accountability center. %$* 13
+thank you so much, john. %$* 458
+so i think it's important to think about what we haven't heard tonight. %$* 458
+we haven't heard any solid case for why the government needs to engage in this mass collection of americans' phone records, going on every day. %$* 458
+as alex said, if you make a call tonight, the nsa will know about it and have it recorded tomorrow. %$* 458
+they haven't shown that there is the need to engage in this dragnet surveillance that offends the principles of the constitution, to thwart an imminent attack. %$* 458
+and while we have talked a lot about some of these very disturbing scenarios of terrorist activity, i think that getting back to one of the questions earlier, it is in these times of crisis, it is in those times, as well as in the easy times, that our principles and our devotion to our founding principles are tested. %$* 458
+and we the people have already determined that the question of whether or not the people shall be subject to unreasonable searches and seizures is not up for debate. %$* 458
+it is something that is enforceable in our courts, and it's something that we the people have decided upon many, many years ago. %$* 458
+and in closing, i just want to get to this very odd idea which we didn't explore any more, about somehow that it's okay that the government just collects the information and it's not really problematic for the constitution if they don't actually look at it. %$* 458
+well, i want you to think about this before you vote again. %$* 458
+you know, if the government stationed a person to stand next to your bathtub every time you took a bath, do you think your privacy isn't invaded if the government agent stands there with his hands over his eyes the whole time? %$* 458
+i'm going to think that you're going to think things have gotten a lot less private up in there before he looks when you're taking your bath. %$* 458
+so, i think we need to think about the collection of this information is just as bad as if they actually looked at the content and not just the fact that they take this information in the first place reveals a lot of data and personal information about us in general. %$* 458
+thanks, elizabeth, wydra. %$* 13
+your time is up. %$* 13
+thank you very much. %$* 13
+our motion is mass collection of u.s.phone records violates the fourth amendment. %$* 13
+here to summarize his position against this position, stewart baker, a partner at steptoe and johnson and former general counsel at the nsa. %$* 13
+so, i think to vote for this motion, you have to want to change the law to create more privacy than current law creates. %$* 118
+and let me explain why i give these speeches and appear here. %$* 118
+it's because i spent the 1990s advocating for a privacy and civil liberties doctrine that would separate intelligence and law enforcement, because i thought that it was important that intelligence capabilities not be used if at all possible against ordinary american criminal suspects. %$* 118
+i thought it sounded like a good civil liberties doctrine, and we ought to change the rules so that that was the case. %$* 118
+we created a wall. %$* 118
+we built that wall higher and higher until in august of 2001 when we found out from intelligence source that's there were al- qaeda operatives in the united states. %$* 118
+and the fbi law enforcement task force that had all the resources and all the people they were investigating the cole bombing, said, "we just heard about this. %$* 118
+we can find these guys. %$* 118
+they're in the united states. %$* 118
+we'll get them. %$* 118
+let us at them." and they were told to sit down and shut up because this came from the intelligence side of the government, and they weren't allowed to do anything with it. %$* 118
+they never did-- %$* 118
+we never did find those guys because the intelligence agencies had very few capabilities inside the united states until they flew into the world trade center. %$* 118
+i never want to live with myself again for saying, "well, it sounds like a little more privacy. %$* 118
+what the heck. %$* 118
+let's change the rules. %$* 118
+how bad could it be? %$* 118
+"it could be very bad. %$* 118
+this is not a good law to change at this time. %$* 118
+thank you, stewart baker. %$* 13
+our motion is mass collection of u.s. phone records violates the fourth amendment, and here to summarize his position supporting this motion, alex abdo, a staff attorney at the aclu's speech, privacy and technology project. %$* 13
+thanks, john. %$* 457
+i want to take a slightly different tack. %$* 457
+so, in 1981, it cost around $300,000 to store a gigabyte of data. %$* 457
+by 2010, just a couple years ago, that cost had plummeted to about 10 cents. %$* 457
+and by next year, some people estimate it'll be about 2 cents to store a gigabyte of data. %$* 457
+and just to give you a sense of what that means for surveillance, it means that you could store the entire audio from every single phone call that a single person has made over the course of an entire year for about 10 cents. %$* 457
+and by next year, it'll be about 2 cents. %$* 457
+that result of that plummeting cost of storage is that for the first time in our nation's history, truly pervasive surveillance is possible. %$* 457
+it'll be possible for the government to store not just-- %$* 457
+not-- %$* 457
+to keep track of not just who you email, who you call and what websites you visit. %$* 457
+they'll be able to make a copy of every email you send, to record every phone call you make, to archive every website that you visit. %$* 457
+and the cost has fallen so much and so dramatically that it will soon even be possible for the government to record virtually every step you take once you leave the house. %$* 457
+this is not science fiction. %$* 457
+this is a predictable result of falling storage and the proliferation of these types of surveillance devices on military fields now coming home to return to us to local law enforcement. %$* 457
+i think that's why this debate, tonight's debate on mass collection of phone records, is about so much more than phone records and so much more than the nsa.if our opponents are correct, it won't end with the nsa.it won't end with the fbi, and it won't end with even local law enforcement. %$* 457
+mass collection will be the norm. %$* 457
+so, the choice you have is whether you want to live in a free society or one in which our every movement and our every communication is tracked, recorded and stored in a database. %$* 457
+in the past, cost was the main protection we had against that sort of world. %$* 457
+but cost is no longer an issue. %$* 457
+the fourth amendment is all we have left. %$* 457
+and that's why i think you should vote for the motion that mass collection violates the fourth amendment. %$* 457
+thanks, alex abdo. %$* 13
+and that is the motion: mass collection of u.s.phone records violates the fourth amendment. %$* 13
+and here to summarize his position against this position, john yoo, professor of law at uc berkeley and former justice department lawyer. %$* 13
+well, it's been a great pleasure to participate in this debate and try to urge you one way or the other. %$* 50
+and, you know, we're sitting in philadelphia. %$* 50
+again, i'd like to emphasize, my hometown. %$* 50
+and we're at the site of the drafting of the constitution in the little room across the way. %$* 50
+and this is not a perfect document. %$* 50
+it wasn't a document that bent to one overall principle or another. %$* 50
+one thing you get very much a sense of if you go visit that little room or you read accounts of the constitution that it was the product of compromises made by practical people who wanted to create a workable government. %$* 50
+that's why we have with the senate melded with popular representation in the house. %$* 50
+and so our constitution does two things. %$* 50
+it does protect rights and the right to be from unreasonable searches and seizures. %$* 50
+but as many justices, particularly justice jackson, remind us, the constitution is also not a suicide pact. %$* 50
+it is not a document that's designed to place individual rights above the ability of our society to defend itself from foreign attack. %$* 50
+and so that's how we are supposed to look at these kinds of questions by the text of the fourth amendment and by decades and decades of supreme court opinions, going back many, many years. %$* 50
+what is a reasonable thing for us as a society to do? %$* 50
+is it reasonable to try to find al-qaeda terrorists using these kinds of technologies or do we think that they so outweigh our rights to privacy that judges should stop them? %$* 50
+i would say actually that this is a decision where our side is arguing for a little bit of modesty and humility, that we don't have the right answer. %$* 50
+we cannot predict the way technology will run. %$* 50
+we can't predict everything al-qaeda's going to do, our enemy's going to do. %$* 50
+we think that the best way to make this decision is to have an evolving standard based on what legislatures and executive branch do, not to rely on a few judges. %$* 50
+as i keep saying, what kind of society do we want to live in? %$* 50
+i think that's for us to decide through elections, through our own choices and not because a few judges on the supreme court tell us what kind of society to live in. %$* 50
+so thank you very much, and vote for us. %$* 50
+thank you, john yoo. %$* 13
+and that concludes our closing statements. %$* 13
+and now it's time to learn which side has argued the best. %$* 13
+we're going to ask you right now to go to the keypad at your seat that will register your vote after hearing the arguments. %$* 13
+push one if you agree with the motion, “mass collection of u.s.phone records violates the fourth amendment.”push number two if you disagree with this motion. %$* 13
+push number three if you remain or became undecided in the course of the debate. %$* 13
+and we will have the readout in about a minute and a half. %$* 13
+and while we're doing that, the first thing i want to say is it's the goal of intelligence squared to show that tough discourse can be had in a civil way. %$* 13
+and i really think these four debaters were great at that. %$* 13
+and i want to congratulate all of them for what they did. %$* 13
+and i also want to ask-- %$* 13
+i want to-- %$* 13
+also want to thank everybody who got up and asked a question, including the question that i didn't take. %$* 13
+it's not that it at all was a bad question, and we've done a couple of debates where it would have been a magical question, so you're going to have to come up to new york the next time we revisit the nsa issue, because it would be great. %$* 13
+but to everybody who got up and asked a question, it really did move along the debate for us, so thank you for that and congratulations. %$* 13
+we want to thank jeffrey rosen, of course, of the national constitution center for inviting us here today. %$* 13
+and we hope that this remains a continuing series. %$* 13
+this is our third time here, and each time the debate has just been sparkling. %$* 13
+and this program, i want to point out, was supported by daniel berger, esq. %$* 13
+programming fund for the national constitution center. %$* 13
+our gratitude to them and a round of applause, please, thanks. %$* 13
+we would love it if you would tweet about this debate. %$* 13
+the baby boomers will have all of that explained to them, how that works, and the burn phones, and all-- %$* 13
+i've already tweeted this %$* 18
+oh, okay. %$* 13
+our twitter handle is @iq2us and @constitution, c-t-r for center, constitutionctr. %$* 13
+the hashtag is 4thamendment. %$* 13
+we will be partnering with the ncc and the richman center at columbia university next spring, debating the president's constitutional war powers. %$* 13
+but until then our next regularly scheduled debate will be at the kaufman center in new york. %$* 13
+that's on wednesday, october 22.our motion there is, "income inequality impairs the american dream of upward mobility."so, it's a 90-minute train ride. %$* 13
+we hope we'll see some of you. %$* 13
+we will have an economist and one presenter on each side of that debate. %$* 13
+for the motion, elise gould, she's a senior economist at the economic policy institute. %$* 13
+and her partner is nick hanauer. %$* 13
+he's an entrepreneur and a venture capitalist. %$* 13
+against them, edward conard. %$* 13
+he's a former partner at bain capital. %$* 13
+and his partner is scott winship, who is a fellow at the manhattan institute. %$* 13
+you can get tickets for all of our debates at our website, iq2us.org. %$* 13
+and we've recently launched a quite elegant little iphone and android app for intelligence squared. %$* 13
+it will let you see what our debates are coming up. %$* 13
+it will let you vote on our debates. %$* 13
+it will let you hear all of the nearly 100 debates that we've put on since 2006.and you can watch the live stream of debates you can't get to on our website, iq2us.org or listen to the debates on npr stations across the country. %$* 13
+okay. %$* 13
+oh, one thing i need to ask you, because last time-- %$* 13
+and i don't know, john yoo, if it's a philadelphia thing. %$* 13
+but some people walked out with our keypads. %$* 13
+so – %$* 13
+i think they're for sale right outside. %$* 50
+so, then they were on ebay. %$* 13
+we just want to ask: make sure that you leave those at your seat there. %$* 13
+they're not take-homes. %$* 13
+okay. %$* 13
+okay, so, it's all in. %$* 13
+i have the final results now. %$* 13
+remember, you have voted twice: once before the debate, and again after hearing the argument. %$* 13
+and the team whose numbers have moved the most in percentage point terms will be declared our winner. %$* 13
+so, let's look at the first vote on the motion, “mass collection of u.s.phone records violates the fourth amendment.” before the debate 46 percent agreed with the motion; 17 percent were against the motion; 37 percent were undecided. %$* 13
+so, those are the first results. %$* 13
+you need to move the numbers most, by percentage point terms, to win this debate. %$* 13
+let's look at the second vote. %$* 13
+the team arguing for the motion, their second vote was 66 percent. %$* 13
+they went from 46 to 66 percent, picking up 20 percentage points. %$* 13
+that's the number to beat. %$* 13
+the team arguing against the motion, their first vote was 17 percent; second, 28 percent. %$* 13
+they pulled up 11 percentage point, but it's not enough. %$* 13
+the debate won by the team arguing for the motion, “mass collection of u.s.phone records violates the fourth amendment.” our congratulations to them. %$* 13
+thank you from me, john donvan, and intelligence squared. %$* 13
+we'll see you next time. %$* 13

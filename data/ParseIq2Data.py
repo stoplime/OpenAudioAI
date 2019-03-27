@@ -11,6 +11,7 @@
 import json
 import os
 import copy
+import tqdm
 
 PATH = os.path.abspath(os.path.dirname(__file__))
 
@@ -133,7 +134,7 @@ def data_iterator():
             #              - "sentences": List()
                 # "sentences" List() - A sentence per entry 
     dialogues = []
-    for key, val in rawData.items():
+    for key, val in tqdm.tqdm(rawData.items()):
         dialog = []
         for _key, _val in val.items():
             # Select transcript
@@ -174,6 +175,56 @@ def dialogues2listSentences(dialogues):
     # print(speakers)
     return sentences, speakers
 
+def splits_sentence_dialogs2files(sentences):
+    file_groups = []
+    for dialog_sentences in sentences:
+        dialog_group = []
+        splits = even_spliter(len(dialog_sentences))
+        split_sum = 0
+        for split in splits:
+            dialog_group.append(dialog_sentences[split_sum:split_sum+split])
+            split_sum += split
+        file_groups.append(dialog_group)
+    return file_groups
+
+def file_split(file_groups):
+    groups = len(file_groups)
+    # print(groups)
+    # exit()
+
+    val_split_value = int(groups * val_split)
+    test_split_value = int(groups * test_split)
+
+    train_count = 0
+    val_count = 0
+    test_count = 0
+
+    make_train_val_test_split_folders()
+
+    for i, group in tqdm.tqdm(enumerate(file_groups), total=groups):
+        if i < test_split_value:
+            for file_data in group:
+                # write the file_data into a file
+                with open(os.path.join(outputFolders["test"], "test_"+str(test_count)+".txt"), 'w') as f:
+                    test_count += 1
+                    for sentence in file_data:
+                        f.write(sentence+"\n")
+        elif i < test_split_value + val_split_value:
+            for file_data in group:
+                # write the file_data into a file
+                with open(os.path.join(outputFolders["val"], "val_"+str(val_count)+".txt"), 'w') as f:
+                    val_count += 1
+                    for sentence in file_data:
+                        f.write(sentence+"\n")
+        else:
+            for file_data in group:
+                # write the file_data into a file
+                with open(os.path.join(outputFolders["train"], "train_"+str(train_count)+".txt"), 'w') as f:
+                    train_count += 1
+                    for sentence in file_data:
+                        f.write(sentence+"\n")
+    print("done")
+
 def main():
     # test()
     # pass
@@ -185,7 +236,8 @@ def main():
     #     print("------")
     data = data_iterator()
     sentences, speakers = dialogues2listSentences(data)
-    print(len(sentences[0]))
+    file_groups = splits_sentence_dialogs2files(sentences)
+    file_split(file_groups)
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,500 @@
+and now i'd like to introduce the chairman of intelligence squared, mr. %$* 13
+robert rosenkranz. %$* 13
+thank you and welcome. %$* 1
+well, i don't mean to be a name dropper, but last week i posed our resolution to two of my dinner partners, rupert murdoch and george w.bush. %$* 1
+they both had strong views, and both were against the motion. %$* 1
+murdoch was vehement that fox news is not polarizing, but presents-- %$* 1
+but presents a more balanced view than the other networks and attracts an audience that is 40 percent democrat, which i thought was an interesting statistic. %$* 1
+and president bush argued that in most of the world, the internet has opened minds to the way of life in the liberal democracies and has been a hugely constructive force for change. %$* 1
+he acknowledged the extreme polarization of american politics, but blamed it on the class warfare rhetoric of his successor. %$* 1
+whenever one thinks of their points, they do illuminate some of the subtleties in the language of our resolution. %$* 1
+murdoch correctly grasped that it does not posit that the internet is the sole or even the primary driver of the narrow ideologies that seem to dominate politics. %$* 1
+rather, he understood the internet as part of a broader trend toward a highly fragmented media. %$* 1
+and president bush, by taking the resolution in a global context, prompts me to clarify that what we expect to talk about tonight is american politics. %$* 1
+why might be the internet be closing our minds? %$* 1
+the first reason is that the internet makes it very easy to tailor the information we get to conform to a preconceived world view. %$* 1
+we can choose news aggregators on the left or on the right, not to mention highly ideological bloggers and live our lives without encountering any contrary opinion. %$* 1
+in a great little essay called, "why groups go to extremes," cass sunstein, the obama administration's regulatory czar, demonstrated empirically that discussing issues with like-minded folks tends to make positions more extreme. %$* 1
+in addition to self selection, the internet makes it easy for websites to, "personalize our offerings." it seems innocuous, even helpful when netflix tells us that the viewers who enjoyed movie a also enjoyed movie b. but if you google federal deficit or medicare reform, is it healthy for your search to come up differently than mine based on what google has been able to infer about our political leanings? %$* 1
+those against the motion will argue that the internet is a vast information utility which facilitates search, learning and communications. %$* 1
+personalization may be a blessing, simply helping us make the choices we want to make. %$* 1
+we can turn personal filters on or off, so there's no real danger here. %$* 1
+and little hard evidence that google has helped us erect mental fortresses through which contrary ideas are not allowed to penetrate. %$* 1
+indeed, the filters from the pre-internet era, three like-minded networks and a handful of local newspapers, were arguably less hospitable to views outside american census than the open marketplace and information and ideas we have today. %$* 1
+to illuminate the complexities here, we have four distinguished experts, and it's now my privilege to turn the evening over to them and to our moderator, john donvan. %$* 1
+thank you, robert. %$* 13
+thank you. %$* 13
+and i would just like to invite one more round of applause for the benefactor of this series, robert rosenkranz. %$* 13
+yes or no to this statement: "when it comes to politics, the internet is closing our minds." the state of the online debate, that is what we're debating here tonight. %$* 13
+welcome from intelligence squared u.s.i'm john donvan. %$* 13
+we have four superbly qualified debaters, two against two. %$* 13
+and what we're touching on here-- %$* 13
+well, it starts with this, a sampling of this, and see if it's familiar. %$* 13
+this is a recent exchange among wall street journal readers who were posting to each other about health care or actually posting at each other. %$* 13
+glen, the liberal, just had his argument attacked by david, the conservative. %$* 13
+glen gets mad. %$* 13
+“one wonders how you can even press the keys on the keyboard. %$* 13
+please just go away."david responds, "now i know you're a liberal because liberals are rude and will not listen to any reason." a guy named kevin joins in the attack, and he tells glen to read up on economics and civics. %$* 13
+glen tells kevin, "put this in your pipe and smoke it, you pseudo intellectual rube." from nowhere, a guy named mark weighs in. %$* 13
+he tells glen that he is "intellectually challenged” and advises him that he needs to “get some lithium." when it comes to politics, the internet is closing our minds. %$* 13
+is that what we just heard, our minds closing out there, or is it a great thing that these guys are actually out there engaging with each other at all? %$* 13
+our debate goes in three rounds, then the audience votes to choose the winner. %$* 13
+only one side wins. %$* 13
+on the side for our motion, when it comes to politics, the internet is changing our minds, eli pariser, a board member and former executive director of moveon.org. %$* 13
+his partner is siva vaidhyanathan, professor and chair of the department of media studies at the university of virginia. %$* 13
+against the motion that when it comes to politics, the internet is changing our minds, evgeny morozov, a schwartz fellow at the new america foundation and author of "the net delusion." and his partner, jacob weisberg, chairman and editor in chief of the slate group. %$* 13
+our motion is, "when it comes to politics, the internet is closing our minds." let's meet our debaters now and welcome first eli pariser. %$* 13
+and eli, at the age of 20, you joined moveon.org to direct its foreign policy campaigns. %$* 13
+and then a couple of years later, you became its executive director. %$* 13
+you have been an online organizer all of your adult life. %$* 13
+but now you are warning about the dangers of the internet. %$* 13
+so what changed, you or the internet? %$* 13
+the internet changed more than i did. %$* 670
+all right. %$* 13
+we'll see when you-- %$* 13
+when you get up there, we're going to see what you mean by that. %$* 13
+your debating partner, let's welcome siva vaidhyanathan. %$* 13
+you are a professor and department of media studies chair at the university of virginia. %$* 13
+you're also author of this book, "the googlization of everything and why we should worry." this is actually your second debate with us. %$* 13
+and the first time you were debating for the motion, "google violates its don't be evil motto," and you won. %$* 13
+do you still think-- %$* 13
+do you still think google is evil? %$* 13
+well, i never thought google was evil, but i did think that was an impossible standard for any company to hold, so it was actually not that hard to win. %$* 603
+i think the really interesting question is, does google think i'm evil. %$* 603
+thank you. %$* 13
+our motion is, "when it comes to politics, the internet is closing our minds." let's meet the team arguing against. %$* 13
+first, evgeny morozov. %$* 13
+you're a visiting fellow at stanford university, a schwartz fellow at the new america foundation. %$* 13
+you wrote a book also, "the net delusion: the dark side of internet freedom." you have said-- %$* 13
+this was in a ted talk, that when the internet reaches a remote russian village, people are not going to be sitting there watching reports from human rights watch; they're going to be watching pornography, sex and the city or maybe funny videos of cats. %$* 13
+so how worried are you about these cat videos? %$* 13
+well, cats, i think are the new opium of the masses. %$* 671
+and the the have figured it out, and they exploit perfectly a little thought control. %$* 671
+thank you. %$* 13
+and let's meet your debating partner, jacob weisberg. %$* 13
+jacob, you are chairman and editor in chief of the slate group. %$* 13
+now, you wrote for print, for everybody in the old days, the new republic, new york magazine, financial times among other places. %$* 13
+but in 1996, you joined a new online magazine called slate as its chief political correspondent. %$* 13
+that was very early in the game. %$* 13
+so what did you know back then? %$* 13
+well, john, i was an early visionary. %$* 126
+no, actually, i got very lucky when my friend, michael kinsley decided to found slate, and it seemed like a fun thing to do. %$* 126
+and it turns out it's impossible to go back. %$* 126
+the internet spoils you as a writer because of the freedom you have and the speed. %$* 126
+all right. %$* 13
+thank you, jacob weisberg. %$* 13
+our four debaters, ladies and gentlemen. %$* 13
+now, in this debate, you, our audience, are our judges. %$* 13
+by the time the debate has ended, we're going to have asked you to vote two times, once before the debate and once again after the debate on the language motion and on your position on it both before and after. %$* 13
+and what we want to ask you to do now is go to the key pads at your seat. %$* 13
+on the right hand side, you'll see a keypad. %$* 13
+and we'll ask you to vote your sentiment on this motion as you're coming off the street. %$* 13
+our motion is, "when it comes to politics, the internet is closing our minds." if you agree with it, push number one. %$* 13
+if you disagree, push number two. %$* 13
+if you're undecided, push number three. %$* 13
+and you can ignore the other keys. %$* 13
+and if you want to correct your entry, just correct it, and the system will register your last vote. %$* 13
+so that's locked out now. %$* 13
+again, at the end of the debate, we're going to ask you to vote on the quality of the arguments that were presented here tonight, and the team that has the greatest differential between this opening vote and the closing vote will be declared by you, our audience, their winners. %$* 13
+so we go in three rounds. %$* 13
+the first round is seven minutes, each, uninterrupted by each speaker in turn. %$* 13
+so on to round one, opening statements from each of our debaters, and going up first for our motion, which is, "when it comes to politics, the internet is closing our minds," eli pariser. %$* 13
+he's a moveon.org board member, ceo of upworthy.com, and author of, "the filter bubble, what the internet is hiding from you." that book was the inspiration for our having this debate tonight. %$* 13
+ladies and gentlemen, eli pariser. %$* 13
+good evening, everyone. %$* 670
+i find myself arguing that the internet is closing our minds with a bit of regret. %$* 670
+this isn't the place that i would want to be, and actually as of a few years ago i would have been arguing the other side, but i've come to believe that the-- %$* 670
+well, the internet is incredibly good at getting groups of likeminded people to get together, think together, work together. %$* 670
+but it's actually quite bad at bridging between groups of different people, and that the view that the internet is exposing us to all sorts of new ways of thinking and new ideas is kind of a dated view, that the internet's changing, and that there are a few big companies that would like us to hold onto that idea that the internet is still this kind of open place. %$* 670
+so the core of my argument is this, attention is the most valuable commodity out there right now. %$* 670
+if you command attention, then you can direct it towards products or services and you can make a lot of money, and that's why all of the big companies on the internet are trying to figure out what the best strategy is for gathering as much of it as possible. %$* 670
+and most of them are focused on the same strategy which is gathering as much data about us as they can and then using that data to give us what they think, what they predict, based on their-- %$* 670
+this data and their algorithms, we're going to be interested in. %$* 670
+relevance is the big watchword here. %$* 670
+so, you know, if you talk to these companies, if you look at what they're saying, it's very clear that this is a big part of the business plan. %$* 670
+eric schmidt says, "very soon it will be nearly impossible to see something that has not in some way been tailored to you." sheryl sandberg of facebook, says, "within the next few years, it'll be anachronistic to visit a website that hasn't been customized to your personal interests in some way." and facebook is becoming this growing source of how people get their news and how people get their information. %$* 670
+so why are they doing this? %$* 670
+well, i think evgeny actually put it really well. %$* 670
+why does facebook employ filters? %$* 670
+the more they know about us, the more they can make in advertising revenues. %$* 670
+and the thing is that these companies aren't blind to the psychology of all this. %$* 670
+they've read all of the studies that show that when you present people with information that confirms what they already believed was true, you can actually see these little bursts of pleasure happening in people's brains. %$* 670
+and conversely, when people are presented with information that challenges what they believed, they get cranky. %$* 670
+that's just the way we're wired. %$* 670
+and so if you're a company that's trying to meet stockholder demands and you have this power to present people with information that tends to validate them, why wouldn't you? %$* 670
+as a result of this kind of personalization and self selection, we're more likely to see things we agree with and less likely to see things we disagree with. %$* 670
+now, to be clear, i'm not arguing that all personalization is bad. %$* 670
+personalization certainly can have benefits. %$* 670
+i'm a netflix user. %$* 670
+but the question is, what are the driving motives behind the kind of personalization that most people use, and what are the effects of that personalization? %$* 670
+and i'll argue that because of the motives of these companies, those filters that they're building are going to tend to surround us with information that's agreeable to us and not with information that's uncomfortable. %$* 670
+so a few examples of what this looks like in practice, it looks like one person googling egypt and seeing lots of information about the arab spring and another person googling egypt at the same time and seeing nothing about the arab spring. %$* 670
+this actually happened, i've got the screenshots on my website. %$* 670
+and, you know, i could run through a number of other anecdotes, but actually there's been a study-- %$* 670
+the only peer reviewed study i'm aware of on the google search results and the effects of personalization there-- %$* 670
+that shows that 60 percent of the search results on a given front page are usually personalized. %$* 670
+either they're in a different order or they're actually, you know, totally different results based on who google thinks you are and what it thinks you'll be interested in. %$* 670
+so what i think we have to begin to do is to tease apart what the internet actually does from what we wish it would do or what it possibly could do. %$* 670
+and in particular we have to tease apart what's possible to access versus what people do access. %$* 670
+for example, now that the-- %$* 670
+it's easy now to access the front page of le monde or die zeit, as it is, in fact to access the new york times. %$* 670
+so you would think, given this vast increase in accessibility of foreign policy, information, of what’s going on in other countries, that people would know more about what’s going on there. %$* 670
+in fact that’s not true. %$* 670
+according to a pew study from 2007, people actually were more informed on foreign policy matters before the internet than in 2007.so when jacob says you can find more sources than ever, it’s kind of beside the point. %$* 670
+what’s relevant is that people come into daily contact more frequently, is whether people come into daily contact with more different sources and more particular, different ideological ones. %$* 670
+i agree here again with evgeny who says the regular folk don’t read sites like global voices, an aggregator of the most interesting blog posts from all over the world. %$* 670
+instead they are more likely to use the internet to rediscover their own culture and dare we say it, their own national bigotry. %$* 670
+so to summarize, big companies are rapidly working to personalize your version of the web. %$* 670
+they want to show you what they think you’re going to be interested in. %$* 670
+and this isn't passive. %$* 670
+this isn’t me turning on fox news or me turning on-- %$* 670
+or picking up a copy of the nation. %$* 670
+this is embedded in an increasing number of websites. %$* 670
+yahoo news in 2007, was a gateway for 80 million people that looked the same. %$* 670
+but now, yahoo runs 13 million different variations of yahoo news front page every day. %$* 670
+and they’re different for each person. %$* 670
+it’s hard to even see. %$* 670
+we don’t know how tailored our view of the web is because you have to sit down next to someone else and look at the differences. %$* 670
+so the object of this personalization is to get us to click more. %$* 670
+it’s to get us to like more. %$* 670
+and importantly, it’s to get us to click on ads. %$* 670
+and there’s little benefit in that world to presenting us with information that makes us uncomfortable, that challenges our views, or that makes us think differently. %$* 670
+i don’t think that this has caused the extreme political polarization that we’re seeing right now. %$* 670
+but i think it can’t help but exacerbate it. %$* 670
+google says that it’s trying to provide relevance. %$* 670
+but what is the most relevant search result when you’re a 9/11 conspiracy theorist googling 9/11? %$* 670
+is it the conspiracy links that google’s algorithm would tend to promote or is it the popular mechanics article that would debunk that stuff? %$* 670
+i asked google this question and they didn’t really have a clear answer. %$* 670
+so it’s with regret that i think the internet is not living up to its potential. %$* 670
+the way that most people actually use the thing isn’t to broaden their political perspectives. %$* 670
+in fact the path that we generally travel on online will tend to mirror our political views. %$* 670
+thank you. %$* 670
+thank you eli pariser. %$* 13
+our motion is "when it comes to politics, the internet is closing our minds." and here to speak against the motion, jacob weisberg. %$* 13
+he is a pioneer in online journalism. %$* 13
+jacob is editor in chief of the slate group, the internet based arm of the washington post company. %$* 13
+thank you john. %$* 126
+eli, you can’t have evgeny. %$* 126
+he’s committed to me till at least 8:15.look, i’ll concede that the internet narrowing our political perspectives is an interesting theoretical problem. %$* 126
+people do have a tendency to prefer listening to what they already agree with. %$* 126
+and the internet makes it easier in theory for people to live in a solid cystic bubble, where they mostly interact with people who have similar views. %$* 126
+but is that a phenomenon that’s getting worse? %$* 126
+and if it is getting worse, is it getting worse because of the internet? %$* 126
+eli, and i think siva, is going to argue that because, they think that because google and facebook are bad for us, it must be. %$* 126
+but their skepticism about these tools we use every day is kind of the mirror opposite of the cyber utopians who think that new technology only brings us good things. %$* 126
+there are a lot of interesting theoretical problems from the malthusian food scarcity to the y2k bug, that are just never born out in practice. %$* 126
+the atlantic magazine gets a cover out of this every month right? %$* 126
+is google making you stupid? %$* 126
+is facebook making you lonely? %$* 126
+that’s actually the cover this month. %$* 126
+is twitter destroying your attention span? %$* 126
+but cyber realists like evgeny and me try to look at questions like this in a more empirical way. %$* 126
+so what’s the evidence for tonight’s proposition, the internet is narrowing our views. %$* 126
+i won’t say there’s none, but i will say it’s laughably weak. %$* 126
+and there’s some really good evidence that the web’s doing the opposite of what our opponents claim, that it’s exposing us to a broader range of perspectives and making us less parochial in our outlook. %$* 126
+and it’s on that empirical basis and on the basis of your own experience of not becoming more narrow, that you should vote against tonight’s motion. %$* 126
+there’s of course some studies about this. %$* 126
+there was one a few years ago that showed left and right wing bloggers don’t just talk to their own side. %$* 126
+they respond to each other and link to each other a lot, and it’s not all the kind of exchange john cited at the beginning. %$* 126
+there's a pew study from last year that show-- %$* 126
+this is a quote, "no evidence that social network users, including those who use facebook, were any more likely to cocoon themselves in social networks of like minded and similar people as some have feared." there's another new pew study that says that people's social network friendships tend to cross political boundaries. %$* 126
+the biggest study which involved 250 million facebook users, yes, it was sponsored by facebook, but it was a good study, showed convincingly that most people share links from people they aren't close to. %$* 126
+that is, we do reach outside of our personal circles for news. %$* 126
+so eli said at the beginning of his very interesting book that he published last year, that "google was tailoring search results to our politics." he said that on the basis of one anecdote from a friend i don't think he named. %$* 126
+he had a similar anecdote tonight about egypt. %$* 126
+allow me to be skeptical. %$* 126
+you can get-- %$* 126
+you can do a funky search that gives you weird results at any time of the day for a variety of reasons. %$* 126
+but i did a test on this where i asked friends of mine, different parts of the country, different political views, different worlds, to search some parallel, very political loaded terms like "climate change." and basically, they got exactly the same thing. %$* 126
+and i don't think that there is more than anecdotes to support what eli is talking about. %$* 126
+i've looked at the studies. %$* 126
+now, since eli wrote his book, google has changed, and it now includes results from your social network and search returns. %$* 126
+so if you're spending all your time on google plus, and you're the only people in your circle or bill o'reilly and rush limbaugh, you may in fact see some ideological bias in the returns. %$* 126
+but google added social searching in a way that actually specifically addresses eli's problem. %$* 126
+he had a lot of influence on this. %$* 126
+you can turn customization off by pressing the prominent button that says, "hide personal results." and you can toggle back and forth if you're curious about the difference. %$* 126
+on facebook, it's just as easy to turn off customization. %$* 126
+you change the sort option on your top stories to most recent. %$* 126
+in other words, the filtering they do, these giant sites, is completely transparent and optional. %$* 126
+i leave customization on most of the time because a social filter doesn't actually trap you in your own bubble. %$* 126
+and take music just as an example i think we can all relate to. %$* 126
+the reason i use spotify, which is a social music service, is that i'm a little bored with the music i already know, and i want to be exposed to stuff i don't know, which i get through my facebook friends. %$* 126
+so back at the level of theory, could an algorithm personalize the news to figure your-- %$* 126
+your political perspective? %$* 126
+i think it's much harder to do that than it seems. %$* 126
+news organizations are really trying to do that. %$* 126
+they actually haven't been very successful, which is why, when you go to newyorktimes.com, and i go, we get the same home page. %$* 126
+of course, you can get narrow minded, politically filtered news, but you don't need the internet to do that. %$* 126
+you can go to rush limbaugh and the radio or fox or msnbc on tv.now, it is worth noting that we did used to have the kind of constricting filter bubble eli's worried about. %$* 126
+and that was the mainstream media before the internet. %$* 126
+when i was a kid in the '70s, you found out about the world through tv networks, a couple of news magazines, local newspapers. %$* 126
+there weren't any national ones. %$* 126
+and it was a very limited range of viewpoints and voices. %$* 126
+and if you want to create that kind of filter bubble, all you have to do is remove technologies before television, before radio, before newspapers. %$* 126
+so personally, i get a lot of my news these days through a tool called twitter. %$* 126
+i use it as a filter for stories that are relevant to me. %$* 126
+and what it does is the opposite of narrowing my perspective. %$* 126
+thanks to twitter, i'm regularly getting news from global sources as well as american ones. %$* 126
+i tune into a lot of really interesting arab voices during the arab spring. %$* 126
+i followed china in part through an english translation of tweets from ai weiwei the chinese artist who's become one of the most important dissidents in the world today. %$* 126
+and those filters broaden my perspective. %$* 126
+twitter is a serendipity engine. %$* 126
+finally, i don't think you need to look at all these studies or understand algorithms to make up your mind about tonight's motion. %$* 126
+all you have to do is ask yourself a pretty simple question: has the web narrowed my mind? %$* 126
+has it made me less tolerant of people i disagree with and less interested in what they have today to say? %$* 126
+or has it exposed me to a broader range of voices, sources and ideas than we all used to get when we relied on a consensus oriented mainstream media for all our information? %$* 126
+unless you're convinced that the web makes you narrower, you should vote against tonight's motion. %$* 126
+thank you, jacob weisberg. %$* 13
+a reminder of what's going on. %$* 13
+we are halfway through the opening round of this intelligence squared u.s.debate. %$* 13
+i'm john donvan. %$* 13
+we have four debaters, two teams of two fighting it out over this motion, "when it comes to politics, the internet is closing our minds."we have heard the first opening statements, and now onto the third. %$* 13
+debating for the motion, the author of "the googlization of everything and why we should worry," chair of the university of virginia's department of media studies. %$* 13
+he's been called "google's gadfly," siva vaidhyanathan. %$* 13
+thank you. %$* 603
+so the internet has so narrowed my mind that i didn't hear a word jacob said. %$* 603
+so in these brief comments, i will explain what eli and i mean by the internet as invoked in the resolution and what we mean by politics. %$* 603
+and i'm going to convince you to support the resolution. %$* 603
+first, try to remember 1999, the days of aol, the days of prodigy, the apex of our long national nightmare of peace and prosperity. %$* 603
+in 1999, thomas friedman wrote these words: "the internet is going to be like a huge vise. %$* 603
+it's going to keep tightening and tightening that system”-- %$* 603
+meaning the system of globalization-- %$* 603
+"around everyone in ways that will only make the world smaller, smaller and faster and faster."well, thomas friedman could not have been more wrong. %$* 603
+he's been exactly that wrong many times, but never more wrong. %$* 603
+now, in 2012, it's clear that there is no such thing as "the internet,” capital t, capital i as friedman and others so often described in the 1990s. %$* 603
+there is no equalizing force, great democratizing force, there is no global network of networks that unites us all and gives us all equal voice to interact with each other across borders and across classes, for that matter. %$* 603
+in fact, the alleged network of networks is, in 2012, balkanized, nationalized, compromised, anesthetized, supervised, circumcised and hypnotized. %$* 603
+it's far from global, and it's getting less so every day. %$* 603
+the online experience of a person sitting in turkey is so different from the online experience of someone sitting in india and so different from the online experience of someone sitting in iran or someone sitting in china. %$* 603
+and all of those are even more different from the experiences of people in brazil, in russia or the united states. %$* 603
+and we're talking about more than censorship, although, in many of those countries, online censorship is a serious and crippling issue. %$* 603
+we're also talking about platforms, the platforms that people use, the platforms that governments will let people use. %$* 603
+the rise of kill switches is something we have to take into account as well. %$* 603
+kill switches that we saw a year ago in egypt to wipe out internet communication in an instant, we've seen experiments in kill switches in china in early 2012, and we've seen people like senator lieberman even propose them in the united states. %$* 603
+internet technologies amplify so much of what we already are and what we already want. %$* 603
+and the fact is, we're pretty provincial animals. %$* 603
+so add the internet to it, we just double down. %$* 603
+we get more provincial. %$* 603
+platforms matter, defaults matter, and policies matter. %$* 603
+so here in 2012, or now in 2012, we are not all holding virtual hands with our facebook friends across the globe singing, "we are the world." there is no coordinated global movement for justice. %$* 603
+there's no sophisticated online debate about our collective human state or even our basic human needs. %$* 603
+the dominant powers governing our digital experiences, the state, for instance, in china, or corporations in brazil or the united states are not interested in such matters. %$* 603
+they are not interested in us being political. %$* 603
+sometimes these powers actively restrict us, like in china. %$* 603
+more often than not, these powers seduce us into shallow consumption, consumptive behaviors like shopping or giggling at cats or clicking on cows. %$* 603
+not that there's anything wrong with clicking on virtual cows, but it ain't political. %$* 603
+our minds are closing because our attentions are distracted, fractured and segregated into niches and nations. %$* 603
+but all hope is not lost. %$* 603
+there is nothing about the nature of the internet that prevents us from being political, richly political. %$* 603
+many of us actually are, i would suspect that most of us in the audience have done a pretty good job of avoiding these traps. %$* 603
+we're pretty elite. %$* 603
+we're pretty aware. %$* 603
+and we're pretty connected. %$* 603
+and we route around a lot of these problems. %$* 603
+we're also hungry for information. %$* 603
+if you weren't hungry, you wouldn't be here. %$* 603
+so many of us, despite what facebook does with thoughts, despite what the iranian government does in iran, have managed to be richly political. %$* 603
+but we do know that the internet by itself does not topple dictators, does not undermine newspapers. %$* 603
+it's just not that simple. %$* 603
+if we recognized the biases inherent in many of the platforms of our media systems, we can correct, we can adjust, we can invest, we can invent, we can resist, persist, and thrive. %$* 603
+we could build platforms that enhance republican deliberation and extend cosmopolitan perspectives. %$* 603
+we just haven't done that yet. %$* 603
+we've been really busy clicking on cows. %$* 603
+but all that takes work. %$* 603
+it takes real human work in addition to invention and imagination, real human effort. %$* 603
+but the first step to recognizing that-- %$* 603
+i'm sorry-- %$* 603
+the first step to realizing that is to recognize what's happening. %$* 603
+when it comes to politics, the internet, most importantly how we experience the internet is closing our minds one cow click at a time. %$* 603
+please vote for the motion. %$* 603
+thanks. %$* 603
+thank you. %$* 13
+our motion is, "when it comes to politics, the internet is closing our minds." and our final debater against the motion, he comes from the former soviet republic of belarus, something that has shaped his interest in the internet's role in politics, he is a schwartz fellow at the new american foundation, and author of the book, "the net delusion," evgeny morozov. %$* 13
+thank you. %$* 671
+well, i'm glad that siva has chosen to debate with thomas friedman rather than with us, but i'd like to begin with a few lessons from history. %$* 671
+first, technology always plays the scapegoat whenever it comes to debates about the closing of the american mind. %$* 671
+remember allan bloom and his bestselling book, "the closing of the american mind," in the '80s? %$* 671
+well, let me remind you, bloom has actually argued that the closing of the american mind occurs because of cd players and headphones. %$* 671
+and he actually argued that those might incite teenagers to kill their parents. %$* 671
+we know what the late allan bloom would have made of the ipad, why his reactionary torch is now being carried by the liberal crowd from moveon is beyond me. %$* 671
+the second lesson from history is that concerns about online polarization are as old as the as early as 1995, the nation magazine carried an article by andrew shapiro, which argued, and i quote, "cyberspace is shaping out to be more like suburbia than cy-berkeley, where you interact only with people of your choosing and with information tailored to your desires." that was 1995.six years later, cass sunstein argued that, "the internet is serving as a breeding ground for extremism because likeminded people are deliberating with one another without hearing contrary views," end of quote. %$* 671
+so enter eli pariser. %$* 671
+in one respect, he follows in the tradition of shapiro and sunstein. %$* 671
+all of them present virtually no evidence that such online segregation is taking place. %$* 671
+but they're also different. %$* 671
+where shapiro and sunstein worried that we, the users, might choose the easy way out and simply award our comfortable viewpoints, but pariser argues that filters and algorithms are doing this for us. %$* 671
+it's a very important difference. %$* 671
+shapiro and sunstein blame the filter bubble on us, the users. %$* 671
+but pariser blames it on the companies. %$* 671
+now, who doesn't like such an exciting conspiracy theory? %$* 671
+after all, it's always good to find someone else to blame but us. %$* 671
+i think this is a fairytale for many of the reasons that jacob has outlined, but let me also provoke and give you three examples of how filters naturally enhance our political culture. %$* 671
+so let's take twitter. %$* 671
+many people think that twitter, unlike google and facebook, does not engage in customizing and filtering. %$* 671
+that is actually not true. %$* 671
+twitter does hide certain types of messages. %$* 671
+thus, if you follow me but you don't follow siva, and i send siva a public tweet, you will not see that tweet. %$* 671
+just think about it, you choose to follow me and you probably expect to get all of my messages, but you're actually not seeing my tweet to siva. %$* 671
+and, mind you, twitter made that filtering decision on your behalf. %$* 671
+is it paternalistic? %$* 671
+sure. %$* 671
+are these types of paternalism justified? %$* 671
+well, take my case. %$* 671
+i follow more than 2,000 people on twitter, and i'm very happy with the breadth of news i get. %$* 671
+but if i have to read every single conversation that these 2,000 people have with thousands of people that they know but i don't know, i will have never managed to follow 2,000 people. %$* 671
+at best, i would follow 100.this is the beauty of it, twitter's filter allows me to access more, not less useful information. %$* 671
+now, let's take facebook. %$* 671
+it has 800 million users. %$* 671
+some of them are heavy users, they have 5,000 friends and spend hours on it every day. %$* 671
+others open it every few weeks and only have a few dozen friends. %$* 671
+so facebook has built this very collaborative differentiation. %$* 671
+if you are a heavy user, it presents you all updates from your friends in the chronological order. %$* 671
+that’s the most recent updates from all your friends come first. %$* 671
+however, if you only use it occasionally, they will show you only the most interesting updates. %$* 671
+the assumption there is that if you have been away for three weeks and you only have 30 minutes to catch up, why go through thousands of messages in chronological order? %$* 671
+to facebook and to me, this seems like a reasonable assumption. %$* 671
+that’s why relevance rather than recency is the default filter for the occasional users. %$* 671
+if you want to see all the recent messages, all you have to do, as jacob said, is just click a button called most recent. %$* 671
+sure we can have a broad philosophical debate on whether social networking is good or evil, but as long as we accept that social networking is a legitimate activity, we should also accept that filters make it better. %$* 671
+now let’s tackle the elephant in the room, which is google. %$* 671
+suppose i’m so keen on conspiracy theories that my blackboard is larger than glenn beck’s. %$* 671
+so i believe that 9/11 was an inside job. %$* 671
+i believe that obama is a kenya-born muslim, that climate change is a non-issue manufactured by the lamestream media, that the government is hiding the truth about the ufos and so on. %$* 671
+in other words, i’m exactly the kind of guy that eli is worried about. %$* 671
+furthermore, suppose that i became all of that before the filter bubble set in. %$* 671
+in the great age of unfiltered viewpoints that we used to call the era of cable television. %$* 671
+so now comes the filter bubble and google starts personalizing my search results. %$* 671
+instead of seeing generic search results say about 9/11, actually see that some search results have already been endorsed or liked by my friends. %$* 671
+in turn, when my friends use google, they see the links that i visited and i liked as well. %$* 671
+now this is the new mutual exposure, why is it a good thing? %$* 671
+well if you think that all my friends are nut cases like me, then we do have a problem, because exposure all of us may end up becoming even more paranoid. %$* 671
+but let’s leave charlie manson and the unibomber aside for a moment. %$* 671
+i don’t think they’re representative of most internet users and their friends. %$* 671
+the way google and facebook map out our social connections, they try to be very comprehensive. %$* 671
+we see links from people we went to school with, our colleagues, our relatives, and so forth. %$* 671
+it’s quite likely that many of these people will have radically different positions on 9/11, climate change, obama’s birthplace, and ufos. %$* 671
+so my point is this, that a link to the report of 9/11 commission that has been endorsed by someone from my social circle, is more trustworthy than a generic google link that has not passed through a similar social filter. %$* 671
+in other words, it’s a possibility that people would now be paying more attention or at least more respect to positions they would otherwise find crazy and conspiratorial, only because their friends are known to endorse those positions. %$* 671
+so, to conclude, there are many good concerns about the future of the internet. %$* 671
+that of privacy ranks very high on my personal list, but the filter bubble is not one of them. %$* 671
+it’s okay to hate google and facebook, but we should hate them for the right reasons. %$* 671
+thank you. %$* 671
+thank you evgeny morozov. %$* 13
+and that concludes round one of this intelligence squared us debate, where the motion being argued is, "when it comes to politics, the internet is closing our minds." keep in mind how you voted at the beginning of the evening, because we’re going to ask you to vote again at the end and the team that has moved its numbers the most will be declared our winner. %$* 13
+now we go on to round two. %$* 13
+round two is where the debaters address each other directly and also answer questions from you in the audience and from me. %$* 13
+we have two teams of two, who are arguing over this motion, "when it comes to politics, the internet is closing our minds." the side arguing for the motion, eli pariser and siva vaidhyanathan. %$* 13
+they’re arguing that the internet is actually several internets, that they put up walls between the lands that are occupied by people of differing opinions, between nations as much as between liberals and conservatives. %$* 13
+and that especially with customization, designed to give us what we want, that the internet is getting worse at bringing together people who are not like minded. %$* 13
+the team arguing against the motion, jacob weisberg and evgeny morozov, they’re saying sure, maybe these bad things could happen someday but there’s not much evidence that they are happening a lot yet right now. %$* 13
+and besides a tool that can and does connect strangers globally around the world by definition, almost, is a good thing. %$* 13
+and that customization, perhaps helps to organize the way that we think. %$* 13
+so i want to put a question to the side that is arguing against the motion, that when it comes to politics, the internet is closing our minds. %$* 13
+jacob weisberg, you said as your sort of slam dunk point to the audience, you have to decide whether you think the audience is closing your mind. %$* 13
+but if the other guys are right, they won’t know whether the audience is closing their minds because if their minds are being closed, part of having their minds closed is not knowing that their minds are being closed. %$* 13
+i mean, but they're saying that it's an insidious thing, that it's a stealth thing, particularly with the customization, that it happens in a way that it comes to you-- %$* 13
+you go through this process unawares. %$* 13
+can you take that on? %$* 13
+well, this is the minds in a vat-- %$* 126
+are you-- %$* 13
+i'm sorry. %$* 13
+this is the minds in a vat argument in philosophy, that if we were not actually embodied, but have our minds in vats being manipulated by space aliens, we have no way to know. %$* 126
+i'm not sure i can answer that. %$* 126
+but i do think-- %$* 126
+siva made this point that, well, for those of us in this room, this really isn't a problem. %$* 126
+i mean, we're media savvy. %$* 126
+we're educated. %$* 126
+we're sophisticated. %$* 126
+it's a bit-- %$* 126
+it's a problem for the hoi polloi out there, the unwashed masses who, you know, are just getting spoon fed whatever they get fed. %$* 126
+i find that argument condescending. %$* 126
+i mean, we live in a democracy, and it seems to me that we're all responsible for the information we receive. %$* 126
+and not everybody engages as deeply in different subjects. %$* 126
+but the difference with the internet is we can measure it. %$* 126
+you know, we never knew who read the stories in the b section of the new york times about albany and the state legislature. %$* 126
+on the internet, you know how many people click on them, but that doesn't mean-- %$* 126
+it’s about 11, i think. %$* 13
+yeah, exactly. %$* 126
+but how many people actually read to the end or even the beginning of the story before we had the internet? %$* 126
+well, siva, take on, number one, jacob's point that you're, i think, suggesting a little bit of snobbery here, that you're saying, we all can keep up with things, but that there's a great unwashed public out there that can be deceived by the power of these algorithms that are telling them what needs to show up in their searches. %$* 13
+i merely meant that jacob's test, whether it works for you, wasn't a good enough test, largely because you are just you, and you are not we. %$* 603
+you are not a greater sample, right? %$* 603
+so if we're going to be empirical, let's be good about the social science we deploy. %$* 603
+that is the worst possible empirical test, what happens to you. %$* 603
+it's almost laughable in its suggestion. %$* 603
+so that can't possibly be the test when you address this question. %$* 603
+but wasn't your partner using the "that's what happened to me when i typed in egypt"? %$* 13
+let's talk a little bit about the studies about-- %$* 670
+eli pariser. %$* 13
+because i think it's worth digging into this a little bit. %$* 670
+there is one-- %$* 670
+first off, the reason that it's so hard to study this stuff is because the easiest way to study it is to get inside the black box of these companies. %$* 670
+and these companies don't have any interest in letting people go in and prove that these companies are doing bad things. %$* 670
+but it's very hard to look at from the outside, which is why there's just not many studies that haven't been, as jacob said, you know, funded by facebook, funded by microsoft, funded by the companies themselves. %$* 670
+the one clear study on google personalization that has been peer reviewed is a study by a guy named martin feuz. %$* 670
+and it's pretty clear. %$* 670
+the methodology is good. %$* 670
+he looked at how a search history affects the personalization you get. %$* 670
+and it's very clear, again, 60 percent of the search results on the first page are different for most-- %$* 670
+for people who have a long web history in google. %$* 670
+but actually, the study that's the most interesting here is the gentzkow study that jacob was referring to. %$* 670
+this is a study that was sort of initially described as a study that showed that people are linking to each other and that the internet isn't as polarizing as we thought. %$* 670
+and the interesting thing is that if you dig into that study, it actually arguably shows the exact opposite. %$* 670
+what they did was they created an isolation index for each different kind of medium. %$* 670
+and so the isolation index for cable news that that study used was about 3.3. on the internet, the internet had a 7-- %$* 670
+an isolation index of 7. %$* 670
+and so it's twice as polarizing as polarized as cable news. %$* 670
+now, what's more interesting is that this was-- %$* 670
+the study was done before the personalized internet. %$* 670
+so the main thing that that study was looking at was the fact that a lot of people, their online serving patterns lead them to yahoo! %$* 670
+and then from yahoo! %$* 670
+out to a whole bunch of ideologically diverse links. %$* 670
+but yahoo! %$* 670
+'s changed since 2007, since that study was written. %$* 670
+and so now, yahoo! %$* 670
+looks at your history on what links you've clicked at in the past and sends different people out in different directions. %$* 670
+let me let the other side come in and take on-- %$* 13
+one more though. %$* 670
+okay, go ahead. %$* 13
+which is that the other thing that's changed since that study was done is the rise of social media as one of the primary ways that people get information. %$* 670
+and they did this isolation index calculation on people's sets of friends as well. %$* 670
+so cable news is 3.3. %$* 670
+the internet in 2007 in the yahoo! %$* 670
+era was 7.and people's groups of friends was 30.now, that 30 has become embedded in every experience that we have on the internet now. %$* 670
+so you know, i think actually if you look into the studies that have been done-- %$* 670
+okay, let's let-- %$* 13
+it's quite clear-- %$* 670
+let's let jacob weisberg %$* 13
+i read the same study. %$* 126
+it was a little baffling, but it said the polarization index for newspapers was 10.so the old media is well beyond the mean. %$* 126
+i think you need to take all of that with a grain of salt. %$* 126
+i mean-- %$* 126
+but you cited it. %$* 670
+i mean, this is the study that you were citing. %$* 670
+right, exactly. %$* 126
+and it doesn't show that the internet is the most polarizing thing. %$* 126
+but there-- %$* 126
+i looked at about half a dozen studies for this. %$* 126
+and i would have to say, just trying to be as objective as possible, that the preponderance, the studies i didn't cite, say that there's not clear evidence this is happening. %$* 126
+there's no evidence it's getting worse. %$* 126
+and i-- %$* 126
+what do you think of the feuz study? %$* 670
+because we tweeted about this. %$* 670
+i don't think it showed what you're saying it showed. %$* 126
+let's bring evgeny in and-- %$* 13
+no, i just think, it's fine if we're talking about studies that no one but a few people in this audience have read, so they all sound but i think you also have to keep in mind that a lot depends on what kind of information you're trying to access online. %$* 671
+if you're searching for a piece on manhattan and i'm searching it from my mobile phone, then google knows where i am, i would actually want 99 percent of the searches also to be personalized, probably not 60.sixty is not high enough, in part because it's very obvious that what i want to do is to order a pizza. %$* 671
+right? %$* 671
+so then if i am searching for political information, right, maybe the ratio should be 10 percent or 5 percent or zero. %$* 671
+so to say that there is 60 percent of information that's personalized doesn't say much because it all depends on what it is that's being personalized. %$* 671
+another point is that, again, take something like youtube. %$* 671
+so if you don't sign in to youtube, youtube will show you at the very front page videos that are most popular with the rest of the crowd. %$* 671
+you see all those fascinating cat videos. %$* 671
+you will see all those videos from mtv. you will see whatever is now popular in the online world. %$* 671
+they will all be displayed to you, and you will see them there prominently. %$* 671
+if i sign in with my google account, with my search history, instead of cat videos, i'll see links to new exciting videos about history, about culture, about theater. %$* 671
+why? %$* 671
+because google and youtube know that those are the kind of videos that i like to watch. %$* 671
+so if google can show me more videos about history than videos about cats, i can't really see how the internet is closing our minds. %$* 671
+all right. %$* 13
+siva, are you arguing that the internet is closing our minds for your response. %$* 13

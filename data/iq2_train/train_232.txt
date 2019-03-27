@@ -1,0 +1,500 @@
+hello, everyone. %$* 13
+welcome to our fourth intelligence squared us debate of the season, i’m john donvan, your moderator, and i just want to give you a preliminary introduction. %$* 13
+we’ll be doing a more formal introduction once the program begins %$* 13
+at this point our debaters and panelists are coming to the stage, i’d just like to welcome them with a round of applause. %$* 13
+and i would further like to introduce the ceo of intelligence squared us, mr. %$* 13
+robert rosenkranz. %$* 13
+greetings, welcome, thanks for being here. %$* 1
+as is typical on these occasions i try to frame the evening’s debate. %$* 1
+and when you think about google, i mean here’s a company that was founded by two stanford university graduate students just about 10 years ago. %$* 1
+one of them was an immigrant to this country. %$* 1
+they’ve created among them an enterprise that is basically the first place that almost everybody goes for information about anything, it’s an extraordinary achievement. %$* 1
+they’ve completely revolutionized the advertising industry by enabling advertisers to very efficiently reach the individuals they want to reach that are interested in their products %$* 1
+and it’s the amounts— the sums that are paid by the advertisers that make these services possible for everybody else as well as having created enormous fortunes for the founders of the company and their shareholders. %$* 1
+they’ve created a unique corporate culture, a corporate culture that is highly entrepreneurial, very inventive, embraces change, i mean it’s an american dream kind of company. %$* 1
+so, what’s the debate, where’s the other side of this equation. %$* 1
+it comes in a number of categories, the first i would say is privacy. %$* 1
+google is so ubiquitous, if you put your telephone number in that little box, it comes up with your name and address. %$* 1
+if you put your address in google maps, it can show you a photograph of people going in and out of your building. %$* 1
+if you’ve ever made a political contribution, it’s on google. %$* 1
+virtually every detail of anything you’ve ever published, everything that’s ever been in print about you is part of a permanent record that can be accessed on google. %$* 1
+so, this sense of pervasiveness, the sense that google knows so much about all of us, is worrisome to people, and with good reason. %$* 1
+and then there are other issues involving personal freedom and you see that mostly in china, at least in terms of the news, where google has been cooperating with the chinese government in censorship of the internet and maybe in other ways that we don’t know about, so we think this is a motion where there’s a lot to be said on both sides, we have an outstanding panel, and it’s my pleasure to turn the evening over to john donvan. %$* 1
+thank you, robert, may i invite one more round of applause for mr. %$* 13
+rosenkranz. %$* 13
+ladies and gentlemen, welcome to an intelligence squared us, oxford-style debating, live from the caspary auditorium at the rockefeller university. %$* 13
+the motion before us tonight is, “google violates it’s ‘don’t be evil’ motto.” we will be hearing from two teams of three panelists each in debate. %$* 13
+this debate will take place in three parts. %$* 13
+there will be opening statements, followed by a round of direct debate among the panelists and that will also include questions from you the audience, and then we will have a brief period of summing up by each of the debaters. %$* 13
+in the opening round they are each given seven minutes, and we will have a warning sound for each panelist as they approach minute six %$* 13
+it will sound like this— clear? %$* 13
+and at seven minutes, if the speaker has not finished speaking, it will sound like this. %$* 13
+and on, and on %$* 13
+and on it will go. %$* 13
+this is a contest, it’s a contest of wit and logic and ideas and persuasion, and you the audience are the prize in that contest, you are the judges and your votes will determine who is the winner of the evening, and to that end we’re asking all of you at this point, to express your point of view on the motion now, before having heard any of the actual debate and argument. %$* 13
+you each have the keypad at your seat, if you agree with the motion that “google violates its ‘don’t do evil’ motto,” press button number 1, if you disagree press button number 2, and if you are undecided, press button number 3.i’ll be sharing those results in a short time after we hear the opening round completed. %$* 13
+is everybody— anybody need more time? %$* 13
+all right. %$* 13
+restating once again %$* 13
+this intelligence squared us debate, our fourth debate in the series, the premise is, the motion is that “google violates its ‘don’t do evil’ motto,” and you may have noticed that google itself is not represented on our panel tonight, suffice to say that, the company was made aware of this debate, and was invited to participate. %$* 13
+now, let’s let the debating begin, we’re going first to argue for the motion, randal picker, a professor of commercial law at the university of chicago law school, and a senior fellow at the computation institute of the university of chicago, ladies and gentlemen, randal picker. %$* 13
+thank you very much. %$* 599
+i want to thank intelligence squared and the rosenkranz foundation for organizing what i think will be a fun and lively evening. %$* 599
+so, the resolution before us is that “google violates its ‘don’t do evil’ motto,” i think it’s important for us to frame that and understand what that means and what it doesn’t mean. %$* 599
+the question isn’t whether google is a great company. %$* 599
+i think it is. %$* 599
+i thought what bob rosenkranz said about it is exactly right, much to admire. %$* 599
+the question isn’t whether google does more good than evil. %$* 599
+i think it does. %$* 599
+that’s not the question either. %$* 599
+the question’s whether we can identify certain things which they do which we think are important to how google operates, that are inconsistent with that motto. %$* 599
+and i think we can. %$* 599
+so we should start where that motto comes from. %$* 599
+when google was going to become a public company it filed its registration statement, if you haven’t read those, they’re remarkably dull. %$* 599
+not google’s. %$* 599
+google opens with an owner’s manual for future google shareholders. %$* 599
+page and brin say, we’re not an ordinary company, we’re not gonna be an ordinary company. %$* 599
+get ready for the ride. %$* 599
+okay. %$* 599
+part of that is google says, we’re gonna live by a motto, and that model is, is we’re not gonna be evil. %$* 599
+seemingly asking us to hold google to a higher standard, they’re very clear. %$* 599
+there’ll be times when they will sacrifice the short- run interests of google for the public good. %$* 599
+i don’t think what’s legal is the standard to evaluate for google, google asks us for something much more public-interested. %$* 599
+google then compares itself to newspapers. %$* 599
+well that’s interesting, right, they seem to be on diverging paths but i think they thought there was some sense of a public trust associated with newspapers, and we should hold google to that as well. %$* 599
+that’s what we’re gonna try to do tonight. %$* 599
+my piece of this is i’m going to focus on the heart of google’s business which is their advertising model. %$* 599
+and i’m going to focus on the recent deal that was proposed between google and yahoo, where yahoo was going to out-source a large chunk of its search-ad business to google. %$* 599
+i should say i consulted in connection with the opposition, so you can discount what i say as you wish. %$* 599
+i should say we won, that’s good news, because that deal has gone away, the department of justice suggested that they were going to challenge the deal in court %$* 599
+that was something clearly google didn’t want so they backed away from it. %$* 599
+all right. %$* 599
+advertisers were opposed to the deal. %$* 599
+why were advertisers opposed. %$* 599
+advertisers believed that the deal and the core of the deal was if you think of search queries, there’s a lot of common queries, there’s a lot of unusual queries. %$* 599
+the deal is going to out-source the long tail as it were, chris anderson’s term of queries, away from yahoo to google. %$* 599
+advertisers were upset about that. %$* 599
+why. %$* 599
+well, advertisers believed that prices were going to go up because of that. %$* 599
+google’s response to that was to say %$* 599
+we run auctions. %$* 599
+we don’t set prices. %$* 599
+advertisers set prices. %$* 599
+we’re just middlemen. %$* 599
+that’s not right, and i think google knows better. %$* 599
+i should say, i’m a google ad words advertiser, so if you’ve not looked at the system, the way it works, you can set an account up very easily, pay five dollars to do so %$* 599
+i’m advertising, i thought i should understand how ad words works, so i’m advertising a paper that i wrote on anti-trust and privacy and cloud computing. %$* 599
+i’m not sure who the second click has been, um— okay. %$* 599
+but you see how that works. %$* 599
+you can click, and go. %$* 599
+but the nature of this is that you bid on keyword terms, if you win the auction your ads are supposed to show up. %$* 599
+now google understands that how you design auctions matters, there’s a whole field of economics devoted to that. %$* 599
+they gave william vickery from columbia a nobel prize for that. %$* 599
+google is designing its auctions in a way that takes advantage of its market power. %$* 599
+does that in three important ways. %$* 599
+first, google runs a system involving minimum bids. %$* 599
+so cloud neutrality is one of the terms that i’m bidding on. %$* 599
+you can run a search on cloud neutrality, i did yesterday. %$* 599
+i know my ad is out there. %$* 599
+it didn’t show up, indeed no ads showed up, and indeed if you look at the statistics, 50 percent of the time when you run a search on google, and they produce results, the organic search results, there are no ads next to it. %$* 599
+even though if you believe the comments, and as i say i’m one of these ad words ad—ad words advertisers, my ad is out there waiting to be served and even though the search that has been done, if they don’t run an ad it’s an opportunity to show an ad which is lost forever. %$* 599
+so there was a chance for google to get money there and yet they’re not doing it. %$* 599
+why, because if very few people are bidding then i ought to be able to buy it for a very low price and google’s interest is not served by that. %$* 599
+google wants to make sure that there’s a high enough minimum, they’ve been raising the minimums over time, such that google meaningfully makes money on that. %$* 599
+if you look at the blogs, people comment on this, they talk about bidding against the house, that’s what they have to do. %$* 599
+and google has changed the terms in which they do that. %$* 599
+okay? %$* 599
+that’s an exercise in market power. %$* 599
+i should say under current us anti-trust law one of the things i do for a living, i don’t think that’s illegal. %$* 599
+evil? %$* 599
+well, that’s the resolution for the house tonight. %$* 599
+that’s one. %$* 599
+two. %$* 599
+if you’re an auctioneer, the way you exercise market power, is you control the number of slots. %$* 599
+right, you don’t control prices, you control quantities. %$* 599
+in google’s case that means how many slots are available on the right-and side next to the organic search results. %$* 599
+google controls that. %$* 599
+now you might think in a competitive model that we’d have some relationship between the number of ads on yahoo and the number of ads on google. %$* 599
+indeed the central premise of the yahoo-google deal was that google does a better job of ad matching than yahoo does. %$* 599
+we should therefore expect google to have more ads than yahoo, just the opposite. %$* 599
+again, market power being exercised, not illegal, evil, you decide. %$* 599
+finally, third point. %$* 599
+google engages in a kind of bundling, so google also organizes search for ask and aol.you can buy google alone, you can’t buy ask and aol alone. %$* 599
+they are bundled together with google. %$* 599
+right, advertisers would like to be able to advertise separately on those. %$* 599
+can’t do it, they won’t let you do that. %$* 599
+illegal under us law, eu law? %$* 599
+maybe, we’ll see. %$* 599
+right? %$* 599
+evil, mmm, i think you can conclude. %$* 599
+now, why should we care about this. %$* 599
+the importance of advertising is the way that advertising supports paid content. %$* 599
+right? %$* 599
+you should care a lot about the kind of content that’s out there, and to the extent that the middleman is making it more expensive for people to reach consumers, we’re going to have less content because producers are effectively going to get a lower chunk of the advertising dollars. %$* 599
+i’ll stop there, thank you. %$* 599
+thank you, randy picker. %$* 13
+our next speaker speaking against the motion in this us intelligence squared debate, jim harper, who %$* 13
+though arguing on this side is not somebody unconcerned about privacy, in fact when he was a consultant for the department of homeland security he argued vociferously against the introduction of a national identity card on privacy grounds, as director of information policy studios at the cato institute, he is our second speaker, speaking against the motion that “google violates its ‘don’t do evil’ motto.” jim harper. %$* 13
+ladies and gentlemen, it takes a lawyer to know a lawyer. %$* 600
+and as a lawyer i want to point out what my colleague just did at the beginning of his talk, he redefined the question. %$* 600
+the question tonight is whether “google violates its ‘don’t do evil’ motto.” the question is whether google is evil or not. %$* 600
+and that’s what i want to talk to you about, and i want to urge you to vote no on the resolution. %$* 600
+to find that google is evil, you have to find that people who cut in line are evil. %$* 600
+you have to find that, bruised apples are evil. %$* 600
+you have to find that flat tires are evil. %$* 600
+these things are not evil. %$* 600
+evil is hitler. %$* 600
+evil is stalin. %$* 600
+evil is pol pot. %$* 600
+evil is %$* 600
+dr. %$* 600
+evil. %$* 600
+that’s somewhat definitional. %$* 600
+google is not evil. %$* 600
+now you have to make some sense of the term to understand these concepts, now. %$* 600
+perhaps that phrase was intended in a sort of, “let’s not be a greasy corporation” sense. %$* 600
+even by that standard, google is not evil, google is great. %$* 600
+google brings information and empowerment to the masses in ways we couldn’t have imagined just a few years ago. %$* 600
+try it now. %$* 600
+think about how you would you have found out information just a few years ago. %$* 600
+it’s a little hard to remember for oldsters like me, but it was very hard. %$* 600
+today it’s much easier. %$* 600
+now there are lots of complaints about google. %$* 600
+holders of copyrights, say google’s making use of my copyrights and my property and da- da. %$* 600
+in fact google’s making that material more available and more valuable for copyright holders. %$* 600
+holders of trademarks complain precisely because google is using trademarks in an appropriate way, in ad sense, allowing providers to compare their products with other products, bringing consumers lower prices, better products %$* 600
+this is good, this is not evil. %$* 600
+now surely google should avoid censorship. %$* 600
+and one of the toughest areas is the question of censorship. %$* 600
+but the chinese people are better off, with google in china, slow-wokking their cooperation with the chinese government, than having no google in china, and leaving china to baidu, and whatever local information sources are fully government-approved. %$* 600
+on the question of privacy it’s true, that gmail, basic search, maps, street view, all of these things, challenge privacy. %$* 600
+all of these things are challenges to privacy, but no more than any other apps that are available similarly. %$* 600
+this is not a case that google is evil, perhaps it’s a case that the internet is evil. %$* 600
+but i don’t think anybody here thinks of the internet as truly evil. %$* 600
+now, some say that google’s monopoly on search, gives it so much power that this is inherently, somehow evil. %$* 600
+well, google has a sizable percentage of the search market. %$* 600
+i think that’s an admission i can make. %$* 600
+but google is a big company, that’s part of an information big bang, that’s far bigger. %$* 600
+google cannot control us finding out about things. %$* 600
+google cannot prevent criticisms of google being made. %$* 600
+google’s a big player, but the market is much, much bigger than google. %$* 600
+there’s a more concerning evil, that i want to point you to, and i know none of you indulge this. %$* 600
+but some people, who have problems with the way products and services are delivered, do nothing but complain. %$* 600
+that’s the evil of apathy. %$* 600
+if my colleagues at the far end of the table wish to characterize google as evil, they should foreswear the use of google products, and find the other products, which there are, and use those instead. %$* 600
+google’s not evil. %$* 600
+in fact %$* 600
+google’s not evil, google’s evel knievel. %$* 600
+google’s high-flying %$* 600
+google makes some mistakes. %$* 600
+but google is an american success story. %$* 600
+let me urge you once again, to vote no on the proposition. %$* 600
+thank you. %$* 600
+thank you, jim harper. %$* 13
+arguing next for the motion, harry lewis, a professor of computer science in the school of engineering and applied sciences at harvard university, who has something to disclose %$* 13
+though he’s arguing this side of the motion, his daughter is actually a google employee. %$* 13
+harry lewis. %$* 13
+thank you. %$* 601
+thank you all for being here tonight, what a great audience, i have a very simple way of stating my case for the motion. %$* 601
+and it’s a conclusion that’s based on some facts, facts are good, so here are a few facts. %$* 601
+if you google “tibetan independence,” you’ll get back pointers to some sites, that advocate the freedom of tibet from chinese rule. %$* 601
+tibet.org, friends of tibet.org, sites associated with the dalai lama, and others. %$* 601
+you’ll also get back some sites, that advocate against the freedom of tibet from chinese rule. %$* 601
+that’s if you go home tonight, and use the version of google that you have available to you in this country. %$* 601
+but if you do it inside china, you won’t get references to tibet.org, or friends of tibet.org, except perhaps, for references, to sites explaining that those are illegal and banned organizations. %$* 601
+or epic times, epic times is a chinese newspaper, an uncensored chinese newspaper. %$* 601
+you can find it on the internet, just google epic times. %$* 601
+but try to do that in china, and you will not find your way to epic times. %$* 601
+same thing with human rights if you google that, or various spiritual practices. %$* 601
+the world looks very different through the window that google provides, in china, than through the window on the world that you have available to yourselves here. %$* 601
+in fact, it’s not the picture window on the world, it’s a distorted lens that has been built, custom-built by google to chinese specifications. %$* 601
+now how did that happen. %$* 601
+google is the company, whose mission is to organize the world’s information, and to make it universally accessible and useful. %$* 601
+how did it come to be in the business of creating the distorting lens, rather than the picture window on the world. %$* 601
+well, in 2004, google was entering the international market, it wanted to be the number-one search engine in the world, it started to do business in china. %$* 601
+and the chinese said, we don’t want you to show our citizens the world as it really is, with all of its complexities, and its contradictions, and its inconsistent sources of information. %$* 601
+we want the chinese citizens to know the world the way we want them to know the world. %$* 601
+and, google said, okay, we’ll give them that world instead of the world as it really is. %$* 601
+their choice was, to accept the chinese ultimatum, or to go home. %$* 601
+they could’ve gone home, they didn’t, they stayed, and built the engine as the chinese wanted it. %$* 601
+now it’s a wonderful product. %$* 601
+i agree with everything that’s been said about what a wonderful product it is and what a wonderful company it is. %$* 601
+but here it’s been turned from a wonderful product, that we know, into an instrument of thought control. %$* 601
+now some may weakly claim that it’s doing more good than harm %$* 601
+that the chinese people are better off getting partial information via the google search window than getting no information at all. %$* 601
+that’s nonsense, there are other search warrants, through which you can get the censored truth, if that’s what you want people to provide. %$* 601
+google didn’t choose the lesser of two evils when faced with the chinese ultimatum; it chose the more profitable of the two evils. %$* 601
+and for that reason, you should vote for the proposition, that google is violating its “don’t be evil” motto. %$* 601
+they had a simple choice that was put before them. %$* 601
+i stopped a street vendor here in new york last week, who was selling tibetan jewelry, he’s a tibetan. %$* 601
+and i said, i’m gonna debate this issue. %$* 601
+what do you think the answer is, i don’t have to explain it to him, he knew exactly that google works differently inside china, than it does here. %$* 601
+and here is what he said—he said, google had a choice between morality and money, and it chose money. %$* 601
+that’s why google is violating its ‘don’t be evil’ motto. %$* 601
+it’s a company that does many good works. %$* 601
+it’s true that google as a whole is not evil, i’ll grant that, but that’s not the question before us. %$* 601
+if the question before us was, google is evil, that’s what the question would be. %$* 601
+that isn’t the question, the question is, does it violate what it claims not to do—not being evil. %$* 601
+a good indicator that you’re doing something wrong is that the congress hauls your executives, in front of them, and yells at you. %$* 601
+and congress has gotten into the habit of doing this several times. %$* 601
+most recently in may. %$* 601
+senator richard durbin confronted google executives on this censorship question, and said, “when you’re asked to be complicit in restricting the flow of information, aren’t your hands a little dirty at the end of the day if you participate in that.” there is legislation under consideration, to prohibit exactly what google is doing. %$* 601
+now to be sure, google is in the business to make money, if it doesn’t sell advertising anywhere, then it’s not going to make money, but it’s making plenty of money. %$* 601
+and it would have been such a statement, to the international world about the importance of, of information freedom. %$* 601
+my friends, you are here tonight, because you value the robust debate of conflicting ideas. %$* 601
+you value facts, you believe the truth is revealed, through this kind of debate and conflict. %$* 601
+you should—you must vote for this proposition, if you support the idea that creating censorship tools is a form of evil. %$* 601
+finally, just let me close with one analogy. %$* 601
+suppose google were not a search engine company, but a pharmaceutical company. %$* 601
+and it was told by the chinese government that it could sell aspirin in china, only if it also made certain forms of brainwashing drugs and thought control medications. %$* 601
+and that was the condition on which it could sell aspirin in china. %$* 601
+no responsible american company would make that deal with the chinese authorities, and that is exactly what google is doing in the digital realm. %$* 601
+so, please vote for the motion, “google violates its ‘don’t do evil’ motto”, because they do. %$* 601
+thank you. %$* 601
+uh, not my daughter— %$* 601
+but not your daughter. %$* 13
+uh, not my daughter— %$* 601
+no, okay. %$* 13
+just a reminder as we’re now halfway through our opening statements, i’m john donvan, your host and moderator, and this intelligence squared us debate, we’re halfway through opening statements. %$* 13
+you have heard from three panelists, and we’re moving on to our next three. %$* 13
+and speaking next against the motion that “google violates its ‘don’t do evil’ motto,” esther dyson, who also has some things to disclose but having met her earlier, i know she’ll do it far better than i will. %$* 13
+i’ll only share the fact that among all of your other activities as an investor in various internet enterprises, you’re also currently, frequently visiting russia because you are in training to be a cosmonaut. %$* 13
+yes. %$* 602
+uh— so i was going to start by saying that i actually spend a fair amount of time with things i consider evil. %$* 602
+and i mean that quite seriously, the old soviet system, which, you still see some vestiges of, in star city where i’m training. %$* 602
+i travel a lot, i’ve seen many ways to be evil, i’ve examined governments, i’ve talked to people who %$* 602
+i’m on the board of the national endowment for democracy, and we give grants to dissidents, so, that informs my thinking, as does the fact that i was chairman of icann, which is the organization that sets policy for the internet. %$* 602
+we made a lot of mistakes, i don’t think we were evil but we probably came a lot closer to it than google ever did, or will. %$* 602
+but finally in terms of the disclosures you probably want to know, i’m on the board of 23andme which was founded, cofounded by sergey brin’s wife. %$* 602
+i’m on the board of wpp group, which calls google its frenemy, or its froe. %$* 602
+they’re a large advertising conglomerate. %$* 602
+and finally, i’m on the board of yandex, which competes with google in russia where, yandex has 60 percent market share and google has approximately 20.so i kind of come at this from many different points of view. %$* 602
+and, i believe that google does not violate it’s “don’t be evil” motto because i’ve seen it up close, i’ve also seen it from outside, i’ve seen it as a competitor, i’ve seen how they try to do things. %$* 602
+and i am very glad to hear all this discussion of china because i’m going to blow it to bits in a few moments. %$* 602
+but first i want to go through the few %$* 602
+the couple of arguments i wanted to talk about. %$* 602
+the challenge of power, is great. %$* 602
+the great virtue of the internet is that it erodes power, it sucks power out of the center, and takes it to the periphery, it erodes the power of institutions over people, while giving to individuals the power to run their own lives. %$* 602
+google is part of that. %$* 602
+it’s one of these things that shines light on everything, it enables people to find stuff out, it enables them to question what their governments are doing, and it’s absolutely wonderful. %$* 602
+that doesn’t mean that power cannot be abused. %$* 602
+the abuse of power is absolutely evil. %$* 602
+google to some extent understands this very well, that’s why they bothered to have this motto in the first place, they understand the danger of concentration of power, and they understand how important it is not to be evil, that’s why they have shareholder agreements that give them more power so that they don’t need to cater only to money-hungry investors but can also do what they think is right. %$* 602
+there are three people who set policies there, it’s the two founders and eric schmidt. %$* 602
+and they watch one another, they’re very careful not to abuse this “don’t be evil” thing. %$* 602
+now, the power that google has is primarily a good power though it could be used to do evil, it’s not like atom bombs. %$* 602
+it’s not like guns %$* 602
+or even cigarettes, which when used correctly are destructive. %$* 602
+the power of transparency, the power of knowledge, is fundamentally good, even though it can on occasion be used for bad. %$* 602
+and so google’s trust is to ensure that that power is used for good as much as possible. %$* 602
+i have seen what they’re doing in china. %$* 602
+and ladies and gentlemen, the reason they’re not violating their “don’t be evil” policy is because they’re in there, and they’re engaged. %$* 602
+yes, they could abdicate, they could say we’re not gonna bother to go into china. %$* 602
+but every time some chinese person uses google, and doesn’t get what he wants, he may notice, he may not even notice the absence, but he does know that he can go find out all the negative information on george bush he wants. %$* 602
+and at some point, he or she says, well, gee. %$* 602
+if i can get—or whatever the chinese version is—if i can get this bad information about george bush why can’t i find out more about what’s going on in my own country. %$* 602
+google by its very presence and its operation, even if it’s incomplete, creates increasing expectations for transparency, it starts people answering questions. %$* 602
+it gets them to expect to be able to find out stuff. %$* 602
+and it knows that by doing that, people are going to start asking more questions. %$* 602
+so i think google was doing the right thing, by going into china. %$* 602
+i don’t think they’re making that much money there, if they are that’s fine too. %$* 602
+but the point of it is, they are engaging. %$* 602
+i know another example, in which they’re getting engaged. %$* 602
+they have a service, you’ve probably encountered it, where if you go to a website—if you get a search result that indicates a website that may have some malware on it, they warn you off. %$* 602
+this is very expensive for them to do. %$* 602
+they need to detect the sites with malware, they need to inform them that there’s malware. %$* 602
+they have a dispute-resolution process, they’re not perfect, but again, they’re engaging where they didn’t need to. %$* 602
+they could easily have just passed the query through. %$* 602
+but they’re trying to make the world a better place, by doing something that requires them to make judgments. %$* 602
+sometimes they may incorrectly flag a site as having malware, sometimes, somebody has malware unintentionally, they need to deal with it. %$* 602
+so the point here again is that rather than just being apathetic, as jim said, they’re engaging, and trying to make the world a better place. %$* 602
+so i believe, that they do not violate their motto and i think you should vote against the proposition. %$* 602
+thank you. %$* 602
+thank you, esther dyson. %$* 13
+our next speaker runs a blog, the name of which will tell you a great deal. %$* 13
+it is %$* 13
+googlization of everything.com. %$* 13
+siva vaidhyanathan is associate professor of media studies and law at the university of virginia, and he is also turning his blog ultimately into a book, the kind of book that depends on paper and dead trees %$* 13
+i assume. %$* 13
+siva, the floor is yours. %$* 13
+thank you very much. %$* 603
+to my distinguished opponents, i see your dr. %$* 603
+evil and your dr. %$* 603
+pol pot, and i raise you a pope and a poet. %$* 603
+specifically, pope gregory the great, and the great poet dante alighieri. %$* 603
+because after all, one of the things we have to figure out here, is what do we mean by evil. %$* 603
+well google encourages us to think algorithmically, after all it’s built everything that it has on algorithms. %$* 603
+one of the simplest forms of algorithms, the if-then statement, or if you prefer, the checklist, dante offers us such a checklist in the divine comedy. %$* 603
+i know you know it, i know you know it with me, so say it along with me, the seven deadly sins, luxuria, gula, avaritia, acedia, ira, invidia, and superbia, right? %$* 603
+well, okay, you didn’t say it along with me. %$* 603
+to walk through, i can show you that google has at times committed every single one of these seven deadly sins. %$* 603
+the first, luxuria, which translates as extravagance or lust. %$* 603
+i spent a bit of time on the google campus out in california %$* 603
+they get massages. %$* 603
+right, the people who work there get massages. %$* 603
+that is, that is corporeal lust of the highest order. %$* 603
+or at least for a bunch of geeks about the best they’re gonna do. %$* 603
+number two, gula or gluttony, the other thing about the google campus is they get incredible food, all they can eat all day, no matter what they want, there is so much food that they never need to say no, that is the very definition of gluttony. %$* 603
+number three. %$* 603
+avaritia, greed. %$* 603
+we’ve already heard from randy about the greed embodied in the google-yahoo advertising deal %$* 603
+that is one of many examples of google overreaching to corner a market, or completely undermine a market, in an effort to maximize its returns. %$* 603
+number four, acedia, sloth. %$* 603
+now i could talk about how lazy and self-satisfied google was in its effort to roll out an on- line video service. %$* 603
+the early days of google video were very much a matter of figuring they owned the video realm and they weren’t actually gonna do anything new or fantastic until these whippersnappers at youtube came across with their flash video platform, and basically ran around them to the point where they ended up having to buy that company just to keep pace. %$* 603
+but there’s actually a better example of sloth and that is google itself, its very nature, its very model of advertising is based on free-riding. %$* 603
+google makes money off of our work. %$* 603
+we blog, we put our skate—our cats on skateboards and record them for videos. %$* 603
+we do all of this work, and then google harvests our work, runs all of this content through this computers, spits it back out at us, with almost no actual value added and what we end up getting is a tremendous amount of money, based on free- riding, the very definition of sloth. %$* 603
+wrath, ira, wrath. %$* 603
+there are a number of high-profile cases of people who have been involved with google through their ad sense program, through which they’ve agreed to place ads on their own blogs. %$* 603
+i think jeff is one of these people but not one who has suffered the wrath of google. %$* 603
+many of these people have found their accounts shut down, their revenues stopped, for reasons that can never be explained, but they did something to violate google’s policies. %$* 603
+but they get no feedback and no response, and no justice. %$* 603
+and then there are hundreds of small companies all around america, that have found their ranks decimated, their google ranks decline significantly, because again, they tried to optimize their results, they were just doing what a company should do, trying to get more attention for themselves. %$* 603
+and google’s algorithms, its faceless, soulless algorithms came at them with wrath, another of the seven deadly sins. %$* 603
+invidia, envy. %$* 603
+google has over the last few years engaged in a series of efforts to try to muscle in on the markets of other successful companies, microsoft being the most prominent. %$* 603
+google has recently tried to push its suite of services that directly compete with microsoft office. %$* 603
+of course they have at various times threatened to muscle out ebay, muscle out paypal, muscle out amazon, in various ways. %$* 603
+number seven, the one i want to talk about the most, superbia, pride, or hubris. %$* 603
+now, let me remind you of the actual motto of the company, it’s not “do no evil” or “don’t be evil,” it’s actually, “to organize the world’s information to make it universally accessible.” what could be more hubristic than that. %$* 603
+what could be more prideful than that. %$* 603
+general motors doesn’t say we’re gonna organize all the places in the country and make them universally accessible. %$* 603
+general motors says we’re gonna try to sell cars. %$* 603
+not that that’s the best example to use this week, i understand. %$* 603
+nonetheless, no company besides google would ever come up with a motto or a mission statement like that, but let me tell you something that sergey brin, one of the founders of google said a number of years ago, during an interview when someone asked him, what would the perfect search engine be like. %$* 603
+and he said, without missing a beat, it would be like the mind of god. %$* 603
+ladies and gentlemen, that’s more than hubris, that’s blasphemy. %$* 603
+now the particular kind of hubris that energizes google is of course, a sense of techno-fundamentalism. %$* 603
+the notion that you can always invent something, to solve the problem that the last invention created. %$* 603
+and that faith in technology, that technology can cover all of our sins and all of our faults and fix all of our problems, is again the ultimate hubris, it’s the hubris expressed in the myth of pandora for instance, the myth of having too much knowledge. %$* 603
+there are so many examples in human history in which techno- fundamentalism has led to great suffering. %$* 603
+not that google is about to lead us to great suffering, but they’re still committing the sin of hubris. %$* 603
+now hubris is actually the most serious of the seven deadly sins. %$* 603
+as dante explains to us, it was the sin that lucifer committed. %$* 603
+lucifer was a good guy. %$* 603
+lucifer fell, because he thought he could be as effective as god, as good as god, and thus, he became satan. %$* 603
+the very notion of the “don’t be evil” motto, is itself hubristic, is itself, evil, because it is itself a violation of the seven deadly sins. %$* 603
+one real-world example, let me finish with very quickly, google book search. %$* 603
+google has been trying to scan in 36 million books from libraries around the world, in an effort to essentially corner the market on digital book access, for a number of years. %$* 603
+early on, four years ago when it started this project or got public with this project, it claimed that everything was cool as far as copyright was concerned. %$* 603
+in other words, copyright only applies to mere mortals, not to superhuman supercompanies like google. %$* 603
+well, it turns out google wasn’t right about that, last month google ended up having to settle, and wrote a check for $125 million to publishers and authors because it turns out, they weren’t quite as on the ball about copyright as they thought. %$* 603
+thank you very much. %$* 603
+that’s blasphemy! %$* 603
+thank you, siva vaidhyanathan. %$* 13
+our final speaker against the motion, jeff jarvis, has had a foot in what we call the legacy media as a cofounding editor of entertainment weekly magazine, he was also a tv critic for tv guide and for people. %$* 13
+but of late he has been very much of the blogosphere with a blog called buzz machine.com and he also teaches interactive journalism at the city university of new york’s graduate school of journalism. %$* 13
+jeff jarvis. %$* 13
+and i guess in both full disclosure and a plug i should say i have a book coming out called, what would google do? %$* 604
+that’s blasphemy! %$* 603
+you're just jealous. %$* 604
+massage would feel good right now, wouldn't it? %$* 604
+we should remember where this pledge came from. %$* 604
+the chiefs of google have said that the real purpose of the “don’t be evil” pledge is to give employees the license to remind their bosses of this in meetings. %$* 604
+so, a geek can stand there and say, is that evil? %$* 604
+the kind of thing a geek would say. %$* 604
+and it’s, it’s useful. %$* 604
+imagine, ladies and gentleman, if we had that phrase, “don’t be evil,” chiseled over every door on wall street. %$* 604
+would we not have a better world today? %$* 604
+in this poisoned process that led to the financial crisis, if just one, or two, or five, or ten people had said, hmm %$* 604
+taking poison mortgages, or giving them, is that evil? %$* 604
+creating poison assets and selling them, is that evil? %$* 604
+so, i think it’s important to just recognize that the rule itself is good. %$* 604
+the fact that google asks it is good. %$* 604
+and we should wish that it shouldn't be special subject of a debate that a company promises not to be evil. %$* 604
+the fact that it’s special is, itself, a virtue. %$* 604
+so, i would like to match the seven deadly sins with eight, i’ll beat you, virtues of google. %$* 604
+and let’s remember that virtue does leaven evil. %$* 604
+we all mess up, right? %$* 604
+so virtue matters. %$* 604
+so number one, google has opened up, as my colleagues have said, the world’s knowledge to the world, or stipulate china, most of the world’s knowledge to most of the world. %$* 604
+and that’s important. %$* 604
+it has changed our very view of facts and knowledge and accuracy. %$* 604
+no longer do we end an argument saying, i don’t know. %$* 604
+we go to google. %$* 604
+google will tell us. %$* 604
+and it will tell us that in a blink of an eye. %$* 604
+now, in fact, i went to google, and i asked google how fast does an eye blink. %$* 604
+and it told me in point three seconds that an eye blinks in point three seconds. %$* 604
+your life is richer now because of google. %$* 604
+number two, google respects the wisdom of the crowd. %$* 604
+we are too often not respected. %$* 604
+there’s a snobbishness about my old colleagues in big old media. %$* 604
+google doesn't have that. %$* 604
+google learns what it learns because it trusts us. %$* 604
+isn't that nice? %$* 604
+shouldn't companies do that? %$* 604
+shouldn't politicians do that? %$* 604
+wouldn't trust matter? %$* 604
+google in its very essence trusts us. %$* 604
+number three, google takes the wisdom of the crowd, it knows we have wisdom, and it gives it back to us. %$* 604
+it gives us our own knowledge. %$* 604
+look at the google flu trends search. %$* 604
+it lets us know how often we search for a flu, and how the flu trend is coming. %$* 604
+that is our knowledge, not google’s. %$* 604
+google shares our own knowledge with us, it gives it back, it does add value, if not flaming cat videos, to our own wisdom. %$* 604
+google connects people. %$* 604
+this is so important. %$* 604
+we often are accused on line of being anti-social. %$* 604
+i think we’ve become hyper-social. %$* 604
+i think we’re more connected. %$* 604
+i met esther and siva because of google, because of searches. %$* 604
+i looked at google, and there’s siva on the other side. %$* 604
+and so i think the importance of google connecting people cannot be underestimated. %$* 604
+our children today connect in ways across cultures we don’t even know, yes sometimes it makes us nervous, but i think that it can only be good. %$* 604
+admit it, how many of you have searched google for an old girlfriend or boyfriend? %$* 604
+aw, come on, you liars. %$* 604
+now, part of the problem is, i can say this because i have gray hair, that probably, the probability of finding someone is inversely proportional to your age. %$* 604
+but young people will stay connected to their friends for the rest of their lives. %$* 604
+imagine the impact that will have on friendship and society, and google is the mechanism that makes that happen. %$* 604
+five, google creates platforms, it is a platform that enables us to create. %$* 604
+a recent poll said eighty percent of americans think they have a book in them. %$* 604
+we should be glad that most don’t come out. %$* 604
+but we have seen in google that it is an age of creation, and google creates the platforms, the tools to let us create, the means to let us pay for that. %$* 604
+i think that’s very, very important. %$* 604
+six, google does have ads. %$* 604
+last year i made a big four thousand, five hundred dollars on google ads. %$* 604
+i shouldn't quit the day job, i know. %$* 604
+but, if you want to compare, my dear colleagues on the other side, the view of google toward its advertising structure, compare it to a monopoly newspaper, which set the price, which set its own rules, which allowed you to only do so many things with their space, well, no, we can do what we want with our ads. %$* 604
+we can start whole businesses with it. %$* 604
+we can create movements with it. %$* 604
+we can be found with it. %$* 604
+that’s important. %$* 604
+and i believe that google ads will help support the future even of news. %$* 604
+seven, google.org, the foundation started by google, is supported by one percent of the equity, and one percent of the profits of the company. %$* 604
+and it is trying to solve, with hubris, the problem of energy and global warming in one fell swoop. %$* 604
+but i’ve learned that they're doing it in a unique techno-smart way, the way engineers do. %$* 604
+engineers solve problems. %$* 604
+we have a problem, they're looking for the solution. %$* 604
+politicians are trying to get us on energy with regulation and taxes and prohibitions and slaps on the wrist. %$* 604
+google is giving this investment, and innovation, and invention. %$* 604
+and if it can solve the problem of power cheaper than coal, then we don’t have to save anymore, we can use as much as we want. %$* 604
+google understands abundance. %$* 604
+finally, eight, google has a new model on how to treat employees. %$* 604
+we get, they get, massages. %$* 604
+finally, i want to say that google teaches us to understand our new world in new ways. %$* 604
+and if we are too critical of google i think we give up that opportunity to see this new world and understand it through the lens of google. %$* 604
+in this new economy, i don’t think companies will be built anymore by huge capital, making huge acquisitions, they will be built, as google has, through networks and platforms. %$* 604
+we have a lot to learn from google. %$* 604
+as we try to understand this new world of links and connectedness and platforms and networks and generosity and speed, we would do well to ask ourselves, “what would google do? %$* 604
+” google is not evil. %$* 604
+in the examples it gives, and in the fact that it vows not to be evil, google is a model to us all. %$* 604
+our world is better off because we have google. %$* 604
+so please, have a moment of decency, and vote against the motion. %$* 604
+thank you jeff jarvis. %$* 13
+that concludes our opening round, and in a minute or two i'm going to turn to you and ask whoever is there seething to respond to something that you’ve just heard that outrages you to do so. %$* 13
+and we will also shortly be turning to questions from the audience. %$* 13
+but i want to restate our motion that “google violates its ‘don’t be evil’ motto” and as you know when you came in this evening, we asked you to vote for your opinion on this motion. %$* 13
+and we have the numbers now, which i'm about to reveal, numbers which will appear on google in perpetuity from this moment forward. %$* 13
+before the debate, twenty- one percent of you agreed with the motion, thirty-one percent of you were against the motion, and forty-eight percent of you were undecided. %$* 13
+and that forty-eight percent is very valuable, it’s one of the largest undecided votes we’ve seen so far this season, maybe the largest. %$* 13
+and again, reminding you that this is a contest for changing minds, so that forty-eight percent is a very, very large pie, to cut up, and we will be asking you to vote a little bit later on again in the evening. %$* 13
+but first i want to turn to you, and i’ll count to three to see if a hand goes up, if anybody %$* 13
+oh, ok. harry lewis, for the motion. %$* 13
+i’d just like to point out that our opposition tried both tactics to persuade you to vote against the motion. %$* 601
+they said that evil means hitler, pol pot, and the worst gulags of the soviet union. %$* 601
+and they’ve also said, they mean by evil something that’s a much higher standard. %$* 601
+now, i would like to think, and i would like to ask the opposition if they don’t think that when google made their motion, made their motto, “don’t be evil,” that they were not holding them to the standard that they shouldn't be as evil as pol pot, hitler, and the worst of the soviet union, and if anything better than that, they would get a pass on the “don’t be evil” motto. %$* 601
+jim, jim harper? %$* 13

@@ -1,0 +1,395 @@
+so i'd like to first welcome to the stage nick-- %$* 13
+nicholas quinn rosenkranz. %$* 13
+he's a professor of law at georgetown and a director of the rosenkranz foundation which initiated the intelligence squared series in 2006; and jeffrey rosen. %$* 13
+he is president and chief executive officer of the national constitution center and professor of the george washington university law school. %$* 13
+let's welcome them onto the stage. %$* 13
+oh, you're here already. %$* 13
+so i'll take the center, because i'm moderate, moderating. %$* 13
+tell-- %$* 13
+what i want to have you share with the audience is what's the purpose of intelligence squared, which normally does policy debates, partnering with the national constitution center, and how did we come to be here tonight? %$* 13
+so, the national constitution center's partnership with intelligence squared is the proudest thing we do. %$* 49
+i think it is the crown jewel of our town hall programming. %$* 49
+and it is premised on this idea that nick and i both share that there's a difference between political debates and constitutional debates. %$* 49
+so whenever i teach constitutional law i begin by saying, "i'm not interested in your policy or political views. %$* 49
+i want you to learn enough about the arguments on either side of the constitutional debate to make up your own minds.” and that's what we're going to talk about tonight. %$* 49
+so, for example, intelligence squared has already held two phenomenal debates about surveillance. %$* 49
+one was "spy on me, i'd rather be safe." the other was "snowden was justified." tonight i don't care whether you think that snowden was justified or whether you'd rather be safe. %$* 49
+what i want you to do is listen to the text of the fourth amendment to the constitution, which nick will read to you and help explicate and also to the historical and contemporary arguments on either side about whether or not nsa surveillance is like the general warrants that inflamed the american revolution by authorizing searches without particularized suspicion or whether it's justified because we have no expectation of privacy in phone numbers that we voluntarily turn over to phone companies. %$* 49
+and believe me there are strong arguments on both sides, and it's not clear which way the supreme court would rule. %$* 49
+so it will be perfectly plausible and principled for you to conclude that you don't like nsa surveillance but you think the fourth amendment allows it, or, conversely, you might conclude that you very much do like nsa surveillance but you think the fourth amendment prohibits it. %$* 49
+so it's a little counterintuitive in that way, and i want to turn to nick. %$* 13
+he's a professor of constitutional law. %$* 13
+and he is going to just take about a minute and a half to give you some things to look at in the text of this amendment to sort of get at the idea of the kinds of things these debaters need to test. %$* 13
+nick. %$* 13
+yeah, so you have up there on your screen the text of the fourth amendment. %$* 67
+i'll just draw your attention to a couple of details. %$* 67
+first, notice “the right of the people to be secure in their persons, houses, papers, and effects against unreasonable searches and seizures shall not be violated.”i guess our first question will be, are these searches at all? %$* 67
+are these searches or seizures? %$* 67
+because if they aren't then this amendment is not in play at all. %$* 67
+so that'll be sort of question one, are these searches or seizures? %$* 67
+then, second, if they are, are they unreasonable? %$* 67
+how do you think about the reasonableness of a search or seizure? %$* 67
+that'll be sort of question two. %$* 67
+and then notice there's this second clause, "no warrants shall issue but upon probable cause." a tricky question is, what's the relationship between these two clauses? %$* 67
+does it quite require that every search have a warrant? %$* 67
+doesn't exactly say that. %$* 67
+it's-- %$* 67
+you know, these two clauses have a kind of a tricky relationship. %$* 67
+so, keep an eye on that. %$* 67
+and then the last thing i'd urge you to keep your eye on is you may hear the phrase, "reasonable expectation of privacy." it's a kind of crucial doctrinal phrase in the fourth amendment context. %$* 67
+just-- %$* 67
+you might just ask yourself, how do you form such a thing? %$* 67
+how did you form your reasonable expectations of privacy? %$* 67
+can they change? %$* 67
+so when snowden says that everybody's reading your-- %$* 67
+that the nsa's reading your email, does it now then become unreasonable to expect privacy in your email? %$* 67
+there's sort of a circularity built into the idea of a reasonable expectation of privacy. %$* 67
+so, you maybe just keep your eye on that. %$* 67
+i think we're going to hear a lot about that tonight. %$* 67
+and there will be a quiz at the end of all this. %$* 13
+actually there won't be but you are all going to be sitting in judgment of how well these debaters do on these quite fine points. %$* 13
+so, i want to thank these gentlemen for being on the stage. %$* 13
+thank you for all being here. %$* 13
+and-- %$* 13
+we'd like to welcome our debaters to the stage. %$* 13
+please let's first welcome alex abdo. %$* 13
+alex, take your seat, and elizabeth wydra, your partner. %$* 13
+ladies and gentlemen, elizabeth wydra. %$* 13
+thank you. %$* 13
+good luck. %$* 13
+stewart baker. %$* 13
+and john yoo. %$* 13
+thank you. %$* 13
+john, you are from philadelphia, are you not? %$* 13
+i am. %$* 50
+there you go. %$* 13
+i hear your mom is here. %$* 13
+yes, my mom is here, because there's no way the other side could possibly win with my mother in the audience. %$* 50
+all right. %$* 13
+we're going to start formally now. %$* 13
+i just want to tell you that in a minute, once we begin, i'm going to ask you to vote before you hear the debate about your view on this motion. %$* 13
+and that keypad at your seat will be how you do it. %$* 13
+you'll push number one if you're for the motion, two if you're against, and three if you're undecided. %$* 13
+but let's begin the formal part of this evening. %$* 13
+and i want to ask your indulgence in one thing. %$* 13
+because we're going to be ultimately a radio broadcast, there are a number of times in the evening when i might ask for your applause, which links to coming back and forth from breaks that the stations take on npr when we're on npr stations. %$* 13
+so, i'll just raise my hand. %$* 13
+and when i do that, you have to spontaneously applaud. %$* 13
+so, we can begin by-- %$* 13
+one point i'd like to make is that our founder of intelligence squared u.s.is here. %$* 13
+he's come down from new york. %$* 13
+he's the reason we have this whole series. %$* 13
+he's in the front row. %$* 13
+and bob, if you want to just stand up and take a bow, i'd like to welcome bob and thank him for that. %$* 13
+a smart old guy once said, and i paraphrase, “if you don't want your enemies knowing your secrets, then don't share them with your friends.” that was benjamin franklin, who obviously had a well-developed sense of privacy himself, as did his friends, the framers of the constitution, when they went on to add the fourth amendment to the constitution. %$* 13
+and that is the one that bars the government from searching our houses and from going through our stuff without a good reason and without a warrant. %$* 13
+but none of those framer guys really foresaw this world of the internet and mobile phones and the government's present practice of sweeping up huge amounts of data from both of the sources on us. %$* 13
+and the question is, does that violate the framer's intent? %$* 13
+what would ben franklin say about all this? %$* 13
+well, that sounds like the makings of a debate. %$* 13
+so, let's have it. %$* 13
+yes or no to this statement: “mass collection of u.s.phone records violates the fourth amendment”, a debate from intelligence squared u.s.i'm john donvan. %$* 13
+we are here at the national constitution center in philadelphia. %$* 13
+we have four superbly qualified debaters, two against two, arguing for and against this motion, “mass collection of u.s.phone records violates the fourth amendment”.our debate goes in three rounds, and then the live audience here in philadelphia will vote to choose the winner, and only one side wins. %$* 13
+again, our motions is “mass collection of u.s.phone records violates the fourth amendment”, and here to argue for the motion, let's first meet debater team number one, the for side, and debater number one. %$* 13
+please welcome alex abdo. %$* 13
+and alex, just a little biography on you. %$* 13
+you're a staff attorney with the american civil liberties union. %$* 13
+you are involved in the aclu's lawsuit against the nsa's phone record program. %$* 13
+in june of 2013, pertinent to your case, it was revealed that verizon was required to turn phone records over to the nsa.and as it turns out, your outfit, the aclu, is a verizon customer. %$* 13
+so, my question is, does this now mean you all switch massively to at&t or sprint? %$* 13
+what happens? %$* 13
+no, we're still verizon customers. %$* 457
+and i don't think we'd escape the nsa that easily. %$* 457
+but it's one of the reasons why we had a minor cause to celebrate at the aclu, because we could finally prove the nsa is collecting our records, which was allowing us to have our day in court. %$* 457
+it was a good thing then. %$* 13
+i didn't say that. %$* 457
+thanks, alex abdo. %$* 13
+and who is your partner? %$* 13
+i'm joined by the illustrious supreme court and constitutional law expert, elizabeth wydra. %$* 457
+ladies and gentlemen, elizabeth wydra. %$* 13
+elizabeth, welcome. %$* 13
+you are also arguing for the motion that mass collection of u.s.phone records violates the fourth amendment. %$* 13
+you are chief council at the constitutional accountability center. %$* 13
+that's a think tank and a law firm and an action center whose mission is, to quote, “fulfill the progressive promise of our constitution's text and history.” and i'm just wondering, since we're here in philadelphia, about two blocks from where the constitution was drafted, does that give you a bit of an exciting jolt? %$* 13
+oh, yes. %$* 458
+i think it's fabulous. %$* 458
+you know, i don't know if it's because i was christened on the 4th of july in a bicentennial year or maybe my mother read a lot of american history while she was pregnant with me, but since birth, i've always been very inspired by the work of those framer guys. %$* 458
+you sound like a total ringer with the july 4th birthday. %$* 13
+i know, right? %$* 458
+i'm a lucky girl. %$* 458
+to the team arguing for the motion, ladies and gentlemen. %$* 13
+and that motion is mass collection of u.s.phone records violates the fourth amendment. %$* 13
+we have two debaters arguing against this motion. %$* 13
+please first welcome stewart baker. %$* 13
+good to see you. %$* 118
+stewart, you're a partner at the law firm steptoe & johnson. %$* 13
+you were-- %$* 13
+you've got some pretty good credentials in terms of this issue. %$* 13
+you were homeland security's first assistant secretary for policy. %$* 13
+you've also served as general counsel at the nsa.that was back in the '90s, before we had this massive amount of internet and cell phone data. %$* 13
+on the whole, is having that amount of data more of a curse or more of a blessing? %$* 13
+it's a blessing but a mixed blessing, i think. %$* 118
+for all of us, right? %$* 118
+we all like the stuff, and we worry about the costs. %$* 118
+but you're not shy about the internet. %$* 13
+you have your own podcast? %$* 13
+i do, every week. %$* 118
+if you have not gotten enough of my views after tonight, you can subscribe and get them every week. %$* 118
+what's it called? %$* 13
+it's the steptoe cyberlaw podcast. %$* 118
+you've got about 400,000 new fans now. %$* 13
+terrific. %$* 118
+ladies and gentlemen, stewart baker. %$* 13
+and, stewart, your partner is? %$* 13
+is the only man in america who gets more hate mail on this issue than i do, john yoo. %$* 118
+ladies and gentlemen, john yoo. %$* 13
+john yoo, you're arguing against this motion, mass collection of u.s.phone records violates the fourth amendment. %$* 13
+you were two years at the justice department, right after september 11th. %$* 13
+you authored a series of controversial memos on the geneva conventions and enhanced interrogation. %$* 13
+but now, you're a professor at law at berkeley, university of california at berkeley, which is somewhat caricatured as a liberal stronghold, i would say. %$* 13
+so is-- %$* 13
+how does that work for you? %$* 13
+well, i enjoy the company of liberals from time to time. %$* 50
+they're not as bad as everyone says. %$* 50
+they have nice views from their houses, and they cook pretty good food, and they make wonderful hand-made items. %$* 50
+for sale at gift shops. %$* 50
+i love-- %$* 50
+i love living amongst liberals. %$* 50
+i would dread to live in a conservative city. %$* 50
+i never have. %$* 50
+i don't know what it would be like. %$* 50
+it would be no fun there. %$* 50
+alright, so it sounds like you worked something out. %$* 13
+ladies and gentlemen, john yoo and the team arguing against the motion. %$* 13
+so this is a debate. %$* 13
+it's a contest. %$* 13
+these debaters, these two teams are arguing to persuade you of the rightness of their stance on our motion, mass collection of u.s.phone records violates the fourth amendment. %$* 13
+and the way that we judge the winner in this debate is by your vote, our live audience here in philadelphia. %$* 13
+by the time the debate's ended, we have had you vote twice, once before and once after the debate. %$* 13
+and i want to point out, victory for us is the team whose numbers have moved the most between the two votes in percentage point terms. %$* 13
+so, let's go to the first-- %$* 13
+the preliminary vote. %$* 13
+if you go to those key pads at your seat, just pay attention to keys number one, two and three. %$* 13
+you can ignore the others. %$* 13
+they're not live. %$* 13
+and if you are in support of this motion as it now stands, as you come in off the street, with this team, push number one. %$* 13
+if you are against this motion as you come in off the street, with this team, push number two. %$* 13
+and if you're undecided, which is a perfectly reasonable position, push number three. %$* 13
+and if you push the wrong button, just correct yourself and the system will lock in your last vote. %$* 13
+and we'll finish this in about 15 seconds. %$* 13
+anybody need more time? %$* 13
+looks good. %$* 13
+all right. %$* 13
+we're going to lock that out. %$* 13
+onto round one, round one, opening statements from each debater in turn. %$* 13
+they will be six minutes each, uninterrupted. %$* 13
+our motion is this: mass collection of u.s.phone records violates the fourth amendment. %$* 13
+and here to argue for the motion, alex abdo. %$* 13
+he is a staff attorney at the american civil liberty-- %$* 13
+he is a staff attorney at the american civil liberties union's speech, privacy and technology project and counsel in the aclu's lawsuit challenging the nsa's phone records program. %$* 13
+ladies and gentlemen, alex abdo. %$* 13
+thank you, john. %$* 457
+i'm honored to be here tonight to discuss the mass collection of americans' phone records. %$* 457
+but before i get into the program, i think it's critical to recognize that tonight's debate is not just about phone records and is not just about the nsa.this is a debate about the kind of society we want to live in. %$* 457
+do we want to live in a country in which our government routinely spies on hundreds of millions of americans who have done nothing wrong? %$* 457
+or do we prefer to live in a country that's true to our vision, to the vision of our nation's founders, who believe that the government should, as a general matter, leave us alone unless it has cause to invade our privacy? %$* 457
+i think our founders got it right, and i hope you'll agree, which is why you should vote for the resolution, mass collection of our phone records violates the fourth amendment. %$* 457
+here is what it looks like to live in a society of mass surveillance. %$* 457
+every time you place or receive a call the government knows who you talked to, when the call started and how long it lasted. %$* 457
+the government knows every time you called your doctor and which doctor you called, which family members you stay in touch with and which you don't, and which pastor, rabbi or imam you talked to and for how long you spoke. %$* 457
+the government knows whether, how often and precisely when you called the abortion clinic, the local alcoholics anonymous, your psychiatrist, your ex-boyfriend, a criminal defense attorney or the suicide hotline. %$* 457
+if you called someone today, by tomorrow morning, the government will have a record of that call. %$* 457
+it will keep that record for the next five years. %$* 457
+and it is doing the same for every one of your calls and every one of the calls of millions of other innocent americans. %$* 457
+this program is the most sweeping surveillance operation ever undertaken in the united states. %$* 457
+and it is unconstitutional for the simple reason that the fourth amendment does not allow dragnet surveillance. %$* 457
+as my partner, elizabeth, will explain in a few minutes, dragnet surveillance in fact was the principal evil that the fourth amendment was designed to prevent, and for good reason. %$* 457
+dragnet surveillance intrudes on the most fundamental of liberties in a free and democratic society: to be left alone by our government, absent good cause. %$* 457
+the phone records program breaks that promise. %$* 457
+it places the entire country under surveillance without any suspicion. %$* 457
+it threatens our ability to communicate freely without having to worry that the government is looking over our shoulders. %$* 457
+it discourages journalists’ sources from coming forward, knowing as they now do that every-- %$* 457
+every one of their calls is being documented in a government database. %$* 457
+and it causes ordinary americans to hesitate before calling individuals or organizations that they would rather not have as a part of their permanent record on file with the nsa.now, our opponents will attempt to minimize the nsa program's intrusiveness and exaggerate its effectiveness. %$* 457
+they'll argue that the fourth amendment does not protect our phone records, that there are protections in place for our privacy under the program and that the program is necessary for our national security. %$* 457
+all of those arguments are wrong. %$* 457
+first, our phone records, especially when they're collected in bulk, are extraordinarily sensitive. %$* 457
+they reveal all of your associations, personal, professional, medical, all of them. %$* 457
+in fact, your phone records can be every bit as sensitive as the content of your phone calls. %$* 457
+if you call someone other than your spouse routinely at 1:00 in the morning, you don't have to know what's said in order to know what's going on. %$* 457
+and if a government employee calls a reporter a dozen times before news breaks of an illegal government operation, again, the call pattern tells the story. %$* 457
+our phone records are, in other words, a proxy for the content of our calls. %$* 457
+our opponents will say that the supreme court has already decided that phone records are not protected by the constitution. %$* 457
+this argument is based on a supreme court case from 1979 called smith vs. %$* 457
+maryland. %$* 457
+but that case involved collection for several days of an individual criminal suspect's phone records. %$* 457
+the nsa's program, in contrast, involves the indefinite surveillance of millions of innocent americans. %$* 457
+our opponents will say that these differences don't matter. %$* 457
+but it's truly bizarre to define the boundaries of privacy in the digital age on the basis of a legal opinion issued before the internet as we know it was created, an opinion that many supreme court justices have already said is ill suited to the digital era. %$* 457
+second, the privacy protections that our opponents will focus on are a red herring. %$* 457
+those restrictions are weak. %$* 457
+they can be violated, and they already have been thousands of times. %$* 457
+but more importantly, under our opponents' theory, the constitution simply does not apply to our phone records. %$* 457
+this means that the government could collect them without any of the supposed privacy protections that they will describe. %$* 457
+another fatal flaw in this argument is that the government's collection of our phone records violates our privacy even if there are restrictions in place for their later use. %$* 457
+the collection itself is a violation. %$* 457
+for that reason, we don't let the nsa keep a copy of every single email sent in the country so long as there are protections in place on the back end. %$* 457
+and we don't allow the nsa to put a video camera in our bedrooms so long as it promises not to press play unless it has a good enough reason. %$* 457
+third, bulk collection has not made us any safer. %$* 457
+virtually every independent review of the nsa's phone records program has concluded that it hadn't stopped any terrorist attacks and that the government can track down terrorists without bulk collection by issuing targeted requests to the phone companies. %$* 457
+a congressional review group said this: that after studying the nsa's classified evidence, it could not, quote, "identify a single instance involving a threat to the united states in which the telephone records program made a concrete difference." a separate presidential group came to the same conclusion, and the president himself has now agreed. %$* 457
+one final point: tonight's resolution is focused on phone records. %$* 457
+but don't be fooled. %$* 457
+the consequences are much, much broader. %$* 457
+if the fourth amendment permits the bulk collection of our phone records, then it would permit the bulk collection of other similar records. %$* 457
+the problem is that virtually everything we do today leaves a digital trail of some sort. %$* 457
+whenever you send an email, visit a website, use your credit card or even just walk around with your phone turned on, you are leaving a rich trail of digital bread crumbs in your wake. %$* 457
+the arguments our opponents will make tonight would expose all of that information to routine, bulk collection by the government. %$* 457
+that's not the world that our framers envisioned when they drafted the fourth amendment, and it's not the world that you should accept. %$* 457
+you should vote for the motion, the mass collection of our phone records violates the fourth amendment. %$* 457
+thank you. %$* 457
+thank you, alex abdo. %$* 13
+and that is our motion, mass collection of u.s.phone records violates the fourth amendment. %$* 13
+and here to argue against the motion, stewart baker. %$* 13
+he is a partner at steptoe and johnson and former assistant secretary for policy at the department of homeland security. %$* 13
+ladies and gentlemen, stewart baker. %$* 13
+that's an applause line. %$* 13
+thank you. %$* 118
+it's really a pleasure to be here for the intelligence squared debate. %$* 118
+these are among the most civil and thoughtful public engagements on issues that i'm familiar with in the current world and a world where civility is often in short supply. %$* 118
+so, it's a pleasure to be here. %$* 118
+but i have to say that while alex has anticipated some of my arguments, he's left a few things out. %$* 118
+the question that we're debating is a question of law. %$* 118
+does the fourth amendment-- %$* 118
+is the fourth amendment violated by mass collection of phone records? %$* 118
+and what he glided over was the fact that the supreme court has decided this. %$* 118
+if this were a true and false question on a constitutional law exam and you said, "yes, the fourth amendment is violated by that," you'd get a d because the supreme court has decided that these are records that are not protected by the fourth amendment because of what ben franklin said, if you give away your secrets, they're not yours anymore. %$* 118
+other people get a say in them, and it's not a search when those people make those secrets available. %$* 118
+so, that is the state of the doctrine. %$* 118
+what alex said is essentially he doesn't like it, he wants you not to like it. %$* 118
+but it is the supreme court's law ruling. %$* 118
+and of the 20 judges that have been asked to evaluate the argument that alex made that somehow the passage of time and the adoption of the internet means that this case is no longer applicable to a mass collection of data, 20 judges have looked at that and 19 of them have rejected alex's argument. %$* 118
+he's got one judge who said, "yeah, i would just as soon overrule the supreme court." but district court judges don't ordinarily get to do that. %$* 118
+so, the answer to the question i think, and what i hope you will ultimately decide, is that the fourth amendment is not violated by this. %$* 118
+but there's a second aspect of this that i do want to get to, which is you're probably asking, "yeah, but can that be-- %$* 118
+really be the right result? %$* 118
+" and i want to address that because in the end, if you decide-- %$* 118
+even if you decide that taking these records is an event that implicates a reasonable expectation of privacy, the question is "is it reasonable for the government to have done what they did? %$* 118
+"and for that i think we ought to address the question of why the government did this. %$* 118
+the biggest terrorist threat we face is some terrorist group, well organized, well-armed, with a safe haven that-- %$* 118
+where they can bring people with clean passports together, recruit them, train them, finance them, and then send them into the united states to carry out a coordinated attack without any warning, it's almost impossible for us to catch those plots as they're being trained if there truly is a safe haven. %$* 118
+so, our best hope for catching those plotters is that they will have to coordinate, probably by phone, inside the united states and perhaps with their trainers and recruiters back in the middle east. %$* 118
+and if we can catch those calls back to the middle east and then tie them up to the calls that, that person has made inside the united states, we have at least a fighting chance to roll up that attack before it occurs. %$* 118
+that's what happened in 9/11. we missed that opportunity. %$* 118
+and that's what this program was designed to deal with. %$* 118
+they can't, however, pursue the idea that alex has been offering: go to each of the phone companies and say, "do you have anybody who called these numbers? %$* 118
+" give every phone company in america a list of the most sensitive targets, all the terrorist numbers we know in the world, and make sure that they hold those in confidence. %$* 118
+very difficult to do, and then once you try to find somebody in the united states by matching up their calls, once you get past the first hop to the first person, and you're looking to see whether he had sensitive conversations, you're going back to every phone company in america and asking them about those calls. %$* 118
+this is a nightmare. %$* 118
+the only way you can actually do this as fast as the terrorists can carry out their plot is if you have them in one place where you can search them. %$* 118
+and that is what the government tried to do. %$* 118
+they put them in one place so that they could search them. %$* 118
+that's a collection. %$* 118
+alex says that fact alone made it unconstitutional and that we're somehow-- %$* 118
+nsa knows when you call your girlfriend at 1:00 in the morning. %$* 118
+but the fact is it does us no great harm if all that record is sitting on a hard drive in a safe somewhere and nobody has actually opened up those records to look at. %$* 118
+and that's what the government did. %$* 118
+they put the protections for privacy not on the collection but on the question of "what are we going to search? %$* 118
+" and they said, you can't search without a good reason for searching, a reasonable, articulable suspicion, limited people who can do it, lots of audits, no number-- %$* 118
+no names in this database, only numbers-- %$* 118
+and the number of searches that were performed on an annual basis was about 300.out of that, they found some suspicious patterns. %$* 118
+and they referred those-- %$* 118
+about 500 a year-- %$* 118
+to the fbi to find out who these people are and what they're doing. %$* 118
+that's the extent of the government's intrusion into privacy, at a time when about a million records are gathered under criminal subpoena. %$* 118
+so, we have a choice. %$* 118
+we can either say, “no, the government can never do that because it's a violation of the fourth amendment,” or we can say, “we want to allow that to happen, but with privacy safeguards.” i think the choice, especially at a time when suddenly we have a terrorist group that does have a safe haven, the choice is to choose privacy and security. %$* 118
+thank you. %$* 118
+thank you, stewart baker. %$* 13
+and a reminder of what's going on, we are halfway through the opening round of this intelligence squared u.s.debate. %$* 13
+i'm john donvan. %$* 13
+we have four debaters, two teams of two, arguing it out over this motion: mass collection of u.s.phone records violates the fourth amendment. %$* 13
+you've heard from the first two debaters, and now onto the third. %$* 13
+i'd like to welcome to the lectern elizabeth wydra. %$* 13
+she is chief council at the constitutional accountability center and former supervising attorney at the georgetown university law center appellate litigation clinic. %$* 13
+ladies and gentlemen, elizabeth wydra. %$* 13
+thank you so much. %$* 458
+thank you so much, john. %$* 458
+it's great to be here tonight. %$* 458
+now, stewart certainly presents a frightening picture of terrorists working here in the united states. %$* 458
+but he presents a false choice between the idea of securing our nation and remaining faithful to the fundamental values that our nation holds dear, as expressed in the constitution and, relevant to tonight, the fourth amendment. %$* 458
+we can do both. %$* 458
+as my partner alex has ably explained, the nsa has not established that its massive intrusion into the lives of everyday americans is necessary in order to keep us safe. %$* 458
+but while this dragnet surveillance program has not been established as necessary, the importance of protecting against such suspicionless, sweeping searches, as those conducted by the nsa, is established in our constitutional tradition beyond question. %$* 458
+intrusive searches like the one being conducted every day by the nsa strikes at the very core of what the fourth amendment was enacted to prevent. %$* 458
+it gets to the very heart of why our nation's founders were willing to lay down their lives if they had to in order to protect the liberty, security, and personal privacy of americans. %$* 458
+so, as you listen to our debate tonight, i would ask you to keep in mind the vision and the values of our founders. %$* 458
+the reasons why they wrote into our constitution the fourth amendment in the first place-- %$* 458
+keep that as your north star tonight. %$* 458
+when the founding fathers drafted the fourth amendment, the mischief to which they were responding was principally the british use of general warrants and writs of assistance. %$* 458
+broadly authorized searches that allowed british officers to go into the homes of american colonists without any particularized suspicion of wrongdoing. %$* 458
+and they were used broadly in the hope that if they went through enough people's stuff, they would find something that would show evidence of wrongdoing. %$* 458
+now, that sounds a little familiar to me today. %$* 458
+these generalized searches back then were decried as instruments of arbitrary power. %$* 458
+they were used to silence critics of the crown and to trample the personal liberty of the american colonists. %$* 458
+in fact, american colonists' opposition to these sorts of generalized searches was, as chief justice roberts explained in a recent supreme court decision on behalf of all nine justices on the court, applying robust fourth amendment protections to the searches of cell phones, the opposition to these sorts of warrantless, generalized searches was one of the driving forces behind the revolution itself. %$* 458
+to illustrate, the chief justice recounted a famous speech given in 1760s boston by the patriot james otis, denouncing the use of warrantless searches, generalized searches without individualized suspicion, that invaded american colonists’ privacy without probable cause. %$* 458
+one young man listening in the audience that day was none other than john adams. %$* 458
+and recounting otis's speech and the day, adams described it later as, “the first scene of the first act of opposition to the arbitrary claims of great britain.” then and there the child independence was born. %$* 458
+the need to get a warrant to have reasonable suspicion before invading someone's privacy, that wasn't a mere technicality, something on a checklist that you have to go through that slows down good law enforcement, something that the guys on “law and order” sort of get past with a wink and a nod. %$* 458
+it was something that was so important to our founders that it was an essential part of the struggle for independence. %$* 458
+we are no longer in that first act of the great american story, and we are fortunate that we have to guide us today the wisdom and the words of the constitution. %$* 458
+james otis in the 1760s didn't have the fourth amendment to back up his arguments, but fortunately, alex and i do tonight. %$* 458
+the text of the fourth amendment, which you've seen on the screens, declares the right of the people to be free from unreasonable searches. %$* 458
+and it tells the government that it needs to have probable cause before it wants to invade our privacy. %$* 458
+the detailed text enshrines a specific prohibition, something that's rather unusual in the constitution, which often speaks in broader terms, a specific prohibition against the types of suspicion-less searches that the nsa is conducting every day on americans-- %$* 458
+sweeping searches and surveillance of very private information without any individualized suspicion of wrongdoing. %$* 458
+and the wisdom of our founders applies just as much today as it did in the 18th century. %$* 458
+i think those framer guys still have a lot to tell us about what kind of society we want to live in, as alex said. %$* 458
+just because the sensitive private information that we hold-- %$* 458
+that we hold dear today can be gleaned remotely and electronically rather than having a british red coat break the padlock on our leather trunk and our cute brick colonial in boston, as chief justice roberts said, that does not make that information any less worthy of the protection that the founders fought for. %$* 458
+now, the other side will try to say that there isn’t a search or there is some exception that makes it reasonable under the fourth amendment. %$* 458
+but i would submit that any exception to the fourth amendment that allows the government to collect data that can reveal sensitive, deeply private information about every american citizen without any suspicion that we are engaged in real wrongdoing. %$* 458
+any exception to the amendment that allows that would swallow this most important protection in the constitution, something that was so important to our founders that it breathed a spark to the fire of revolution. %$* 458
+so, if you keep as your north star those founders, i trust that you will vote for the proposition that mass collection of americans' private records violates the fourth amendment. %$* 458
+thank you. %$* 458
+thank you, elizabeth wydra. %$* 13
+and that's our motion: mass collection of u.s.phone records violates the fourth amendment. %$* 13
+and here to argue against that motion, john yoo. %$* 13
+he is the emanuel heller professor of law at uc berkeley and former deputy assistant attorney general in the office of legal counsel at the department of justice. %$* 13
+ladies and gentlemen, john yoo. %$* 13
+thank you very much for that invitation. %$* 50
+and it's a real pleasure to return to national constitution center. %$* 50
+i'd like to thank jeff rosen, an old college and law school friend of mine and now the president of this wonderful center, and our worthy opponents, who have the misfortune of not being from our great home city of philadelphia and so are destined to lose; and my co-arguer, stewart baker, and also the rosenkranz's family i've known for quite some time. %$* 50
+it's a real pleasure to be here under their support. %$* 50
+none of that comes out of my time for the debate. %$* 50
+so-- %$* 50
+and i still want to say, it's very likely that i personally be the worst debater because i'm used to sitting in a faculty lounge and not speaking within a six-minute window. %$* 50
+in my classes, it takes about six minutes for me to figure out what cases are being covered in the class that i'm certainly standing in. %$* 50
+so, i apologize if i don't get to all my points. %$* 50
+and i don't-- %$* 50
+as i'm amazed, my colleagues all did finish exactly at 00:00.i was quite impressed. %$* 50
+but i want to make just make two important points-- %$* 50
+three important points. %$* 50
+see, i already started. %$* 50
+one, from the-- %$* 50
+what you heard from the other side, you would think that the government was just interested in collecting information about all of us because they're just interested in collecting information about all of us. %$* 50
+the most important point is that there's a reason why the government created these programs. %$* 50
+it's the one that was present when i was in the government on 9/11 itself and the reason i was-- %$* 50
+one of the first things i had to do in the justice department was to pass on the legality of what became the surveillance programs. %$* 50
+and the reason why is that if you look at the text of the fourth amendment, it says we have a right to be free from unreasonable searches and seizures. %$* 50
+much of what ms. %$* 50
+wydra had to say was about british general warrants and when you get a warrant from a judge, they conduct a search of our houses. %$* 50
+i think that's an entirely different question than when the government can institute a broad program that doesn't look at the content of our communications, just looks at the addressing information and the phone numbers and whether it can do that, whether it's a reasonable search given the circumstances. %$* 50
+that's how the supreme court’s interpreted the language, and that's how we should. %$* 50
+and those reasonable circumstances, it seems to me, as my co-panelists argued, on 9/11, we were attacked by a different kind of enemy, not a foreign country, but an enemy that hides and disguises itself as normal civilians, that communicates using normal civilian communication methods like the internet and phone calls to launch surprise attacks with devastating effect on our cities, with a goal of killing as many civilians as possible. %$* 50
+after 9/11, confronted by this problem, this challenge, we decided this would be a reasonable thing to do to try to find any more terrorists coming to the united states by looking at phone numbers of people from abroad calling into the united states and what those phone numbers called, to try to detect patterns of enemy agents trying to infiltrate into the united states. %$* 50
+that's the purpose of the program. %$* 50
+and i vigorously deny any idea that this is just part of some government dragnet because the government just likes to collect information about all of us just for the fun of it. %$* 50
+the government did not do it for that reason, and i was present at that time, and the reason we did it is because we were suffering from the 9/11 attacks. %$* 50
+second point, i want to just point out, i'm sure that our debate opponents are not often compared to conservatives, but they are as the bed fellows of robert bork, because what they have done is said, “i don't care what precedence says. %$* 50
+i have discerned the principle of the framers, and i am going to impose it over the democratic choices that we have made in our society today. %$* 50
+throw out smith vs. %$* 50
+maryland, the governing supreme court precedent in this area which every lower court judge to examine this program and similar programs has used as a governing law. %$* 50
+throw out the fact that every federal judge to examine these programs at the appellate level and almost all them at district court level have approved this. %$* 50

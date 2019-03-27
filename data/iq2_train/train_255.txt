@@ -1,0 +1,500 @@
+thank you, evgeny, for making two of my points. %$* 603
+number one-- %$* 603
+that the notion of personalization, either through facebook or another social network or through google is actually tremendously helpful to us for shopping. %$* 603
+it's not so good for learning. %$* 603
+when you want to learn-- %$* 603
+about cats. %$* 671
+when you want to learn about anything complex, the worst thing you can do is subject yourself to a social filter. %$* 603
+the best thing you can do-- %$* 603
+you need better friends. %$* 671
+is to challenge yourself-- %$* 603
+the best thing-- %$* 603
+you're the person i retweet the most. %$* 603
+the best thing you can do, you need to get out of the bubble. %$* 603
+the best thing you can do is seek sources of expertise, seek sources that have-- %$* 603
+that are particularly good at researching particular areas. %$* 603
+use online sources that are focused in particular areas like health, like science, right? %$* 603
+that means call your librarian. %$* 603
+that means talk to an expert. %$* 603
+and that means go beyond asking a small set of people what the best way to explore a particular issue is. %$* 603
+but for pizza, not a bad idea. %$* 603
+and we can talk later, because i'll tell you if you're still interested. %$* 603
+integrate 2,000 people that are following twitter, one of whom is you, why not integrate those sources in my search results? %$* 671
+why shouldn't i be able to see the searches of those highlights if no one is concerned about privacy? %$* 671
+don't you think the links you share or click on are not smart or interesting for me? %$* 671
+they are for you. %$* 603
+that's why you're my buddy, right? %$* 603
+but that doesn't mean necessarily that what i'm doing is enhancing anybody else's-- %$* 603
+why didn't you trust me to choose my friends and sources? %$* 671
+eli pariser, i-- %$* 13
+you want to choose them for me? %$* 671
+we also think your opponents who are arguing against the closing of american's minds through the internet have also made the argument that this personalization and customization, the filtering helps you think. %$* 13
+it helps you organize. %$* 13
+it cuts away the chafe. %$* 13
+it brings things down to a manageable amount of material. %$* 13
+and i can see the appeal to that argument. %$* 13
+so take that on, eli pariser. %$* 13
+well, you don't hear me arguing that all personalization is bad or all filtering is bad. %$* 670
+that's kind of a nonsensical argument. %$* 670
+as everyone has said, filtering has been around as long as there's information to filter. %$* 670
+but the question is, what are the filters-- %$* 670
+what are the lenses through which we're looking at the world now doing for most people who are looking at the world through those lenses? %$* 670
+and i think we're talking a lot here about twitter, but it's important to remember that twitter-- %$* 670
+actually it's hard to remember in a group of new yorkers-- %$* 670
+twitter is a fringe phenomenon on the internet relative to google or facebook. %$* 670
+twitter has a tiny, tiny user base compared to these other-- %$* 670
+sorry? %$* 670
+only 200 million. %$* 126
+well, the-- %$* 670
+but the actual-- %$* 670
+the actual user-- %$* 670
+you know, the active users, if you look at active users on twitter, it's actually much smaller, it's about 25 million people, which is a lot of people, but not compared to facebook, not compared to google. %$* 670
+and so we have to look at sort of how most people are using this stuff. %$* 670
+yes, jacob weisberg. %$* 13
+i want to ask eli one other question, i mean, since we're dealing with the interesting implications of this thing that i don't think is happening, how do you want to-- %$* 126
+what kind of regulation do you want to deal with this problem? %$* 126
+do you want to say that google and facebook aren't allowed to filter in certain ways, or do you want them to become this sort of paternalistic gatekeepers that say, "if you're searching for lady gaga video, you also have to have a little bit of this interesting study from the nonpartisan congressional budget office.” right? %$* 126
+i'm not suggesting that we replace the old media paternalism with new paternalism. %$* 670
+i'm suggesting that, if we built these tools toward the purpose of helping people get good information, including a diversity of perspective, we could do that in a way that would draw on the internet strength. %$* 670
+so i'll give you one example, facebook, the main way that you propagate information across facebook is with the like button. %$* 670
+the like button has a very particular valence. %$* 670
+it's easy to click like on, "i baked a cake," it's hard to click like on, "massacre in darfur continues for 11th year." and so certain kinds of information propagate very readily. %$* 670
+other kinds of information don't propagate at all. %$* 670
+now, without instituting any kind of objective paternalism, this is more important than that, you could put an important button on facebook that'll allow people to elevate the topics that they believed were important as well as the topics that they think are fun and interesting and that they'd like their friends to see. %$* 670
+so there are ways of doing this that are internety, that don't require, you know, someone in a room making these value judgments but that actually lead toward filtering, that helps us seek-- %$* 670
+that still doesn't solve the filtering problem, come on, we'll still be as close minded if you buy into a paradigm with the important button, it's just that now in addition to being close minded, three people in the audience will care about darfur. %$* 671
+well, it's better than none, but i think the interesting thing here that i kind of want to get to is-- %$* 670
+i wanted to ask you about this, evgeny, because you wrote a slate piece recently in which closed with a call that was actually kind of more paternalistic than where i would go. %$* 670
+true. %$* 671
+you know, it closes by saying, "it's not unreasonable to think that the denialists of global warning or benefits of vaccination are online friends with other denialists. %$* 670
+as such, finding information that contradicts one's views would be even harder. %$* 670
+this is a reason for google to atone for its sins and ensure that the subject dominated by pseudoscience and conspiracy theories are given a socially responsible curated treatment." so can you talk about-- %$* 670
+i was just curious about that because i can't make it square with your position. %$* 670
+evgeny morozov. %$* 13
+no, i think it's very easy to make it square. %$* 671
+i mean, first of all, public health, particularly vaccination, i think it's different from political information. %$* 671
+political information is contentious by default. %$* 671
+vaccination related decisions are far more contentious because public health and often national security is at stake, so there is a difference there, first of all. %$* 671
+so you think-- %$* 670
+second of all-- %$* 671
+global warming isn't political? %$* 670
+second of all, it is less political than public health. %$* 671
+really? %$* 670
+well, i mean, look, is anyone going to shut down the school or public square because of global warming tomorrow? %$* 671
+they will if there is an outbreak of an epidemic or some contagious disease. %$* 671
+again, you have to understand that this is a very particular context in which i think warning people about certain types of websites, which has nothing to do with socialization, has everything to do with certain publishers publishing deliberately misleading information about vaccination, for example, or about the risks of flu vaccines or any other sort of vaccine, and i think it would not be a bad idea for google to show that there are sites which have actually been approved through peer review and through normal scientific practice and-- %$* 671
+to show that, "hey, you actually have sites which you can trust." i don't think it has much to do with filtering or the social layer. %$* 671
+but when you say it's not unreasonable for denialists to be online friends with other denialists and as such finding information that contradicts one's views-- %$* 670
+we have freedom of association so it’s not unreasonable-- %$* 671
+but let me bring in siva, yeah. %$* 13
+well, i would go to a less paternalistic position. %$* 603
+i don't think we should be in the business of telling google what to do or telling facebook what to do. %$* 603
+i think we should be in the business of building new platforms, new tools, new ways of relating to each other. %$* 603
+and having these conversations, i think everybody should read books about the subject, which is a pretty good way. %$* 603
+and then adjust your own behavior and have those ideas echo through your social networks, that perhaps it’s a good idea to break out of the filter bubble. %$* 603
+let me ask the side that’s arguing that when it comes to politics, the internet is closing our minds. %$* 13
+for some concrete examples of this phenomenon that concerns you, actually having caused harm to the body politic, because there’s a little bit of an assumption, and maybe you’re not making this point, but there’s a little bit of this assumption that all do need to be talking to each other and that there’s a middle that we’ll all reach in some kumbaya moment. %$* 13
+but in fact, what’s wrong with having people entrenched in their own camps, angry at each other? %$* 13
+as long as the political spectrum is covered overall, what’s wrong with that? %$* 13
+and what examples of harm can you talk about that have been caused by that. %$* 13
+just a little story, when i was on the book tour for my book, i was on a radio show in st. %$* 670
+louis. %$* 670
+and the host decided to make this big spectacle of having people google barack obama and call-in and read their search results. %$* 670
+it was a really boring radio hour. %$* 670
+and the first person called in, the second person called in and they interviewed everybody and had people kind of do a read-off where they’re both reading it off at the same time and it was exactly the same. %$* 670
+and i was thinking, this is the worse book promotion i’ve ever done. %$* 670
+and then a third guy called in, and he said you know it’s the damndest thing, when i google barack obama, the first thing that comes up is this link to this site about how he’s not a natural citizen. %$* 670
+and the second link is also a link to a website about how he doesn’t have a birth certificate. %$* 670
+that was your publicist. %$* 671
+oh, i was wondering about that. %$* 670
+but so, i think the danger here is that it’s not just that he was getting a view of the world that was really far off the average here. %$* 670
+but he didn’t even know that that was the view that he was getting. %$* 670
+he had no idea how tilted that view was. %$* 670
+and that’s sort of the challenge. %$* 670
+i just want to address one other point, which is that there seems to be this question about whether this is happening. %$* 670
+and it’s really kind of funny to me, because if you talk to these companies and if you listen to what they’re saying, all of these companies are very clear that personalization is a big part of what they’re doing and what they're-- %$* 670
+for pizza, weighted decisions. %$* 671
+they are very clear. %$* 671
+and they say we don’t want to do it for politics, we only want to do it for pizza. %$* 671
+right, and the question is, can you trust them? %$* 670
+let me-- %$* 13
+jacob, i think eli left a pretty good image hanging out there, of these folks truly not knowing how much they don’t know and believing what they’re getting and not understanding how slanted it is. %$* 13
+that landed pretty well i think, so can you respond to that? %$* 13
+but a guy who called into a radio show? %$* 126
+i know the plural of anecdote is data. %$* 126
+but i mean, if this were really happening in the way you say it is, wouldn’t there be some kind of decent study that actually showed widely varying results? %$* 126
+i mean as i say, i’ve tried to test this out as best i can. %$* 126
+i’ve tried it myself on various browsers, signed in, signed out, wikipedia always comes up first, sometimes it comes up second. %$* 126
+wikipedia’s vaccine entry is pretty good. %$* 126
+i do not think there is actually the kind of variety you’re talking in searches done most of the time by most people. %$* 126
+siva. %$* 13
+so, doing social science online is really hard because almost nothing is replicable. %$* 603
+right so almost any, even if you did a broader study than that, even if eli did a broader study than that, the third person to do that study would not come up with the same results. %$* 603
+for the simple reason that both facebook and google are constantly changing their algorithms, constantly tweaking their algorithms for reasons we can’t possibly understand and are not allowed to understand. %$* 603
+it’s also important to remember that there are so many variables in what you get. %$* 603
+there are some searches that are more personalized than other searches. %$* 603
+again, for reasons that google understands and we are not allowed to understand. %$* 603
+there are some ways that you can generate different searches because there are certain keywords that matter more in certain geographic locations than others. %$* 603
+so a search for s-o-x in boston or chicago will yield a particularly strong result and personalized in those areas where as s-o-x searched somewhere else in the world might yield gibberish because it doesn’t mean anything. %$* 603
+so all of these variables, plus the big variable, whether or not you’re a gmail user, whether or not you’re signed into youtube, whether or not-- %$* 603
+are you agreeing with your opponent that you can’t make the case based %$* 13
+no, no, i’m, what i’m saying is that the empirical studies that have been done are limited in their utility. %$* 603
+what we do know is exactly what the companies say they do. %$* 603
+and they say, and they've said to eli on a number of occasions, that they personalize our results. %$* 603
+and not that-- %$* 603
+you have just disbanded the companies because i would actually prefer google and facebook to personalize my search results based on 500 factors rather than on just two factors. %$* 671
+i'm not interested in-- %$* 603
+i don't want them to personalize my news or search results based on my sex and based on my race or based on how old they think i am. %$* 671
+i would like them to take a broader view and incorporate 300 factors, 500 factors if it's necessary, rather than-- %$* 671
+okay, but you don't get to say-- %$* 603
+me into a social group to which i don't want to be known. %$* 671
+it's a good thing. %$* 671
+i'm not interested in attacking or defending the companies. %$* 603
+i'm interested in explaining what's going on to the best of our ability. %$* 603
+and we are feeling around in the dark because all of this is in a black box, private data, and yet so deeply important to our public lives-- %$* 603
+that's how capitalism works. %$* 671
+they have trade secrets. %$* 671
+they will never disclose their algorithms-- %$* 671
+i know. %$* 603
+because if they do, you're going to suffer. %$* 671
+jacob weisberg. %$* 13
+i know. %$* 603
+and that's the problem. %$* 603
+so why ask the impossible? %$* 671
+jacob weisberg. %$* 13
+i think there's another point here. %$* 126
+we're talking mainly about google and about facebook that have these kinds of personalization you can turn off. %$* 126
+whether when they're turned on, they do what you say they're doing is a matter of some dispute. %$* 126
+but most people don't get their news from google search. %$* 126
+and most people don't get their news from facebook. %$* 126
+they get their news from the news. %$* 126
+now, these are increasing sources of information of different kinds. %$* 126
+but have you used google news? %$* 126
+it's not a great product, and it's not one of the top ways that people get their news. %$* 126
+people still get their news both from traditional news sources and from big online sources like cnn, yahoo! %$* 126
+news-- %$* 126
+which is personalized. %$* 670
+yahoo! %$* 126
+news is the ap. if you go-- %$* 126
+it's basically an ap news feed. %$* 126
+there is a social feature, similar to facebook and google. %$* 126
+you can turn off. %$* 126
+you can have it personalized or not personalized if you prefer. %$* 126
+first of all, defaults matter. %$* 603
+the fact that you have to know to turn it off to turn it off is a huge issue. %$* 603
+there is a reason those social phenomena are on by default because it's in those company's interests to make sure that you do get personalized results. %$* 603
+but that's in our interest. %$* 126
+i want it turned on. %$* 126
+but you might not realize that it's happening unless you happen to-- %$* 603
+personalized option. %$* 671
+i mean, siva, it's a chicken and egg problem. %$* 671
+you will not realize that you can personalize them otherwise. %$* 671
+and then i don't see this as an argument. %$* 671
+all right. %$* 13
+i'd like to go to audience questions at this point. %$* 13
+we're in the middle of round two. %$* 13
+our motion is, "when it comes to politics, the internet is closing our minds." microphones will be brought forward if you raise your hand. %$* 13
+remember, about 30 seconds is what you'll get. %$* 13
+you can state a quick premise, but please ask a question that keeps us on the topic of this motion, and we'll move along this debate. %$* 13
+and i really do mean it to be a question, not a-- %$* 13
+not a debating point. %$* 13
+but we-- %$* 13
+we did put out, on slate.com, who is our media partner, a request to them for questions from some of their subscribers. %$* 13
+and we also-- %$* 13
+is lenny gengrinovich here? %$* 13
+did you show up? %$* 13
+yep, there he is. %$* 13
+all right. %$* 13
+so lenny took the initiative of sending a question into us by email. %$* 13
+so thank you for that. %$* 13
+and i'm going to actually-- %$* 13
+you can ask the question yourself. %$* 13
+i just wanted you to actually make it drastically shorter. %$* 13
+just one page. %$* 18
+and if you want, i can paraphrase it or-- %$* 13
+i'll go ahead and paraphrase it for you. %$* 13
+he basically makes this statement: the tiny minority of democratic citizens who are interested in political ideas and issues cannot have a discussion. %$* 13
+they have freedom of speech, but there's nobody to speak to in the internet-- %$* 13
+ersatz world of discussions which only hides the problem. %$* 13
+do you agree that our nation needs affirmative action for intelligent conversation? %$* 13
+i'll put that to siva first. %$* 13
+most definitely, but we're doing it right now, right? %$* 603
+it means that we have to have foundations like the foundation that supports this discussion. %$* 603
+it means that we have to have universities, and we have to have schools take these issues seriously. %$* 603
+and make sure that we are all able to understand the environments in which we operate, that we have to understand the nature of these platforms and technologies. %$* 603
+and when there is a suboptimal result, we have to know how to correct for it. %$* 603
+and if we're not happy with it, to invent something new. %$* 603
+on this side, do you want to respond, or do you agree? %$* 13
+jacob weisberg. %$* 13
+well, i think, you know, the low quality of commenting is one of the big problems on the internet. %$* 126
+it's one we've been very concerned with, particularly-- %$* 126
+jacob, can you just come in a little closer? %$* 13
+oh, i'm sorry. %$* 126
+we've been very concerned about-- %$* 126
+at slate over the years with improving it. %$* 126
+the big breakthrough, i have to say, came from facebook, through a technology-- %$* 126
+an interface known as facebook connect, which basically brought identity- based commenting to every website. %$* 126
+and it means that because people are themselves when they comment, they're actually a lot more reasonable, not necessarily reasonable all the time, but they don't engage in quite the level of viciousness and ad homonym attacks and just soft point arguing they do when they're anonymous. %$* 126
+so i think partly this say problem i'm optimistic about improving through technology. %$* 126
+all right. %$* 13
+let's go out to the audience now. %$* 13
+and right in the front row, right behind the clock. %$* 13
+again, if you can stand up and hold the mic close to your mouth. %$* 13
+tell us your name, please. %$* 13
+hi. %$* 18
+my name is tal. %$* 18
+and there's two main points in the premise tonight, one that our minds are being closed, at least more so than any other time. %$* 18
+and two, that the internet is doing it. %$* 18
+and i would like to ask the panel for the motion to address both of those issues. %$* 18
+i think they have. %$* 13
+so unless you feel that you haven't covered that, i think that it's-- %$* 13
+i would only qualify it by saying-- %$* 603
+all right. %$* 13
+it's not as simple as doing. %$* 603
+it is that we are interacting with these platforms at such a high and intense level without realizing what's going on. %$* 603
+and that's what's happening. %$* 603
+so it's amplifying what we were already willing to do, which is gather among ourselves and reward ourselves with positive affirmation. %$* 603
+and that's really mostly what goes on on facebook. %$* 603
+siva, but first you argue to govern among themselves, but then you argue that the internet is getting balkanized, and we are all in our own little niches. %$* 671
+i mean, how do you square it both of them. %$* 671
+ourselves, that's one of the niches, right? %$* 603
+and it's being balkanized nationally which then reduces the global political-- %$* 603
+you aspire to this one global utopia-- %$* 671
+very much. %$* 603
+where people in china feel like people in india and iran and elsewhere? %$* 671
+yeah, that would be really nice. %$* 603
+eli pariser. %$* 13
+is, you know, there's a great book called "the big sort" about how increasingly people live in communities that are like them, in homogenous communities. %$* 670
+and one of the fascinating things about this book is that you have two things going on at the same time. %$* 670
+on the one hand, there is a broader set of types of communities than there was 30 years ago, right? %$* 670
+that's undoubtedly true. %$* 670
+on the other hand, for each individual person in that system, their neighborhood is more like people like them than it ever was in the past. %$* 670
+and so you have local homogeneity and heterogeneity at the top level. %$* 670
+and i think when people are trying to make the opposite argument, they point to, hey, look at the internet, there's all this different stuff out there. %$* 670
+it's so heterogeneous. %$* 670
+everybody's talking. %$* 670
+but actually, the question is, what are people's local neighborhoods like? %$* 670
+and to the extent that we're now bringing those local neighborhoods with us online, what effect does that have in, you know, amplifying the homogeneity that increasingly surrounds us even when we're off line. %$* 670
+i would encourage you to look at the recent issue of american journal of political science which actually debunks, the big sort bulk with a load of empirical data and shows that even in the off line world, that this has never held true. %$* 671
+can you go up three steps, please, and turn right? %$* 13
+ma'am? %$* 13
+yeah, you're rising-- %$* 13
+on your other side, sorry. %$* 13
+just wait for the mic. %$* 13
+thanks. %$* 13
+my name is and i'm curious about either the growth of your audiences or the decrease of your audiences and the quality and the quantity of discourse that's been created over the past let's say three years. %$* 19
+so how would you relate that directly to the motion? %$* 13
+are you asking whether they're seeing a closing of the minds in the interaction with their readers? %$* 13
+in their own personal-- %$* 19
+in their own personal writing and their own personal blogs and the information that they're providing-- %$* 19
+are they seeing minds closing? %$* 13
+are they seeing minds closed? %$* 19
+jacob weisberg. %$* 13
+well, i think i tried to answer-- %$* 126
+i tried to speak to that in my introduction. %$* 126
+no. %$* 126
+i felt personally just the opposite. %$* 126
+i feel like i've never been in touch with a wider variety of viewpoints and people. %$* 126
+and a lot of that is through social media, because people act as filters for you. %$* 126
+when you find something that's somewhat interesting, whether they're a personal friend, whether they are someone in a field you're interested in, whether they're in another field or just someone you admire, they bring you a whole range of things, on twitter, on facebook. %$* 126
+so no, my experience has been just the opposite. %$* 126
+siva? %$* 13
+well, i've written for slate, so i've had a great experience. %$* 603
+but i-- %$* 603
+my experience is narrow. %$* 603
+my experience is my own, and my experience is based on the particular subjects that i cover, which happen to plug right into these questions, for the same reason that this is not a representative audience of internet users, my readers are not a representative audience of internet users. %$* 603
+i just want to-- %$* 670
+so i think that the fear that somehow diversity online is shrinking. %$* 671
+i think my own case disproves that. %$* 671
+i mean, i have an unpronounceable name. %$* 671
+i was born in the middle of nowhere in belarus, and the only reason why i actually have the attention and the audience i have is mostly because of the internet, because of the twitter stream i run and because of active writing for online publications and doing a lot of online research in google scholar. %$* 671
+so i would say that the fear that somehow it will become impossible for diverse voices from iran or or elsewhere to get heard-- %$* 671
+direct interaction with the public has indicated to you that-- %$* 13
+am i right, ma'am, you're talking about-- %$* 13
+but, i mean, if i look at the public-- %$* 671
+quality of discourse. %$* 19
+i'm assuming that this debate is about whether discourse is closed, whether-- %$* 19
+okay. %$* 13
+my point of my own case shows that it's actually getting more diverse in terms of voices who never previously would have a chance to sit in an audience like this or participate in political debates but, you know, i participate in them. %$* 671
+eli pariser. %$* 13
+when i was at move on, we tried a number of times to do these kinds of cross partisan conversations and have people sit down in a room together and talk. %$* 670
+and it is amazingly hard to do. %$* 670
+and, you know, i think it's probably always been hard. %$* 670
+i don't think that, that's a new phenomenon, but the degree to which people live in different universes of fact, not just different universes of opinion, in other words, the degree to which you can't even get to something to argue about because people won't even agree that, that's a thing, is, you know, really striking. %$* 670
+and i can't help but wonder as evgeny has, as have many of us, if the way that the internet is structured isn't amplifying that and helping people who believe, you know, pretty in my opinion, you know, misinformation, like the obama birth certificate stuff or that climate change is not something that's partly caused by people, is it amplified by that. %$* 670
+siva. %$* 13
+i have a really quick answer. %$* 603
+i misunderstood your question. %$* 603
+i apologize. %$* 603
+before five years ago, i didn't have such a thing as facebook in which to engage in conversation with my friends. %$* 603
+i ran two blogs. %$* 603
+and both of them were maddening because every conversation i had was overwhelmed by harassing people, people who were merely there to disrupt the conversation, not there to engage in a reasonable and rational way. %$* 603
+we call them trolls. %$* 603
+and one of the reasons that i closed down my blogs is it was so maddening that-- %$* 603
+as opposed to taking lithium. %$* 13
+exactly, exactly. %$* 603
+the quality of discourse in the comments plus the spam was just out of control. %$* 603
+on facebook it's a lot more comfortable, right? %$* 603
+it's a lot more pleasant. %$* 603
+it's because i never see people i disagree with. %$* 603
+it's really lovely now. %$* 603
+i think i-- %$* 13
+a lot of the questions that came in-- %$* 13
+you follow me on twitter, though. %$* 671
+a lot of the questions that came in through slate are similarly focused on this question of the impact on the quality of the american political discourse and they-- %$* 13
+levi osborne in warrensburg, missouri, asks, "is it so much the internet in itself that is closing our minds as it is the hyper partisanship of these commentators which so many people listen to? %$* 13
+"and by, "commentators," he's talking also not just about people who are online, but people who are also in television who are blogging, and people in newspapers who are blogging, but he's talking about the blogging aspect of people with hyper partisan points of view, and-- %$* 13
+jacob weisberg. %$* 13
+well, i do think the phenomenon of increased polarization in congress is pretty clearly documented at this point. %$* 126
+that's happening, and i deplore it. %$* 126
+i just don't think the internet has anything to do with it. %$* 126
+i think the big drivers of that are redistricting which put people in districts that tend to go one way or the other and fewer that swing back and forth. %$* 126
+i think it's fundraising which means politicians spend all their time fundraising and actually don't have human relationships with each other very much. %$* 126
+i think hyper partisan media, of which fox is probably the best example, have some impact on it. %$* 126
+but members of congress, these are-- %$* 126
+if you want to look for a group of people who really aren't on the internet very much, that's them. %$* 126
+i mean, i don't think it's what's driving it. %$* 126
+siva. %$* 13
+so part of the phenomenon of the punditocracy is indignation. %$* 603
+that's the currency. %$* 603
+and indignation is a subset of the attention economy. %$* 603
+in order to appear on cnn at 2:00 in the afternoon, in order to appear on fox news at 7:00 p.m., you have to say something that angers somebody, either directly in their face, "i'm angering you as someone who disagrees with me," or more likely you gather people on your side to be angry. %$* 603
+and the notion that we are so addicted to something now we can measure, the click, the instant attention, the instant affirmation, just reinforces that, so it is a phenomenon that's actually moved from the blogosphere, and that's why we've seen so many people who got famous being bloggers now are appearing on cnn at 2 pm, now appearing on fox at 7 pm. %$* 603
+right, that’s what’s happening. %$* 603
+it’s why msnbc is filled with former bloggers. %$* 603
+it is because they’re already adept at generating indignation towards one side or another. %$* 603
+and is this a mind closing exercise or this just meaningless entertainment? %$* 13
+i think the results are. %$* 603
+it does have an impact. %$* 13
+but mind closing, yes. %$* 603
+i think, just to take a step for the resolution. %$* 670
+eli pariser. %$* 13
+i don’t think anyone up here thinks that the primary thing driving american-- %$* 670
+the very partisan spirit of american discourse is the internet. %$* 670
+the question is, is the way that most people use the internet helping or hurting? %$* 670
+that’s the question that you really have to answer. %$* 670
+is the way that people are using the internet helping or hurting in this? %$* 670
+and i think, it’s hard to argue, most people’s social networks are homogenous, that’s just true. %$* 670
+most people do have social networks that are largely made up of people like them. %$* 670
+now there are the outliers for sure. %$* 670
+but if you’re getting more from people who you know, you’re getting more of your news from people who are like you. %$* 670
+okay, let’s go back to questions. %$* 13
+you’re wearing a lime green tie. %$* 13
+you’re looking at your tie. %$* 13
+sorry, that was a terrible cue to give, you’ve got to look down. %$* 13
+my name is andy, so i have a question about confirmation bias. %$* 18
+this is-- %$* 18
+i really don’t know the answer, which is, do you think now, or before the internet, it was harder to avoid, whatever your ideology, information that would challenge your belief, be it the nightly news or an encyclopedia or the newspaper, whereas now, you mentioned wikipedia. %$* 18
+but that might be, there might be an analogue to the encyclopedia of old, but now you could just go to conservapedia and find out that wow, paul revere actually, the ride was consistent with what it was described as. %$* 18
+and so it’s a lot easier to find that information that’s going to confirm your biases and that would contribute to the closing of the mind. %$* 18
+but evgeny kind of addressed that point when he-- %$* 13
+i think you said, evgeny, earlier in your opening statements, that initially the theory was the internet gave us tools to do stuff that we were already doing. %$* 13
+but the other side is arguing that without our knowing it now, the internet is making us do that and we’re unaware of it. %$* 13
+so do you feel that your question was answered? %$* 13
+well it was more the idea of seeking out information that is going to be feeding your own biases, whereas you’re not exposing yourself. %$* 18
+you’re not going to be exposed as much as you would before to stuff. %$* 18
+but is it, how is it different from 30 years ago, that if you, you could go down to the library and take out all the crackpot books that you wanted to. %$* 13
+well that’s the question. %$* 18
+let’s let jacob weisburg take that one. %$* 13
+daniel patrick moynihan used to always say, everyone’s entitled to their opinion but not their own facts. %$* 126
+and i think we all agree that in a democracy, you need an informational common to some extent, where people are arguing about what they think about reality, not about reality itself. %$* 126
+but i think wikipedia’s a pretty great information commons. %$* 126
+and it is again, the first search return on almost everything, or at least one of the first few. %$* 126
+and wikipedia has its issues and its problems but overall, wikipedia strives to be neutral ground on an informational level. %$* 126
+that’s an anecdote, but i think it’s an important one. %$* 126
+i think the internet cuts both ways and in some ways, it can cut in favor of confirmation biases that you’re talking about, and in some ways it can cut right against it. %$* 126
+i think we also-- %$* 671
+evgeny, let me let the other side come back to that, to eli pariser, is arguing the internet is closing our minds. %$* 13
+well just to go from anecdote to the study. %$* 670
+one of the findings of the pew study was that the more personalized google search results, the further down wikipedia was in the search results. %$* 670
+so if you have an empty search history, wikipedia is the top result. %$* 670
+but the larger your search history, the less wikipedia comes up. %$* 670
+the more it’s replaced by-- %$* 670
+so this was the best study that we have on google personalization. %$* 670
+and it suggests, i agree-- %$* 670
+but do you see any logic, why would google deliberately want to demote wikipedia in search results? %$* 671
+totally, i see the logic. %$* 670
+what’s the logic? %$* 671
+i just think-- %$* 670
+the logic, they have the means and the motives to provide the links that people will click on the most. %$* 670
+that’s not the means and the motive to provide the links that are the most useful to people. %$* 670
+because of that burst of pleasure that you talked about in people’s brains. %$* 13
+but evgeny, i just want to let him finish the point. %$* 13
+is it because of that burst of pleasure principle that you talked about, that in fact, they’ve actually studied it. %$* 13
+and that we feel good and we stick around if we get results that we like. %$* 13
+yeah i think that’s one of the-- %$* 670
+you never got the chance to respond to that point. %$* 13
+google places no ads on wikipedia. %$* 671
+google doesn’t care what you click on; all they care is you stay on google. %$* 671
+right? %$* 671
+they don’t really care whether you go to wikipedia or conservapedia or somewhere else. %$* 671
+right, and i think right now what google actually wants to do is present the result right away without having to spend any time on it. %$* 671
+so, yeah, i just don't see the logic on which you're basing that decision. %$* 671
+but the response to the question you asked, i think you need-- %$* 671
+we need to set realistic goals for ourselves. %$* 671
+we are not going to dissuade people who deliberately decide to go to conservapedia instead of wikipedia. %$* 671
+there is nothing policy-wide that we can do. %$* 671
+if people already decided to seek those very biased views. %$* 671
+there is little we can do. %$* 671
+i think we need not be utopian. %$* 671
+we have to set realistic policy goals. %$* 671
+and from a public policy perspective, to figure out what we can do, change design, regulate google, ask them to do something. %$* 671
+but to expect that google suddenly can wave the magic wand and make sure that people stop going to fox news.com or conservapedia and start going to wikipedia instead, i think it's an unrealistic goal that we shouldn't even set for ourselves. %$* 671
+siva. %$* 13
+again, thank you for making our point. %$* 603
+that's basically what we're saying, that google is in the business of making sure that if you are looking for a conservative opinion about something, you're going to get more conservative opinions about things. %$* 603
+i'm sorry. %$* 603
+if you've expressed a desire to click on conservative things, you're going to get more conservative things. %$* 603
+it is-- %$* 671
+and we don't expect google not to magically-- %$* 603
+evgeny, hold, let him-- %$* 13
+let siva finish, and you can come back. %$* 13
+don't expect google to change magically. %$* 603
+we don't ask google to change magically. %$* 603
+what we ask is-- %$* 603
+it doesn't do anything, what you are saying. %$* 671
+what we ask is that we pay attention closely to what google itself says about what it does as is well documented, and we pay attention to the totality of our information ecosystem and the strong role that google plays in that. %$* 603
+evgeny morozov. %$* 13
+it's all fine if you're paying attention. %$* 671
+i'm all for paying attention to google. %$* 671
+it's just that google itself goes on the record saying that they do not want to personalize politics. %$* 671
+all they want to do is personalize pizza. %$* 671
+i think from a business perspective, i see no reason why google would want to serve you biased search results and show conservapedia before wikipedia. %$* 671
+if you can produce a study that will prove that-- %$* 671
+it does so mathematically, not politically. %$* 603
+it's a vast for google. %$* 671
+it does so mathematically, not politically. %$* 603
+it doesn't distinguish between a political site and a pizza site because it doesn't do that. %$* 603
+search for gop, it knows you're searching for gop and not pizza. %$* 671
+it doesn't-- %$* 671
+it doesn't read what gop is, it associates it with all the other gop clicks. %$* 603
+it doesn't flag it as political. %$* 603
+it just associates it mathematically with all the other behavior going on on the web. %$* 603
+so gop could be pepperoni as far as the algorithm is concerned. %$* 13
+grand ol' pepperoni, yes. %$* 603
+all right. %$* 13
+i want to remind you we're in the question and answer section of this intelligence squared u.s.debate. %$* 13
+i'm john donvan, your moderator. %$* 13
+we have four debaters, two teams of two debating this motion: "when it comes to politics, the internet is closing our minds." and, sir, right in the center there. %$* 13
+yes. %$* 13
+i'm sorry. %$* 13
+i meant a few rows back. %$* 13
+i'll try to come back to you. %$* 13
+my apologies. %$* 13
+that was an ambiguous signal. %$* 13
+and i didn't mean you, either, but-- %$* 13
+i'm-- %$* 13
+you got the mic. %$* 13
+you win. %$* 13
+hi. %$* 18
+my name is john. %$* 18
+so i don't really hear anyone saying that information moving quickly and lots of information is closing our minds. %$* 18
+i hear not the internet but internet companies or even personalization is closing our minds. %$* 18
+so my question for the team arguing for the motion is, would something that wasn't corporate, like a public search engine alternative to google that's nonprofit and not commercial solve some of the problems? %$* 18
+and then my question for the against the motion team would be, would you be opposed to something like that as a policy decision because you love personalization so much? %$* 18
+and i'm assuming that this publicly-- %$* 13
+this public service search engine would not be doing personalization. %$* 13
+well, perhaps it-- %$* 18
+i mean, there could be a social aspect like, town halls. %$* 18
+okay. %$* 13
+all right. %$* 13

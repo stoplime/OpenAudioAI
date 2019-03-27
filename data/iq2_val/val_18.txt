@@ -1,0 +1,395 @@
+yes, absolutely. %$* 118
+all right, so let me take that to the other side. %$* 13
+they’re arguing that in fact while the data is there, that there are built in safeguards, and those things are for real. %$* 13
+you know, there’s a process through which governments need to go in-- %$* 13
+or that the government needs to know to go in order to dig more deeply into that pile of data, but michael german, do you trust in the safeguards? %$* 13
+or what is your response to their basic argument that maybe it’s not so nice, but it’s safe? %$* 13
+well, i guess the easy two-word response would be edward snowden, right? %$* 121
+if this data and all this stuff was so protected and so well regulated and so controlled, how would edward snowden have gotten so much access to it? %$* 121
+and luckily, because edward snowden did get so much access to it, and because we’re still benefiting even this week from information that’s coming forward, what has become clearer and clearer is that the fisa court was being-- %$* 121
+that the nsa was misrepresenting the program, i’ll say that in the nicest way. %$* 121
+and continually going beyond the scope of the minimization procedures and rules to the extent that in 2011, judge bates said it was unconstitutional %$* 121
+bottom line, then, are you saying that you don't trust the system? %$* 13
+i don't trust any system that doesn't have effective public oversight. %$* 121
+richard falkenrath. %$* 13
+it's worth-- %$* 119
+there's a few things that \-- %$* 119
+neither do stewart or i.we think it's effective in this case. %$* 119
+and you’ve left out a few facts. %$* 119
+so this program, the one that draws your ire so strongly, the bulk acquisition of telephone call records. %$* 119
+first point: the supreme court has held, since the late '70s, that this data, like what number called what number at what time for how long is not privacy information. %$* 119
+getting it from the government is not a search. %$* 119
+now, professor cole and his scholarship on this is against that and thinks the supreme court got it wrong. %$* 119
+nonetheless, the supreme court, for 35 years, has held this consistently. %$* 119
+second, going beyond what is strictly necessary from what the supreme court says, the congress has authorized this provision. %$* 119
+it's called section 215.it was in the patriot act. %$* 119
+it amended the fisa court regulation. %$* 119
+people on your side of this debate were against it then, and you're still against it now. %$* 119
+215 was very controversial then. %$* 119
+it's still controversial now among the same people. %$* 119
+but finally, you leave out the fact that this program, the bulk acquisition of telephone call records for narrow counterterrorism purposes has been authorized 34 times by 14 different federal judges, who wrote, in writing, they said they would not have authorized it but for the safeguards in place. %$* 119
+and every 90 days, they have to do it again. %$* 119
+all right. %$* 13
+let's let david cole respond. %$* 13
+well-- %$* 120
+your opponents are saying it's credible. %$* 13
+what's that-- %$* 120
+the first-- %$* 120
+your opponents are saying the safeguards are very credible. %$* 13
+the first thing i'd say is i'm not sure we would be satisfied even if the safeguards were fully credible and followed in every instance. %$* 120
+suppose the government said, "we're going to put a video camera in each one of your bedrooms. %$* 120
+we're going to collect the data from what happens in your bedroom, but we're not going to look at it until we have a really good reason to look at it. %$* 120
+would we say, "okay, that's fine. %$* 120
+go ahead. %$* 120
+put the video camera in every one of our-- %$* 120
+" so back end safeguards don't answer all of the concerns. %$* 120
+to richard's point about the notion that this information is not protected-- %$* 120
+we don't have a reasonable expectation of privacy with respect to this information. %$* 120
+mike hayden has said, if they can get all the-- %$* 120
+just remind people of who mike hayden is. %$* 13
+mike hayden, the former head of nsa, cia, has said, “if i can get all of that phone data about who you've called over a period of time, i don't need to listen to what you're saying. %$* 120
+i can get such a portrait of who you are that i don't even need the content. %$* 120
+this stuff is more private than the content itself.” %$* 120
+david, but i don't think that i-- %$* 13
+i directly heard an answer or an articulated answer to why you don't trust the safeguards that-- %$* 13
+you said they're not credible after richard actually made a pretty good point that the supreme court has time and again and legislation-- %$* 13
+why don't you find them credible? %$* 13
+well, first of all, richard's point about the supreme court was-- %$* 120
+supreme court has not found that the safeguards are credible here. %$* 120
+what the supreme court found was that in the '70s, before al gore invented the internet-- %$* 120
+it found that when you make these phone calls, you don't have an expectation of privacy with respect to the data regarding who you called and how long you called for. %$* 120
+immediately congress responded and said, yes, we do have an expectation of privacy. %$* 120
+and they passed a law that forbade the government from getting it without individualized suspicion. %$* 120
+this law, the government has now turned around and perverted, in secret, to get the very information that congress originally said we shouldn't get, and to get not just the data with respect to one suspect, which is what was at issue in the supreme court case in the '70s, but to get every piece of phone data of every one of us every time we make a call. %$* 120
+richard falkenrath. %$* 13
+let me try to put this in terms everyone can understand the utility of this. %$* 119
+so professor cole, mike german, stewart baker, john, we're here at the same place, same time, participating in a complex operation. %$* 119
+i, in fact, never had a phone call with david cole or-- %$* 119
+nonetheless we're here, doing something relatively complicated. %$* 119
+now, it turns out-- %$* 119
+you mean putting on this show. %$* 13
+yes. %$* 119
+we talked to another person. %$* 119
+you have no idea how complicated it is. %$* 13
+we talked to another person, who is in the audience, and was the coordinator of this. %$* 119
+and now, here's-- %$* 119
+do you understand why this data matters and why mike hayden would say that we want this information where you have no expectation of right to privacy. %$* 119
+we talked to the coordinator of this debate, who then put us together, right? %$* 119
+that is how plots are unraveled. %$* 119
+they find out about one perp. %$* 119
+they look at the communications pattern, they identify the network, and they can diffuse the plot. %$* 119
+so imagine this was not a debate but a bombing. %$* 119
+this is how-- %$* 119
+this call record data is how it gets unraveled and stopped. %$* 119
+and it's why it matters. %$* 119
+and it's not a video camera in the bedroom. %$* 119
+that is-- %$* 119
+that is not a fair comparison, and i think you know it. %$* 119
+this data, for very good reasons, the government and the congress and the court do not hold that you have the same expectations of the right to privacy as to you do in your bedroom. %$* 119
+let me bring in michael german and move the topic a little bit to the issue of practicality, because michael, you made the case in your opening statement against this motion, "spy on me, i'd rather be safe.” you made the case that the flood of data is actually-- %$* 13
+it's overload, that it can't be used. %$* 13
+and yet we heard stewart baker, your opponent, get up and go through a number of cases that he worked where in fact he has-- %$* 13
+he clearly argued that the availability of the data after crimes were committed helped track down-- %$* 13
+put together how the plot was put together and make some pretty decent arrests. %$* 13
+so there's no doubt the fbi has tremendous investigative skills that can be put to place once you know something bad has happened. %$* 121
+and i've seen that done on a personal basis. %$* 121
+but what we're talking about-- %$* 121
+first of all, it was sold as a preventive measure. %$* 121
+this is for preventing terrorism, to the for solving a terrorist bombing. %$* 121
+so you know, i think that the analysts at the nctc really say it all. %$* 121
+so another i was going to quote. %$* 121
+"there are so many databases, people don't even know what buttons to push. %$* 121
+they don't know where to get information, or they may even already have it and not know it.” another said, "more information isn't necessarily better. %$* 121
+better information is better.” so that's what we have to focus on, how-- %$* 121
+how do we let law enforcement have the tools it needs to get the bad guys without impacting the rights of the rest of us? %$* 121
+and i think the founders did a pretty good job of setting up a system based on reasonable suspicion and probable cause. %$* 121
+but does that mean you're just dismissing the achievements that your opponent laid out, where in fact the data was used to-- %$* 13
+again, there's no transparency. %$* 121
+there have been these cases that they say these were solved with this program-- %$* 121
+so you you're telling me we don't know whether he's telling the truth. %$* 13
+right. %$* 121
+because-- %$* 121
+not that you're-- %$* 13
+and i want to make clear-- %$* 13
+no, no. %$* 121
+that you're not calling-- %$* 13
+accusing him of dishonesty. %$* 13
+what i'm saying is there's no check to know whether the story is true or not. %$* 13
+and it's also worth noting that stewart did not say that the nsa data mining program solved any of these. %$* 120
+what he said was the passenger data program. %$* 120
+when the nsa was asked, point blank, by congress, and by a friendly member of congress, can you tell us some terrorist plots that you've stopped by virtue of the nsa data mining program? %$* 120
+the call data program, he said, "yes, one.” and it was the one that mike referred to earlier. %$* 120
+it was about an $8,000 transmission. %$* 120
+and the member of congress who was friendly to this, to the program, said, wait a minute, you have cases of violence, right, that you stop, not just transfer of money. %$* 120
+and the nsa guy had to say, all right, actually, no. %$* 120
+stewart baker, we've been quoting for quite a few minutes here without letting you speak, so it's-- %$* 13
+it's your turn. %$* 13
+yeah. %$* 118
+i-- %$* 118
+i have to say, there's a little confusion here. %$* 118
+i hear mike german saying, you know, all of these data collection programs are bad. %$* 118
+and i think i hear professor cole saying, oh, no, those are all-- %$* 118
+spying on us is fine if you're gathering data about travel reservations or border crossings. %$* 118
+all of that data isn't the kind of spying on us that we're opposed to. %$* 118
+we're opposed to this one program that relates to nsa. %$* 118
+and i think that suggests that they really don't have the courage of their convictions, that information that is available to third parties should be used for security purposes. %$* 118
+that's the position that we are arguing here. %$* 118
+and i think we've done a good job. %$* 118
+on the question of whether nsa and its program responds to a very real problem, let's remember how they got started with this program. %$* 118
+in the months before 9/11, nsa was listening to communications in yemen, and they heard calls from an al-qaeda operative. %$* 118
+what they didn't know is that the al-qaeda operative was planning the hijacking in the united states. %$* 118
+and those calls were coming from inside the united states, because they had no way to look inside the united states to see where these calls were coming from. %$* 118
+if they had known months before the attack that somebody was inside the united states at that high rank within al-qaeda, there would have been an all-points bulletin for that person. %$* 118
+they would have found him, and probably the attack would not have occurred. %$* 118
+when you have a failure like that, you ask, what can we do to make sure that never happens again? %$* 118
+and this program responds in part to that concern. %$* 118
+and i think that's a lesson that is written in blood for the national security agency. %$* 118
+michael german. %$* 13
+again, the public record disputes that. %$* 121
+the cia did know he was in the united states. %$* 121
+but the cia wasn't talking to the nsa or the fbi or customs is a totally different issue than whether they needed to collect the information. %$* 121
+there were people in our intelligence community in both the cia and nsa who knew they were in the united states. %$* 121
+a few people here and there, but the nsa did not know because they had no tools to know it, to say, "well, if somebody else had done their job perfectly, you wouldn't have needed this program," is to say, you know, "if the world were perfect, we wouldn't need counterterrorism." %$* 118
+but you have to fix the problem that exists, not create a new problem by gathering data you don't need. %$* 121
+i'm going to come to the audience for questions in just a moment. %$* 13
+and, again, i want to remind you if you raise your hand, a microphone will be brought from the side aisle, just hang for a second till the microphone reaches you. %$* 13
+and then we'd appreciate it if you could stand up, and tell us at least your first name. %$* 13
+and then to really shoot a question at these guys, and really make it really focused as a question. %$* 13
+in fact, why don't we go to that since i've got some hands up already. %$* 13
+sir, why don't you-- %$* 13
+right down in front mike can be brought down here. %$* 13
+i was thinking in the very center, thanks. %$* 13
+hi, my name is michael. %$* 18
+is there an alternative implementable replacement to these data collection programs to keep us safe? %$* 18
+i think there is. %$* 120
+i think-- %$* 120
+david cole. %$* 13
+the framers came up with an alternative. %$* 120
+it's an alternative that we used for 200+ years. %$* 120
+and the alternative says that you respect people's privacy until you have reason to believe that they're engaged in some sort of wrongdoing or that they have some sort of foreign intelligence that you want to get. %$* 120
+and the-- %$* 120
+but the point is it's individualized suspicion, and once you develop that, then you can tap their phone, then you can search their homes, then you can invade their privacy. %$* 120
+what the fourth amendment was designed to stop was dragnet surveillance, general search warrants that gave the government the power to just pick up everybody's information in the hope that they'd find a bad guy. %$* 120
+yeah, it's quite possible that they'll find a bad guy if they pick up everybody's information, but the framers said, "that's not the way we want to strike the balance between liberty and security because that gives up all of our privacy in the hope that it'll make us more secure. %$* 120
+and i-- %$* 120
+so i think we should stick with the way we've been doing it for 200 years and not let technology and the internet push us towards dragnet surveillance. %$* 120
+we have-- %$* 119
+richard falkenrath. %$* 13
+we have, in fact, stuck with that for information the supreme court deems personal privacy information. %$* 119
+we just don't for this category of information which you think should be categorized but the rest of the legal system in the united states doesn't. %$* 119
+well, but that's actually the problem so if that's-- %$* 120
+your standard still applies to content, right? %$* 119
+it still requires particularized approval to get the content. %$* 119
+what we're talking about here is information which you or whoever have given to a third party, namely, a telecommunications provider, and that they have in their system to use for their purposes and, as stewart explained, the government needs for its purposes from time to time. %$* 119
+so you're confusing the discussion by suggesting they're the same. %$* 119
+these are different categories of information. %$* 119
+and while you disagree with how the supreme court has ruled this, the entire system is built around this distinction. %$* 119
+well, two points on that. %$* 120
+first of all-- %$* 120
+david cole. %$* 13
+i'm not the only one who says that this information is-- %$* 120
+gives all kinds of private information. %$* 120
+mike hayden has said that it's more valuable than the content itself in terms of determining what someone's doing. %$* 120
+that's number one. %$* 120
+number two, the supreme court has actually, in its most recent decision on whether the fourth amendment covers gps monitoring of a car in public, said, "absolutely, it does.” and five justices said-- %$* 120
+because it involved an invasion of a property right-- %$* 120
+but five justices said, "because collecting all that information, even though it's in public, about where you go-- %$* 120
+" they were collecting where this guy went 24/7 for a month-- %$* 120
+and all nine justices said, "that's an invasion of privacy, that requires fourth amendment protection," rejecting the very position that rich falkenrath is putting forward, that, "well, if it's in public, there is no expectation of privacy," or, "if you share it with a third party, there is no expectation of privacy.” the reality is that everything we do today is shared with a third party. %$* 120
+every time you walk anywhere with your phone, you're telling the phone company where you are. %$* 120
+should the government be able to get that without any individualized suspicion? %$* 120
+and i don't-- %$* 118
+can i-- %$* 118
+stewart baker. %$* 13
+a point where i think we do agree, of course the government should wherever possible be put to reasonable suspicion before it looks into individual activities. %$* 118
+that is true even of the nsa program which is the one that you have chosen as the poster child for this issue. %$* 118
+no one is allowed to search this data without a reasonable articulable suspicion. %$* 118
+so the question really boils down to "are you allowed to collect it first and put it in the database? %$* 118
+" and, look, the question i thought was an excellent one, "why would you do that if there's an alternative? %$* 118
+" and the problem is there's not a good alternative. %$* 118
+the alternative would be to leave it with the companies and search it there when we have some reason to be concerned about that individual phone number, but the companies get rid of that data on their own schedule. %$* 118
+they’ve got no obligation to keep it, and they don’t. %$* 118
+second, there are-- %$* 118
+we got rid of ma bell. %$* 118
+there is no one phone company you can go to search. %$* 118
+no one computer system. %$* 118
+so you would have to try to do this kind of analysis of who’s talking to whom outside the united states and in-- %$* 118
+you’d have to go jumping from system to system to system to system. %$* 118
+it’s a nightmare. %$* 118
+if you thought the healthcare.gov was bad, building this system would be worse. %$* 118
+we-- %$* 13
+we are in the question and answer section of this intelligence squared u.s.debate. %$* 13
+i’m john donvan. %$* 13
+we have four debaters, two against two, arguing it out over this motion: spy on me, i’d rather be safe. %$* 13
+let’s go back to questions. %$* 13
+sir, right there. %$* 13
+orange necktie. %$* 13
+yeah, if you’ll stand up, they’ll find you with the microphone. %$* 13
+i’m obviously tending to favor the middle, because you’re right in front of my vision and the whole microphone thing would be a lot easier at the edges. %$* 13
+making it hard for the mic runner. %$* 118
+yeah. %$* 13
+yeah. %$* 13
+i’m going to go to the edges next time. %$* 13
+you need a microphone. %$* 19
+the radio wouldn’t hear you. %$* 13
+all right. %$* 18
+sure. %$* 18
+hi, my name is afar and my question to the proponents of this motion is that the government is spying on me, you too, and everyone in this room, and if it were to know then did not expose these programs, how would i know and you would know that the government is spying on us, whether it’s legal or illegal? %$* 18
+richard falkenrath. %$* 13
+it’s a lot of different things, and so i think we’re probably going to refer back to this telephone metadata question, and in that case, it’s true that the scale of it was classified, but it was disclosed to every member of congress in writing twice, 2009 and 2011, where the administration-- %$* 119
+the department of justice-- %$* 119
+by the way, the obama department of justice-- %$* 119
+wrote that this program, which we need you to reauthorize, which they did, broad bipartisan majorities, will entail the collection of substantially every telephone call record in the country. %$* 119
+so they were told. %$* 119
+now whether-- %$* 119
+congress knew. %$* 13
+yeah, so congress-- %$* 119
+and they kept it secret. %$* 13
+and if they didn’t-- %$* 119
+and they kept it secret-- %$* 119
+it wasn’t being hidden from them at that stage. %$* 119
+you can make an argument about an earlier program up to 2006, but for that program in writing they were told. %$* 119
+response from the other side? %$* 13
+you don’t necessarily have to-- %$* 13
+again, when ron wyden asked james clapper at a hearing, “are you collecting data on millions of americans? %$* 120
+” he flatly said “no, we’re not.” that he’s talking to congress, he’s talking on the record, he’s talking to cspan, he’s talking to the american people. %$* 120
+they are lying to us. %$* 120
+and members of congress, members in the house have complained that the house intelligence committee will not give them access to records. %$* 121
+you know, the exceptive classification on these programs makes it so that only the member can see it, not the staff who actually have the time to work on these programs, to understand the legality, so it’s not as easy as it looks. %$* 121
+so, go ahead, yes? %$* 13
+i was around for the creation of the legal structure around intelligence, and it was a remarkable achievement for the united states. %$* 118
+no other country thought you could do intelligence under law. %$* 118
+we set up a program that was designed to prevent the abuses that had occurred in the 60s and 70s, and by and large it has done it. %$* 118
+but everyone knows-- %$* 118
+everyone here knows you can’t do intelligence in the open because the people you’re trying gather it on will be watching more closely than anyone else to figure out how to defeat it. %$* 118
+at some point you have to say, i’ve got to trust somebody. %$* 118
+in this case we are trusting 14 judges, two different administrations, committees headed by different parties over almost a decade. %$* 118
+at some point, you have to say, yes, i would love it if i could know about this, but i realize that everything i know about al qaeda knows about, and i have to trust somebody. %$* 118
+if i’m going to trust both parties and all three branches of government, that’s probably as good as it’s going to get. %$* 118
+and let me just challenge the idea that this is kept secret so that the terrorist doesn’t know that they’re doing this, because i worked and met a lot of terrorists working with them and every single of them and every single criminal i worked undercover against knew they were-- %$* 121
+that they were a terrorist or a criminal. %$* 121
+so they knew that there was probable cause to believe that they were a terrorist and criminal, and yet they knew that the fourth amendment existed. %$* 121
+so they don’t worry about suspicion-less collection, because they know they can get caught up in reasonable suspicion collection, probably cause, proof beyond a reasonable doubt suspicion, right? %$* 121
+so this was secret to keep it from us. %$* 121
+so we wouldn’t know we were being spied on. %$* 121
+i think you have to address the fact that jim sensenbrenner, the leading republican on the judiciary committee who wrote section 215, he says "this program is beyond anything that i would have ever dreamed of authorizing.” and how can that be if he was read into the program and-- %$* 120
+is he lying to us? %$* 120
+okay. %$* 13
+right down in front. %$* 13
+i think one of the more compelling arguments against the proposition is that it's just not practical. %$* 19
+there is-- %$* 19
+there is billions of numbers being collected all the time. %$* 19
+and both of y'all seem to have a very extensive experience in this field. %$* 19
+do you find that it is actually impractical, that agents are being completely overwhelmed by the numbers they're seeing every day and not at the higher levels, but down, the folks who are actually doing the collection and %$* 19
+i'll try that. %$* 118
+there is always a risk that you will be overwhelmed by data. %$* 118
+90 percent of the data in the world was created in the last two years, apparently. %$* 118
+i think that's about 40 percent my kids' facebook postings. %$* 118
+but in fact, the tools for analyzing that are also pretty good. %$* 118
+and no one at nsa said, we cannot keep up with this data. %$* 118
+once you've put it in a proper framework, they were only doing, after all, 300 identifier searches in a year. %$* 118
+it was not a problem doing those searches. %$* 118
+it was not a problem collecting and putting the data into a database. %$* 118
+there may be times when an ordinary agent says, "i've got too much data," but in this program and in the program i talked about earlier, with travel data, the computer systems allowed us to use it very effectively. %$* 118
+i want to-- %$* 13
+that was kind of michael german's opening point, that there is too much. %$* 13
+so i'd like to hear your response to stewart's response to that. %$* 13
+well, one of the major controversial programs was a similar program collecting internet data that ran. %$* 121
+that was the whole hospital room confrontation with attorney general-- %$* 121
+ashcroft. %$* 18
+ashcroft. %$* 121
+i'm sorry. %$* 121
+and they ended that program in 2011 because they found that it wasn't actually very effective. %$* 121
+so for ten years, they collected our records, and it took them that long to decide they weren't actually very useful. %$* 121
+ma'am, you just had your hand up. %$* 13
+right behind you, sir. %$* 13
+thank you. %$* 19
+my name is shelly. %$* 19
+and i'd like to talk to the point-- %$* 19
+ask the question about the point of what data mining means to our privacy and our safety. %$* 19
+i have to admit that whenever i hear a government person say, "trust me, "i get very skeptical about what they're doing. %$* 19
+we have a long history in this country-- %$* 19
+okay. %$* 13
+i'm going to stop you there because i would rather let them make the speeches. %$* 13
+but your question is good, and when i-- %$* 13
+and it feels like a big softball to this side. %$* 13
+but-- %$* 13
+but i think it's worth getting some more detail about the way in which-- %$* 13
+that you-- %$* 13
+you know, you proposed something that's not happening, the tv camera in the bedroom. %$* 13
+but let's say that data mining is happening. %$* 13
+and what are actually the risks to privacy, aside from the kind of creepy feeling that you described having, that it can be done? %$* 13
+what are the actual risks in the implementation? %$* 13
+and i'll let david cole take that. %$* 13
+well, the risks are that with all of the-- %$* 120
+i mean, the same logic that gave them access to the phone records would give them access to your email records, to your internet records, to your credit card records, to your bank records, to your phone location data. %$* 120
+and the danger is you put all that information together, and they can determine everything about us. %$* 120
+they can know more about us than our closest friends know, than our spouses know. %$* 120
+and the only thing that-- %$* 120
+if you give them all that data, then the only thing that's stopping them from doing that are these so-called backend safeguards which were routinely violated by the nsa and which we've-- %$* 120
+we didn't have any opportunity to debate as to whether they were adequate or not because they were put in place entirely in secret. %$* 120
+richard falkenrath. %$* 13
+the "they" that you just described, "they can put all this together, they can understand-- %$* 119
+the government. %$* 120
+yeah. %$* 119
+it sounds a lot more like google than the government because-- %$* 119
+and you have to take this-- %$* 119
+this is actually a serious point. %$* 119
+this is not the case that the government is tracking everything you do and can put it all together. %$* 119
+and the government doesn't care what you're doing. %$* 119
+they're actually, though, in the last 10 years, with the explosion of social media and the explosion of terms of service agreement and informed consent that no one reads, is-- %$* 119
+what you just described emerging in the private sector, with a legal basis being a document which no one can really read and give informed consent to; unlike the program we're talking about, which is subject to extreme safeguards, rooted in the constitution, backed up by both chambers of congress and by the judiciary. %$* 119
+and so i think you've really got to shift your terms of your argument here. %$* 119
+this isn't the '70s with the fbi running around at the behest of richard nixon probing into people's lives. %$* 119
+this is a world where the government is tightly regulated and overseen in a way subject to law. %$* 119
+and it's the private sector, if anything, which is emerging as the "they" in your scary scenario. %$* 119
+well, the fact that the private sector may-- %$* 120
+may threaten our privacy is not a justification to allow the government to invade our privacy, for two reasons. %$* 120
+one, we can establish limits on private sector. %$* 120
+but two, for the reasons i suggested earlier, there are lots more reasons to be concerned about the government having access to this information than the private sector having it. %$* 120
+and that's reflected in our constitution, which constitutionally limits government access to data, does not constitutionally limit private access to data. %$* 120
+there's a reason for that. %$* 120
+and it's a good reason. %$* 120
+i want to point out, tonight's debate is being broadcast worldwide on our website, iq2us.org and on fora.tv. %$* 13
+it's also being seen on arizona state on live stream. %$* 13
+and i'm just saying that because in the time we have left, if you're watching it and would like to join in the audience participation question, you can try sending us a tweet on it. %$* 13
+and if we can pick it up in time, our hash tag is "spy debate.” and we'll try to work it into the debate. %$* 13
+if you send that tweet, the nsa will know that you have-- %$* 13
+they already know. %$* 18
+so think carefully. %$* 13
+another question, right up there. %$* 13
+hi. %$* 19
+my name is kadeeja i was going to say, if the nsa wanted to be safer, why did they lie to congress about spying on us? %$* 19
+stewart baker. %$* 13
+i'm-- %$* 118
+well, really, the question is-- %$* 13
+really, i think the question is, should we be troubled that the nsa is accused of having been dishonest? %$* 13
+i don't want to defend what the dni said there. %$* 118
+he was, as far as i can tell, surprised by the question and made an error in his answer. %$* 118
+but, no, i'm sorry. %$* 118
+how could he have said, i'm going to lie people after having gone out and said, "i want everybody to understand this program.” that's-- %$* 118
+it's quite clear that he had set up and agreed to provide this information to everyone. %$* 118
+and so i don't think that we should be saying that there is a-- %$* 118
+there's intentional lie being undertaken in that context. %$* 118
+other side want to respond? %$* 13
+michael german. %$* 13
+and it was an unintentional lie? %$* 120
+at that time, nobody knew about this program. %$* 120
+we didn't know. %$* 120
+edward snowden hadn't stolen the information. %$* 120
+he was asked, point blank-- %$* 120
+this information was provided to everybody in congress. %$* 118
+everybody in-- %$* 120
+a letter was written that we-- %$* 120
+you're assuming every member of congress-- %$* 120
+every member of congress-- %$* 120
+you know, i want to move on because-- %$* 13
+reads every letter that's sent to %$* 120
+i think the side argument on what he-- %$* 13
+let me just clarify. %$* 18
+said will not help the audience vote on the motion so i'd like to move on. %$* 13
+but senator wyden did come out and say that he had given the question 24 hours in advance. %$* 121
+okay. %$* 13
+right up here. %$* 13
+if you can stand, please. %$* 13
+thanks. %$* 13

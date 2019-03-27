@@ -1,0 +1,434 @@
+i’d like to welcome our panelists to the stage. %$* 13
+round of applause. %$* 13
+i’ll introduce them in a moment but first i want to introduce the man who has made intelligence squared u.s.possible: mr. %$* 13
+robert rosenkranz. %$* 13
+the rosenkranz foundation; he started this four years ago in new york with the purpose of raising the public discourse in new york city. %$* 13
+we are a force to be reckoned with there. %$* 13
+this is our first foray outside and we are so pleased to be in the nation’s capital and so pleased to see so many of you. %$* 13
+so i would like to first of all, to welcome robert rosenkranz. %$* 13
+my role in these proceedings is to frame the debate, to outline why we think the topic is important and why we feel they’re intellectually respectable arguments on both sides. %$* 1
+so, in late 2009, computer operators in china gained access to google’s computer network and obtained information about chinese dissidents and about some of google’s intellectual crown jewels including their development plans and they’re passwords and stuff. %$* 1
+chinese military strategy emphasizes cyber espionage to obtain our military and technological know-how. %$* 1
+in the event of major conflict, they strive for the capacity to attack our home front, not by conventional arms but by disabling the vulnerable civilian computer systems that are essential to run our power systems, our telecommunications grids and our financial system. %$* 1
+and china by and large, has a huge interest in our success. %$* 1
+in contrast, terrorist groups have powerful motives to destroy our domestic infrastructure, particularly if they can do so without a physical presence in the united states, why wouldn’t they. %$* 1
+so the extraordinary complexity of our computer systems with their hundreds of millions of lines of code, make them very hard to defend. %$* 1
+the attacker needs to find only one weakness and the defender needs to find them all. %$* 1
+and then advance. %$* 1
+that's why so many of our military's best strategic thinkers consider cyber attacks our single biggest threat. %$* 1
+so what's the argument in favor of tonight's motion? %$* 1
+simply put, describing a worst-case does not make that case likely. %$* 1
+it may seem a sensible precaution to defend against a dire outcome, but first one needs to assess both risks and costs. %$* 1
+apropos risks: how plausible is it that the chinese or any other nation would attack our civilian computer infrastructure, even if they had the capacity to do so? %$* 1
+by targeting civilians, might their military commanders risk committing war crimes? %$* 1
+wouldn't their strategists assume that we have the capacity to respond in kind? %$* 1
+and how plausible is it that terrorists who can barely talk to each other on cell phones are capable of a serious cyber attack? %$* 1
+and apropos costs: consider the potential for the dead hand of government bureaucracy to stifle an invasion or to infringe our privacy. %$* 1
+do we really want to give the folks responsible for airport security greater powers of surveillance? %$* 1
+is cyber war a threat that we're not taking seriously enough? %$* 1
+or is it one we have exaggerated? %$* 1
+it's a very important question for our nation, and we've assembled an extraordinary panel of experts to help you decide. %$* 1
+before we begin, though, i want to say a word of thanks to wamu in d.c.that's promoted this debate very, very heavily and is maybe responsible for a lot of you who are here tonight. %$* 1
+and-- %$* 1
+but particularly, i'd like to introduce jeff ganek, the ceo of neustar, which made this evening possible. %$* 1
+and i hope you'll join me in applauding neustar's generosity. %$* 1
+thanks, robert, and thanks to intelligence squared for taking this show on the road. %$* 477
+we at neustar are delighted to have coaxed intelligence squared away from home in new york for the first time ever, bringing it here to washington, d.c.clearly, just the packed house here tonight shows that there's a true hunger for intelligent and civil discourse that's intelligence squared's hallmark. %$* 477
+there's much the nation's capital can learn from intelligence squared, and we're excited for this evening to get started. %$* 477
+this is a timely topic, so i won't take up any more time. %$* 477
+instead, i turn the stage over to john donvan, and our distinguished panelists. %$* 477
+can i invite one more round of applause for both robert and jeff? %$* 13
+welcome, everyone, to another debate from intelligence squared u.s.i'm john donvan of abc news, and once again it is my pleasure and my honor to serve as moderator, as the four debaters you see sharing the stage with me here at the newseum, and it's our first debate outside of new york city. %$* 13
+four debaters, two against two, will be debating this motion: "the cyber war threat has been grossly exaggerated." now, you in the audience have a special role, and i just want to divert very briefly while i talk about that. %$* 13
+we've already mentioned that wamu is a partner in this evening, and they obviously did a very, very good job in bringing all of you out here on this evening. %$* 13
+and we are aware of the fact that conan o'brien who's doing his 30-city tour, this is his night in washington, and we are aware of the fact that james taylor and carole king-- %$* 13
+that doesn't happen very often-- %$* 13
+they're singing together four blocks away. %$* 13
+and mostly, we are aware of the fact that at national's stadium, steve strasburg is taking the mound for the first time. %$* 13
+so, the fact that all of you are here for a security policy discussion, debate in really, anywhere else but washington, d.c.-- %$* 13
+the words "wonk fest" will not escape my lips, but i do want to congratulate all of you for being here. %$* 13
+and here is the reason. %$* 13
+this is a debate. %$* 13
+it is a contest. %$* 13
+there will be winners and losers, and you, our audience, have a special role. %$* 13
+you are the judges. %$* 13
+by the time the debate has ended, you will have been asked to vote twice: once before and once again after the debate. %$* 13
+and the team that has changed the most of your minds on this motion will be declared our winner. %$* 13
+let's go to the first vote now. %$* 13
+to the right of your seats, there is a keypad. %$* 13
+if you agree with our motion, "the cyber war threat has been grossly exaggerated," if you agree, push number one. %$* 13
+if you disagree, or if you're with the side that is arguing against, you push number two. %$* 13
+and if you’re undecided, push number three. %$* 13
+all right, looks like from everybody’s faces that we have passed that test. %$* 13
+so we’ll have the results in a short while. %$* 13
+we’ll share with you what the opening, what the preliminary vote is, after it’s tabulated. %$* 13
+and then once again at the end, we’ll go to the second vote and that’s how we’ll choose our winner. %$* 13
+so onto round one: opening statements by each debater in turn. %$* 13
+seven minutes each. %$* 13
+marc, you can make your way to your lectern. %$* 13
+i’d like to introduce arguing for the motion, that the cyber war threat has been grossly exaggerated, marc rotenberg who is executive director of the electronic privacy information center. %$* 13
+he has been, since before most of us were familiar with the internet, a fierce advocate for our privacy. %$* 13
+in fact, he has taken on internet behemoth google, filing federal trade commission complaints against google on the grounds of possibly violating privacy. %$* 13
+that’s the kind of man he is; those are his issues; i’d like to introduce marc rotenberg, but i’m curious to know, do we need to worry more about china or you, if we’re google? %$* 13
+thank you so much john, and thank you all for being here tonight. %$* 478
+i wanted to begin also by thanking intelligence squared and the rosenkranz foundation and neustar for hosting this event. %$* 478
+this is an important issue; this is one of those issues that’s being discussed here in washington, in congress and the white house and your views, your assessment of want the country should do with regard to the threat of cyber warfare is very important and we thank you for being here tonight. %$* 478
+we’re going to ask you tonight to consider the proposition of whether the threat of cyber war has been grossly exaggerated. %$* 478
+keep in mind the statement of the proposition. %$* 478
+we’re not talking about cyber attack, cyber concerns, cyber worry, or not being able to boot up your email. %$* 478
+this is a debate about cyber war and how serious that threat is. %$* 478
+i’d like to share with you a few statements that i uncovered as i was preparing for this debate. %$* 478
+one of the leading experts on cyber war said, “digital pearl harbors are happening every day.” the person who has been named to head the u.s.cyber command, the current director of the national security agency said “u.s.military networks are seeing hundreds of thousands of probes a day.” and one of our opponents in the debate tonight has compared the threat of cyber warfare with nuclear war. %$* 478
+now bruce and i are going to try to explain to you why it is that we believe that these statements overstate the problem. %$* 478
+we are certainly aware of the full range of risks to the internet and there are many different actors out there. %$* 478
+some of them with criminal intent, some of them are spies; some of them are just curious. %$* 478
+we used to call them hackers in the good ole days. %$* 478
+all of them pose various types of threat to the internet as we know it, but if we reduce all of these threats to the catch-all of cyber war, i am concerned that it will take our country in a direction that we will very much regret. %$* 478
+but tonight we are not only going to try to persuade you that the threat of cyber war has in fact been grossly exaggerated, we are going to try to explain to you why this has happened. %$* 478
+in fact, what you are hearing now about the threat of cyber war is part of a long running campaign here in washington to move control of the internet, the technical standards and the openness that we have enjoyed away from its current model to one that would give the intelligence community and the national security agency much greater authority to decide what people may or may not do on the internet. %$* 478
+and that effort has been underway long before the stories that you will hear tonight about russian hackers and chinese plans to take over the internet and even attacks launched from north korea. %$* 478
+back in the 1970s, the nsa worried about the public availability of encryption; the key security standard that today makes possible the routine transactions you engage in when you buy a book on amazon or download a song from itunes. %$* 478
+nsa didn't want that encryption technology widely available, and they fought against it. %$* 478
+fortunately, computer researchers pressed on, and encryption became widely available and provided a key technique to make possible secure online transactions. %$* 478
+but then, in the 1980s, along came john poindexter who would later come up with total information awareness, and he worried about unsecured private computer networks-- %$* 478
+does any of this sound familiar-- %$* 478
+back in 1984.and he wanted the national security agency to be responsible for computer security in the united states. %$* 478
+fortunately, the congress didn't like that idea. %$* 478
+they pressed back on mr. %$* 478
+poindexter and the white house, and we established open standards to safeguard network security, but this is not the end of the story. %$* 478
+because then again in the early 1990s, as encryption was becoming more widely available and the nsa worried that they could not intercept private communications, they said to internet users and american business, "you have to use a new technology that we've developed, called clipper, the escrow key encryption standard. %$* 478
+anytime you want to send a private e-mail, we need a copy of that key that you used to encrypt your communication because we want to be able to know what is contained in your private messages." and again, congress pushed back and internet users pushed back, and the clipper chip proposal put forward by the nsa in the early 1990s was rejected. %$* 478
+the story continues. %$* 478
+after 9-11, nsa was there again arguing for control of the internet to try to protect our nation against terror attacks. %$* 478
+now, don't misunderstand our argument tonight. %$* 478
+we are aware of these threats, and we are not going to try to persuade you that there are not threats out there that are serious and real and that we should ignore. %$* 478
+that is not our argument. %$* 478
+our argument is that we have to be very careful about allowing a single, secret, unaccountable government agency, which has been fighting for 25 years to take control of internet security, to become the dominant authority for the internet, which is what will happen if you accept the proposition that the threat of cyber war has not been grossly exaggerated. %$* 478
+so, we urge you this evening not only to side with our side, to agree that this threat has been exaggerated, but also to understand why it has been exaggerated. %$* 478
+there are agencies in washington that want very much to know what's in your e-mail. %$* 478
+they want to know when you log online. %$* 478
+they want to be able to build big databases and detect patters. %$* 478
+and this is the threat that bruce and i will try to respond to. %$* 478
+thank you. %$* 478
+thank you, marc rotenberg. %$* 13
+our motion is, "the cyber war threat has been grossly exaggerated," and first up to argue against the motion, i'd like to introduce mike mcconnell. %$* 13
+now, speaking about experience, not only was he a vice admiral in the navy where he did a significant amount of intelligence work, he went on to become former director of national intelligence, making him the nation's top intelligence officer. %$* 13
+also in his career, he was director of the national security agency. %$* 13
+mike, does it get more inside than that? %$* 13
+well, a few things, not too many. %$* 479
+but nothing you're going to share tonight. %$* 13
+well, actually i am going to share a little bit of a story that-- %$* 479
+terrific. %$* 13
+goes with that long history. %$* 479
+ladies and gentlemen, michael mcconnell. %$* 13
+the translation-- %$* 479
+thank you. %$* 479
+the translation of experience is age. %$* 479
+the bad news is age. %$* 479
+the good news is grandchildren. %$* 479
+but let me humanize just a second. %$* 479
+a little under the weather. %$* 479
+two grandsons come to see me. %$* 479
+the oldest runs into the room and says, "grandpa, grandpa, make a sound like a frog." and i said, "son, what for? %$* 479
+" he said, "we're talking to grandma and she said as soon as you croak, she's taking us all to disney land." %$* 479
+that's what age does for you. %$* 479
+let me compliment marc on his argument. %$* 479
+and i want to say up front, i agree with everything marc said about the essence of what makes us americans: privacy and civil liberties. %$* 479
+however, i disagree and urge you to vote against this proposition because of how he framed it. %$* 479
+let me just quote, “our argument is do not let a single authority, the national security agency,” agency i was chosen to lead, “control the internet.” it has nothing to do - it has nothing to do with this debate. %$* 479
+now-- %$* 479
+i want to just, if you’ll bear with me for just a second, just a small amount of time here; i want to make reference to people who are informed at the highest level with all of the information: our last three presidents. %$* 479
+president clinton focused on this subject; he had a special panel review it and he concluded that it was critical to the nation that we move to address this set of vulnerabilities. %$* 479
+president bush who i had the pleasure to serve along with serving president obama, said, and i’ll just quote, “in the last few years, threats in cyber security have risen dramatically. %$* 479
+the policy of the united states is to protect against the debilitating disruption of operations in our information systems for critical infrastructures.” later, when i had a chance to serve on the inside again, i made my case to president bush and he supported a comprehensive national cyber security initiative. %$* 479
+the congress agreed and a bill was passed. %$* 479
+now, we’ve got a new administration. %$* 479
+the new administration did not agree with the previous administration, huge policy differences in every dimension. %$* 479
+we made our case to president obama and he said, “i will take it under review.” after reviewing it for a considerable period of time, he said, one year ago, we meet today at a transformational moment, a moment in history, when our inter-connected world presents at once with great promise but also great peril. %$* 479
+it’s the great irony of our information age, the very technologies that empower us to create and to build also empower those who would disrupt and destroy. %$* 479
+the key is disrupt and destroy. %$* 479
+i’m not talking about hackers. %$* 479
+i’m not talking about criminals, lots of statistics. %$* 479
+i’m not even talking about china and what china has done to take information out of this country. %$* 479
+i’m talking about destruction of data. %$* 479
+let me give you just a way to think about it. %$* 479
+the united states economy is $14 trillion a year. %$* 479
+two banks in new york city move $7 trillion a day. %$* 479
+on a good day, they do eight trillion. %$* 479
+now think about that. %$* 479
+our economy is $14 trillion. %$* 479
+two banks are moving $7 trillion to $8 trillion a day. %$* 479
+there is no gold; they’re not even printed dollar bills. %$* 479
+all of those transactions, all those transactions are massive reconciliation and accounting. %$* 479
+if those who wish us ill, if someone with a different world view was successful in attacking that information and destroying the data, it could have a devastating impact, not only on the nation, but the globe. %$* 479
+and that’s the issue that we’re really debating. %$* 479
+we are so inter- connected; we have enjoyed the benefits of the information technology revolution. %$* 479
+it’s touched everyone in this room. %$* 479
+from the time you got up this morning in an air conditioned space; you bought gasoline for your car with a credit card. %$* 479
+you do online banking; you have power routed to your home. %$* 479
+we’re on a path to increase the digitization of the country. %$* 479
+medical care will be improved because of information technology. %$* 479
+we can move the information; we can understand trends and we can protect privacy. %$* 479
+and the arguments that our opponents are going to mount are this is an argument about privacy and civil liberties; it is not. %$* 479
+we can have both. %$* 479
+i was privileged to serve the national security agency as its director. %$* 479
+i was there for the debate over clipper chip and the other things that were mentioned. %$* 479
+what i would encourage you to do, since i’m going to be out of time in just a second, is bring that topic up when we have a chance to have the dialogue with questions from the audience. %$* 479
+and i will tell the story from a little bit different perspective. %$* 479
+i did serve on the inside; i have served on the outside, so i’ve had the privilege of seeing it from both sides. %$* 479
+that’s not fair to you the audience, because i live in a classified world. %$* 479
+we have a system of representative government. %$* 479
+those representatives that speak for you are cleared; they’re informed; their responsibility is oversight. %$* 479
+the equivalent of the national security agency was breaking nazi germany’s code in world war ii.historians argue that that probably shortened the war by 18 months to two years, saved countless lives and incredible resources. %$* 479
+did the american people have the right to know that nsa was breaking nazi germany code in world war ii? %$* 479
+because if they had known, the germans would have known, and all they had to do was take it away by changing the rotors. %$* 479
+secrecy gets a very bad name in our society. %$* 479
+american citizens don't like spies in spite of the fact that the first spy master was george washington. %$* 479
+secrecy is a necessity. %$* 479
+and i would summarize by saying we have laws and the key is getting the law correct. %$* 479
+if the law is written appropriately and there is the appropriate oversight committee, if you violate the law, you will be held accountable. %$* 479
+in a nation as free and as wonderful as ours is, leading the world in human rights and privacy and civil liberties, it's getting the debate framed right to mitigate the risk, to protect the nation consistent with our values and our laws. %$* 479
+i urge you to vote against this resolution. %$* 479
+thank you, mike mcconnell. %$* 13
+so, we are halfway through the opening statements of this intelligence squared u.s.debate. %$* 13
+i'm john donvan of abc news. %$* 13
+we have four debaters, two teams of two, who are arguing out this motion: the cyber war threat has been grossly exaggerated. %$* 13
+you've heard the first two opening statements, now onto the third. %$* 13
+bruce schneier has a position in a company and also a position in the culture. %$* 13
+he is the chief security technology officer of bt, but he is more than that. %$* 13
+if you listen to him on any youtube video, he is a thinker, he is a philosopher, a man who has taken the topic of security to the human soul, asking questions like what is trust and when do we know it and when do we recognize it. %$* 13
+so, he gets the title guru. %$* 13
+and i want to ask you since our radio audience can't see you, the ponytail, is that a guru thing, or do you just like it? %$* 13
+actually, i think it's an east coast crypto thing. %$* 480
+okay. %$* 13
+ladies and gentlemen, bruce schneier. %$* 13
+so, we're here today to debate the motion that the threat of cyber war is grossly exaggerated. %$* 480
+and i also, in preparing, read a book full of articles and have some choice quotes. %$* 480
+mike mcconnell said in an op-ed in the washington post in february of this year that the united states is fighting a cyber war today and we're losing. %$* 480
+so, cyber war is going on right now in our country. %$* 480
+amit yoran, who did cyber policy, cyber security under bush, i believe, said that cyber 9/11 has happened over the past 10 years, but it's happened so slowly that we don't see it. %$* 480
+so, 9/11, you know, thousands of people dead, billions of dollars of damage, has happened, and we just didn't notice it like the cyber war we're currently losing. %$* 480
+in 2007, germany-- %$* 480
+and it's a great-- %$* 480
+this is a great newspaper headline-- %$* 480
+"germany attacks china for starting the cyber war." this is actually great because when germany attacks china, they are attacking them by yelling at them because china started a cyber war. %$* 480
+another headline, same incident: "china declares war on western search sites." you can actually declare cyber war on search engines. %$* 480
+i don't know if you knew that. %$* 480
+an article from an australian magazine, the independent, february of this year: "hackers declare cyber war on australia." so, cyber war is so easy, even kids can do it. %$* 480
+this year, london times, march of this year: "cyber war declared as china hunts for the west's intelligence secrets." and last year-- %$* 480
+actually, fourth of july last year there was a cyber war in the united states, headlines all over the place. %$* 480
+i have one from the wall street journal: "cyber blitz hits u.s.and korea." in this instance, there were some denial-of-service attacks against web sites in south korea and the united states, which happen, we think, from north korea. %$* 480
+there were a bunch of congressmen actually proposing that we attack korea in response, except we think the attacks might have come from the u.k., which would have been awkward, or, actually, from florida, which would have been really awkward. %$* 480
+okay, so this is silly, right? %$* 480
+i mean, when we talk about cyber war in the headlines, in the rhetoric, we're not talking about war. %$* 480
+this is a rhetorical war, right? %$* 480
+it's the war on drugs, it's the war on poverty. %$* 480
+it's a really neat way of phrasing it to get people's attention, right, and to make an interesting headline. %$* 480
+now, what's going on really is a blurring of the threats. %$* 480
+there are a lot of threats out there. %$* 480
+cyber war is one, cyber crime; we’ve heard about cyber terrorism, cyber-hooliganism, cyber activism. %$* 480
+and it often can be really hard to figure out what’s happening. %$* 480
+and just think about how we respond to these sorts of threats. %$* 480
+when something happens to us, it can be the response from the fbi or from the military or from the secret service or from homeland security and it depends on who’s attacking us and why. %$* 480
+and when we don’t know who’s attacking us and why, it can be very easy to call it war. %$* 480
+but in most cases, it’s not, right? %$* 480
+there’s a lot-- %$* 480
+and-- %$* 480
+i took quick notes, i probably got them wrong, some of mcconnell’s statements, some of the quotes about, that we need to address the vulnerabilities, that the threats in cyber security have risen dramatically. %$* 480
+again, we’re hearing-- %$* 480
+yes these are true, there are threats, there are vulnerabilities; cyber security’s a big deal, but they’re not war threats. %$* 480
+probably in the debate later, we’re going to go into some of the examples of cyber war. %$* 480
+i just mentioned korea attacking the u.s.a big one was in estonia; it’s been called the first cyber war. %$* 480
+and basically, someone or some country, some believe it’s russia, announced a denial of service attack against a bunch of estonia websites, so it’s kind of like the army marches into your country and then gets in line at the motor vehicle bureau so you can’t get your driver’s license renewed. %$* 480
+that’s sort of what that looks like. %$* 480
+the only person they’ve ever found who they can convict of this was a 22 year old russian living in tallinn who was annoyed about a statue falling down. %$* 480
+so i mean, we’re now where we can’t tell foreign invaders from bored kids. %$* 480
+the other events we talk about, china was mentioned a little bit. %$* 480
+i mean yes, there’s a huge intelligence threat. %$* 480
+china’s doing a lot of targeting against google, against others. %$* 480
+marc mentioned the enormous number of attacks per day against government networks. %$* 480
+that number actually is pretty reasonable for all of your computers as well. %$* 480
+we’re talking about different worms and viruses; lots of threats, again not cyber war. %$* 480
+so, i urge you to really think critically about what we’re talking about. %$* 480
+metaphors matter. %$* 480
+if we frame this discussion as a war discussion, then what you do when there’s a threat of war is you call in the military and you get military solutions. %$* 480
+you get lockdown; you get an enemy that needs to be subdued. %$* 480
+if you think about these threats in terms of crime, you get police solutions. %$* 480
+and as we have this debate, not just on stage, but in the country, the way we frame it, the way we talk about it; the way the headlines read, determine what sort of solutions we want, make us feel better. %$* 480
+and so the threat of cyber war is being grossly exaggerated and i think it’s being done for a reason. %$* 480
+this is a power grab by government. %$* 480
+what mike mcconnell didn’t mention is that grossly exaggerating a threat of cyber war is incredibly profitable. %$* 480
+the last article i saw said there’s about $400 million in booz allen contracts on cyber war. %$* 480
+you don’t get those by saying you know, this is kind of dumb. %$* 480
+but, it really is. %$* 480
+the threats are real; the threats are serious; cyber space is not a safe place, but these are not war threats. %$* 480
+for the threat of cyber war to be serious means you believe the threat of war is serious. %$* 480
+and if you’re not worried about war, %$* 480
+you can’t be more worried about cyber war; that just doesn’t make sense. %$* 480
+i guess i’ll be back when it’s discussion time. %$* 480
+thank you, bruce schneier. %$* 13
+our motion is, “the cyber war threat has been greatly exaggerated,” and now to argue against that motion i want to introduce jonathan zittrain who is a professor of internet law at harvard, who a couple of years back, said the great thing about teaching internet law is that those who study it don’t really know what it is yet. %$* 13
+i thought it was that they taught gym. %$* 277
+i got the quote wrong. %$* 13
+have things changed? %$* 13
+well. %$* 277
+jonathan zittrain. %$* 13
+thank you. %$* 277
+thank you so much. %$* 277
+thank you to the rosenkranz foundation, intelligence squared, and thank you bruce for promising not to hack the voting devices that we're using tonight in the program. %$* 277
+so, here's where we're at so far. %$* 277
+marc says, "vote for us if you don't want a police state." bruce says, "vote for us if you think journalists and their headline writers and sometimes their sources exaggerate," and, "vote for us if you don't want a military state." so, i stand here proudly before you in the negative, despite the fact that i do not want a police state. %$* 277
+i do think that journalists and their headline writers sometimes exaggerate-- %$* 277
+is it okay to say that in the newseum? %$* 277
+is that all right? %$* 277
+did you see, by the way, if you're particularly a fan of the news, you can live here. %$* 277
+there are newseum residences, which is-- %$* 277
+there's like a bat pole and you can go down and read the headlines. %$* 277
+i can't believe i've just used a minute in this opening, but-- %$* 277
+and we all agree that the use of the word "cyber" is probably a bridge too far. %$* 277
+if you at least agree with that, please send me-- %$* 277
+yes. %$* 277
+you can applaud or send me some cyber mail, and i will send you a reply. %$* 277
+what we heard from mike were some scenarios that were kind of the watershed event scenarios, and i don't know about you, but after his rip on the banking system, i might be going to my nearest atm and purchasing a brand-new hollow mattress. %$* 277
+i want to give a more gradual view of the vulnerabilities that you'll notice both bruce and marc handily acknowledge. %$* 277
+"oh, we're not saying the system works. %$* 277
+in fact, we agree it's utterly vulnerable. %$* 277
+we just don't like the use of the word 'war,' and we don't like the use of the word ‘war' because it might give people a platform through which to have bad things happen after that, to militarize or to create a police state or something like that." well, fine. %$* 277
+we have to argue against that, but let us be truth-tellers about the state of vulnerability in our networks and our endpoints, and then deal with it from there, neither exaggerating nor understating it. %$* 277
+so, what kind of threat am i talking about? %$* 277
+let me just give you two quick examples. %$* 277
+the network itself. %$* 277
+the internet is an utterly bizarre network, and to answer your question, john, the more i study it, the more i am just agog that it functions at all. %$* 277
+and there are plenty of internet engineers who-- %$* 277
+remain puzzled and say, well, it's just a pilot project. %$* 277
+the jury's still out. %$* 277
+so, for example, to get a piece of data from one end to another, like this pen up to the back of the room, the sane, rational way to do it would be to hire somebody, to have a newseum employee who would take it up there, and then if it didn't get there, we would know whom to blame. %$* 277
+call it the fedex method of getting it there. %$* 277
+the way the internet does it is basically like a big bucket brigade. %$* 277
+i pass it to the front row, it goes back, would you mind, would you mind, or for sports fans, kind of like beer at a red sox game, right? %$* 277
+you gain nothing except soiled trousers by doing it, but there is a strong normative presumption that you will pass the beer. %$* 277
+now, this also leads to structural vulnerability, because if you drink the beer or if you pass it forward instead of sideways, it doesn't get to where it's going. %$* 277
+and it turns out that in 2008, the state of pakistan, as is its wont, asked its internet service providers to prevent people in pakistan from getting the youtube. %$* 277
+there was something there that they didn't like. %$* 277
+and one isp, as kind of a parlor trick, chose to implement that block by announcing within the stands of fans that are isps here, that it, in fact, was youtube. %$* 277
+and this is a decentralized system. %$* 277
+so, its announcement meant that packets that would otherwise be going to youtube went to them from their subscribers. %$* 277
+and then it resonated like ripples in a pond from one isp to another like dominoes until with about two minutes, anywhere in the world, if you were trying to get to youtube, your packets were going to pakistan and they weren't coming back. %$* 277
+now, that is not only downright weird, it is an example of just a whole genus of vulnerabilities that are extremely difficult to fix. %$* 277
+now, was that an act of war? %$* 277
+definitely not. %$* 277
+is it a vulnerability such that if you had malice towards a state that relies asymmetrically on this network and decided that you wanted to use this as an instrument of your aggression, could you do so? %$* 277
+absolutely, and i do not believe you will hear them say otherwise. %$* 277
+that's why you hear bruce saying against the straw people of "there's a cyber war already in progress." all right, i don't think there's a cyber war going on right now against us in america, but boy are the vulnerabilities there. %$* 277
+so long as there is the vulnerability, all we need is the motivation, and i don't want to rest on the good graces of any state around the world, or for that matter any 12-year-old, that wants to try to take down the net. %$* 277
+and, he's not 12, but i did ask ed felten, computer scientist at princeton, once, i said, "you know, if you're in a 24- like scenario and your life depended on it, and you had to bring down huge swathes of the net and you only had a week to do it, kind of planting the seeds in the head i said could you do it. %$* 277
+and he thought about it really careful, and he said, could i have two weeks? %$* 277
+and that’s the kind of thing that did not make me feel better. %$* 277
+now, robert rosencranz, one of our hosts, mentioned ghostnet, our collaborators in the open net initiative at toronto and up at harvard, worked to expose this network that they named ghostnet where basically this wasn’t run of the mill trojans that all of us have right now on our machines while we think we’re playing solitaire and in fact our machines are spamming each other. %$* 277
+this isn’t a run of the mill trojan; these are the ones targeted to particular people and institutions that a government might have interest in, compromising the machines and leaving them open on average for over 200 days, where they’ve got the keys to the kingdom. %$* 277
+they can surveil everything; they can control the machine. %$* 277
+how do we know? %$* 277
+because our researchers hacked that system and then could see what they saw. %$* 277
+we saw the ministries of foreign affairs of iran, bangladesh, latvia, indonesia, the philippines, and brunei, open to us, if all we wanted to do was grab the files. %$* 277
+the embassies of germany, romania, cyprus, the associated press, not the embassy, the associated press itself, and nato headquarters, exposed through our view of this system. %$* 277
+that’s something that says to me, to the extent that surveillance and spy craft is an instrument of war, war is what you have. %$* 277
+so i am concerned as, is i think everybody here about protecting civil liberties, about not having the responses to this problem be too quick, too panicked, too corporate, or too military. %$* 277
+there are solutions that i hope we can talk about in the panel, to avoid too far in any of those directions. %$* 277
+but let us be clear about the problem. %$* 277
+thank you. %$* 277
+thank you, jonathan zittrain. %$* 13
+and that concludes round one of this intelligence squared u.s.debate where the motion being argued is the cyber war threat has been grossly exaggerated. %$* 13
+and we now have the results of our preliminary vote where you, our live audience are judges in this debate, registered your stance on this motion before the debate began. %$* 13
+here are the numbers. %$* 13
+our motion is the cyber war threat has been grossly exaggerated. %$* 13
+before the debate, 24 percent of you agreed with you motion, 54 percent disagreed, and 22 percent were undecided. %$* 13
+that’s where things started; we will ask you to vote once again at the conclusion of the debate and the team that has changed the most minds will be declared our winner. %$* 13
+now, on to round two where the debaters address each other directly and answer questions from the audience and from me. %$* 13
+we have here in washington d.c.at the newseum, two teams of two. %$* 13
+we have marc rotenberg, the security activist, and bruce schneir, the security specialist and internet philosopher who are arguing that the other side’s argument really is a red herring intended to lead to a power grab by the military. %$* 13
+the side arguing against is saying that we are terribly vulnerable to a list of vulnerabilities and that the stakes are enormously high if the damage were done, the damage would be something that we almost could not recover from. %$* 13
+i’m john donvan moderating and i have an initial question and my question is to the side that is arguing for the motion. %$* 13
+you have heard what the other side has said and you have described what you have heard as not being a situation that deserves to be described as war, but what kind of collection of vulnerabilities or what sort of action would actually be for you, be an unexaggerated threat of cyber war. %$* 13
+what would it take for you to abandon this motion? %$* 13
+i guess for cyber war, you need war. %$* 480
+bruce schnier. %$* 13
+so tanks would be nice. %$* 480
+maybe some bombs. %$* 480
+it’s-- %$* 480
+one of the rhetoric we hear is a cyber pearl harbor, which is an opening salvo to cyber war. %$* 480
+i’m thinking of a fleet; that would work. %$* 480
+bruce, the motion isn’t there is a war. %$* 13
+the motion is about a threat. %$* 13
+right, what i would need to see for cyber war; i guess i would need nation hostilities that are warlike. %$* 480
+i mean, i would have to be fearful of war. %$* 480
+i would have to be fearful that canada would roll over into the united states. %$* 480
+now if i was worried canada would do that, i would worry about canada’s cyber command and cyber capabilities, and i would worry about the cyber threats from canada. %$* 480
+as long as i feel safe against war, i just don’t think the subset of war is going to bother me. %$* 480
+so you’re talking about damage we can hardly recover from. %$* 480
+a lot of that happens by accident. %$* 480
+we saw-- %$* 480
+it was a couple years ago, three undersea cables were cut going into egypt. %$* 480
+now, this was kind of a weird coincidence maybe, or maybe it was some kind of intelligence action. %$* 480
+but that's a pretty big threat. %$* 480
+you can imagine that as a war-type threat. %$* 480
+and it was something that was recoverable from. %$* 480
+the power blackout in 2003 hit i think d.c., the northeast part of the united states, southeast part of canada. %$* 480
+you know, that was a series of events. %$* 480
+one of them seems to have been the blaster worm. %$* 480
+i mean, the guy who wrote the worm couldn't have predicted on a bet that that would have resulted in that. %$* 480
+let me bring-- %$* 13
+but cyber action. %$* 480
+but again, it's a war. %$* 480
+let me get a response from mike mcconnell on the other side. %$* 13
+thank you very much, john. %$* 479
+when bruce spoke at the beginning, he said, "mike mcconnell said the u.s.is fighting a cyber war today, and we are losing." that’s not in fact exactly what i said. %$* 479
+what i said is if we were in a cyber war, we would lose. %$* 479
+and i was making that statement somewhat metaphorically. %$* 479
+and let's think about the terms we're using: cyber war, cold war. %$* 479
+did we have a cold war? %$* 479
+for those of you in the audience about my age, you probably really experienced that. %$* 479
+the issue is there was a cold war. %$* 479
+we had a nation state who, if the united nations banged on the podium and said, "we will bury you," there were risks, and we prepared. %$* 479
+when we prepared, we prevailed. %$* 479
+we won the cold war. %$* 479
+and if i had to do it over again, maybe i would use the word conflict or battle as opposed to war. %$* 479
+so i want to highlight we're talking about the threat. %$* 479
+there are vulnerabilities. %$* 479
+they cannot be denied. %$* 479
+every member of this panel in this debate would agree that there are huge vulnerabilities. %$* 479
+so what my partner and i are attempting to be are truth sayers, as he said, provide the warning to cause our citizens to recognize the vulnerability and cause their government, their businesses and their personal behavior collectively to address these vulnerabilities so that if there's a war we would prevail. %$* 479
+one last thing, john. %$* 479
+desert storm shocked the chinese, shocked them. %$* 479
+they had an army that was totally unprepared. %$* 479
+in desert storm, one weapon destroyed target. %$* 479
+any time in history with thousands of weapons, from desert storm till today, the chinese are building an army and a capability to take out the cyber capabilities of the united states, take out the eyes and ears, our strategic advantage. %$* 479
+that's what is currently going on in this capture of information, moving terabytes of data. %$* 479
+marc rotenberg, i mean, some of this can turn into a little bit of a semantic tangle. %$* 13
+right. %$* 478
+but mike mcconnell brought up an interesting semantic move when he said cyber war, cold war. %$* 13
+the cold war didn't turn into actual combat and invasions, and yet we all know what that meant. %$* 13
+respond to that, please, whether that works or not. %$* 13
+yeah, i don't think it works. %$* 478
+and i think the point that bruce was driving at is, look, when we talk about war, war, we're talking about one nation state going after another nation state with the intent to decimate its economy, you know, overrun its land, you know, threaten its people. %$* 478
+that's what war is about. %$* 478
+and in washington, even when we're at war, we're reluctant to say we're at war. %$* 478
+so we use this word, you know, very, very carefully. %$* 478
+and if i could have just one more moment, i'm actually a little bit surprised by some of mike mcconnell's earlier comments about the role of the nsa in all of this. %$* 478
+he seemed surprised that i was talking about the nsa in my opening remarks and the context of this debate. %$* 478
+but this debate is entirely about the role of nsa.and the congress knows this because it was the nsa director who recently went before the congress to be nominated as the head of us cyber command. %$* 478
+this person is now responsible for coordinating the military response for the united states in the area of cyber security. %$* 478
+it didn't have to be the nsa.it could have been the department of homeland security. %$* 478
+it could have been the commerce department. %$* 478
+it could have been-- %$* 478
+well, stay with me on this, will you? %$* 478
+it's an option, right? %$* 478
+it's an option. %$* 478
+but there is an obvious reason. %$* 478
+you know, and all of mike's family and friends who are here tonight siding with him understand what i'm talking about. %$* 478
+this argument for cyber war is an argument for the department of defense for the national security agency to take the lead on cyber security in the united states. %$* 478
+and this is a debate we've had now for 25 years. %$* 478
+and what i tried to do in my opening statement was to remind all you folks what our experience with that has been. %$* 478
+it's the experience of clipper. %$* 478
+it's the experience of classified responses. %$* 478
+i'm going to-- %$* 13
+since you're going back to your opening statement, let me interrupt and go to jonathan zittrain to respond to what you just heard. %$* 13
